@@ -55,4 +55,7 @@ test("known results", () => {
   expect(calc(load("okayama"), "tax", 120000, 1, "std")).toMatchObject({ tier: "C7", fee: 24000 });
   expect(calc(load("okayama"), "tax", 120000, 2, "std").fee).toBe(12000);
   expect(calc(load("okayama"), "tax", 60000, 2, "short").fee).toBe(5850);
+  // Shizuoka: 120,000 on the notice is 90,000 at the 6% rate, tier D5; second and later children are free.
+  expect(calc(load("shizuoka"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D5", fee: 20500 });
+  expect(calc(load("shizuoka"), "tax", 120000, 2, "std").fee).toBe(0);
 });
