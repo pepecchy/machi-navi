@@ -1,0 +1,20 @@
+id: saitama-move-in
+window: "各区役所区民課、各支所"
+hours:
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: "さいたま市へ引っ越し(転入)した場合、住所変更の手続きは。"
+source: https://www.city.saitama.lg.jp/faq/001/001/002/p110021.html
+quotes:
+  - "転入をした日から14日以内に転入届を行ってください"
+  - "各区役所区民課・・・平日8時30分~17時15分"
+  - "転出証明書(前住所地の市区町村役場が発行したもの)"
+  - "本人確認書類(運転免許証、資格確認書等)"
+  - "マイナンバーカード(引っ越しされた方でお持ちの方のみ"
+checked: 2026-11-15

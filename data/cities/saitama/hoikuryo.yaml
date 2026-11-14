@@ -1,0 +1,56 @@
+id: saitama-hoikuryo
+fiscal_year: 2026
+doc: 子ども・子育て新制度における利用者負担額(令和元年10月~)
+source: https://www.city.saitama.lg.jp/003/001/015/001/p042312_d/fil/riyousyahutanngaku.pdf
+checked: 2026-11-15
+quotes:
+  - "同一世帯から2人以上の児童が認可保育所等に在籍している場合、2人目は半額、3人目以降は無料となります"
+  - "従前の税率(6%)に換算された市民税額を用いて算定を行います"
+wording: [rule_half, adjust_note]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The city levies 8%; the fee table is read at the former 6% rate, so the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "第4"
+    max: 48600
+    std: 10000
+    short: 9800
+  - label: "第5"
+    max: 63900
+    std: 12500
+    short: 12200
+  - label: "第6"
+    max: 97000
+    std: 19500
+    short: 19100
+  - label: "第7"
+    max: 137600
+    std: 33000
+    short: 32400
+  - label: "第8"
+    max: 169000
+    std: 44000
+    short: 43200
+  - label: "第9"
+    max: 301000
+    std: 55000
+    short: 54000
+  - label: "第10"
+    max: 397000
+    std: 60000
+    short: 58900
+  - label: "第11"
+    max: null
+    std: 72800
+    short: 71500
+# Households paying only the per-capita levy fall in tier 3.
+kinto:
+  label: "第3"
+  std: 8000
+  short: 7800
+hikazei: "第2"
+seiho: "第1"

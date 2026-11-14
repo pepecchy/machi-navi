@@ -78,3 +78,4 @@
 {"date":"2026-11-15","kind":"build","what":"added Oshima as a free_all city","why":"the town nursery page states that from 2025-09 the nursery fee is free"}
 {"date":"2026-11-15","kind":"build","what":"added Miyake as a free_all city","why":"the village nursery page states that from 2025-09 the fee is free for every household"}
 {"date":"2026-11-15","kind":"build","what":"added Niijima as a free_all city","why":"the village page states that from 2025-09-01 every class (ages 1-5) at the village nursery is free"}
+{"date":"2026-11-15","kind":"build","what":"added Saitama with its 2-3 fee table, second child half and the 6/8 tax adjustment","why":"the city fee page links the table dated from October 2019 as the one in force and the PDF prints every bound and amount as text; from September 2026 the second child is half regardless of where the first child is, which the table rule for siblings in care also gives"}
