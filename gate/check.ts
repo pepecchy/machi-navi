@@ -36,6 +36,11 @@ for (const c of cities) {
   if (!(["free", "half", "half100"].includes(fee.second_child) && Array.isArray(fee.tiers) && fee.tiers.length > 1 && fee.tiers.every(tierOk)
     && fee.tiers.at(-1).max === null && isStr(fee.kinto?.label) && isStr(fee.hikazei) && isStr(fee.seiho) && isStr(fee.doc) && isUrl(fee.source) && isDate(fee.checked) && Number.isInteger(fee.fiscal_year)))
     fail("type", `${base}/hoikuryo.yaml`, "fee table has a wrong shape", "see data/cities/nakatsu/hoikuryo.yaml");
+  if (existsSync(join(ROOT, base, "office-hours.yaml"))) {
+    const oh = readYaml(`${base}/office-hours.yaml`);
+    if (!(isStr(oh.hours?.open) && isStr(oh.hours?.close) && isStr(oh.doc) && isUrl(oh.source) && Array.isArray(oh.quotes) && oh.quotes.length > 0 && isDate(oh.checked)))
+      fail("type", `${base}/office-hours.yaml`, "needs hours(open/close), doc, source, quotes[], checked", "see data/cities/hikone/office-hours.yaml");
+  }
   if (fee.tax_adjust !== undefined && !(Number.isInteger(fee.tax_adjust?.num) && Number.isInteger(fee.tax_adjust?.den) && fee.tax_adjust.den > 0))
     fail("type", `${base}/hoikuryo.yaml`, "tax_adjust needs integer num and den", "write the ratio the source states, e.g. num: 6, den: 8");
 }
