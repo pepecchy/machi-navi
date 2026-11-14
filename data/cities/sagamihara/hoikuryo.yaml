@@ -1,0 +1,120 @@
+id: sagamihara-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度の利用者負担額(0~2歳児)について(令和8年9月1日から適用)
+source: https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/707/r08_2futan0.pdf
+checked: 2026-11-15
+quotes:
+  - "第2子の児童は基準額表の「2人目」の金額となり"
+  - "指定都市(相模原市、横浜市、川崎市など)が市民税額を決定している場合、市民税額等に6/8を乗じて算出した額を基に決定します"
+wording: [rule_half, adjust_note]
+# The "2人目" column is exactly half of the first-child amount.
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The city levies 8%; the tiers are decided on the tax multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "C2"
+    max: 11800
+    std: 7600
+    short: 7500
+  - label: "C3"
+    max: 48600
+    std: 9200
+    short: 9100
+  - label: "D1"
+    max: 52500
+    std: 13400
+    short: 13200
+  - label: "D2"
+    max: 55000
+    std: 14700
+    short: 14500
+  - label: "D3"
+    max: 57700
+    std: 16300
+    short: 16100
+  - label: "D4"
+    max: 64000
+    std: 16300
+    short: 16100
+  - label: "D5"
+    max: 77101
+    std: 18000
+    short: 17700
+  - label: "D6"
+    max: 79000
+    std: 18000
+    short: 17700
+  - label: "D7"
+    max: 86500
+    std: 21300
+    short: 21000
+  - label: "D8"
+    max: 97000
+    std: 23600
+    short: 23200
+  - label: "D9"
+    max: 109000
+    std: 26500
+    short: 26100
+  - label: "D10"
+    max: 124000
+    std: 29100
+    short: 28700
+  - label: "D11"
+    max: 139000
+    std: 32000
+    short: 31500
+  - label: "D12"
+    max: 154000
+    std: 34900
+    short: 34400
+  - label: "D13"
+    max: 169000
+    std: 38000
+    short: 37400
+  - label: "D14"
+    max: 199000
+    std: 40100
+    short: 39500
+  - label: "D15"
+    max: 236500
+    std: 43600
+    short: 42900
+  - label: "D16"
+    max: 260500
+    std: 46200
+    short: 45500
+  - label: "D17"
+    max: 280200
+    std: 48800
+    short: 48000
+  - label: "D18"
+    max: 301000
+    std: 50500
+    short: 49700
+  - label: "D19"
+    max: 339200
+    std: 53200
+    short: 52300
+  - label: "D20"
+    max: 373000
+    std: 55100
+    short: 54200
+  - label: "D21"
+    max: 410500
+    std: 56400
+    short: 55500
+  - label: "D22"
+    max: null
+    std: 61700
+    short: 60700
+kinto:
+  label: "C1"
+  std: 6300
+  short: 6200
+hikazei: "B"
+seiho: "A"
