@@ -1,0 +1,13 @@
+id: ota-hoikuryo
+fiscal_year: 2026
+doc: "保育料階層の決定方法、お支払い"
+source: https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikuryo/ketteihouhou.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月からは階層に関わらず、すべてのクラス(児童)の保育料(月額)は「0円」になります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
