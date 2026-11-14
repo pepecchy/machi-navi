@@ -1,0 +1,9 @@
+id: gifu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 21
+name:
+  ja: 岐阜県 岐阜市
+  en: Gifu, Gifu
+  zh: 岐阜县 岐阜市
+  vi: Gifu, Gifu
+  ne: गिफु, गिफु
