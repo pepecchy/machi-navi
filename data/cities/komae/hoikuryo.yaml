@@ -1,0 +1,13 @@
+id: komae-hoikuryo
+fiscal_year: 2026
+doc: "第1子保育料無償化と3~5歳児クラスにおける副食費無償化、子育て世帯の負担軽減事業拡大について"
+source: https://komae-kosodate.net/article_docs/2497.html
+checked: 2026-11-15
+quotes:
+  - "0歳~2歳児クラスに在籍する第1子児童については、世帯階層に応じて保育料を徴収していましたが、令和7年9月以降については、階層に関わらず、すべての児童の保育料が無償となりました"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
