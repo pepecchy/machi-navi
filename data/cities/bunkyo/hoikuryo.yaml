@@ -1,0 +1,13 @@
+id: bunkyo-hoikuryo
+fiscal_year: 2026
+doc: "【認可保育所等】保育料について"
+source: https://www.city.bunkyo.lg.jp/b023/p001766.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月より、認可保育所等を利用するすべてのお子さまの基本保育料が無償となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
