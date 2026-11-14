@@ -1,0 +1,14 @@
+id: arakawa-hoikuryo
+fiscal_year: 2026
+doc: "保育園入園QA(よくあるご質問)"
+source: https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/faq.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月1日より0歳から2歳までの第1子の認可保育園保育料の無償化を実施しました"
+  - "これにより、認可保育園を利用する全ての世帯を対象に保育料が無償となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1

@@ -1,0 +1,23 @@
+id: arakawa-move-in
+window: "戸籍住民課住民記録係、各区民事務所"
+hours:
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届(荒川区外または外国から引っ越してきた時)"
+source: https://www.city.arakawa.tokyo.jp/a010/todokede/koseki/tennyu.html
+quotes:
+  - "荒川区に引っ越して来た日から14日以内"
+  - "戸籍住民課住民記録係、各区民事務所"
+  - "午前8時30分から午後5時15分(土曜・日曜・祝日・年末年始を除く)"
+  - "前住所地の区市町村長が発行した転出証明書"
+  - "本人確認書類"
+  - "マイナンバーカード(お持ちの方)"
+  - "在留カード"
+checked: 2026-11-15
