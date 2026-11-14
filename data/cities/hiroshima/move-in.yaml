@@ -1,0 +1,20 @@
+id: hiroshima-move-in
+window: 住所地の区役所市民課・出張所
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(他市町村から広島市に引越してきたとき)
+source: https://www.city.hiroshima.lg.jp/living/koseki/1003055/1025560/1003292.html
+quotes:
+  - 住所地の区役所市民課・出張所
+  - 事実が発生した日の翌日から数えて14日以内
+  - 転出証明書(前住所地で交付されます。)
+  - マイナンバーカード(現在お持ちの場合)
+  - 窓口に来た人の本人確認書類
+  - 在留カード・特別永住者証明書
+checked: 2026-11-14

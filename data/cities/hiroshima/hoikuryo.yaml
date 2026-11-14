@@ -1,0 +1,90 @@
+id: hiroshima-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度保育料(公私立)・副食費(公私立共通部分)についてのお知らせ(令和8年9月~)
+source: https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/481/20260824_1.pdf
+checked: 2026-11-14
+quotes:
+  - "年齢にかかわらず第1子から多子軽減のカウント対象となり、第2子であれば保育料が半額"
+  - "市民税所得割の税率が6%から8%に変更されましたが、保育料の額・副食費免除の決定の基礎となる所得割額は変更前(6%)の税率で算定します"
+wording: [rule_half_any, adjust_note]
+# Half price like "half"; who counts as the second child is in the wording (rule_half_any).
+second_child: half
+# The city levies 8%; the fee table is read at the former 6% rate, so the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "C1"
+    max: 39600
+    std: 7200
+    short: 7050
+  - label: "C2"
+    max: 44100
+    std: 8000
+    short: 7850
+  - label: "C3"
+    max: 48600
+    std: 9200
+    short: 9000
+  - label: "C4"
+    max: 54000
+    std: 10700
+    short: 10500
+  - label: "C5"
+    max: 59000
+    std: 12200
+    short: 11950
+  - label: "C6"
+    max: 64000
+    std: 14250
+    short: 14000
+  - label: "C7"
+    max: 79000
+    std: 18750
+    short: 18400
+  - label: "C8"
+    max: 97000
+    std: 23850
+    short: 23400
+  - label: "C9"
+    max: 114000
+    std: 29750
+    short: 29200
+  - label: "C10"
+    max: 133000
+    std: 35800
+    short: 35150
+  - label: "C11"
+    max: 151000
+    std: 41600
+    short: 40850
+  - label: "C12"
+    max: 169000
+    std: 44500
+    short: 43700
+  - label: "C13"
+    max: 205000
+    std: 49800
+    short: 48950
+  - label: "C14"
+    max: 256000
+    std: 52450
+    short: 51550
+  - label: "C15"
+    max: 301000
+    std: 55450
+    short: 54500
+  - label: "C16"
+    max: 397000
+    std: 57250
+    short: 56250
+  - label: "C17"
+    max: null
+    std: 62400
+    short: 61300
+kinto:
+  label: "C1"
+  std: 7200
+  short: 7050
+hikazei: "B"
+seiho: "A"

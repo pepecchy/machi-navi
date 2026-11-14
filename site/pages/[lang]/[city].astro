@@ -17,7 +17,8 @@ const src = (o: { doc: string; source: string }) => ({ doc: o.doc, url: o.source
 const client = {
   self: city.id,
   cities: cities.filter((c) => !c.fee.pending).map((c) => ({ id: c.id, name: c.name[lang], fee: c.fee })),
-  rules: { free: t.rule_free, half: t.rule_half, half100: t.rule_half100, first: t.rule_first },
+  // Every rule_* text; a fee table names the one that applies in its wording list.
+  rules: Object.fromEntries(Object.entries(t).filter(([k]) => k.startsWith("rule_"))),
 };
 ---
 <html lang={HTML_LANG[lang]}>
@@ -204,7 +205,7 @@ const client = {
       const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T | null;
       const data = JSON.parse($("data")!.textContent!) as {
         self: string;
-        cities: { id: string; name: string; fee: FeeTable }[];
+        cities: { id: string; name: string; fee: FeeTable & { wording: string[] } }[];
         rules: Record<string, string>;
       };
       const yen = (n: number) => "¥" + n.toLocaleString("en-US");
@@ -232,7 +233,7 @@ const client = {
         const r = calc(mine.fee, status, tax, child, hours);
         $("fee")!.textContent = yen(r.fee);
         $("tier")!.textContent = r.tier;
-        $("rule")!.textContent = child === 2 ? data.rules[mine.fee.second_child] : data.rules.first;
+        $("rule")!.textContent = child === 2 ? data.rules[mine.fee.wording.find((k) => k.startsWith("rule_")) ?? "rule_first"] : data.rules.rule_first;
         const rows = data.cities.map((c) => ({ c, fee: calc(c.fee, status, tax, child, hours).fee }));
         const max = Math.max(1, ...rows.map((x) => x.fee));
         const bars = $("bars")!;
