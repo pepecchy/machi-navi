@@ -1,0 +1,23 @@
+id: shinagawa-move-in
+window: "品川区役所 戸籍住民課 戸籍住民担当(住民異動)、地域センター"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届(別の自治体から品川区に引っ越したとき)"
+source: https://www.city.shinagawa.tokyo.jp/kurashi/juminkoseki/1001580/1001583.html
+quotes:
+  - "品川区に住み始めてから14日以内に\n手続きが必要です"
+  - "品川区役所 戸籍住民課 戸籍住民担当(住民異動)/ 荏原第一地域センター"
+  - "平日のみ 午前8時30分〜午後5時"
+  - "転出証明書"
+  - "本人確認書類(詳細は次の「本人確認書類」を参照)"
+  - "マイナンバーカード(お持ちの方のみ)※カード本体をお持ちください。"
+  - "在留カードまたは特別永住者証明書"
+checked: 2026-11-15
