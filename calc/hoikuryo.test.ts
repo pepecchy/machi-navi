@@ -68,6 +68,7 @@ test("known results", () => {
   // Shinjuku waives the basic fee for every child.
   expect(calc(load("shinjuku"), "tax", 120000, 1, "std").fee).toBe(0);
   expect(calc(load("edogawa"), "tax", 120000, 1, "std").fee).toBe(0);
+  expect(calc(load("koto"), "tax", 120000, 1, "std").fee).toBe(0);
 });
 
 // Rounding of the second-child half, on a made-up table.

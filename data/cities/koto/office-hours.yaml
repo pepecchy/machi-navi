@@ -1,0 +1,10 @@
+id: koto-office-hours
+hours:
+  open: "8:30"
+  close: "17:00"
+doc: 江東区役所へのアクセス・利用時間・フロア案内
+source: https://www.city.koto.lg.jp/051101/kuse/profile/ichi/3099.html
+quotes:
+  - 月曜日~金曜日
+  - 午前8時30分~午後5時
+checked: 2026-11-15

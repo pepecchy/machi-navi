@@ -1,0 +1,13 @@
+id: koto-hoikuryo
+fiscal_year: 2026
+doc: 認可保育園等保育料の減額免除
+source: https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/genmen.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月より認可保育園等における第1子保育料が無償化され、全児童の保育料が0円となった"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
