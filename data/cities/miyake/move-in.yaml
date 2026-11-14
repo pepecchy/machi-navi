@@ -1,0 +1,20 @@
+id: miyake-move-in
+window: "臨時庁舎1階の住民年金係"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "住民登録(転入・転居・転出等)"
+source: https://www.vill.miyake.tokyo.jp/kurashi/todokede_syoumei/koseki_juumin/juumintouroku.html
+quotes:
+  - "三宅村に住みはじめた日から14日以内"
+  - "臨時庁舎1階の住民年金係"
+  - "前住所地が発行した「転出証明書」"
+  - "届出人の 本人確認書類 (運転免許証など)"
+  - "在留カード・特別永住者証明書(外国人住民の方の場合)"
+  - "マイナンバーカードまたは住民基本台帳カード(お持ちの方のみ)"
+checked: 2026-11-15
