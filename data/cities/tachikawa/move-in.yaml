@@ -1,0 +1,21 @@
+id: tachikawa-move-in
+window: "市役所1階戸籍住民課"
+hours:
+  open: "9:00"
+  close: "16:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: "市外から立川市へ転入される方へ"
+source: https://www.city.tachikawa.lg.jp/kurashi/koseki/1002119/1026504.html
+quotes:
+  - "立川市内の新しい住所に住み始めた日から14日以内"
+  - "市役所1階戸籍住民課"
+  - "月曜日から金曜日 午前9時から午後4時"
+  - "「転出証明書」または「転出に準ずる証明書」"
+  - "本人確認ができる書類"
+  - "マイナンバーカード(お持ちの方のみ。"
+checked: 2026-11-15

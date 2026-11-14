@@ -1,0 +1,14 @@
+id: tachikawa-hoikuryo
+fiscal_year: 2026
+doc: "認可保育施設の保育料と給食費(副食費)の無償化について"
+source: https://www.city.tachikawa.lg.jp/kosodate/m-kosodate/1004946/1005096/1025194.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月から東京都の補助事業の拡充により、第1子の保育料も無償となります"
+  - "これにより、認可保育施設に在籍しているすべてのお子さんの保育料が無償となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
