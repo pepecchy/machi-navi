@@ -1,0 +1,14 @@
+id: toshima-hoikuryo
+fiscal_year: 2026
+doc: "子ども・子育て支援新制度について(認可保育園)"
+source: https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/033628.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月から認可保育施設に在籍するお子さんの保育料が無償となりました"
+  - "無償化の対象は基本保育料のみです"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
