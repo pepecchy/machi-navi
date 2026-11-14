@@ -1,0 +1,9 @@
+id: shinagawa
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 品川区
+  en: Shinagawa, Tokyo
+  zh: 东京都 品川区
+  vi: Shinagawa, Tokyo
+  ne: सिनागावा, टोकियो
