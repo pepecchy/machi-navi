@@ -1,0 +1,87 @@
+id: shizuoka-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 静岡市利用者負担額表(保育料)
+source: https://www.city.shizuoka.lg.jp/documents/2024/202609riyoushafutangakuhyou.pdf
+checked: 2026-11-15
+quotes:
+  - "0~2歳(クラス年齢)の児童の保育料は、上記にかかわらず、第2子以降(※)は無償となります"
+  - "保育料は旧税率(6%)を用いて算定します"
+wording: [rule_free, adjust_note]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The table prints boundaries for both the 8% and the former 6% rate; these are the 6% ones, and the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "D1"
+    max: 48600
+    std: 8500
+    short: 8500
+  - label: "D2"
+    max: 60000
+    std: 13300
+    short: 12900
+  - label: "D3"
+    max: 67000
+    std: 14800
+    short: 14400
+  - label: "D4"
+    max: 77101
+    std: 17500
+    short: 17100
+  - label: "D5"
+    max: 97000
+    std: 20500
+    short: 20100
+  - label: "D6"
+    max: 115000
+    std: 25500
+    short: 24900
+  - label: "D7"
+    max: 133000
+    std: 31500
+    short: 30900
+  - label: "D8"
+    max: 169000
+    std: 32500
+    short: 31900
+  - label: "D9"
+    max: 189000
+    std: 39000
+    short: 38100
+  - label: "D10"
+    max: 199000
+    std: 42000
+    short: 41100
+  - label: "D11"
+    max: 211000
+    std: 45000
+    short: 44100
+  - label: "D12"
+    max: 247000
+    std: 45000
+    short: 44100
+  - label: "D13"
+    max: 301000
+    std: 46500
+    short: 45600
+  - label: "D14"
+    max: 339000
+    std: 52000
+    short: 50800
+  - label: "D15"
+    max: 397000
+    std: 55200
+    short: 54000
+  - label: "D16"
+    max: null
+    std: 57200
+    short: 55600
+kinto:
+  label: "C"
+  std: 7500
+  short: 7500
+hikazei: "B"
+seiho: "A"
