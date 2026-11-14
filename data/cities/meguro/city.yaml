@@ -1,0 +1,9 @@
+id: meguro
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 目黒区
+  en: Meguro, Tokyo
+  zh: 东京都 目黑区
+  vi: Meguro, Tokyo
+  ne: मेगुरो, टोकियो
