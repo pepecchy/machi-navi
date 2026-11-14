@@ -1,0 +1,9 @@
+id: musashino
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 武蔵野市
+  en: Musashino, Tokyo
+  zh: 东京都 武藏野市
+  vi: Musashino, Tokyo
+  ne: मुसाशिनो, टोकियो
