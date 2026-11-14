@@ -1,0 +1,68 @@
+id: kawaguchi-hoikuryo
+fiscal_year: 2026
+doc: 川口市利用者負担(保育料)徴収基準表
+source: https://www.city.kawaguchi.lg.jp/material/files/group/79/tyousyuukijunnhyou_R4.pdf
+checked: 2026-11-15
+quotes:
+  - "川口市利用者負担(保育料)徴収基準表"
+# The table does not state the sibling rule in one sentence; the city page does.
+rule_source: https://www.city.kawaguchi.lg.jp/soshiki/01080/050/4/35870.html
+rule_doc: 令和8年度 利用者負担(保育料)について
+rule_quotes:
+  - "同時期に就学前の兄姉が、下記施設に在籍している場合は、最も年齢の高い児童が徴収基準表に定める保育料の全額を負担、次に年齢の高い児童が同基準表に定める保育料の半額を負担、その他の児童は免除となります"
+wording: [rule_half]
+second_child: half
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+tiers:
+  - label: "第4階層"
+    max: 48600
+    std: 9000
+    short: 8800
+  - label: "第5階層"
+    max: 58700
+    std: 12500
+    short: 12200
+  - label: "第6階層"
+    max: 97000
+    std: 19500
+    short: 19100
+  - label: "第7階層"
+    max: 131300
+    std: 33000
+    short: 32400
+  - label: "第8階層"
+    max: 169000
+    std: 44000
+    short: 43200
+  - label: "第9階層"
+    max: 213000
+    std: 54000
+    short: 53000
+  - label: "第10階層"
+    max: 257000
+    std: 57000
+    short: 56000
+  - label: "第11階層"
+    max: 301000
+    std: 60000
+    short: 58900
+  - label: "第12階層"
+    max: 349000
+    std: 63000
+    short: 61900
+  - label: "第13階層"
+    max: 397000
+    std: 66000
+    short: 64800
+  - label: "第14階層"
+    max: null
+    std: 69000
+    short: 67800
+# Households paying only the per-capita levy fall in tier 3.
+kinto:
+  label: "第3階層"
+  std: 6000
+  short: 5800
+hikazei: "第2階層"
+seiho: "第1階層"
