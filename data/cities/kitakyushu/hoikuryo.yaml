@@ -1,0 +1,73 @@
+id: kitakyushu-hoikuryo
+fiscal_year: 2026
+doc: 幼稚園、保育所(園)、認定こども園などを利用するお子さんの保育料について（令和8年4月～適用分）
+source: https://www.city.kitakyushu.lg.jp/files/001137686.pdf
+checked: 2026-11-14
+quotes:
+  - "2人目以降のお子さんは無料となります"
+  - "指定都市における市民税の標準税率が8%に変更されていますが、保育料算定における市民税の税率は旧税率(6%)により算定します"
+wording: [rule_free, adjust_note]
+second_child: free
+# The city levies 8%; the fee table is read at the old 6% rate, so the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 14100
+    short: 13900
+  - label: "D1"
+    max: 55000
+    std: 17100
+    short: 16800
+  - label: "D2"
+    max: 79000
+    std: 21600
+    short: 21200
+  - label: "D3"
+    max: 97000
+    std: 28400
+    short: 27900
+  - label: "D4"
+    max: 115000
+    std: 33200
+    short: 32600
+  - label: "D5"
+    max: 152000
+    std: 39900
+    short: 39200
+  - label: "D6"
+    max: 169000
+    std: 43800
+    short: 43000
+  - label: "D7"
+    max: 230000
+    std: 49800
+    short: 48900
+  - label: "D8"
+    max: 269000
+    std: 52800
+    short: 51900
+  - label: "D9"
+    max: 301000
+    std: 55800
+    short: 54800
+  - label: "D10"
+    max: 351000
+    std: 59300
+    short: 58300
+  - label: "D11"
+    max: 397000
+    std: 61300
+    short: 60200
+  - label: "D12"
+    max: null
+    std: 63300
+    short: 62200
+kinto:
+  label: "C1"
+  std: 12000
+  short: 11800
+hikazei: "B"
+seiho: "A"

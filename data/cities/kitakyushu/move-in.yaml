@@ -1,0 +1,22 @@
+id: kitakyushu-move-in
+window: 新住所地の区役所市民課・出張所
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 【転入】他の市町村から北九州市へ住所を移す
+source: https://www.city.kitakyushu.lg.jp/contents/14900051.html
+quotes:
+  - 新住所地の区役所・出張所
+  - 区役所市民課・出張所
+  - 平日の午前8時半から午後5時まで
+  - 引っ越した日から14日以内
+  - 窓口で手続きする人の 本人確認書類
+  - マイナンバーカード(個人番号カード)[暗証番号の入力が必要]
+  - 在留カード又は特別永住者証明書[外国人の方]
+checked: 2026-11-14
