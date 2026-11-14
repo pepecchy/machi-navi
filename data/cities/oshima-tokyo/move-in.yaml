@@ -1,0 +1,18 @@
+id: oshima-tokyo-move-in
+window: "住民課 住民係"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: "戸籍と住民台帳に関する届出"
+source: https://www.town.oshima.tokyo.jp/soshiki/jumin/todokede.html
+quotes:
+  - "転入した日から14日以内"
+  - "住民課 住民係"
+  - "前所在地の市区町村長が発行した転出証明書の原本"
+  - "マイナンバーカード(交付を受けている方)"
+  - "届出人の本人確認書類(運転免許証等)"
+checked: 2026-11-15
