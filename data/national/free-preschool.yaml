@@ -1,0 +1,9 @@
+id: free-preschool
+values: [3, 5]
+unit: age
+doc: 幼児教育・保育の無償化概要（こども家庭庁）
+source: https://www.cfa.go.jp/policies/kokoseido/mushouka/gaiyou
+quotes:
+  - "幼稚園、保育所、認定こども園等を利用する3歳から5歳までの全てのこどもたち"
+wording: [age_note]
+checked: 2026-11-14

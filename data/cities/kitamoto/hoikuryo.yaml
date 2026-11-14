@@ -3,6 +3,10 @@ fiscal_year: 2026
 doc: 令和8年度 保育認定（2号認定及び3号認定）利用者負担額表
 source: https://www.city.kitamoto.lg.jp/material/files/group/24/riyousixyafutann.pdf
 checked: 2026-11-14
+quotes:
+  - "年齢の高い順から2人目のときは半額とし"
+  - "(100円未満の端数があるときは切り捨てる)"
+wording: [rule_half100]
 second_child: half100
 tiers:
   - label: D1

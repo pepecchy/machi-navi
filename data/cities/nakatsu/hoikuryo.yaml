@@ -3,6 +3,9 @@ fiscal_year: 2026
 doc: 令和8年度 保育施設入所のしおり（利用者負担額、案）
 source: https://www.city-nakatsu.jp/doc/2017052200072/file_contents/file_2026483144947_1.pdf
 checked: 2026-11-14
+quotes:
+  - "父母のいずれかの第2子以降の3歳未満のお子さんは保育料が無料となります"
+wording: [rule_free]
 second_child: free
 tiers:
   - label: 第3（3-2）

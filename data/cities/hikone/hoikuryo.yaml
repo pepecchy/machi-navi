@@ -3,6 +3,9 @@ fiscal_year: 2026
 doc: 令和8年度 彦根市保育所等保育料徴収基準額表
 source: https://www.city.hikone.lg.jp/material/files/group/107/R8hoikuryoutyousyuukijungakuhyou.pdf
 checked: 2026-11-14
+quotes:
+  - "同一世帯で小学校就学前の範囲において保育所等を同時利用されている場合の保育料は、第2子は半額"
+wording: [rule_half]
 second_child: half
 tiers:
   - label: C2

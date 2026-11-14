@@ -56,7 +56,7 @@ per: / month
 tier: Tier
 source: Source
 checked: Checked on
-rule_free: In this city, the 2nd child and later under age 3 are free (an Oita Prefecture program).
+rule_free: In this city, the 2nd child and later under age 3 are free.
 rule_half: In this city, a 2nd child enrolled at the same time pays half.
 rule_half100: In this city, a 2nd child enrolled at the same time pays half (rounded down to 100 yen).
 rule_first: This is the fee for a 1st child. Rules for a 2nd child differ by city. Switch above to check.
