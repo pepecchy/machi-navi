@@ -1,0 +1,21 @@
+id: nakano-move-in
+window: "戸籍住民課住民記録係窓口（本庁2階4番）、各地域事務所（区内5か所）"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届(区外から中野区へ)"
+source: https://www.city.tokyo-nakano.lg.jp/kurashi/koseki/jyuminhyo/tennyu-kugaikara.html
+quotes:
+  - "新しい住所に住み始めてから14日以内"
+  - "戸籍住民課住民記録係窓口(本庁2階4番)または 各地域事務所 (区内5か所)"
+  - "月曜日から金曜日(祝休日、年末年始を除く)の8時30分から17時00分まで"
+  - "前住所地(または最終住民登録地)が発行した転出証明書等"
+  - "本人確認書類"
+  - "在留カードまたは特別永住者証明書、外国人登録証明書のいずれか(外国人の方)"
+checked: 2026-11-15
