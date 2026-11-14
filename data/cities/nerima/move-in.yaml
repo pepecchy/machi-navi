@@ -1,0 +1,23 @@
+id: nerima-move-in
+window: "区民事務所（練馬・早宮・光が丘・石神井・大泉・関の6か所）"
+hours:
+  open: "8:30"
+  close: "19:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届 (練馬区外(国内)から練馬区に引越したとき)"
+source: https://www.city.nerima.tokyo.jp/kurashi/koseki/kiroku/tennyu.html
+quotes:
+  - "練馬区に住み始めてから14日以内"
+  - "練馬区内6か所の区民事務所の窓口 で届出を受付しています"
+  - "○月曜~金曜(祝休日・12月29日~1月3日を除く) ○午前8時30分~午後7時"
+  - "窓口に来所する方の本人確認書類"
+  - "前住所地の区市町村が発行した転出証明書"
+  - "マイナンバーカード 【お持ちの方のみ】"
+  - "在留カード、特別永住者証明書または外国人登録証明書(みなし特別永住者証明書) 【外国人住民の方のみ】"
+checked: 2026-11-15
