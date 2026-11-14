@@ -65,6 +65,9 @@ test("known results", () => {
   // Chiba: 120,000 on the notice is 90,000 at the 6% rate, tier D4; the printed second-child amount is 13,320.
   expect(calc(load("chiba"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D4", fee: 26650 });
   expect(calc(load("chiba"), "tax", 120000, 2, "std").fee).toBe(13320);
+  // Sagamihara: 120,000 x 6/8 = 90,000 falls in D8; the second child pays half.
+  expect(calc(load("sagamihara"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D8", fee: 23600 });
+  expect(calc(load("sagamihara"), "tax", 120000, 2, "std").fee).toBe(11800);
   // Shinjuku waives the basic fee for every child.
   expect(calc(load("shinjuku"), "tax", 120000, 1, "std").fee).toBe(0);
   expect(calc(load("edogawa"), "tax", 120000, 1, "std").fee).toBe(0);
