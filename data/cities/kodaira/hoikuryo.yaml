@@ -1,0 +1,13 @@
+id: kodaira-hoikuryo
+fiscal_year: 2026
+doc: "利用者負担額(保育料)"
+source: https://www.city.kodaira.tokyo.jp/kurashi/041/041609.html
+checked: 2026-11-15
+quotes:
+  - "0~2歳児クラス 保育料第1子無償化により、令和7年9月から、0円となりました"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
