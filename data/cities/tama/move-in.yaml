@@ -1,0 +1,22 @@
+id: tama-move-in
+window: "市役所本庁舎1階 市民課"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "【転入】他の市区町村から多摩市へ"
+source: https://www.city.tama.lg.jp/kurashi/jumin/hikkoshi/1001771.html
+quotes:
+  - "多摩市の住所地に実際に住みはじめてから 14日以内"
+  - "市役所本庁舎1階 市民課"
+  - "月曜日から金曜日 8時30分から17時"
+  - "前住地の窓口で、紙の証明を交付された方は 「転出証明書」 と 「本人確認書類」"
+  - "マイナンバーカードをお持ちの方: 家族全員の 「マイナンバーカード」"
+  - "外国籍の方: 「在留カード」 または 「特別永住者証明書」"
+checked: 2026-11-15

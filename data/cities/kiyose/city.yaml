@@ -1,0 +1,9 @@
+id: kiyose
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 清瀬市
+  en: Kiyose, Tokyo
+  zh: 东京都 清濑市
+  vi: Kiyose, Tokyo
+  ne: कियोसे, टोकियो
