@@ -1,0 +1,66 @@
+id: sapporo-hoikuryo
+fiscal_year: 2026
+doc: 認可保育所、認定こども園（保育所部分）、地域型保育事業所を利用される保護者のみなさまへ（令和8年4月発行）
+source: https://kosodate.city.sapporo.jp/material/files/group/1/hoikuryou2026ketteihouhou.pdf
+checked: 2026-11-15
+quotes:
+  - "兄又は姉がいる場合、きょうだいの保育所等の利用状況に関わらず保育料がかかりません"
+  - "旧税率(6%)により計算された所得割を使用します"
+  - "書類に記載されている所得割に 6/8 を乗じることで"
+  - "所得割が非課税で、均等割のみ課税されている世帯はC階層に該当します"
+wording: [rule_free, adjust_note]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The city levies 8%; the fee table is read at the former 6% rate, so the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 11000
+    short: 10820
+  - label: "D1"
+    max: 67000
+    std: 15680
+    short: 15420
+  - label: "D2"
+    max: 97000
+    std: 22550
+    short: 22170
+  - label: "D3"
+    max: 140000
+    std: 30250
+    short: 29740
+  - label: "D4"
+    max: 169000
+    std: 39600
+    short: 38930
+  - label: "D5"
+    max: 254000
+    std: 45870
+    short: 45100
+  - label: "D6"
+    max: 301000
+    std: 53740
+    short: 52830
+  - label: "D7"
+    max: 341000
+    std: 60170
+    short: 59150
+  - label: "D8"
+    max: 397000
+    std: 65450
+    short: 64340
+  - label: "D9"
+    max: null
+    std: 75900
+    short: 74610
+# Households paying only the per-capita levy fall in tier C (C1 is the only C tier).
+kinto:
+  label: "C1"
+  std: 11000
+  short: 10820
+hikazei: "B"
+seiho: "A"
