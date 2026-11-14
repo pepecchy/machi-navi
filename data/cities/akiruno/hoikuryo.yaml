@@ -1,0 +1,13 @@
+id: akiruno-hoikuryo
+fiscal_year: 2026
+doc: "令和7年9月から第1子の保育料が無償となります"
+source: https://www.city.akiruno.tokyo.jp/0000019022.html
+checked: 2026-11-15
+quotes:
+  - "保育認定を受けて保育所・認定こども園・小規模保育事業所を利用する0~2歳児クラス(3号児)の保育料(給食費を含む。)は、第2子以降については無償化により0円となっていますが、9月分からは第1子も無償化により0円となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
