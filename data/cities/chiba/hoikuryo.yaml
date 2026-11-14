@@ -1,0 +1,81 @@
+id: chiba-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育認定(2号・3号)にかかる保育料(月額)
+source: https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/documents/r8_riyousyafutanngaku.pdf
+checked: 2026-11-15
+quotes:
+  - "軽減対象施設の在籍の有無やきょうだいの年齢に関わらず"
+  - "階層区分の決定は6%の税率を用いて算出します"
+  - "(1/2 額)"
+wording: [rule_half10_any, adjust_note]
+# The table prints the second-child amount as the half rounded down to 10 yen (26,650 becomes 13,320).
+second_child: half10
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The city levies 8%; the tiers are decided at the 6% rate, so the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 6170
+    short: 6070
+  - label: "D1"
+    max: 51500
+    std: 11180
+    short: 10990
+  - label: "D2"
+    max: 56600
+    std: 14960
+    short: 14710
+  - label: "D3"
+    max: 74000
+    std: 18840
+    short: 18520
+  - label: "D4"
+    max: 97000
+    std: 26650
+    short: 26200
+  - label: "D5"
+    max: 112000
+    std: 33450
+    short: 32880
+  - label: "D6"
+    max: 132000
+    std: 40760
+    short: 40070
+  - label: "D7"
+    max: 169000
+    std: 44000
+    short: 43250
+  - label: "D8"
+    max: 203800
+    std: 51690
+    short: 50810
+  - label: "D9"
+    max: 301000
+    std: 54330
+    short: 53410
+  - label: "D10"
+    max: 397000
+    std: 57460
+    short: 56480
+  - label: "D11"
+    max: 480000
+    std: 60600
+    short: 59570
+  - label: "D12"
+    max: 671800
+    std: 65750
+    short: 64630
+  - label: "D13"
+    max: null
+    std: 70900
+    short: 69690
+kinto:
+  label: "C1"
+  std: 4110
+  short: 4040
+hikazei: "B"
+seiho: "A"

@@ -1,4 +1,0 @@
-kind: build
-score: 50
-title: 千葉市を足す
-reason: 令和 8 年度の表が文字で取れる。第 2 子は半額で 10 円未満を切り捨てる（表の 1/2 額の列で確かめた）。main の検査が second_child の half10 を知ってから足す

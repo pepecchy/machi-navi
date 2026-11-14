@@ -61,6 +61,9 @@ test("known results", () => {
   // Sapporo: 120,000 on the notice is 90,000 at the 6% rate, tier D2.
   expect(calc(load("sapporo"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D2", fee: 22550 });
   expect(calc(load("sapporo"), "tax", 120000, 2, "short").fee).toBe(0);
+  // Chiba: 120,000 on the notice is 90,000 at the 6% rate, tier D4; the printed second-child amount is 13,320.
+  expect(calc(load("chiba"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D4", fee: 26650 });
+  expect(calc(load("chiba"), "tax", 120000, 2, "std").fee).toBe(13320);
 });
 
 // Rounding of the second-child half, on a made-up table.
