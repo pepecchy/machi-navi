@@ -33,7 +33,7 @@ for (const c of cities) {
     fail("type", `${base}/move-in.yaml`, "needs window, hours(null or open/close), bring[], bring_foreign[], other[], doc, source, quotes[], checked", "see data/cities/nakatsu/move-in.yaml");
   const fee = readYaml(`${base}/hoikuryo.yaml`);
   const tierOk = (t: any) => isStr(t?.label) && (t.max === null || Number.isInteger(t.max)) && Number.isInteger(t.std) && Number.isInteger(t.short);
-  if (!(["free", "half", "half100"].includes(fee.second_child) && Array.isArray(fee.tiers) && fee.tiers.length > 1 && fee.tiers.every(tierOk)
+  if (!(["free", "half", "half_any", "half100"].includes(fee.second_child) && Array.isArray(fee.tiers) && fee.tiers.length > 1 && fee.tiers.every(tierOk)
     && fee.tiers.at(-1).max === null && isStr(fee.kinto?.label) && isStr(fee.hikazei) && isStr(fee.seiho) && isStr(fee.doc) && isUrl(fee.source) && isDate(fee.checked) && Number.isInteger(fee.fiscal_year)))
     fail("type", `${base}/hoikuryo.yaml`, "fee table has a wrong shape", "see data/cities/nakatsu/hoikuryo.yaml");
   if (existsSync(join(ROOT, base, "office-hours.yaml"))) {

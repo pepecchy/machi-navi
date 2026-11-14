@@ -17,7 +17,7 @@ const src = (o: { doc: string; source: string }) => ({ doc: o.doc, url: o.source
 const client = {
   self: city.id,
   cities: cities.filter((c) => !c.fee.pending).map((c) => ({ id: c.id, name: c.name[lang], fee: c.fee })),
-  rules: { free: t.rule_free, half: t.rule_half, half100: t.rule_half100, first: t.rule_first },
+  rules: { free: t.rule_free, half: t.rule_half, half_any: t.rule_half_any, half100: t.rule_half100, first: t.rule_first },
 };
 ---
 <html lang={HTML_LANG[lang]}>
