@@ -1,0 +1,24 @@
+id: minato-move-in
+window: "各総合支所区民課窓口サービス係、台場分室"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届(港区外から港区へ引越しするとき)"
+source: https://www.city.minato.tokyo.jp/shibamadosa/kurashi/todokede/hikkoshi/tennyu.html
+quotes:
+  - "港区に住み始めた日から14日以内"
+  - "各総合支所区民課窓口サービス係"
+  - "台場分室"
+  - "午前8時30分から午後5時まで"
+  - "転出証明書"
+  - "窓口で手続きする人の 本人確認書類"
+  - "マイナンバーカード\n(持っている人全員分)"
+  - "転入者全員の在留カード、特別永住者証明書または旧外国人登録証明書"
+checked: 2026-11-15

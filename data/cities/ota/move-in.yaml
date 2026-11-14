@@ -1,0 +1,22 @@
+id: ota-move-in
+window: "本庁舎及び各特別出張所（蒲田東特別出張所を除く）、おおたスマート行政ステーション京浜蒲田"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: "転入届(区外から大田区へ)"
+source: https://www.city.ota.tokyo.jp/seikatsu/koseki_j/jyuminhyo/todokede/tennyu.html
+quotes:
+  - "大田区に住み始めた日から14日以内"
+  - "本庁舎及び各特別出張所(蒲田東特別出張所を除く)"
+  - "おおたスマート行政ステーション京浜蒲田(スマかま)"
+  - "月曜日から金曜日(祝日及び年末年始は除く) 午前8時30分から午後5時まで"
+  - "転出証明書(前住所の市区町村で発行したもの。"
+  - "窓口に来られる方の本人確認書類"
+  - "マイナンバーカード(お持ちの方のみ。"
+checked: 2026-11-15
