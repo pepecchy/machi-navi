@@ -1,0 +1,20 @@
+id: chiyoda-move-in
+window: "区役所総合窓口課、区内の出張所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届(他の市区町村または国外から千代田区に住所を異動するとき)"
+source: https://www.city.chiyoda.lg.jp/koho/kurashi/koseki/jumintoroku/tennyu.html
+quotes:
+  - "新しい住所に引っ越してから14日以内"
+  - "区役所総合窓口課または区内の出張所"
+  - "届出人の本人確認書類"
+  - "転出証明書"
+  - "引っ越す方全員のマイナンバーカード(お持ちの方)"
+  - "引っ越す方全員の在留カードまたは特別永住者証明書(外国人の方)"
+checked: 2026-11-15

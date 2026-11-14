@@ -1,0 +1,9 @@
+id: chiyoda
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 千代田区
+  en: Chiyoda, Tokyo
+  zh: 东京都 千代田区
+  vi: Chiyoda, Tokyo
+  ne: चियोदा, टोकियो
