@@ -1,0 +1,14 @@
+id: hinohara-move-in
+window: "村民課 村民保険係"
+hours: null
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: "転入届"
+source: https://www.vill.hinohara.tokyo.jp/0000000257.html
+quotes:
+  - "檜原村に引っ越しをした日から14日以内"
+  - "村民課 村民保険係"
+  - "転出証明書(前住所の市町村で交付を受けてください)"
+checked: 2026-11-15

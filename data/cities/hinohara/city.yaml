@@ -1,0 +1,9 @@
+id: hinohara
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 檜原村
+  en: Hinohara, Tokyo
+  zh: 东京都 桧原村
+  vi: Hinohara, Tokyo
+  ne: हिनोहारा, टोकियो
