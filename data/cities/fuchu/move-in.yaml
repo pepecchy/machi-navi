@@ -1,0 +1,18 @@
+id: fuchu-move-in
+window: "総合窓口課(市役所1階)、白糸台文化センター(東部出張所)、西府文化センター(西部出張所)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届(府中市に転入してきたとき)"
+source: https://www.city.fuchu.tokyo.jp/kurashi/tetuduki/tenkyo/tennyu.html
+quotes:
+  - "新しい住所にお住まいになった日から14日以内"
+  - "総合窓口課(市役所1階) 白糸台文化センター(東部出張所) 西府文化センター(西部出張所)"
+  - "転出証明書(前住所の市区町村で発行されたもの) 本人確認書類 マイナンバーカード(お持ちの方のみ)"
+  - "在留カードまたは特別永住者証明書または外国人登録証明書"
+checked: 2026-11-15
