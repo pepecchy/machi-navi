@@ -1,0 +1,10 @@
+id: edogawa-office-hours
+hours:
+  open: "8:30"
+  close: "17:00"
+doc: 手続きの受付可能時間はいつですか?またどこの窓口に行けばいいですか?
+source: https://www.city.edogawa.tokyo.jp/e038/qa/kurashi/todokede/jushoinkan19.html
+quotes:
+  - 窓口でのお手続き
+  - 月曜日から金曜日の午前8時30分から午後5時まで
+checked: 2026-11-15
