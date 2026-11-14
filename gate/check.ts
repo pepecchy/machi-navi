@@ -72,6 +72,10 @@ for (const { f, d } of scenes)
     if (s.fact && due) for (const v of facts.get(s.fact)?.values ?? []) if (!digits(due).split(",").includes(String(v))) fail("wording", "i18n/ja.yaml", `s_${s.id}_due does not contain the value ${v} of fact ${s.fact}`, "write the deadline with the fact's value");
   }
 
+// A record may name the wording it backs; those keys must exist.
+for (const f of [...walk("data/national"), ...walk("data/cities")]) for (const k of readYaml(f)?.wording ?? [])
+  if (!isStr(dict.ja[k])) fail("wording", f, `wording key ${k} does not exist`, "name a key from i18n/ja.yaml, or remove it from the record");
+
 // ---- scope: site/ holds templates only
 for (const f of walk("site")) if (!/\.(astro|ts|css)$/.test(f)) fail("scope", f, "site/ may hold only .astro, .ts and .css templates", "move facts to data/ and wording to i18n/");
 
