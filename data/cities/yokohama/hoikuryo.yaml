@@ -1,0 +1,189 @@
+id: yokohama-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度横浜市子ども・子育て支援新制度利用料(保育料)(月額)
+source: https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/riyouryo/riyouryosantei/default20190319.files/0070_20260123.pdf
+checked: 2026-11-15
+quotes:
+  - "きょうだい区分の決定方法は「横浜市保育所等利用案内」もしくは「横浜市保育所等利用料のご案内」を確認してください"
+  - "利用料における市民税所得割課税額は6%の税率を用いて算出しています"
+wording: [rule_table, adjust_note]
+# The table prints its own second-child column (認可保育所, 第2子), which is not a fixed share of the first-child amount.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The city levies 8%; the tiers are read at the 6% rate.
+tax_adjust:
+  num: 6
+  den: 8
+# Each bound is printed as "N 円以下"; max is the next tier's printed lower bound ("N+1 円以上").
+tiers:
+  - label: "D1"
+    max: 10001
+    std: 8200
+    short: 8000
+    std2: 2900
+    short2: 2800
+  - label: "D2"
+    max: 48601
+    std: 10000
+    short: 9800
+    std2: 3500
+    short2: 3400
+  - label: "D3"
+    max: 50401
+    std: 12500
+    short: 12200
+    std2: 4400
+    short2: 4300
+  - label: "D4"
+    max: 57701
+    std: 14500
+    short: 14200
+    std2: 5100
+    short2: 5000
+  - label: "D5"
+    max: 77101
+    std: 16500
+    short: 16200
+    std2: 5800
+    short2: 5700
+  - label: "D6"
+    max: 97001
+    std: 20400
+    short: 20000
+    std2: 7100
+    short2: 6900
+  - label: "D7"
+    max: 102601
+    std: 25000
+    short: 24500
+    std2: 8800
+    short2: 8600
+  - label: "D8"
+    max: 120601
+    std: 29000
+    short: 28500
+    std2: 10200
+    short2: 10000
+  - label: "D9"
+    max: 138601
+    std: 34000
+    short: 33400
+    std2: 11900
+    short2: 11600
+  - label: "D10"
+    max: 169001
+    std: 38000
+    short: 37300
+    std2: 13300
+    short2: 13000
+  - label: "D11"
+    max: 174901
+    std: 41500
+    short: 40700
+    std2: 14500
+    short2: 14200
+  - label: "D12"
+    max: 192901
+    std: 44500
+    short: 43700
+    std2: 15600
+    short2: 15300
+  - label: "D13"
+    max: 211201
+    std: 47500
+    short: 46600
+    std2: 21400
+    short2: 21000
+  - label: "D14"
+    max: 228901
+    std: 50200
+    short: 49300
+    std2: 22600
+    short2: 22200
+  - label: "D15"
+    max: 246701
+    std: 53000
+    short: 52000
+    std2: 23900
+    short2: 23400
+  - label: "D16"
+    max: 255701
+    std: 55000
+    short: 54000
+    std2: 24800
+    short2: 24300
+  - label: "D17"
+    max: 264701
+    std: 57000
+    short: 56000
+    std2: 25700
+    short2: 25200
+  - label: "D18"
+    max: 273701
+    std: 58000
+    short: 57000
+    std2: 26800
+    short2: 26300
+  - label: "D19"
+    max: 282701
+    std: 59000
+    short: 57900
+    std2: 27900
+    short2: 27400
+  - label: "D20"
+    max: 291701
+    std: 60000
+    short: 58900
+    std2: 29000
+    short2: 28500
+  - label: "D21"
+    max: 301001
+    std: 61000
+    short: 59900
+    std2: 30100
+    short2: 29500
+  - label: "D22"
+    max: 309701
+    std: 64500
+    short: 63400
+    std2: 33100
+    short2: 32500
+  - label: "D23"
+    max: 335801
+    std: 68000
+    short: 66800
+    std2: 36200
+    short2: 35500
+  - label: "D24"
+    max: 361301
+    std: 71500
+    short: 70200
+    std2: 39300
+    short2: 38600
+  - label: "D25"
+    max: 387701
+    std: 73600
+    short: 72300
+    std2: 39700
+    short2: 39000
+  - label: "D26"
+    max: 397001
+    std: 75600
+    short: 74300
+    std2: 40000
+    short2: 39300
+  - label: "D27"
+    max: null
+    std: 77500
+    short: 76100
+    std2: 42600
+    short2: 41800
+kinto:
+  label: "C"
+  std: 6700
+  short: 6500
+  std2: 2300
+  short2: 2200
+hikazei: "B"
+seiho: "A"

@@ -1,0 +1,9 @@
+id: yokohama
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 14
+name:
+  ja: 神奈川県 横浜市
+  en: Yokohama, Kanagawa
+  zh: 神奈川县 横滨市
+  vi: Yokohama, Kanagawa
+  ne: योकोहामा, कानागावा
