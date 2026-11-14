@@ -51,4 +51,8 @@ test("known results", () => {
   // Hiroshima: 120,000 on the notice is 90,000 at the 6% rate, tier C8.
   expect(calc(load("hiroshima"), "tax", 120000, 1, "std")).toMatchObject({ tier: "C8", fee: 23850 });
   expect(calc(load("hiroshima"), "tax", 120000, 2, "std").fee).toBe(11925);
+  // Okayama: 120,000 on the notice is 90,000 at the 6% rate, tier C7; the printed second-child amount is 12,000.
+  expect(calc(load("okayama"), "tax", 120000, 1, "std")).toMatchObject({ tier: "C7", fee: 24000 });
+  expect(calc(load("okayama"), "tax", 120000, 2, "std").fee).toBe(12000);
+  expect(calc(load("okayama"), "tax", 60000, 2, "short").fee).toBe(5850);
 });
