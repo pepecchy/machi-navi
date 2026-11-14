@@ -1,0 +1,15 @@
+id: kodaira-move-in
+window: "市役所1階 市民課窓口担当"
+hours: null
+bring:
+  - tensyutsu
+  - id
+bring_foreign: []
+other: []
+doc: "住民登録"
+source: https://www.city.kodaira.tokyo.jp/kurashi/000/000192.html
+quotes:
+  - "小平市に住み始めた日から14日以内"
+  - "市役所1階 市民課窓口担当"
+  - "・本人確認書類 ・転出証明書(海外からの転入の場合は不要)"
+checked: 2026-11-15
