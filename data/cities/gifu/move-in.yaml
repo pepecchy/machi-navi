@@ -1,0 +1,20 @@
+id: gifu-move-in
+window: "市民課(本庁舎1階)、各事務所"
+hours:
+  open: "8:30"
+  close: "17:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.gifu.lg.jp/kurashi/koseki/1001749/1001751.html
+quotes:
+  - "転入届は、実際にお住まいになられてから14日以内に届出してください"
+  - "市民課(本庁舎1階)"
+  - "午前8時30分~午後5時30分"
+  - "転出証明書(転入届の特例を受ける方はマイナンバーカード)"
+  - "本人確認できる書類(免許証・パスポート・マイナンバーカード等)"
+checked: 2026-11-15
