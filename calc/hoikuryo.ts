@@ -1,6 +1,8 @@
 // Daycare fee lookup from a city's official fee table. Pure; used by the site and by tests.
 export interface Tier { label: string; max: number | null; std: number; short: number }
 export interface FeeTable {
+  // The basic fee is waived for every child (no tiers are published).
+  free_all?: boolean;
   // half10 / half100: half, rounded down to 10 / 100 yen.
   second_child: "free" | "half" | "half10" | "half100";
   // Shown next to the rule so readers see the city's own sentence.
@@ -17,6 +19,7 @@ export type Status = "tax" | "kinto" | "hikazei" | "seiho";
 export type Hours = "std" | "short";
 
 export function calc(t: FeeTable, status: Status, tax: number, child: 1 | 2, hours: Hours) {
+  if (t.free_all) return { tier: "-", fee: 0, base: 0 };
   let tier: string, base: number;
   if (status === "seiho") { tier = t.seiho; base = 0; }
   else if (status === "hikazei") { tier = t.hikazei; base = 0; }
