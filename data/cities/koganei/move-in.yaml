@@ -1,0 +1,20 @@
+id: koganei-move-in
+window: "市役所第二庁舎1階市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "住所の変更(転入・転居・転出)"
+source: https://www.city.koganei.lg.jp/kurashi/410/zyumininkankoseki/413/tennyu-todoke.html
+quotes:
+  - "小金井市に住み始めた日から14日以内"
+  - "市役所第二庁舎1階市民課"
+  - "転出証明書(前住所地の市区町村で発行されたもの。"
+  - "本人確認書類 免許証、パスポート、マイナンバーカード"
+  - "マイナンバーカード 注記:お持ちの場合のみ。"
+  - "在留カード等(外国籍の方のみ)"
+checked: 2026-11-15
