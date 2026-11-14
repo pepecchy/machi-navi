@@ -37,12 +37,14 @@ for (const c of cities) {
     && Array.isArray(mv.quotes) && mv.quotes.length > 0 && isDate(mv.checked) && (mv.hours === null || (isStr(mv.hours?.open) && isStr(mv.hours?.close)))))
     fail("type", `${base}/move-in.yaml`, "needs window, hours(null or open/close), bring[], bring_foreign[], other[], doc, source, quotes[], checked", "see data/cities/nakatsu/move-in.yaml");
   const fee = readYaml(`${base}/hoikuryo.yaml`);
-  const tierOk = (t: any) => isStr(t?.label) && (t.max === null || Number.isInteger(t.max)) && Number.isInteger(t.std) && Number.isInteger(t.short);
+  // "table": the source prints a second-child amount for every tier, kept as std2 / short2.
+  const both = (t: any) => Number.isInteger(t?.std) && Number.isInteger(t?.short) && (fee.second_child !== "table" || (Number.isInteger(t?.std2) && Number.isInteger(t?.short2)));
+  const tierOk = (t: any) => isStr(t?.label) && (t.max === null || Number.isInteger(t.max)) && both(t);
   if (fee.free_all === true) {
     if (!(fee.tiers === undefined && isStr(fee.doc) && isUrl(fee.source) && isDate(fee.checked) && Number.isInteger(fee.fiscal_year) && Array.isArray(fee.quotes) && fee.quotes.length > 0))
       fail("type", `${base}/hoikuryo.yaml`, "a free_all table has no tiers and needs doc, source, checked, fiscal_year, quotes[]", "quote the sentence that says the fee is waived for every child");
-  } else if (!(["free", "half", "half10", "half100"].includes(fee.second_child) && Array.isArray(fee.tiers) && fee.tiers.length > 1 && fee.tiers.every(tierOk)
-    && fee.tiers.at(-1).max === null && isStr(fee.kinto?.label) && isStr(fee.hikazei) && isStr(fee.seiho) && isStr(fee.doc) && isUrl(fee.source) && isDate(fee.checked) && Number.isInteger(fee.fiscal_year)))
+  } else if (!(["free", "half", "half10", "half100", "table"].includes(fee.second_child) && Array.isArray(fee.tiers) && fee.tiers.length > 1 && fee.tiers.every(tierOk)
+    && fee.tiers.at(-1).max === null && isStr(fee.kinto?.label) && both(fee.kinto) && isStr(fee.hikazei) && isStr(fee.seiho) && isStr(fee.doc) && isUrl(fee.source) && isDate(fee.checked) && Number.isInteger(fee.fiscal_year)))
     fail("type", `${base}/hoikuryo.yaml`, "fee table has a wrong shape", "see data/cities/nakatsu/hoikuryo.yaml");
   if (existsSync(join(ROOT, base, "office-hours.yaml"))) {
     const oh = readYaml(`${base}/office-hours.yaml`);

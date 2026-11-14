@@ -78,8 +78,8 @@ export function sourcedRecords(): Sourced[] {
     if (!d?.source) continue;
     const numbers: number[] = [];
     if (Array.isArray(d.tiers)) {
-      for (const t of d.tiers) numbers.push(...[t.max, t.std, t.short].filter((v: unknown) => typeof v === "number"));
-      if (d.kinto) numbers.push(d.kinto.std, d.kinto.short);
+      for (const t of d.tiers) numbers.push(...[t.max, t.std, t.short, t.std2, t.short2].filter((v: unknown) => typeof v === "number"));
+      if (d.kinto) numbers.push(...[d.kinto.std, d.kinto.short, d.kinto.std2, d.kinto.short2].filter((v: unknown) => typeof v === "number"));
     }
     out.push({ file, source: d.source, quotes: d.quotes ?? [], numbers });
   }

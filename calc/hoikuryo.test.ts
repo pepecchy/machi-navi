@@ -24,12 +24,14 @@ for (const city of readdirSync(dir)) {
         const input = (v: number) => (t.tax_adjust ? Math.ceil((v * t.tax_adjust.den) / t.tax_adjust.num) : v);
         expect(calc(t, "tax", input(row.max!) - 1, 1, "std")).toMatchObject({ tier: row.label, fee: row.std });
         expect(calc(t, "tax", input(row.max!), 1, "short")).toMatchObject({ tier: t.tiers[i + 1].label, fee: t.tiers[i + 1].short });
+        if (t.second_child === "table") expect(calc(t, "tax", input(row.max!) - 1, 2, "short").fee).toBe(row.short2);
       });
     });
     test("non-taxed statuses", () => {
       expect(calc(t, "seiho", 0, 1, "std").fee).toBe(0);
       expect(calc(t, "hikazei", 0, 1, "std").fee).toBe(0);
       expect(calc(t, "kinto", 0, 1, "short").fee).toBe(t.kinto.short);
+      if (t.second_child === "table") expect(calc(t, "kinto", 0, 2, "std").fee).toBe(t.kinto.std2);
     });
   });
 }
