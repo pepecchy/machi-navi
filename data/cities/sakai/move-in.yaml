@@ -1,0 +1,20 @@
+id: sakai-move-in
+window: "お住まいになられる区の区役所市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入・転出・転居などの届け出
+source: https://www.city.sakai.lg.jp/kurashi/todokede/tenkyo/tennyushutsushosai.html
+quotes:
+  - "住所を移した日 から14日以内"
+  - "お住まいになられる区の 区役所市民課 に届け出てください"
+  - "前住所地の市区町村が発行した転出証明書"
+  - "窓口に来られる方の 本人確認書類 [運転免許証等]"
+  - "外国人住民の方は在留カードまたは特別永住者証明書"
+  - "マイナンバーカード(お持ちの方のみ)"
+checked: 2026-11-15

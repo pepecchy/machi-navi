@@ -1,0 +1,65 @@
+id: sakai-hoikuryo
+fiscal_year: 2026
+doc: 堺市 保育施設等 利用者負担額表(月額)(第1子)
+source: https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/ketteigo_annai/riyousyahutangaku02R8.files/r5hoikuryouhyo.pdf
+checked: 2026-11-15
+quotes:
+  - "堺市 保育施設等 利用者負担額表(月額)"
+# The table is for the first child; the sibling waiver and the 6% rate are stated on the city page.
+rule_source: https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/ketteigo_annai/riyousyahutangaku02R8.html
+rule_doc: (10)利用者負担額(保育料)について(0歳児クラスから2歳児クラス)令和8年度
+rule_quotes:
+  - "第2子以降 の0~2歳児のこどもが認定こども園、保育所や地域型保育事業施設を利用する場合、 上のきょうだい ※2 の年齢や世帯の所得に制限を設けず、 保育料を無償化しています"
+  - "保育料の決定は、変更前の6%の税率で計算しています"
+wording: [rule_free, adjust_note]
+second_child: free
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The city levies 8%; the fee table is read at the former 6% rate, so the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 12000
+    short: 11700
+  - label: "D1"
+    max: 70900
+    std: 17000
+    short: 16700
+  - label: "D2"
+    max: 108200
+    std: 25000
+    short: 24500
+  - label: "D3"
+    max: 138100
+    std: 30000
+    short: 29400
+  - label: "D4"
+    max: 198400
+    std: 40000
+    short: 39300
+  - label: "D5"
+    max: 297400
+    std: 45000
+    short: 44200
+  - label: "D6"
+    max: 338500
+    std: 54000
+    short: 53000
+  - label: "D7"
+    max: 397000
+    std: 56000
+    short: 55000
+  - label: "D8"
+    max: null
+    std: 67000
+    short: 65800
+# Households paying only the per-capita levy fall in tier C1.
+kinto:
+  label: "C1"
+  std: 10000
+  short: 9800
+hikazei: "B"
+seiho: "A"
