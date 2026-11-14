@@ -1,0 +1,253 @@
+---
+import "../../style.css";
+import { HTML_LANG, LANGS, LANG_NAMES, cities, dict, facts, scene, type Lang } from "../../load.ts";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => cities.map((c) => ({ params: { lang, city: c.id } })));
+}
+const lang = Astro.params.lang as Lang;
+const city = cities.find((c) => c.id === Astro.params.city)!;
+const t = dict(lang);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const steps = scene("move-in").steps as any[];
+const mv = city.moveIn;
+const feePending = !!city.fee.pending;
+const src = (o: { doc: string; source: string }) => ({ doc: o.doc, url: o.source });
+const client = {
+  self: city.id,
+  cities: cities.filter((c) => !c.fee.pending).map((c) => ({ id: c.id, name: c.name[lang], fee: c.fee })),
+  rules: { free: t.rule_free, half: t.rule_half, half100: t.rule_half100, first: t.rule_first },
+};
+---
+<html lang={HTML_LANG[lang]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{`${city.name[lang]} | ${t.h1}`}</title>
+    <meta name="description" content={t.lead} />
+    {LANGS.map((l) => <link rel="alternate" hreflang={HTML_LANG[l]} href={`${Astro.site}${base.slice(1)}/${l}/${city.id}/`} />)}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="top">
+          <span class="badge">{t.badge}</span>
+          <nav class="langs" aria-label="Language">
+            {LANGS.map((l) => <a href={`${base}/${l}/${city.id}/`} lang={HTML_LANG[l]} aria-current={l === lang ? "true" : undefined}>{LANG_NAMES[l]}</a>)}
+          </nav>
+        </div>
+        <h1>{t.h1}</h1>
+        <p class="lead">{t.lead}</p>
+      </header>
+
+      <section class="panel">
+        <div class="citybar">
+          <div>
+            <label for="city">{t.city}</label>
+            <select id="city">
+              {cities.map((c) => <option value={`${base}/${lang}/${c.id}/`} selected={c.id === city.id}>{c.name[lang]}</option>)}
+            </select>
+          </div>
+          <fieldset>
+            <legend>{t.who}</legend>
+            <div class="seg checks">
+              <label><input type="checkbox" id="hasChild" checked /><span>{t.who_child}</span></label>
+              <label><input type="checkbox" id="isForeign" checked /><span>{t.who_foreign}</span></label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>{t.sc_h}</h2>
+        <p class="hint">{t.sc_p}</p>
+        <ol class="steps">
+          {steps.map((s) => {
+            const fact = s.fact ? facts[s.fact] : null;
+            if (s.city_other && (mv.pending || mv.other.length === 0)) return null;
+            const sources = [fact && src(fact), (s.city || s.city_other) && src(mv)].filter(Boolean) as { doc: string; url: string }[];
+            return (
+              <li data-when={s.when}>
+                <input type="checkbox" id={`st_${s.id}`} />
+                <label class="ttl" for={`st_${s.id}`}>
+                  {t[`s_${s.id}`]}
+                  {fact && (fact.pending ? <span class="due">{t.pending}</span> : <span class="due">{t[`s_${s.id}_due`]}</span>)}
+                </label>
+                <div class="body">
+                  {t[`s_${s.id}_b`] && <div>{t[`s_${s.id}_b`]}</div>}
+                  {s.city && (mv.pending ? <div class="local pending">{t.pending}</div> : (
+                    <div class="local">
+                      <div>{t.l_window}: {mv.window}</div>
+                      {mv.hours && <div>{t.l_hours}: {t.l_wk} {mv.hours.open}–{mv.hours.close}</div>}
+                      <div>
+                        {t.l_bring}: {mv.bring.map((b: string) => t[`b_${b}`]).join(" / ")}
+                        {mv.bring_foreign.map((b: string) => <span data-when="foreign"> / {t[`b_${b}`]}</span>)}
+                      </div>
+                    </div>
+                  ))}
+                  {s.city_other && (
+                    <div class="local">
+                      {mv.other.map((o: { key: string; section: string }) => <div>{t[o.key]} → {o.section}</div>)}
+                    </div>
+                  )}
+                  {s.calc && <a class="go" href="#calc">{t.s_ho_go}</a>}
+                  {sources.map((x) => <div class="srcl">{t.l_src}: <a href={x.url} target="_blank" rel="noopener">{x.doc}</a></div>)}
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+
+      <div data-when="child">
+        <section id="calc">
+          <h2>{t.calc_h}</h2>
+          <p class="hint">{t.calc_p}</p>
+        </section>
+        {feePending ? <section class="panel"><p class="pending">{t.pending}</p></section> : (
+          <>
+            <section class="tool">
+              <div class="panel">
+                <form id="f" onsubmit="return false">
+                  <div>
+                    <label for="status">{t.status}</label>
+                    <select id="status">
+                      <option value="tax">{t.st_tax}</option>
+                      <option value="kinto">{t.st_kinto}</option>
+                      <option value="hikazei">{t.st_hikazei}</option>
+                      <option value="seiho">{t.st_seiho}</option>
+                    </select>
+                  </div>
+                  <div id="taxrow">
+                    <label for="tax">{t.tax}</label>
+                    <input id="tax" type="number" inputmode="numeric" min="0" step="100" value="120000" />
+                    <p class="hint">{t.tax_hint}</p>
+                  </div>
+                  <fieldset>
+                    <legend>{t.child}</legend>
+                    <div class="seg">
+                      <label><input type="radio" name="child" id="c1" value="1" checked /><span>{t.child1}</span></label>
+                      <label><input type="radio" name="child" id="c2" value="2" /><span>{t.child2}</span></label>
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                    <legend>{t.hours}</legend>
+                    <div class="seg">
+                      <label><input type="radio" name="hours" id="h1" value="std" checked /><span>{t.std}</span></label>
+                      <label><input type="radio" name="hours" id="h2" value="short" /><span>{t.short}</span></label>
+                    </div>
+                  </fieldset>
+                  <p class="hint">{t.age_note}</p>
+                </form>
+              </div>
+              <div class="panel answer" aria-live="polite">
+                <div>
+                  <div class="hint">{t.monthly}</div>
+                  <div class="fee"><span id="fee"></span><small>{t.per}</small></div>
+                </div>
+                <dl>
+                  <dt>{t.tier}</dt><dd id="tier"></dd>
+                  <dt>{t.source}</dt><dd><a href={city.fee.source} target="_blank" rel="noopener">{city.fee.doc}</a></dd>
+                  <dt>{t.checked}</dt><dd>{city.fee.checked}</dd>
+                </dl>
+                <p class="note" id="rule"></p>
+                <p class="hint">{t.disclaimer}</p>
+              </div>
+            </section>
+            <section class="panel">
+              <h2>{t.cmp_h}</h2>
+              <p class="hint">{t.cmp_p}</p>
+              <div class="bars" id="bars"></div>
+            </section>
+          </>
+        )}
+      </div>
+
+      <section class="panel">
+        <h2>{t.led_h}</h2>
+        <p class="hint">{t.led_p}</p>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>{t.led_c1}</th><th>{t.led_c2}</th><th>{t.led_c4}</th><th>{t.led_c5}</th></tr></thead>
+            <tbody>
+              {cities.flatMap((c) => [c.fee, c.moveIn].map((r) => (
+                <tr>
+                  <td>{c.name[lang]}</td>
+                  <td><a href={r.source} target="_blank" rel="noopener">{r.doc}</a></td>
+                  <td>{r.checked}</td>
+                  <td class={r.pending ? "pending" : "ok"}>{r.pending ? t.pending : t.led_ok}</td>
+                </tr>
+              )))}
+              {Object.values(facts).filter((r: any, i, all: any[]) => all.findIndex((x) => x.source === r.source) === i).map((r: any) => (
+                <tr>
+                  <td>-</td>
+                  <td><a href={r.source} target="_blank" rel="noopener">{r.doc}</a></td>
+                  <td>{r.checked}</td>
+                  <td class={r.pending ? "pending" : "ok"}>{r.pending ? t.pending : t.led_ok}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer>{t.foot}</footer>
+    </div>
+    <script type="application/json" id="data" set:html={JSON.stringify(client)} />
+    <script>
+      import { calc, type FeeTable, type Hours, type Status } from "../../../calc/hoikuryo.ts";
+
+      const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T | null;
+      const data = JSON.parse($("data")!.textContent!) as {
+        self: string;
+        cities: { id: string; name: string; fee: FeeTable }[];
+        rules: Record<string, string>;
+      };
+      const yen = (n: number) => "¥" + n.toLocaleString("en-US");
+      const store = { get: (k: string) => { try { return localStorage.getItem(k); } catch { return null; } }, set: (k: string, v: string) => { try { localStorage.setItem(k, v); } catch {} } };
+
+      $<HTMLSelectElement>("city")!.addEventListener("change", (e) => { location.href = (e.target as HTMLSelectElement).value; });
+
+      const who = { child: $<HTMLInputElement>("hasChild")!, foreign: $<HTMLInputElement>("isForeign")! };
+      for (const [k, box] of Object.entries(who)) {
+        if (store.get("who_" + k) === "0") box.checked = false;
+        box.addEventListener("change", () => { store.set("who_" + k, box.checked ? "1" : "0"); show(); });
+      }
+      function show() {
+        document.querySelectorAll<HTMLElement>("[data-when]").forEach((e) => { e.hidden = !who[e.dataset.when as "child" | "foreign"].checked; });
+      }
+
+      const mine = data.cities.find((c) => c.id === data.self);
+      function render() {
+        if (!mine) return;
+        const status = $<HTMLSelectElement>("status")!.value as Status;
+        const tax = Math.max(0, Number($<HTMLInputElement>("tax")!.value) || 0);
+        const child = $<HTMLInputElement>("c2")!.checked ? 2 : 1;
+        const hours: Hours = $<HTMLInputElement>("h2")!.checked ? "short" : "std";
+        $("taxrow")!.hidden = status !== "tax";
+        const r = calc(mine.fee, status, tax, child, hours);
+        $("fee")!.textContent = yen(r.fee);
+        $("tier")!.textContent = r.tier;
+        $("rule")!.textContent = child === 2 ? data.rules[mine.fee.second_child] : data.rules.first;
+        const rows = data.cities.map((c) => ({ c, fee: calc(c.fee, status, tax, child, hours).fee }));
+        const max = Math.max(1, ...rows.map((x) => x.fee));
+        const bars = $("bars")!;
+        bars.replaceChildren(...rows.map((x) => {
+          const d = document.createElement("div");
+          d.className = "bar" + (x.c === mine ? " sel" : "");
+          const name = Object.assign(document.createElement("span"), { className: "name", textContent: x.c.name });
+          const track = Object.assign(document.createElement("span"), { className: "track" });
+          const fill = Object.assign(document.createElement("span"), { className: "fill" });
+          fill.style.cssText = `display:block;width:${(x.fee / max) * 100}%`;
+          track.append(fill);
+          d.append(name, track, Object.assign(document.createElement("span"), { className: "val", textContent: yen(x.fee) }));
+          return d;
+        }));
+      }
+      $("f")?.addEventListener("input", render);
+      show();
+      render();
+    </script>
+  </body>
+</html>

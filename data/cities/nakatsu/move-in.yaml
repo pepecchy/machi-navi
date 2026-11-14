@@ -1,0 +1,17 @@
+id: nakatsu-move-in
+window: 中津市役所1階 市民課窓口
+hours:
+  open: 8:30
+  close: 17:15
+bring:
+  - mynumber
+bring_foreign: []
+other: []
+doc: 引越しワンストップサービスが始まりました
+source: https://www.city-nakatsu.jp/doc/2023020700055/
+quotes:
+  - 中津市役所1階 市民課窓口
+  - 月曜日から金曜日(祝日、年末年始は除く)の午前8時30分から午後5時15分まで
+  - その際は必ずマイナンバーカードをご持参ください
+  - 新住所に住み始めてから14日以内
+checked: 2026-11-14

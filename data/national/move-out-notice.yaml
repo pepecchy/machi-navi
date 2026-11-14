@@ -1,0 +1,11 @@
+id: move-out-notice
+values:
+  - 30
+  - 10
+unit: days
+doc: 引越しワンストップサービスが始まりました（中津市）
+source: https://www.city-nakatsu.jp/doc/2023020700055/
+quotes:
+  - 新住所に住み始める30日前から住み始めた以後10日以内
+  - マイナポータルを通じたオンラインでの届出が可能になりました
+checked: 2026-11-14

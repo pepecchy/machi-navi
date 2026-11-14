@@ -1,0 +1,78 @@
+who: Trường hợp của bạn
+who_child: Có con chưa đi học tiểu học
+who_foreign: Có người mang quốc tịch nước ngoài
+sc_h: Việc cần làm khi chuyển đến
+sc_p: Danh sách dựa trên trang chính thức của thành phố bạn chọn. Việc có thời hạn được xếp trước.
+calc_h: Tính phí nhà trẻ
+calc_p: Nhập thuế thị dân tính theo thu nhập để có mức phí hàng tháng theo bảng phí chính thức của thành phố đã chọn.
+s_out: Nộp thông báo chuyển đi ở nơi cũ
+s_out_due: Từ 30 ngày trước đến 10 ngày sau khi chuyển
+s_out_b: Nếu có thẻ My Number, bạn có thể nộp trực tuyến qua Mynaportal. Về nguyên tắc không cần đến quầy ở nơi cũ.
+s_in: Nộp thông báo chuyển đến ở thành phố mới
+s_in_due: Trong 14 ngày kể từ khi bắt đầu ở
+s_in_b: Thông báo chuyển đến không nộp trực tuyến được. Bạn phải đến quầy.
+s_za: Đổi địa chỉ trên thẻ lưu trú
+s_za_due: Trong 14 ngày kể từ ngày chuyển đến địa chỉ mới
+s_za_b: Xuất trình thẻ lưu trú tại quầy của thành phố. Có thể làm cùng quầy với thông báo chuyển đến.
+s_ji: Đăng ký trợ cấp trẻ em ở thành phố mới
+s_ji_due: Trong 15 ngày kể từ ngày sau ngày dự định chuyển đi
+s_ji_b: Nếu quá hạn, về nguyên tắc bạn không nhận được trợ cấp của những tháng bị trễ.
+s_ho: Kiểm tra phí nhà trẻ
+s_ho_b: Phí nhà trẻ khác nhau theo thành phố. Bạn có thể tính theo bảng phí của thành phố này.
+s_ho_go: Tính phí của thành phố này
+s_ot: Nếu thuộc các trường hợp sau, hãy làm thủ tục ở các phòng này
+l_window: Quầy
+l_hours: Giờ tiếp nhận
+l_wk: Thứ Hai đến thứ Sáu (trừ ngày lễ và dịp cuối năm, đầu năm)
+l_bring: Mang theo
+l_src: Nguồn
+b_id: Giấy tờ xác nhận danh tính
+b_mynumber: Thẻ My Number
+b_pin4: Mã PIN thẻ My Number (4 chữ số)
+b_tensyutsu: Giấy chứng nhận chuyển đi (không cần nếu đã nộp trực tuyến)
+b_nenkin: Sổ lương hưu quốc dân (chỉ người tham gia loại 1)
+b_zairyu: Thẻ lưu trú hoặc giấy chứng nhận vĩnh trú đặc biệt
+o_kokuho: Người tham gia bảo hiểm y tế quốc dân, lương hưu quốc dân
+o_jido: Trợ cấp y tế trẻ em, trợ cấp trẻ em
+o_school: Hộ có học sinh tiểu học, trung học cơ sở
+h1: Chọn thành phố bạn sống để biết việc cần làm và chi phí
+city: Thành phố
+status: Thuế cư trú của hộ gia đình
+st_tax: Có thuế tính theo thu nhập
+st_kinto: Chỉ có thuế cố định
+st_hikazei: Miễn thuế cư trú
+st_seiho: Đang nhận trợ cấp sinh hoạt
+tax: Thuế thị dân tính theo thu nhập (tổng của bố mẹ, yên)
+tax_hint: Ghi trên giấy thông báo thuế cư trú. Dùng số tiền trước khi trừ các khoản khấu trừ thuế như vay mua nhà.
+child: Con thứ mấy
+child1: Con thứ nhất
+child2: Con thứ hai
+hours: Thời gian giữ trẻ
+std: Tiêu chuẩn (tối đa 11 giờ)
+short: Ngắn (tối đa 8 giờ)
+age_note: Mức phí cho lớp 0 đến 2 tuổi. Lớp 3 đến 5 tuổi được miễn phí trên toàn quốc.
+monthly: Phí nhà trẻ hàng tháng
+per: / tháng
+tier: Bậc
+source: Nguồn
+checked: Ngày kiểm tra
+rule_free: Ở thành phố này, con thứ hai trở đi dưới 3 tuổi được miễn phí (chương trình của tỉnh Ōita).
+rule_half: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả một nửa.
+rule_half100: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả một nửa (làm tròn xuống 100 yên).
+rule_first: Đây là mức phí cho con thứ nhất. Quy định cho con thứ hai khác nhau theo thành phố. Hãy đổi ở trên để xem.
+cmp_h: So sánh ba thành phố với cùng điều kiện
+led_h: Sổ dữ liệu
+led_c1: Thành phố
+led_c2: Tài liệu chính thức
+led_c3: Số bậc
+led_c4: Ngày kiểm tra
+led_c5: Đối chiếu
+led_ok: Khớp
+pending: "Đang kiểm tra lại"
+badge: "Thử nghiệm"
+cmp_p: "Kết quả áp dụng cùng dữ liệu nhập ở trên vào bảng phí của 3 thành phố."
+lead: "Chọn thành phố để xem ở một nơi: việc cần làm khi chuyển đến và phí nhà trẻ theo bảng phí của thành phố đó."
+disclaimer: "Đây là mức tham khảo. Số tiền thực tế do thông báo của thành phố quyết định. Không bao gồm các mức giảm như cho hộ cha hoặc mẹ đơn thân."
+led_p: "Số tiền và thời hạn được chép từ tài liệu chính thức, kèm nguồn và ngày kiểm tra. Chỉ đăng những mục khớp với tài liệu chính thức."
+foot: "Số tiền và thời hạn được chép từ tài liệu chính thức của từng thành phố và của nhà nước. Nội dung ngoài tiếng Nhật là bản dịch máy, chưa được người kiểm tra."
+home: "Hãy chọn ngôn ngữ và thành phố"

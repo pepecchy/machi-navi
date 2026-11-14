@@ -1,0 +1,4 @@
+kind: build
+score: 85
+title: 検査を、PR の側から書き換えられない形で動かす
+reason: いまは PR が gate/ とワークフローを変えると、その PR 自身の検査も変わる。main の側の検査で動かす必要がある

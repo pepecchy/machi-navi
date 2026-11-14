@@ -1,0 +1,29 @@
+id: kitamoto-move-in
+window: 北本市役所 市民課窓口担当
+hours: null
+bring:
+  - id
+  - mynumber
+  - nenkin
+  - tensyutsu
+bring_foreign: []
+other:
+  - key: o_kokuho
+    section: 保険年金課
+  - key: o_jido
+    section: 子育て支援課
+  - key: o_school
+    section: 学校教育課
+doc: 転入・転出の届け出
+source: https://www.city.kitamoto.lg.jp/kurashi/koseki/1419661001597.html
+quotes:
+  - 北本市に実際に住み始めた日から14日以内
+  - 北本市役所 市民課窓口担当
+  - 本人確認書類
+  - マイナンバーカード(お持ちの人のみ)
+  - 国民年金手帳(1号加入者のみ)
+  - 転出した市町村が発行した転出証明書(引っ越しワンストップサービス利用者を除く)
+  - 国民健康保険加入者 → 保険年金課
+  - 小学生、中学生がいる世帯 → 学校教育課
+  - こども医療・児童手当 → 子育て支援課
+checked: 2026-11-14

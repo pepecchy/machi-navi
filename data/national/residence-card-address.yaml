@@ -1,0 +1,11 @@
+id: residence-card-address
+values:
+  - 14
+unit: days
+doc: 住居地の変更届出（出入国在留管理庁）
+source: https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00023.html
+quotes:
+  - 新住居地に移転した日から14日以内
+  - 在留カードを市区町村の窓口に持参して
+  - 下記の住居地の変更届出を行ったものとみなされます
+checked: 2026-11-14

@@ -1,0 +1,61 @@
+id: nakatsu-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育施設入所のしおり（利用者負担額、案）
+source: https://www.city-nakatsu.jp/doc/2017052200072/file_contents/file_2026483144947_1.pdf
+checked: 2026-11-14
+second_child: free
+tiers:
+  - label: 第3（3-2）
+    max: 24300
+    std: 14500
+    short: 14000
+  - label: 第3（3-3）
+    max: 48600
+    std: 16500
+    short: 16000
+  - label: 第4（4-2）
+    max: 57700
+    std: 23000
+    short: 22200
+  - label: 第4（4-3）
+    max: 72800
+    std: 23000
+    short: 22200
+  - label: 第4（4-4）
+    max: 77101
+    std: 27000
+    short: 26000
+  - label: 第4（4-5）
+    max: 97000
+    std: 27000
+    short: 26000
+  - label: 第5（5-1）
+    max: 121000
+    std: 32000
+    short: 31000
+  - label: 第5（5-2）
+    max: 145000
+    std: 37000
+    short: 36000
+  - label: 第5（5-3）
+    max: 169000
+    std: 43800
+    short: 41800
+  - label: 第6
+    max: 301000
+    std: 46300
+    short: 44300
+  - label: 第7
+    max: 397000
+    std: 46300
+    short: 44300
+  - label: 第8
+    max: null
+    std: 46300
+    short: 44300
+kinto:
+  label: 第3（3-2）
+  std: 14500
+  short: 14000
+hikazei: 第2
+seiho: 第1

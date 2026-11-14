@@ -1,0 +1,23 @@
+id: hikone-move-in
+window: ライフサービス課、稲枝支所、各出張所
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+  - pin4
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.hikone.lg.jp/kakuka/shimin_kankyo/2/9/20167.html
+quotes:
+  - 転入された日から14日以内です
+  - ライフサービス課
+  - 稲枝支所
+  - 各出張所(鳥居本・高宮・河瀬・亀山)
+  - 転出証明書(前住所地市町村が発行)
+  - 本人確認書類
+  - マイナンバーカードの暗証番号(数字4ケタ)
+  - 在留カードまたは特別永住者証明書
+checked: 2026-11-14

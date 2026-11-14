@@ -1,0 +1,8 @@
+id: move-in
+steps:
+  - { id: out, fact: move-out-notice }
+  - { id: in, fact: move-in-notice, city: move-in }
+  - { id: za, fact: residence-card-address, when: foreign }
+  - { id: ji, fact: child-allowance-transfer, when: child }
+  - { id: ho, calc: hoikuryo, when: child }
+  - { id: ot, city_other: move-in }

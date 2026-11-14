@@ -1,0 +1,61 @@
+id: kitamoto-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育認定（2号認定及び3号認定）利用者負担額表
+source: https://www.city.kitamoto.lg.jp/material/files/group/24/riyousixyafutann.pdf
+checked: 2026-11-14
+second_child: half100
+tiers:
+  - label: D1
+    max: 20000
+    std: 8800
+    short: 8700
+  - label: D2
+    max: 40000
+    std: 12000
+    short: 11800
+  - label: D3
+    max: 48600
+    std: 16000
+    short: 15700
+  - label: D4
+    max: 72800
+    std: 20000
+    short: 19700
+  - label: D5
+    max: 84900
+    std: 24000
+    short: 23600
+  - label: D6
+    max: 97000
+    std: 28000
+    short: 27500
+  - label: D7
+    max: 115000
+    std: 33000
+    short: 32400
+  - label: D8
+    max: 133000
+    std: 38000
+    short: 37400
+  - label: D9
+    max: 169000
+    std: 43000
+    short: 42300
+  - label: D10
+    max: 213000
+    std: 49000
+    short: 48200
+  - label: D11
+    max: 301000
+    std: 53000
+    short: 52100
+  - label: D12
+    max: null
+    std: 54500
+    short: 53600
+kinto:
+  label: C
+  std: 7800
+  short: 7700
+hikazei: B
+seiho: A
