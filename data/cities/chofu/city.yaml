@@ -1,0 +1,9 @@
+id: chofu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 調布市
+  en: Chofu, Tokyo
+  zh: 东京都 调布市
+  vi: Chofu, Tokyo
+  ne: चोफु, टोकियो
