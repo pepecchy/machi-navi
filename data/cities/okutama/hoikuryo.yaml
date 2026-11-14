@@ -1,0 +1,13 @@
+id: okutama-hoikuryo
+fiscal_year: 2026
+doc: "子育て支援"
+source: https://www.town.okutama.tokyo.jp/1/kosodadeteijusuishinka/kosodate_kyoiku/1/563.html
+checked: 2026-11-15
+quotes:
+  - "町内保育園に通園するお子さんの保育料を全額助成します"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0

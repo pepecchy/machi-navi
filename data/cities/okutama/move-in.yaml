@@ -1,0 +1,20 @@
+id: okutama-move-in
+window: "住民課総合窓口係"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届"
+source: https://www.town.okutama.tokyo.jp/1/juminka/todokede_shomei/4/1043.html
+quotes:
+  - "住み始めた日を含めて14日以内"
+  - "住民課総合窓口係"
+  - "転出証明書(前住所地の市区町村で発行されたもの)"
+  - "届出をする方が本人であることを確認できる書類(運転免許証、パスポート等)"
+  - "個人番号カード(該当者のみ)"
+  - "在留カード(外国人該当者のみ)"
+checked: 2026-11-15
