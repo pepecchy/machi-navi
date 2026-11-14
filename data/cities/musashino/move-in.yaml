@@ -1,0 +1,23 @@
+id: musashino-move-in
+window: "市役所市民課、または市政センター"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届"
+source: https://www.city.musashino.lg.jp/kurashi_tetsuzuki/todokede_shomei/jushohenko/1004524.html
+quotes:
+  - "引越し日から14日以内に転入の手続きをしてください"
+  - "市役所市民課、または市政センター"
+  - "平日 午前8時30分から午後5時まで"
+  - "転出証明書(前住所の市区町村が発行したもの)"
+  - "窓口で手続きするかたの本人確認書類(有効期限内のもの)"
+  - "在留カードまたは特別永住者証明書( 外国籍のかたのみ)"
+  - "マイナンバーカード(個人番号カード) や 住民基本台帳カード(お持ちのかた)"
+checked: 2026-11-15
