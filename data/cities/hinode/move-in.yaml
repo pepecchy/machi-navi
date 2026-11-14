@@ -1,0 +1,22 @@
+id: hinode-move-in
+window: "町民課 窓口サービス係"
+hours:
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "住所変更 転入届"
+source: https://www.town.hinode.tokyo.jp/0000001519.html
+quotes:
+  - "お引っ越しをされた日から14日以内"
+  - "町民課 窓口サービス係"
+  - "平日 午前8時30分から午後5時15分"
+  - "窓口に来る方の本人確認書類"
+  - "前住所地で発行された転出証明書"
+  - "【該当される方が必要なもの】 写真付きマイナンバーカード、写真付き住民基本台帳カード、在留カード"
+checked: 2026-11-15
