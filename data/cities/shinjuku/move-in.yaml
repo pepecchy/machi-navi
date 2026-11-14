@@ -1,0 +1,24 @@
+id: shinjuku-move-in
+window: 戸籍住民課住民記録係（区役所本庁舎1階7番窓口）、特別出張所
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(新宿区外から引越ししてきたとき)
+source: https://www.city.shinjuku.lg.jp/todokede/koseki03_000003_f.html
+quotes:
+  - 引越ししてきた日から14日以内
+  - 戸籍住民課住民記録係 区役所本庁舎1階7番窓口
+  - 特別出張所
+  - 月曜日から金曜日の午前8時30分から午後5時(休日・祝日・年末年始を除く)
+  - 前住所地の市区町村の役所が発行した転出証明書
+  - 届出人の本人確認ができる書類
+  - マイナンバーカード(個人番号カード)(お持ちの方は同一世帯の全員分をお持ちください)
+  - 外国人住民の方は在留カードまたは特別永住者証明書
+checked: 2026-11-15
