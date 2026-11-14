@@ -1,0 +1,15 @@
+id: osaka-hoikuryo
+fiscal_year: 2026
+doc: "すべてのお子さんの保育料が無償になります(大阪市こども青少年局)"
+source: https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000501/501253/01_R8shirituhoikusho.pdf
+checked: 2026-11-15
+quotes:
+  - "すべてのお子さんの保育料が無償になります"
+  - "令和8年9月より0~2 歳児の第1子保育料の無償化を実施します"
+  - "※3~5歳児クラスのお子さん、0~2歳児クラスの住民税非課税世帯や\n第2子以降のお子さんはすでに無償化されています"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the city applies no tier amounts from September 2026.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
