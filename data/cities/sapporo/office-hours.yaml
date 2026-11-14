@@ -1,0 +1,9 @@
+id: sapporo-office-hours
+hours:
+  open: "8:45"
+  close: "17:15"
+doc: 市外からの引越し(転入届)（札幌市役所の業務時間）
+source: https://www.city.sapporo.jp/shimin/koseki/jusho-ido/tennyu.html
+quotes:
+  - 一般的な業務時間 8時45分~17時15分(土日祝日および12月29日~1月3日はお休み)
+checked: 2026-11-15

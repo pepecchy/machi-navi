@@ -1,0 +1,21 @@
+id: sapporo-move-in
+window: 新住所の区の区役所戸籍住民課（北区は篠路出張所、南区は定山渓出張所でも可）
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 市外からの引越し(転入届)
+source: https://www.city.sapporo.jp/shimin/koseki/jusho-ido/tennyu.html
+quotes:
+  - 引越し先(新住所)の区の 区役所戸籍住民課
+  - (北区は 篠路出張所 、南区は 定山渓出張所 でも可能)
+  - 転入した日(引っ越しをした日)から14日以内。
+  - 前の市区町村からの転出証明書
+  - 届出人のお名前を確認できるもの(マイナンバーカード、免許証など)
+  - マイナンバーカードまたは 住基カード(※お持ちの方)
+  - 全員分の在留カード又は特別永住者証明書
+checked: 2026-11-15
