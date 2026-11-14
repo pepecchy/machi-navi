@@ -3,7 +3,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { createServer } from "node:http";
 import { extname, join } from "node:path";
 import { chromium } from "playwright";
-import { ROOT, walk } from "./lib.ts";
+import { LANGS, ROOT, walk } from "./lib.ts";
 
 const BASE = "/machi-navi";
 const fails: string[] = [];
@@ -20,6 +20,12 @@ for (const f of walk("dist").filter((x) => x.endsWith(".html"))) {
   }
 }
 
+// The sitemap must list every city page in every language.
+{
+  const sm = existsSync(join(dist, "sitemap.xml")) ? readFileSync(join(dist, "sitemap.xml"), "utf8") : "";
+  for (const l of LANGS) for (const c of walk("data/cities").map((f) => f.split("/")[2]).filter((v, i, a) => a.indexOf(v) === i))
+    if (!sm.includes(`/machi-navi/${l}/${c}/</loc>`)) fails.push(`FAIL [display] dist/sitemap.xml: /${l}/${c}/ is missing\n  fix: build the sitemap from the same city list as the pages (site/pages/sitemap.xml.ts)`);
+}
 const types: Record<string, string> = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml" };
 const server = createServer((req, res) => {
   const p = toFile((req.url ?? "/").slice(BASE.length) || "/");
