@@ -1,0 +1,14 @@
+id: kunitachi-hoikuryo
+fiscal_year: 2026
+doc: "認可保育所等における利用者負担額(保育料)"
+source: https://www.city.kunitachi.tokyo.jp/kosodate/kosodate/4/3/12842.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月以降は、第1子も無償化の対象となりました"
+  - "これにより、お子様の年齢・人数・保護者の所得にかかわらず、市内在住のすべてのお子様の保育料が無償となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1

@@ -1,0 +1,19 @@
+id: kunitachi-move-in
+window: "市民課 市民係(国立市役所 1階 7番窓口)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "お引越し・世帯変更に関する手続き"
+source: https://www.city.kunitachi.tokyo.jp/kurashi/koseki/5612.html
+quotes:
+  - "国立市内の新しい住所に住み始めた日から14日以内"
+  - "市民課 市民係 住所:186-8501 国立市富士見台2-47-1 国立市役所 1階(7番窓口)"
+  - "来庁される方の本人確認書類 前住所地発行の転出証明書"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "在留カードまたは特別永住者証明書(外国籍の方のみ)"
+checked: 2026-11-15
