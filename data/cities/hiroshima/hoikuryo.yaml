@@ -8,6 +8,8 @@ quotes:
   - "市民税所得割の税率が6%から8%に変更されましたが、保育料の額・副食費免除の決定の基礎となる所得割額は変更前(6%)の税率で算定します"
 wording: [rule_half_any, adjust_note]
 second_child: half_any
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
 # The city levies 8%; the fee table is read at the former 6% rate, so the tax on the notice is multiplied by 6/8.
 tax_adjust:
   num: 6

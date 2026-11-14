@@ -41,6 +41,8 @@ for (const c of cities) {
     if (!(isStr(oh.hours?.open) && isStr(oh.hours?.close) && isStr(oh.doc) && isUrl(oh.source) && Array.isArray(oh.quotes) && oh.quotes.length > 0 && isDate(oh.checked)))
       fail("type", `${base}/office-hours.yaml`, "needs hours(open/close), doc, source, quotes[], checked", "see data/cities/hikone/office-hours.yaml");
   }
+  if (!(Number.isInteger(fee.second_child_quote) && isStr(fee.quotes?.[fee.second_child_quote])))
+    fail("type", `${base}/hoikuryo.yaml`, "second_child_quote must point at an entry of quotes", "quote the sentence that states the second-child rule and write its position (0 = first)");
   if (fee.tax_adjust !== undefined && !(Number.isInteger(fee.tax_adjust?.num) && Number.isInteger(fee.tax_adjust?.den) && fee.tax_adjust.den > 0))
     fail("type", `${base}/hoikuryo.yaml`, "tax_adjust needs integer num and den", "write the ratio the source states, e.g. num: 6, den: 8");
 }

@@ -8,6 +8,8 @@ quotes:
   - "所得割額に 6/8 を乗じて計算し直したうえで"
 wording: [rule_half, adjust_note]
 second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
 # The city levies 8%; the fee table is written for the 6% rate, so the tax on the notice is multiplied by 6/8.
 tax_adjust:
   num: 6

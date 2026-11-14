@@ -3,6 +3,9 @@ export interface Tier { label: string; max: number | null; std: number; short: n
 export interface FeeTable {
   // half: counted among children enrolled together. half_any: counted regardless of the siblings' age.
   second_child: "free" | "half" | "half_any" | "half100";
+  // Shown next to the rule so readers see the city's own sentence.
+  quotes?: string[];
+  second_child_quote?: number;
   // Some cities levy a different rate than the one the fee table assumes; the tax is rescaled first.
   tax_adjust?: { num: number; den: number };
   tiers: Tier[];

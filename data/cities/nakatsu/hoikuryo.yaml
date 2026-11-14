@@ -7,6 +7,8 @@ quotes:
   - "父母のいずれかの第2子以降の3歳未満のお子さんは保育料が無料となります"
 wording: [rule_free]
 second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
 tiers:
   - label: 第3（3-2）
     max: 24300

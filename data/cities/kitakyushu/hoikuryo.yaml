@@ -8,6 +8,8 @@ quotes:
   - "指定都市における市民税の標準税率が8%に変更されていますが、保育料算定における市民税の税率は旧税率(6%)により算定します"
 wording: [rule_free, adjust_note]
 second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
 # The city levies 8%; the fee table is read at the old 6% rate, so the tax on the notice is multiplied by 6/8.
 tax_adjust:
   num: 6
