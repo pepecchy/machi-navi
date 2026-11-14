@@ -48,6 +48,9 @@ test("known results", () => {
   // Kumamoto: 120,000 on the notice is 90,000 at the 6% rate, tier 4-3.
   expect(calc(load("kumamoto"), "tax", 120000, 1, "std")).toMatchObject({ tier: "4-3", fee: 27500 });
   expect(calc(load("kumamoto"), "tax", 120000, 2, "std").fee).toBe(13750);
+  expect(calc(load("saitama"), "tax", 120000, 1, "std")).toMatchObject({ tier: "第6", fee: 19500 });
+  expect(calc(load("saitama"), "tax", 120000, 2, "std").fee).toBe(9750);
+  expect(calc(load("saitama"), "kinto", 0, 1, "short").fee).toBe(7800);
   // Kitakyushu: 120,000 on the notice is 90,000 at the 6% rate, tier D3.
   expect(calc(load("kitakyushu"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D3", fee: 28400 });
   expect(calc(load("kitakyushu"), "tax", 120000, 2, "std").fee).toBe(0);
