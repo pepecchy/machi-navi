@@ -1,0 +1,13 @@
+id: akiruno-move-in
+window: "市民課市民窓口係"
+hours: null
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: "転入してきたときの手続き"
+source: https://www.city.akiruno.tokyo.jp/0000000877.html
+quotes:
+  - "前住所地で発行した転出証明書を持って、実際に住み始めてから14日以内に手続きをしてください"
+  - "市民課市民窓口係"
+checked: 2026-11-15
