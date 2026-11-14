@@ -1,0 +1,14 @@
+id: mizuho-move-in
+window: "住民部 住民課 住民係"
+hours: null
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: "住民の異動の届出"
+source: https://www.town.mizuho.tokyo.jp/kurashi/001/005/p005104.html
+quotes:
+  - "引越しをしてから 14日以内"
+  - "住民部 住民課 住民係"
+  - "転出証明書"
+checked: 2026-11-15
