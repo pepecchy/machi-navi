@@ -12,6 +12,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const steps = scene("move-in").steps as any[];
 const mv = city.moveIn;
 const feePending = !!city.fee.pending;
+const office = !mv.hours && city.office && !city.office.pending ? city.office : null;
 const src = (o: { doc: string; source: string }) => ({ doc: o.doc, url: o.source });
 const client = {
   self: city.id,
@@ -66,7 +67,7 @@ const client = {
           {steps.map((s) => {
             const fact = s.fact ? facts[s.fact] : null;
             if (s.city_other && (mv.pending || mv.other.length === 0)) return null;
-            const sources = [fact && src(fact), (s.city || s.city_other) && src(mv)].filter(Boolean) as { doc: string; url: string }[];
+            const sources = [fact && src(fact), (s.city || s.city_other) && src(mv), s.city && office && src(office)].filter(Boolean) as { doc: string; url: string }[];
             return (
               <li data-when={s.when}>
                 <input type="checkbox" id={`st_${s.id}`} />
@@ -80,6 +81,7 @@ const client = {
                     <div class="local">
                       <div>{t.l_window}: {mv.window}</div>
                       {mv.hours && <div>{t.l_hours}: {t.l_wk} {mv.hours.open}–{mv.hours.close}</div>}
+                      {office && <div>{t.l_office}: {office.hours.open}–{office.hours.close}</div>}
                       <div>
                         {t.l_bring}: {mv.bring.map((b: string) => t[`b_${b}`]).join(" / ")}
                         {mv.bring_foreign.map((b: string) => <span data-when="foreign"> / {t[`b_${b}`]}</span>)}
@@ -172,7 +174,7 @@ const client = {
           <table>
             <thead><tr><th>{t.led_c1}</th><th>{t.led_c2}</th><th>{t.led_c4}</th><th>{t.led_c5}</th></tr></thead>
             <tbody>
-              {cities.flatMap((c) => [c.fee, c.moveIn].map((r) => (
+              {cities.flatMap((c) => [c.fee, c.moveIn, c.office].filter(Boolean).map((r) => (
                 <tr>
                   <td>{c.name[lang]}</td>
                   <td><a href={r.source} target="_blank" rel="noopener">{r.doc}</a></td>

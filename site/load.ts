@@ -1,5 +1,5 @@
 // Reads data/, scenes/ and i18n/ for the templates. Pages hold no facts of their own.
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 
@@ -20,5 +20,7 @@ export const cities = readdirSync(join(root, "data/cities")).map((id) => ({
   name: y(`data/cities/${id}/city.yaml`).name as Record<Lang, string>,
   moveIn: y(`data/cities/${id}/move-in.yaml`),
   fee: y(`data/cities/${id}/hoikuryo.yaml`),
+  // City hall opening hours, used when the move-in page states no hours of its own.
+  office: existsSync(join(root, `data/cities/${id}/office-hours.yaml`)) ? y(`data/cities/${id}/office-hours.yaml`) : null,
 }));
 export const scene = (id: string) => y(`scenes/${id}.yaml`);

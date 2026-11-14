@@ -1,0 +1,10 @@
+id: kitamoto-office-hours
+hours:
+  open: "8:45"
+  close: "16:30"
+doc: 市役所窓口案内
+source: https://www.city.kitamoto.lg.jp/soshiki/seisakusuisinbu/seisakusuisin/gyomu/1416919520805.html
+quotes:
+  - 月曜日から金曜日(祝日、年末年始を除く)
+  - 午前8時45分から午後4時30分まで
+checked: 2026-11-14
