@@ -1,0 +1,23 @@
+id: chiba-move-in
+window: 各区役所市民総合窓口課、各市民センター
+hours:
+  open: "9:00"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 本人または新しく同じ世帯になる方が手続きをするとき(転入届)
+source: https://www.city.chiba.jp/shimin/shimin/kusei/idou.html
+quotes:
+  - 14日以内に千葉市の窓口で転入の手続きが必要です
+  - 各区役所市民総合窓口課
+  - 各市民センター
+  - 月曜日から金曜日(祝日・年末年始を除く) 午前9時から午後5時
+  - 窓口にお越しになる方の本人確認書類(運転免許証など)をお持ちください
+  - 引越しをする方全員のマイナンバーカード(お持ちの方)
+  - 在留カードまたは特別永住者証明書(外国人の方)
+checked: 2026-11-15
