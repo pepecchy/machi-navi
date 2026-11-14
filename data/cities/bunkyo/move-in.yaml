@@ -1,0 +1,21 @@
+id: bunkyo-move-in
+window: "文京シビックセンター2階 戸籍住民課住民記録係"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "他の区市町村から文京区へ転入する場合"
+source: https://www.city.bunkyo.lg.jp/tetsuzuki/koseki/jyukiido/tennyu/kokunaitennnyuu01.html
+quotes:
+  - "引越した日から14日以内"
+  - "文京シビックセンター2階"
+  - "戸籍住民課住民記録係"
+  - "(1)窓口に来られた方の本人確認書類"
+  - "(2)マイナンバーカード(注意:お持ちの方のみ)"
+  - "(3)転出証明書"
+  - "外国人の方は、異動される方全員分の在留カードまたは特別永住者証明書をお持ちください"
+checked: 2026-11-15

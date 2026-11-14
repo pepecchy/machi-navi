@@ -1,0 +1,9 @@
+id: bunkyo
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 文京区
+  en: Bunkyo, Tokyo
+  zh: 东京都 文京区
+  vi: Bunkyo, Tokyo
+  ne: बुन्क्यो, टोकियो
