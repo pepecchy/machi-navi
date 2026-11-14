@@ -31,4 +31,5 @@ jobs:
           fi
       - name: Yearly fee table reminder
         if: github.event.schedule == '30 17 31 1 *'
-        run: gh issue create --label drift --title "maintain: find next fiscal year's fee tables" --body "For every city under data/cities/, look for the fee table of the fiscal year that starts in April, and update hoikuryo.yaml and its saved source when it is published."
+        run: |
+          gh issue create --label drift --title "maintain: find next fiscal year's fee tables" --body "For every city under data/cities/, look for the fee table of the fiscal year that starts in April, and update hoikuryo.yaml and its saved source when it is published."

@@ -85,6 +85,11 @@ for (const { f, d } of scenes)
 for (const f of [...walk("data/national"), ...walk("data/cities")]) for (const k of readYaml(f)?.wording ?? [])
   if (!isStr(dict.ja[k])) fail("wording", f, `wording key ${k} does not exist`, "name a key from i18n/ja.yaml, or remove it from the record");
 
+// ---- type: workflow files must parse; GitHub never runs a workflow it cannot read, and reports nothing on the PR
+for (const f of walk(".github/workflows")) {
+  try { const w = readYaml(f); if (!w?.jobs) throw new Error("no jobs"); }
+  catch (e) { fail("type", f, `workflow does not parse: ${String((e as Error).message).split("\n")[0]}`, "quote values that contain ': ' or use a block scalar (run: |)"); }
+}
 // ---- scope: site/ holds templates only
 for (const f of walk("site")) if (!/\.(astro|ts|css)$/.test(f)) fail("scope", f, "site/ may hold only .astro, .ts and .css templates", "move facts to data/ and wording to i18n/");
 
