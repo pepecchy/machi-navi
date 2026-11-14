@@ -1,0 +1,9 @@
+id: toshima
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 豊島区
+  en: Toshima, Tokyo
+  zh: 东京都 丰岛区
+  vi: Toshima, Tokyo
+  ne: तोसिमा, टोकियो
