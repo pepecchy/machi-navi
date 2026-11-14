@@ -1,0 +1,9 @@
+id: sakai
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 27
+name:
+  ja: 大阪府 堺市
+  en: Sakai, Osaka
+  zh: 大阪府 堺市
+  vi: Sakai, Osaka
+  ne: साकाइ, ओसाका
