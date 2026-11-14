@@ -1,4 +1,6 @@
 id: nakatsu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 44
 name:
   ja: 大分県 中津市
   en: Nakatsu, Oita

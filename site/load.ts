@@ -18,9 +18,12 @@ export const facts: Record<string, any> = Object.fromEntries(
 export const cities = readdirSync(join(root, "data/cities")).map((id) => ({
   id,
   name: y(`data/cities/${id}/city.yaml`).name as Record<Lang, string>,
+  pref: y(`data/cities/${id}/city.yaml`).pref as number,
   moveIn: y(`data/cities/${id}/move-in.yaml`),
   fee: y(`data/cities/${id}/hoikuryo.yaml`),
   // City hall opening hours, used when the move-in page states no hours of its own.
   office: existsSync(join(root, `data/cities/${id}/office-hours.yaml`)) ? y(`data/cities/${id}/office-hours.yaml`) : null,
 }));
 export const scene = (id: string) => y(`scenes/${id}.yaml`);
+// The prefecture part of a city name: "福岡県 北九州市" in ja and zh, "Kitakyushu, Fukuoka" in the others.
+export const prefOf = (name: string, l: Lang) => (l === "ja" || l === "zh" ? name.split(" ")[0] : name.split(", ").at(-1)!);
