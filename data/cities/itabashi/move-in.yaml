@@ -1,0 +1,20 @@
+id: itabashi-move-in
+window: "本庁舎1階、区内6か所の区民事務所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届 (板橋区外から板橋区に転入した方)"
+source: https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/juminhyo/1001611.html
+quotes:
+  - "新住所に住み始めた日から14日以内"
+  - "国内転入の届出は、本庁舎1階と区内6か所の区民事務所で受付をしております"
+  - "前住所地で発行された 転出証明書"
+  - "マイナンバーカードや運転免許証、パスポートなど届出に来た方の本人確認資料"
+  - "全員分のマイナンバーカード(お持ちの方)"
+  - "全員分の在留カードまたは特別永住者証明書(外国人の方)"
+checked: 2026-11-15
