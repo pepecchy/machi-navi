@@ -1,0 +1,18 @@
+id: higashiyamato-move-in
+window: "市民課(市役所1階1番窓口)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: "住所や世帯に変更があったときは (住民異動届)"
+source: https://www.city.higashiyamato.lg.jp/kurashi/todokede/1011753/1011755/1001664.html
+quotes:
+  - "住所を移した日から14日以内"
+  - "市民課(市役所1階1番窓口)"
+  - "いずれの届出も本人確認書類が必要です"
+  - "転出証明書(前住地の役所へ転出届をすると交付されます)"
+  - "マイナンバーカード(所持者のみ)"
+checked: 2026-11-15
