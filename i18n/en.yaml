@@ -60,7 +60,7 @@ rule_free: In this city, the 2nd child and later under age 3 are free.
 rule_half: In this city, a 2nd child enrolled at the same time pays half.
 rule_half100: In this city, a 2nd child enrolled at the same time pays half (rounded down to 100 yen).
 rule_first: This is the fee for a 1st child. Rules for a 2nd child differ by city. Switch above to check.
-cmp_h: Compare three cities with the same inputs
+cmp_h: Compare with other cities on the same inputs
 led_h: Data ledger
 led_c1: City
 led_c2: Official document
@@ -70,7 +70,7 @@ led_c5: Match
 led_ok: OK
 pending: "Being rechecked"
 badge: "Beta"
-cmp_p: "The same input applied to the fee tables of 3 cities."
+cmp_p: "The same input applied to the fee table of each city."
 lead: "Pick a city to check, in one place, what to do when you move in and the daycare fee from that city's own fee table."
 disclaimer: "This is an estimate. The actual fee is set by the notice from your city. Reductions such as those for single-parent households are not covered."
 led_p: "Amounts and deadlines are copied from official documents, each with its source and check date. Only items that match the official documents are listed."
