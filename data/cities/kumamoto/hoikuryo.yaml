@@ -1,0 +1,77 @@
+id: kumamoto-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所・認定こども園等の保育認定（2号・3号認定）利用者負担額
+source: https://www.city.kumamoto.jp/kiji00364241/3_64241_454592_up_sj615gnn.pdf
+checked: 2026-11-14
+quotes:
+  - "2 人目の児童については半額に"
+  - "所得割額に 6/8 を乗じて計算し直したうえで"
+wording: [rule_half, adjust_note]
+second_child: half
+# The city levies 8%; the fee table is written for the 6% rate, so the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+tiers:
+  - label: "3-1"
+    max: 24300
+    std: 10000
+    short: 9900
+  - label: "3-2"
+    max: 48600
+    std: 12000
+    short: 11800
+  - label: "4-1"
+    max: 65000
+    std: 16000
+    short: 15700
+  - label: "4-2"
+    max: 81000
+    std: 22500
+    short: 22100
+  - label: "4-3"
+    max: 97000
+    std: 27500
+    short: 27100
+  - label: "5-1"
+    max: 121000
+    std: 33000
+    short: 32500
+  - label: "5-2"
+    max: 145000
+    std: 34500
+    short: 34000
+  - label: "5-3"
+    max: 169000
+    std: 38000
+    short: 37400
+  - label: "6-1"
+    max: 213000
+    std: 45000
+    short: 44300
+  - label: "6-2"
+    max: 257000
+    std: 47000
+    short: 46200
+  - label: "6-3"
+    max: 301000
+    std: 50000
+    short: 49200
+  - label: "7-1"
+    max: 349000
+    std: 53000
+    short: 52200
+  - label: "7-2"
+    max: 397000
+    std: 55000
+    short: 54100
+  - label: "8"
+    max: null
+    std: 58000
+    short: 57000
+kinto:
+  label: "3-1"
+  std: 10000
+  short: 9900
+hikazei: "2"
+seiho: "1"

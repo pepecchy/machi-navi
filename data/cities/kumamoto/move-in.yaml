@@ -1,0 +1,18 @@
+id: kumamoto-move-in
+window: 各区役所区民課、各総合出張所、分室
+hours:
+  open: "9:00"
+  close: "16:30"
+bring:
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: お引越し手続の際の注意点と受付窓口について
+source: https://www.city.kumamoto.jp/kiji003347/index.html
+quotes:
+  - 上記異動届は各区役所区民課、各総合出張所、分室でお手続きすることができます
+  - 届出期間は、引越しをした日から14日以内です
+  - 平日:9時00分~16時30分
+  - マイナンバーカード、免許証等の証明書をお持ちください
+checked: 2026-11-14

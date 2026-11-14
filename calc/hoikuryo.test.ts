@@ -19,8 +19,10 @@ for (const city of readdirSync(dir)) {
     t.tiers.forEach((row, i) => {
       if (row.max === null) return;
       test(`boundary ${row.max}`, () => {
-        expect(calc(t, "tax", row.max! - 1, 1, "std")).toMatchObject({ tier: row.label, fee: row.std });
-        expect(calc(t, "tax", row.max!, 1, "short")).toMatchObject({ tier: t.tiers[i + 1].label, fee: t.tiers[i + 1].short });
+        // Boundaries are stated on the fee table's own scale; undo the city's tax rescaling for the input.
+        const input = (v: number) => (t.tax_adjust ? Math.ceil((v * t.tax_adjust.den) / t.tax_adjust.num) : v);
+        expect(calc(t, "tax", input(row.max!) - 1, 1, "std")).toMatchObject({ tier: row.label, fee: row.std });
+        expect(calc(t, "tax", input(row.max!), 1, "short")).toMatchObject({ tier: t.tiers[i + 1].label, fee: t.tiers[i + 1].short });
       });
     });
     test("non-taxed statuses", () => {
@@ -40,4 +42,7 @@ test("known results", () => {
   expect(calc(load("hikone"), "tax", 120000, 2, "std").fee).toBe(20000);
   expect(calc(load("kitamoto"), "tax", 120000, 2, "std").fee).toBe(19000);
   expect(calc(load("kitamoto"), "tax", 19999, 2, "short").fee).toBe(4300);
+  // Kumamoto: 120,000 on the notice is 90,000 at the 6% rate, tier 4-3.
+  expect(calc(load("kumamoto"), "tax", 120000, 1, "std")).toMatchObject({ tier: "4-3", fee: 27500 });
+  expect(calc(load("kumamoto"), "tax", 120000, 2, "std").fee).toBe(13750);
 });

@@ -60,7 +60,7 @@ rule_free: Ở thành phố này, con thứ hai trở đi dưới 3 tuổi đư�
 rule_half: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả một nửa.
 rule_half100: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả một nửa (làm tròn xuống 100 yên).
 rule_first: Đây là mức phí cho con thứ nhất. Quy định cho con thứ hai khác nhau theo thành phố. Hãy đổi ở trên để xem.
-cmp_h: So sánh ba thành phố với cùng điều kiện
+cmp_h: So sánh với các thành phố khác theo cùng điều kiện
 led_h: Sổ dữ liệu
 led_c1: Thành phố
 led_c2: Tài liệu chính thức
@@ -70,9 +70,10 @@ led_c5: Đối chiếu
 led_ok: Khớp
 pending: "Đang kiểm tra lại"
 badge: "Thử nghiệm"
-cmp_p: "Kết quả áp dụng cùng dữ liệu nhập ở trên vào bảng phí của 3 thành phố."
+cmp_p: "Kết quả áp dụng cùng dữ liệu nhập ở trên vào bảng phí của từng thành phố."
 lead: "Chọn thành phố để xem ở một nơi: việc cần làm khi chuyển đến và phí nhà trẻ theo bảng phí của thành phố đó."
 disclaimer: "Đây là mức tham khảo. Số tiền thực tế do thông báo của thành phố quyết định. Không bao gồm các mức giảm như cho hộ cha hoặc mẹ đơn thân."
 led_p: "Số tiền và thời hạn được chép từ tài liệu chính thức, kèm nguồn và ngày kiểm tra. Chỉ đăng những mục khớp với tài liệu chính thức."
 foot: "Số tiền và thời hạn được chép từ tài liệu chính thức của từng thành phố và của nhà nước. Nội dung ngoài tiếng Nhật là bản dịch máy, chưa được người kiểm tra."
 home: "Hãy chọn ngôn ngữ và thành phố"
+adjust_note: "Thành phố này xác định bậc theo số thuế trên thông báo nhân với {ratio}. Hãy nhập đúng số tiền ghi trên thông báo."
