@@ -62,3 +62,10 @@ test("known results", () => {
   expect(calc(load("sapporo"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D2", fee: 22550 });
   expect(calc(load("sapporo"), "tax", 120000, 2, "short").fee).toBe(0);
 });
+
+// Rounding of the second-child half, on a made-up table.
+test("half10 rounds the half down to 10 yen", () => {
+  const t: FeeTable = { second_child: "half10", tiers: [{ label: "x", max: null, std: 26650, short: 4110 }], kinto: { label: "k", std: 0, short: 0 }, hikazei: "b", seiho: "a" };
+  expect(calc(t, "tax", 1, 2, "std").fee).toBe(13320);
+  expect(calc(t, "tax", 1, 2, "short").fee).toBe(2050);
+});
