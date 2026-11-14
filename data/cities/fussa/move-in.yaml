@@ -1,0 +1,20 @@
+id: fussa-move-in
+window: "福生市役所の窓口"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "住民異動に関する届出一覧"
+source: https://www.city.fussa.tokyo.jp/life/resident/res1/1001790.html
+quotes:
+  - "引越し後14日以内"
+  - "福生市役所の窓口で住民異動届をご記入のうえ、手続きを行ってください"
+  - "来庁者の本人確認書類"
+  - "転出証明書"
+  - "マイナンバーカード ※お持ちの方全員分"
+  - "在留カードまたは特別永住者カード ※外国籍の方のみ"
+checked: 2026-11-15
