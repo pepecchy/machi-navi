@@ -1,0 +1,14 @@
+id: minato-hoikuryo
+fiscal_year: 2026
+doc: "保育料・給食費"
+source: https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/27hoikuryo.html
+checked: 2026-11-15
+quotes:
+  - "港区では令和2年度から、最年長の子どもを第1子とし、第2子以降の基本保育料を無償としています"
+  - "令和7年9月から、第1子の基本保育料等も無償化 します"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
