@@ -1,0 +1,13 @@
+id: akishima-hoikuryo
+fiscal_year: 2026
+doc: "第一子無償化に伴う認可保育施設の保育料無償化"
+source: https://www.city.akishima.lg.jp/kosodate/m-kosodate/1008313/1003785/1003922/1008011.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月より、第1子無償化に伴い、認可保育施設に通うすべてのお子さまの保育料が、年齢や課税状況にかかわらず、 無償化 となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
