@@ -1,3 +1,4 @@
 {"date":"2026-11-14","kind":"build","what":"bootstrap: skeleton, checks, 3 cities (nakatsu, hikone, kitamoto), 5 languages, move-in scene, daycare fee calculator","why":"first build from CLAUDE.md"}
 {"date":"2026-11-14","kind":"build","what":"dependency: yaml","why":"data, scenes and wording are YAML; Node has no built-in parser"}
 {"date":"2026-11-14","kind":"build","what":"drift reports through an issue labelled drift instead of writing to state/backlog","why":"a workflow cannot push to main, and PRs opened with the workflow token do not run checks"}
+{"date":"2026-11-14","kind":"build","what":"check.yml runs on pull_request_target and judges PRs with gate/ and x from main; fork PRs are skipped; no npm cache","why":"a PR could otherwise rewrite its own checks; pull_request_target runs PR code, so the token is read-only, forks are excluded and the cache is not shared with deploy"}

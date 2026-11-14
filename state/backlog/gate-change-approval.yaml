@@ -1,0 +1,4 @@
+kind: build
+score: 60
+title: 検査を弱める変更を、どう止めるか決める
+reason: build の PR は gate/ とワークフローを変えられる。main の検査で判定しても、検査を弱める PR 自体は通る。持ち主のラベルを求めるかどうかは CLAUDE.md の決まりなので、持ち主に聞く

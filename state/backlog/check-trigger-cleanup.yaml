@@ -1,0 +1,4 @@
+kind: build
+score: 95
+title: check.yml から pull_request のトリガーを外す
+reason: いまは移行のため pull_request と pull_request_target の両方で検査が走る。pull_request の側は PR がワークフローを書き換えられるので、外して pull_request_target だけにする

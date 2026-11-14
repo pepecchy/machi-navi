@@ -1,24 +1,42 @@
 name: check
+# The checks that judge a PR come from main, not from the PR: pull_request_target reads this file
+# from the base branch, and the job replaces the PR's gate/ and x with main's before running.
+# pull_request stays for one more PR so that the PR introducing this change is itself checked.
 on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
   pull_request:
     types: [opened, synchronize, reopened, labeled, unlabeled]
 permissions:
   contents: read
 jobs:
   check:
+    # PRs from forks are not run: this job executes the PR's code.
+    if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    env:
+      BRANCH: ${{ github.head_ref }}
+      PR_LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
     steps:
       - uses: actions/checkout@v7
         with:
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-node@v7
         with:
           node-version: 22
-          cache: npm
+      - run: git fetch origin main:refs/remotes/origin/main
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - run: git fetch origin main:refs/remotes/origin/main
-      - run: ./x check
-        env:
-          BRANCH: ${{ github.head_ref }}
-          PR_LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+      - name: Check with the gate from main
+        run: |
+          rm -rf gate x
+          git checkout origin/main -- gate x
+          ./x check
+      - name: Check with the gate from this PR, when it changes the gate
+        run: |
+          if git diff --quiet origin/main HEAD -- gate x; then exit 0; fi
+          rm -rf gate x
+          git checkout HEAD -- gate x
+          ./x check
