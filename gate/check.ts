@@ -27,6 +27,11 @@ for (const c of cities) {
   if (fails.length) continue;
   const city = readYaml(`${base}/city.yaml`);
   if (city.id !== c || LANGS.some((l) => !isStr(city.name?.[l]))) fail("type", `${base}/city.yaml`, "id must equal the folder name and name needs every language", `add name.{${LANGS.join(",")}}`);
+  if (!(Number.isInteger(city.pref) && city.pref >= 1 && city.pref <= 47)) fail("type", `${base}/city.yaml`, "pref must be the prefecture code 1-47", "write the JIS X 0401 code, e.g. 40 for Fukuoka");
+  for (const l of LANGS) {
+    const ok = l === "ja" || l === "zh" ? / /.test(city.name?.[l] ?? "") : /, /.test(city.name?.[l] ?? "");
+    if (!ok) fail("type", `${base}/city.yaml`, `name.${l} does not carry the prefecture`, l === "ja" || l === "zh" ? 'write "<prefecture> <city>"' : 'write "<city>, <prefecture>"');
+  }
   const mv = readYaml(`${base}/move-in.yaml`);
   if (!(isStr(mv.window) && Array.isArray(mv.bring) && Array.isArray(mv.bring_foreign) && Array.isArray(mv.other) && isStr(mv.doc) && isUrl(mv.source)
     && Array.isArray(mv.quotes) && mv.quotes.length > 0 && isDate(mv.checked) && (mv.hours === null || (isStr(mv.hours?.open) && isStr(mv.hours?.close)))))

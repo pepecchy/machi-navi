@@ -1,6 +1,7 @@
 ---
 import "../style.css";
-import { LANGS, LANG_NAMES, cities, dict } from "../load.ts";
+import { LANGS, LANG_NAMES, cities, dict, prefOf } from "../load.ts";
+const prefs = [...new Set(cities.map((c) => c.pref))].sort((a, b) => a - b);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 <html lang="ja">
@@ -16,9 +17,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
         <section class="panel" lang={l}>
           <h2>{LANG_NAMES[l]}</h2>
           <p class="hint">{dict(l).home}</p>
-          <ul class="home">
-            {cities.map((c) => <li><a href={`${base}/${l}/${c.id}/`}>{c.name[l]}</a></li>)}
-          </ul>
+          {prefs.map((p) => {
+            const list = cities.filter((c) => c.pref === p);
+            return (
+              <>
+                <h3 class="pref">{prefOf(list[0].name[l], l)}</h3>
+                <ul class="home">
+                  {list.map((c) => <li><a href={`${base}/${l}/${c.id}/`}>{c.name[l]}</a></li>)}
+                </ul>
+              </>
+            );
+          })}
         </section>
       ))}
     </div>
