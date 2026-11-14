@@ -1,0 +1,20 @@
+id: edogawa-move-in
+window: 区役所区民課・各事務所の戸籍住民係
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(区外から江戸川区へ引越した方)
+source: https://www.city.edogawa.tokyo.jp/e038/kurashi/todoke/ido_todoke/tennyu.html
+quotes:
+  - 住みはじめた日から 14日以内
+  - 区役所区民課・各事務所 の戸籍住民係
+  - 窓口にお越しになる方の本人確認できるもの
+  - 転出証明書(前住所地の市区町村で発行を受けたもの)
+  - 転入される方全員分のマイナンバーカード(お持ちの方のみ)
+  - 転入される方全員分の「在留カード」または「特別永住者証明書」
+checked: 2026-11-15
