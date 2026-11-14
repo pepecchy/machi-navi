@@ -1,0 +1,17 @@
+id: sumida-move-in
+window: "区役所、区内4か所の出張所（緑・文花・墨田一丁目・東向島）"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: "住民登録の届出"
+source: https://www.city.sumida.lg.jp/kurashi/todokede_syoumei/zyuumintouroku/zyuumin_touroku.html
+quotes:
+  - "実際に墨田区に住み始めてから14日以内に転入の届出をしてください"
+  - "各種手続は区役所のほか、区内4か所の出張所"
+  - "本人であることを確認できるもの(注釈1) 転出証明書"
+  - "マイナンバーカード(お持ちの方のみ)(注釈3)"
+checked: 2026-11-15

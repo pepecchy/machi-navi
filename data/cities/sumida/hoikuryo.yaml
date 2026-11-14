@@ -1,0 +1,13 @@
+id: sumida-hoikuryo
+fiscal_year: 2026
+doc: "認可保育施設の保育料の決定と支払いについて"
+source: https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/zaien/hoikuenhoikuryoukete.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月から東京都の保育所等利用多子世帯負担軽減事業拡充による第1子保育料無償化に伴い、墨田区で保育料を算定する認可保育施設を利用するお子様の通常保育料(利用者負担額)が無償となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
