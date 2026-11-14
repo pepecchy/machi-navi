@@ -1,0 +1,16 @@
+id: kita-hoikuryo
+fiscal_year: 2026
+doc: "第1子保育料の無償化について"
+source: https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002984/1020563.html
+checked: 2026-11-15
+quotes:
+  - "北区では、東京都の保育料等負担軽減に係る補助事業の対象拡大を受け、子育て家庭への支援拡充を目的として、第1子保育料の無償化を開始しました"
+  - "令和7年9月から"
+  - "0歳から2歳児クラスの住民税課税世帯の第1子のお子さん(北区に住民登録がある方)"
+  - "※3歳から5歳児クラスのお子さんや第2子以降のお子さん、0歳から2歳児クラスの住民税非課税世帯のお子さんはすでに無償化されています"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
