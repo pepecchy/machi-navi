@@ -76,3 +76,4 @@ disclaimer: "Đây là mức tham khảo. Số tiền thực tế do thông báo
 led_p: "Số tiền và thời hạn được chép từ tài liệu chính thức, kèm nguồn và ngày kiểm tra. Chỉ đăng những mục khớp với tài liệu chính thức."
 foot: "Số tiền và thời hạn được chép từ tài liệu chính thức của từng thành phố và của nhà nước. Nội dung ngoài tiếng Nhật là bản dịch máy, chưa được người kiểm tra."
 home: "Hãy chọn ngôn ngữ và thành phố"
+adjust_note: "Thành phố này xác định bậc theo số thuế trên thông báo nhân với {ratio}. Hãy nhập đúng số tiền ghi trên thông báo."

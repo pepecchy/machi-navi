@@ -123,6 +123,7 @@ const client = {
                     <label for="tax">{t.tax}</label>
                     <input id="tax" type="number" inputmode="numeric" min="0" step="100" value="120000" />
                     <p class="hint">{t.tax_hint}</p>
+                    {city.fee.tax_adjust && <p class="hint">{t.adjust_note.replace("{ratio}", `${city.fee.tax_adjust.num}/${city.fee.tax_adjust.den}`)}</p>}
                   </div>
                   <fieldset>
                     <legend>{t.child}</legend>

@@ -2,6 +2,8 @@
 export interface Tier { label: string; max: number | null; std: number; short: number }
 export interface FeeTable {
   second_child: "free" | "half" | "half100";
+  // Some cities levy a different rate than the one the fee table assumes; the tax is rescaled first.
+  tax_adjust?: { num: number; den: number };
   tiers: Tier[];
   kinto: { label: string; std: number; short: number };
   hikazei: string;
@@ -17,7 +19,8 @@ export function calc(t: FeeTable, status: Status, tax: number, child: 1 | 2, hou
   else if (status === "kinto") { tier = t.kinto.label; base = t.kinto[hours]; }
   else {
     // A tier applies while the income-based tax is below its upper bound; the last tier has no bound.
-    const row = t.tiers.find((x) => x.max === null || tax < x.max)!;
+    const adjusted = t.tax_adjust ? Math.floor((tax * t.tax_adjust.num) / t.tax_adjust.den) : tax;
+    const row = t.tiers.find((x) => x.max === null || adjusted < x.max)!;
     tier = row.label; base = row[hours];
   }
   let fee = base;

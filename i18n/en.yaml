@@ -76,3 +76,4 @@ disclaimer: "This is an estimate. The actual fee is set by the notice from your 
 led_p: "Amounts and deadlines are copied from official documents, each with its source and check date. Only items that match the official documents are listed."
 foot: "Amounts and deadlines are copied from official documents of each city and the national government. Text other than Japanese is machine translated and has not been reviewed by a person."
 home: "Choose a language and a city"
+adjust_note: "This city sets the tier from the amount on your tax notice multiplied by {ratio}. Enter the amount as shown on the notice."
