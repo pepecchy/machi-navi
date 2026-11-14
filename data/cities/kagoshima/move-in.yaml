@@ -1,0 +1,21 @@
+id: kagoshima-move-in
+window: "本庁市民課、各支所の市民課・総務市民課"
+hours:
+  open: "8:45"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届(他市区町村⇒鹿児島市)
+source: https://www.city.kagoshima.lg.jp/shimin/shiminbunka/shimin/kurashi/koseki/hikkoshi/tetsuzuki/tennyuutodoke.html
+quotes:
+  - "鹿児島市に 住み始めた日から14日以内"
+  - "平日:8時45分から16時30分まで"
+  - "本庁市民課、各支所の市民課・総務市民課"
+  - "窓口に来庁する方の本人確認書類"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "転出証明書(以前住んでいた市区町村役場で受け取った方のみ)"
+checked: 2026-11-15

@@ -1,0 +1,52 @@
+id: kagoshima-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 鹿児島市保育所等保育料表
+source: https://www.city.kagoshima.lg.jp/hoiku/documents/08hoikuryouhyou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 鹿児島市保育所等保育料表"
+  - "同一世帯から 2 人以上の就学前児童が認可保育所、幼稚園、認定こども園、特例保育、地域型保育事業(家庭的保育・小規模保育・事業所内保育等)、企業主導型保育事業、特別支援学校幼稚部若しくは児童心理治療施設通所部に入所又は児童発達支援若しくは医療型児童発達支援を利用している場合の保育料は、最も年齢が高い児童は全額、第 2 子児童は 2 分の 1(100 円未満は切り捨て)"
+wording: [rule_half100]
+second_child: half100
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 14500
+    short: 14200
+  - label: "D1"
+    max: 67000
+    std: 19200
+    short: 18800
+  - label: "D2"
+    max: 103000
+    std: 27100
+    short: 26600
+  - label: "D3"
+    max: 140000
+    std: 35500
+    short: 34800
+  - label: "D4"
+    max: 176000
+    std: 40800
+    short: 40100
+  - label: "D5"
+    max: 279000
+    std: 46500
+    short: 45700
+  - label: "D6"
+    max: 397000
+    std: 51000
+    short: 50100
+  - label: "D7"
+    max: null
+    std: 66300
+    short: 65100
+# Households paying only the per-capita levy fall in C1.
+kinto:
+  label: "C1"
+  std: 11300
+  short: 11100
+hikazei: "B"
+seiho: "A"
