@@ -1,0 +1,9 @@
+id: kagoshima
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 46
+name:
+  ja: 鹿児島県 鹿児島市
+  en: Kagoshima, Kagoshima
+  zh: 鹿儿岛县 鹿儿岛市
+  vi: Kagoshima, Kagoshima
+  ne: कागोशिमा, कागोशिमा
