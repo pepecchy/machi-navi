@@ -1,0 +1,9 @@
+id: higashikurume
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 東久留米市
+  en: Higashikurume, Tokyo
+  zh: 东京都 东久留米市
+  vi: Higashikurume, Tokyo
+  ne: हिगाशिकुरुमे, टोकियो

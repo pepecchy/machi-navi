@@ -1,0 +1,23 @@
+id: higashikurume-move-in
+window: "市民課(市役所1階)"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届"
+source: https://www.city.higashikurume.lg.jp/kurashi/todokede/juminhyo/1000277.html
+quotes:
+  - "引っ越しした日から14日以内"
+  - "市民課(市役所1階)"
+  - "平日の午前8時30分から午後5時まで"
+  - "前住所地の転出証明書"
+  - "届出人の本人確認できるもの"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "在留カードもしくは特別永住者証明書"
+checked: 2026-11-15
