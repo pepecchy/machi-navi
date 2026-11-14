@@ -1,0 +1,9 @@
+id: suginami
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 杉並区
+  en: Suginami, Tokyo
+  zh: 东京都 杉并区
+  vi: Suginami, Tokyo
+  ne: सुगिनामी, टोकियो
