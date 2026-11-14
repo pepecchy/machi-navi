@@ -51,8 +51,12 @@ for (const c of cities) {
     if (!(isStr(oh.hours?.open) && isStr(oh.hours?.close) && isStr(oh.doc) && isUrl(oh.source) && Array.isArray(oh.quotes) && oh.quotes.length > 0 && isDate(oh.checked)))
       fail("type", `${base}/office-hours.yaml`, "needs hours(open/close), doc, source, quotes[], checked", "see data/cities/hikone/office-hours.yaml");
   }
-  if (!(Number.isInteger(fee.second_child_quote) && isStr(fee.quotes?.[fee.second_child_quote])))
-    fail("type", `${base}/hoikuryo.yaml`, "second_child_quote must point at an entry of quotes", "quote the sentence that states the second-child rule and write its position (0 = first)");
+  // The sibling rule may be stated on another page than the table: rule_source, rule_doc and rule_quotes then hold it.
+  if (fee.rule_source !== undefined && !(isUrl(fee.rule_source) && isStr(fee.rule_doc) && Array.isArray(fee.rule_quotes) && fee.rule_quotes.length > 0))
+    fail("type", `${base}/hoikuryo.yaml`, "rule_source needs rule_doc and rule_quotes[]", "quote the sentences from the page that states the second-child rule");
+  const ruleQuotes = fee.rule_source !== undefined ? fee.rule_quotes : fee.quotes;
+  if (!(Number.isInteger(fee.second_child_quote) && isStr(ruleQuotes?.[fee.second_child_quote])))
+    fail("type", `${base}/hoikuryo.yaml`, "second_child_quote must point at an entry of quotes (of rule_quotes when rule_source is set)", "quote the sentence that states the second-child rule and write its position (0 = first)");
   if (fee.tax_adjust !== undefined && !(Number.isInteger(fee.tax_adjust?.num) && Number.isInteger(fee.tax_adjust?.den) && fee.tax_adjust.den > 0))
     fail("type", `${base}/hoikuryo.yaml`, "tax_adjust needs integer num and den", "write the ratio the source states, e.g. num: 6, den: 8");
 }

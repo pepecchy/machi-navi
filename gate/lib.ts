@@ -82,6 +82,8 @@ export function sourcedRecords(): Sourced[] {
       if (d.kinto) numbers.push(...[d.kinto.std, d.kinto.short, d.kinto.std2, d.kinto.short2].filter((v: unknown) => typeof v === "number"));
     }
     out.push({ file, source: d.source, quotes: d.quotes ?? [], numbers });
+    // A fee table whose sibling rule is on another page: those quotes are checked against that page.
+    if (d.rule_source) out.push({ file, source: d.rule_source, quotes: d.rule_quotes ?? [], numbers: [] });
   }
   return out;
 }
