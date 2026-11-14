@@ -1,0 +1,23 @@
+id: yokohama-move-in
+window: 新しい住所の区の区役所戸籍課登録担当
+hours:
+  open: "8:45"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(市外からの引越し)窓口での届出
+source: https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/todokede/koseki-juminhyo/todokede-touroku/jyumin/tennyuu_shigai/mado.html
+quotes:
+  - 新しい住所に住み始めた日から 14日以内
+  - 新しい住所区の区役所戸籍課登録担当
+  - 月曜日から金曜日までの午前8時45分から午後5時まで
+  - マイナンバーカード 運転免許証 パスポート 在留カード又は特別永住者証明書 など
+  - 前住所の市区町村で発行した転出証明書の原本
+  - (お持ちの人)マイナンバーカード
+  - (外国人住民の人)在留カードまたは特別永住者証明書
+checked: 2026-11-15
