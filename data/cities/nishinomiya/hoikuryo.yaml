@@ -1,0 +1,56 @@
+id: nishinomiya-hoikuryo
+fiscal_year: 2026
+doc: 利用者負担額(保育料)について
+source: https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyofutan/h29riyofutan.html
+checked: 2026-11-15
+quotes:
+  - "均等割のみ課税の場合はC1階層"
+  - "同一世帯から2人以上の小学校就学前の子供が、認可保育所・幼稚園・認定こども園・地域型保育事業所・特別支援学校幼稚部・情緒障害児短期治療施設通所部に入所または児童発達支援・企業主導型保育事業を利用している場合、年齢の高いきょうだい等から数えて、第2子は上記の額の半額(100円未満切捨て)、第3子以降は無料となります"
+wording: [rule_half100]
+second_child: half100
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 10400
+    short: 10300
+  - label: "C2"
+    max: 64800
+    std: 16500
+    short: 16300
+  - label: "C3"
+    max: 97000
+    std: 24000
+    short: 23700
+  - label: "C4"
+    max: 121000
+    std: 35600
+    short: 35100
+  - label: "C5"
+    max: 169000
+    std: 39100
+    short: 38600
+  - label: "C6"
+    max: 213000
+    std: 51700
+    short: 50900
+  - label: "C7"
+    max: 301000
+    std: 56200
+    short: 55400
+  - label: "C8"
+    max: 397000
+    std: 69800
+    short: 68800
+  - label: "C9"
+    max: null
+    std: 84400
+    short: 83100
+# The page puts households paying only the per-capita levy in C1.
+kinto:
+  label: "C1"
+  std: 10400
+  short: 10300
+hikazei: "B"
+seiho: "A"
