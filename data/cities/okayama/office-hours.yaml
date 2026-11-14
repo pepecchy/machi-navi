@@ -1,0 +1,10 @@
+id: okayama-office-hours
+hours:
+  open: "8:30"
+  close: "17:15"
+doc: 住民異動届・転入届（区役所の開庁時間）
+source: https://www.city.okayama.jp/kurashi/0000008759.html
+quotes:
+  - 北区役所 市民保険年金課 住民記録係
+  - 開庁時間:月曜日から金曜日 午前8時30分から午後5時15分 祝日・年末年始は閉庁
+checked: 2026-11-14

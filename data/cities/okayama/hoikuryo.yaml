@@ -1,0 +1,82 @@
+id: okayama-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 利用者負担額表（利用者負担についてのお知らせ）
+source: https://www.city.okayama.jp/kurashi/cmsfiles/contents/0000012/12934/R8riyoushafutangakuzenki.pdf
+checked: 2026-11-14
+quotes:
+  - "半額=左記負担額表の( )内の金額"
+  - "小学校就学前のお子さんが2人"
+  - "政令指定都市では、平成 30 年度から市民税所得割の標準税率が6%から8%に変更"
+  - "従前の6%(※名古屋市のみ 5.7%)で算出した額を用います"
+wording: [rule_half, adjust_note]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The city levies 8%; the fee table is read at the former 6% rate, so the tax on the notice is multiplied by 6/8.
+tax_adjust:
+  num: 6
+  den: 8
+# C6 is printed as two rows (below 77,101 and below 81,000) with the same amounts; they are one tier here.
+tiers:
+  - label: "C2"
+    max: 10800
+    std: 10000
+    short: 9800
+  - label: "C3"
+    max: 48600
+    std: 12000
+    short: 11700
+  - label: "C4"
+    max: 57700
+    std: 14000
+    short: 13700
+  - label: "C5"
+    max: 65000
+    std: 16000
+    short: 15600
+  - label: "C6"
+    max: 81000
+    std: 20000
+    short: 19500
+  - label: "C7"
+    max: 97000
+    std: 24000
+    short: 23500
+  - label: "C8"
+    max: 121000
+    std: 28000
+    short: 27400
+  - label: "C9"
+    max: 145000
+    std: 32000
+    short: 31300
+  - label: "C10"
+    max: 169000
+    std: 36000
+    short: 35300
+  - label: "C11"
+    max: 199000
+    std: 40000
+    short: 39200
+  - label: "C12"
+    max: 229000
+    std: 43000
+    short: 42200
+  - label: "C13"
+    max: 301000
+    std: 45700
+    short: 44900
+  - label: "C14"
+    max: 397000
+    std: 48000
+    short: 47100
+  - label: "C15"
+    max: null
+    std: 55700
+    short: 54700
+kinto:
+  label: "C1"
+  std: 9000
+  short: 8800
+hikazei: "B"
+seiho: "A"

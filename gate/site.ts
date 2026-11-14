@@ -41,6 +41,8 @@ try {
   await page.goto(`http://localhost:${port}${BASE}/ja/nakatsu/`, { waitUntil: "load" });
   const fee = (await page.textContent("#fee"))?.replace(/[^\d]/g, "");
   if (fee !== "32000") fails.push(`FAIL [display] /ja/nakatsu/: default calculation shows "${fee}", expected 32000\n  fix: the page script must use calc/hoikuryo.ts with this city's table`);
+  await page.click("label:has(#c2)");
+  if (!(await page.textContent("#ruleq q"))?.includes("第2子")) fails.push("FAIL [display] /ja/nakatsu/: the second-child rule shows no sentence from the source\n  fix: show quotes[second_child_quote] under the rule when the second child is selected");
   await page.click("label:has(#hasChild)");
   if (await page.isVisible("#fee")) fails.push("FAIL [display] /ja/nakatsu/: the calculator stays visible without a child\n  fix: hide every [data-when=child] element when the box is unchecked");
   for (const e of errors) fails.push(`FAIL [display] script error: ${e}\n  fix: see site/pages`);

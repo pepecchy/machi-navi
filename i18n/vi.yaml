@@ -62,6 +62,7 @@ rule_half: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả 
 rule_half_any: Ở thành phố này, con thứ hai trả một nửa, không kể tuổi của anh chị.
 rule_half100: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả một nửa (làm tròn xuống 100 yên).
 rule_first: Đây là mức phí cho con thứ nhất. Quy định cho con thứ hai khác nhau theo thành phố. Hãy đổi ở trên để xem.
+rule_quote: "Nguyên văn trong tài liệu của thành phố (tiếng Nhật)"
 cmp_h: So sánh với các thành phố khác theo cùng điều kiện
 led_h: Sổ dữ liệu
 led_c1: Thành phố

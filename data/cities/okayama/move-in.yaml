@@ -1,0 +1,18 @@
+id: okayama-move-in
+window: 区役所市民保険年金課・支所総務民生課・地域センター
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住民異動届・転入届
+source: https://www.city.okayama.jp/kurashi/0000008759.html
+quotes:
+  - お引越しをした日から14日以内に転入届を出してください
+  - 区役所市民保険年金課・支所総務民生課・地域センター
+  - 転出証明書(マイナンバーカードによる転出届をされた方は不要です)
+  - 窓口に来られる方の本人確認ができる書類
+  - マイナンバーカード(今まで住んでいた市町村で発行を受けている方)
+checked: 2026-11-14

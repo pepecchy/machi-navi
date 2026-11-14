@@ -7,6 +7,8 @@ quotes:
   - "同一世帯で小学校就学前の範囲において保育所等を同時利用されている場合の保育料は、第2子は半額"
 wording: [rule_half]
 second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
 tiers:
   - label: C2
     max: 48600

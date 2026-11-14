@@ -9,6 +9,8 @@ quotes:
 wording: [rule_half_any, adjust_note]
 # Half price like "half"; who counts as the second child is in the wording (rule_half_any).
 second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
 # The city levies 8%; the fee table is read at the former 6% rate, so the tax on the notice is multiplied by 6/8.
 tax_adjust:
   num: 6

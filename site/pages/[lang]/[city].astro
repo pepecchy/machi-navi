@@ -156,6 +156,7 @@ const client = {
                   <dt>{t.checked}</dt><dd>{city.fee.checked}</dd>
                 </dl>
                 <p class="note" id="rule"></p>
+                <p class="hint" id="ruleq" hidden>{t.rule_quote}: <q lang="ja"></q></p>
                 <p class="hint">{t.disclaimer}</p>
               </div>
             </section>
@@ -234,6 +235,9 @@ const client = {
         $("fee")!.textContent = yen(r.fee);
         $("tier")!.textContent = r.tier;
         $("rule")!.textContent = child === 2 ? data.rules[mine.fee.wording.find((k) => k.startsWith("rule_")) ?? "rule_first"] : data.rules.rule_first;
+        const quote = child === 2 ? mine.fee.quotes?.[mine.fee.second_child_quote ?? -1] : undefined;
+        $("ruleq")!.hidden = !quote;
+        $("ruleq")!.querySelector("q")!.textContent = quote ?? "";
         const rows = data.cities.map((c) => ({ c, fee: calc(c.fee, status, tax, child, hours).fee }));
         const max = Math.max(1, ...rows.map((x) => x.fee));
         const bars = $("bars")!;
