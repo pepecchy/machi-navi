@@ -1,9 +1,8 @@
 id: child-allowance-transfer
-values:
-  - 15
+values: [15]
 unit: days
-doc: 児童手当（千葉市）
-source: https://www.city.chiba.jp/kodomomirai/kodomomirai/kateishien/jidouteate.html
+doc: 児童手当制度のご案内（こども家庭庁）
+source: https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai
 quotes:
   - 転入した日(転出予定日)の翌日から15日以内に転入先の市区町村へ申請が必要です
   - 申請が遅れると、原則、遅れた月分の手当を受けられなくなります
