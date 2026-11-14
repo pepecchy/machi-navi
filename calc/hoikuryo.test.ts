@@ -75,6 +75,8 @@ test("known results", () => {
   expect(calc(load("meguro"), "tax", 120000, 1, "std").fee).toBe(0);
   expect(calc(load("setagaya"), "tax", 120000, 1, "std").fee).toBe(0);
   expect(calc(load("suginami"), "tax", 120000, 1, "std").fee).toBe(0);
+  expect(calc(load("nerima"), "tax", 120000, 1, "std").fee).toBe(0);
+  expect(calc(load("chuo"), "tax", 120000, 1, "std").fee).toBe(0);
 });
 
 // Rounding of the second-child half, on a made-up table.
