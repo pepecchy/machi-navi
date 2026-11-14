@@ -1,0 +1,9 @@
+id: setagaya
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 13
+name:
+  ja: 東京都 世田谷区
+  en: Setagaya, Tokyo
+  zh: 东京都 世田谷区
+  vi: Setagaya, Tokyo
+  ne: सेतागाया, टोकियो
