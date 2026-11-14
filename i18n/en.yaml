@@ -61,6 +61,7 @@ rule_free: In this city, the 2nd child and later under age 3 are free.
 rule_half: In this city, a 2nd child enrolled at the same time pays half.
 rule_half_any: In this city, a 2nd child pays half, whatever the age of the older sibling.
 rule_half10_any: In this city, a 2nd child pays half, whatever the age of the older sibling (rounded down to 10 yen).
+rule_free_all: Here the basic fee at licensed daycare is free for every child, whatever the age or siblings.
 rule_half100: In this city, a 2nd child enrolled at the same time pays half (rounded down to 100 yen).
 rule_first: This is the fee for a 1st child. Rules for a 2nd child differ by city. Switch above to check.
 rule_quote: "Wording in the city's document (Japanese)"

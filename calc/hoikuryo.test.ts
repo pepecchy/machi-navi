@@ -10,6 +10,7 @@ const load = (c: string): FeeTable => parse(readFileSync(join(dir, c, "hoikuryo.
 // Every listed city: each tier boundary must select the right row.
 for (const city of readdirSync(dir)) {
   const t = load(city);
+  if (t.free_all) continue;
   describe(city, () => {
     test("tiers are ascending and end unbounded", () => {
       const max = t.tiers.map((x) => x.max);
@@ -71,4 +72,10 @@ test("half10 rounds the half down to 10 yen", () => {
   const t: FeeTable = { second_child: "half10", tiers: [{ label: "x", max: null, std: 26650, short: 4110 }], kinto: { label: "k", std: 0, short: 0 }, hikazei: "b", seiho: "a" };
   expect(calc(t, "tax", 1, 2, "std").fee).toBe(13320);
   expect(calc(t, "tax", 1, 2, "short").fee).toBe(2050);
+});
+
+test("free_all is 0 whatever the input", () => {
+  const t = { free_all: true } as FeeTable;
+  expect(calc(t, "tax", 500000, 1, "std")).toMatchObject({ tier: "-", fee: 0 });
+  expect(calc(t, "kinto", 0, 2, "short").fee).toBe(0);
 });
