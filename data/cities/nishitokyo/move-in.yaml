@@ -1,0 +1,23 @@
+id: nishitokyo-move-in
+window: "市民課(田無庁舎2階、防災・保谷保健福祉総合センター1階)、柳橋出張所、ひばりヶ丘駅前出張所"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入届(市外や国外から西東京市へ引越し)"
+source: https://www.city.nishitokyo.lg.jp/kurasi/todokede/zyumin/tennyu.html
+quotes:
+  - "引越しをした日から14日以内"
+  - "市民課(田無庁舎2階、防災・保谷保健福祉総合センター1階)、柳橋出張所、ひばりヶ丘駅前出張所"
+  - "月曜日から金曜日 午前8時30分から午後5時"
+  - "前住所地の転出証明書"
+  - "届出人の本人であることが確認できるもの"
+  - "マイナンバーカード(お持ちの方のみ・世帯全員分)"
+  - "在留カード、特別永住者証明書 ※外国人住民の方のみ・世帯全員分"
+checked: 2026-11-15
