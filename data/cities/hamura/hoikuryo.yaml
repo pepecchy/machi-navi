@@ -1,0 +1,13 @@
+id: hamura-hoikuryo
+fiscal_year: 2026
+doc: "第1子保育料無償化に伴うお知らせ"
+source: https://www.city.hamura.tokyo.jp/0000017958.html
+checked: 2026-11-15
+quotes:
+  - "羽村市も保育所(認可保育園・認定こども園・家庭的保育者)に通う全てのお子さんの保育料が無償化(無料)となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the ward publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0

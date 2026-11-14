@@ -1,0 +1,23 @@
+id: hamura-move-in
+window: "羽村市役所1階市民課"
+hours:
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "転入・転出など"
+source: https://www.city.hamura.tokyo.jp/0000000100.html
+quotes:
+  - "引っ越してきた日(住み始めた日)から14日以内"
+  - "羽村市役所1階市民課"
+  - "窓口での届出の受付時間は午前8時30分から午後5時です"
+  - "転出証明書"
+  - "本人確認できる書類"
+  - "マイナンバーカード(お持ちの方)"
+  - "外国人の方は在留カードまたは特別永住者証明書"
+checked: 2026-11-15
