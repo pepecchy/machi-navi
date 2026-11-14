@@ -1,0 +1,4 @@
+kind: build
+score: 30
+title: robots.txt でサイトマップの場所を知らせる
+reason: GitHub Pages のプロジェクトサイトは robots.txt をドメインの直下に置けない（pepecchy.github.io の直下はこのリポジトリの外）。Search Console にサイトマップを登録するかを持ち主に聞く
