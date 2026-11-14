@@ -1,0 +1,21 @@
+id: kawaguchi-move-in
+window: "市民課、各支所、各駅前行政センター"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.kawaguchi.lg.jp/soshiki/01060/060/4/47326.html
+quotes:
+  - "実際に川口市にお住まいになられてから14日以内 に手続きをお願いします"
+  - "・ 市民課"
+  - "・各駅前行政センター"
+  - "・転出証明書 (前住所地の市区町村が発行したもの"
+  - "・本人確認書類 (マイナンバー(個人番号)カード、運転免許証等)"
+  - "・マイナンバー(個人番号)カード"
+  - "・在留カード"
+checked: 2026-11-15
