@@ -59,3 +59,4 @@
 {"date":"2026-11-15","kind":"build","what":"added Chofu as a free_all city","why":"the city fee page states that from September 2025 the first child in the 0-2 classes is also free, so every child in licensed nurseries is free"}
 {"date":"2026-11-15","kind":"build","what":"added Kunitachi as a free_all city","why":"the city fee page states that from September 2025 the first child is also free, so every child living in the city is free regardless of age, number or income"}
 {"date":"2026-11-15","kind":"build","what":"added Inagi as a free_all city","why":"the city fee page states that every child living in the city who attends a licensed nursery pays 0 yen, regardless of age, number or income"}
+{"date":"2026-11-15","kind":"build","what":"added Higashikurume as a free_all city","why":"the city page states that with the Tokyo subsidy the first child is also free, so every child in the 0-2 classes at nurseries is free"}
