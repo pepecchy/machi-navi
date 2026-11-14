@@ -1,0 +1,49 @@
+id: hikone-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 彦根市保育所等保育料徴収基準額表
+source: https://www.city.hikone.lg.jp/material/files/group/107/R8hoikuryoutyousyuukijungakuhyou.pdf
+checked: 2026-11-14
+second_child: half
+tiers:
+  - label: C2
+    max: 48600
+    std: 16000
+    short: 15000
+  - label: D1
+    max: 64800
+    std: 22000
+    short: 21000
+  - label: D2
+    max: 80900
+    std: 27000
+    short: 26000
+  - label: D3
+    max: 97000
+    std: 30000
+    short: 29000
+  - label: D4
+    max: 169000
+    std: 40000
+    short: 39000
+  - label: D5
+    max: 246500
+    std: 55000
+    short: 54000
+  - label: D6
+    max: 301000
+    std: 61000
+    short: 59000
+  - label: D7
+    max: 397000
+    std: 65000
+    short: 63000
+  - label: D8
+    max: null
+    std: 76000
+    short: 74000
+kinto:
+  label: C1
+  std: 16000
+  short: 15000
+hikazei: B
+seiho: A

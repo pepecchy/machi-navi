@@ -1,0 +1,78 @@
+who: Applies to you
+who_child: I have a preschool child
+who_foreign: Someone is a foreign national
+sc_h: What to do when you move in
+sc_p: A checklist based on the official pages of the city you chose. Items with deadlines come first.
+calc_h: Calculate the daycare fee
+calc_p: Enter your municipal income-based tax to get the monthly fee from the chosen city's official fee table.
+s_out: File a moving-out notice with your previous city
+s_out_due: From 30 days before to 10 days after the move
+s_out_b: With a My Number Card you can file online through Mynaportal. In principle you do not need to visit the previous city's office.
+s_in: File a moving-in notice with the new city
+s_in_due: Within 14 days of starting to live there
+s_in_b: The moving-in notice cannot be filed online. You must go to the office.
+s_za: Update the address on your residence card
+s_za_due: Within 14 days of moving to the new address
+s_za_b: Show your residence card at the city office. You can do this at the same counter as the moving-in notice.
+s_ji: Apply for child allowance in the new city
+s_ji_due: Within 15 days from the day after your planned move-out date
+s_ji_b: If you miss the deadline, you generally lose the allowance for the months you were late.
+s_ho: Check the daycare fee
+s_ho_b: Daycare fees differ by city. You can calculate with this city's fee table.
+s_ho_go: Calculate this city's fee
+s_ot: If these apply, also visit these sections
+l_window: Counter
+l_hours: Hours
+l_wk: Monday to Friday (except holidays and the New Year period)
+l_bring: Bring
+l_src: Source
+b_id: Identity document
+b_mynumber: My Number Card
+b_pin4: My Number Card PIN (4 digits)
+b_tensyutsu: Moving-out certificate (not needed if you filed online)
+b_nenkin: National pension book (Category 1 members only)
+b_zairyu: Residence card or special permanent resident certificate
+o_kokuho: National health insurance or national pension members
+o_jido: Children's medical subsidy, child allowance
+o_school: Households with elementary or junior high students
+h1: Choose your city to see what to do and what it costs
+city: City
+status: Household resident tax
+st_tax: Income-based tax is charged
+st_kinto: Only the flat-rate tax is charged
+st_hikazei: Exempt from resident tax
+st_seiho: Receiving public assistance
+tax: Municipal income-based tax (both parents, yen)
+tax_hint: Shown on your resident tax notice. Use the amount before tax credits such as the housing loan credit.
+child: Which child
+child1: 1st child
+child2: 2nd child
+hours: Care hours
+std: Standard (up to 11 hours)
+short: Short (up to 8 hours)
+age_note: Fees for classes aged 0 to 2. Classes aged 3 to 5 are free nationwide.
+monthly: Monthly daycare fee
+per: / month
+tier: Tier
+source: Source
+checked: Checked on
+rule_free: In this city, the 2nd child and later under age 3 are free (an Oita Prefecture program).
+rule_half: In this city, a 2nd child enrolled at the same time pays half.
+rule_half100: In this city, a 2nd child enrolled at the same time pays half (rounded down to 100 yen).
+rule_first: This is the fee for a 1st child. Rules for a 2nd child differ by city. Switch above to check.
+cmp_h: Compare three cities with the same inputs
+led_h: Data ledger
+led_c1: City
+led_c2: Official document
+led_c3: Tiers
+led_c4: Checked on
+led_c5: Match
+led_ok: OK
+pending: "Being rechecked"
+badge: "Beta"
+cmp_p: "The same input applied to the fee tables of 3 cities."
+lead: "Pick a city to check, in one place, what to do when you move in and the daycare fee from that city's own fee table."
+disclaimer: "This is an estimate. The actual fee is set by the notice from your city. Reductions such as those for single-parent households are not covered."
+led_p: "Amounts and deadlines are copied from official documents, each with its source and check date. Only items that match the official documents are listed."
+foot: "Amounts and deadlines are copied from official documents of each city and the national government. Text other than Japanese is machine translated and has not been reviewed by a person."
+home: "Choose a language and a city"

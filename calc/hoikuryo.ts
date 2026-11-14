@@ -1,0 +1,30 @@
+// Daycare fee lookup from a city's official fee table. Pure; used by the site and by tests.
+export interface Tier { label: string; max: number | null; std: number; short: number }
+export interface FeeTable {
+  second_child: "free" | "half" | "half100";
+  tiers: Tier[];
+  kinto: { label: string; std: number; short: number };
+  hikazei: string;
+  seiho: string;
+}
+export type Status = "tax" | "kinto" | "hikazei" | "seiho";
+export type Hours = "std" | "short";
+
+export function calc(t: FeeTable, status: Status, tax: number, child: 1 | 2, hours: Hours) {
+  let tier: string, base: number;
+  if (status === "seiho") { tier = t.seiho; base = 0; }
+  else if (status === "hikazei") { tier = t.hikazei; base = 0; }
+  else if (status === "kinto") { tier = t.kinto.label; base = t.kinto[hours]; }
+  else {
+    // A tier applies while the income-based tax is below its upper bound; the last tier has no bound.
+    const row = t.tiers.find((x) => x.max === null || tax < x.max)!;
+    tier = row.label; base = row[hours];
+  }
+  let fee = base;
+  if (child === 2) {
+    if (t.second_child === "free") fee = 0;
+    else if (t.second_child === "half") fee = base / 2;
+    else fee = Math.floor(base / 2 / 100) * 100;
+  }
+  return { tier, fee, base };
+}
