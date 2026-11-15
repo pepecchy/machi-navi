@@ -1,0 +1,9 @@
+id: iwata
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 22
+name:
+  ja: 静岡県 磐田市
+  en: Iwata, Shizuoka
+  zh: 静冈县 磐田市
+  vi: Iwata, Shizuoka
+  ne: इवाता, सिजुओका

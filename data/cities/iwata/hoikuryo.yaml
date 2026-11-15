@@ -1,0 +1,67 @@
+id: iwata-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 磐田市保育料表
+source: https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/001/798/R8hoikuryou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 磐田市保育料表"
+  - "2 0歳から小学校就学前(5歳児クラス)までの間に通園しているきょうだいがいる場合、最年長の児童から順に"
+  - "2人目は半額(カッコ内の金額)、3人目以降は無料となります。"
+wording: [rule_table]
+# The table prints the second-child amount in brackets.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are the general rows (ひとり親世帯等以外); the rows for single-parent and similar households are left out.
+# The table has no tier for the per-capita levy alone, so the first taxed tier stands for it.
+tiers:
+  - label: "第3-2階層"
+    max: 48600
+    std: 8900
+    short: 8700
+    std2: 4450
+    short2: 4350
+  - label: "第4-1-2階層"
+    max: 77101
+    std: 19000
+    short: 18600
+    std2: 9500
+    short2: 9300
+  - label: "第4-2階層"
+    max: 97000
+    std: 19000
+    short: 18600
+    std2: 9500
+    short2: 9300
+  - label: "第5階層"
+    max: 169000
+    std: 29300
+    short: 28700
+    std2: 14650
+    short2: 14350
+  - label: "第6階層"
+    max: 301000
+    std: 40400
+    short: 39500
+    std2: 20200
+    short2: 19750
+  - label: "第7階層"
+    max: 397000
+    std: 46800
+    short: 45600
+    std2: 23400
+    short2: 22800
+  - label: "第8階層"
+    max: null
+    std: 60800
+    short: 59200
+    std2: 30400
+    short2: 29600
+kinto:
+  label: "第3-2階層"
+  std: 8900
+  short: 8700
+  std2: 4450
+  short2: 4350
+hikazei: "第2-2階層"
+seiho: "第1階層"
