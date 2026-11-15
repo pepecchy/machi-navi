@@ -1,0 +1,58 @@
+id: saijo-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度西条市保育所等保育料基準額表(2号・3号認定)(月額)
+source: https://www.city.saijo.ehime.jp/uploaded/attachment/84822.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度西条市保育所等保育料基準額表(2号・3号認定)(月額)"
+  - "同一世帯から小学校就学前児童が2人以上保育施設等(認可外保育施設は除く)に入所している場合、第2子は"
+  - "上記基準額表の該当金額より半額、第3子以降は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the rows for households other than single-parent and similar households (要保護者等世帯以外の世帯).
+# C3 and C4, and C5 and C6, are printed as separate rows that share one amount, so each pair is one tier.
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 16000
+    short: 15700
+  - label: "C3・C4"
+    max: 65500
+    std: 21800
+    short: 21400
+  - label: "C5・C6"
+    max: 80000
+    std: 25000
+    short: 24500
+  - label: "C7"
+    max: 97000
+    std: 27000
+    short: 26500
+  - label: "C8"
+    max: 126000
+    std: 33000
+    short: 32400
+  - label: "C9"
+    max: 169000
+    std: 38000
+    short: 37300
+  - label: "C10"
+    max: 232000
+    std: 43500
+    short: 42700
+  - label: "C11"
+    max: 301000
+    std: 48000
+    short: 47100
+  - label: "C12"
+    max: null
+    std: 50000
+    short: 49100
+kinto:
+  label: "C1"
+  std: 14800
+  short: 14500
+hikazei: "B"
+seiho: "A"
