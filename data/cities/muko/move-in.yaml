@@ -1,0 +1,20 @@
+id: muko-move-in
+window: "東向日別館3階 市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(市外からのお引越し)
+source: https://www.city.muko.kyoto.jp/site/shinsei/1945.html
+quotes:
+  - "向日市に転入された日から14日以内"
+  - "東向日別館3階 市民課"
+  - "転入前の市区町村で交付された転出証明書"
+  - "届出人の本人確認書類(運転免許証、マイナンバーカード、パスポート、資格確認書など)"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "外国人住民の方は、転入された方全員分の在留カードまたは特別永住者証明書"
+checked: 2026-11-15
