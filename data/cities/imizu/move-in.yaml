@@ -1,0 +1,18 @@
+id: imizu-move-in
+window: "射水市役所1階 市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住民登録
+source: https://www.city.imizu.toyama.jp/guide/svguidedtl.aspx?servno=3480
+quotes:
+  - "本市に住所を定めた日から14日以内に届出してください。"
+  - "住民異動届出は、射水市役所1階 市民課で行っています。"
+  - "本人確認書類(マイナンバーカード、運転免許証等)"
+  - "転出証明書(前住所地の市区町村役場発行)"
+  - "異動者全員のマイナンバーカード(お持ちの方のみ)"
+checked: 2026-11-16
