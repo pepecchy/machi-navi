@@ -1,0 +1,9 @@
+id: hitachinaka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 8
+name:
+  ja: 茨城県 ひたちなか市
+  en: Hitachinaka, Ibaraki
+  zh: 茨城县 常陆那珂市
+  vi: Hitachinaka, Ibaraki
+  ne: हिताचिनाका, इबाराकी
