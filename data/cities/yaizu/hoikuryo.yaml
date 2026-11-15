@@ -1,0 +1,64 @@
+id: yaizu-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度保育所等入所のご案内(令和8年度 焼津市保育所徴収金(保育料)基準額表)
+source: https://www.city.yaizu.lg.jp/documents/531/r8hoikujyotounyuusyonogoannnai.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 焼津市保育所徴収金(保育料)基準額表 (2号・3号用概要版)"
+  - "保育料は、全階層、保護者の所得や兄姉の年齢に関係なく、第1子が全額、第2子以降は0円"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the K rows for single-mother and similar households are left out.
+tiers:
+  - label: "D1"
+    max: 48600
+    std: 17000
+    short: 16700
+  - label: "D2"
+    max: 57700
+    std: 20000
+    short: 19600
+  - label: "D3"
+    max: 69000
+    std: 24000
+    short: 23500
+  - label: "D4"
+    max: 77101
+    std: 27000
+    short: 26500
+  - label: "D5"
+    max: 97000
+    std: 30000
+    short: 29400
+  - label: "D6"
+    max: 133000
+    std: 37000
+    short: 36300
+  - label: "D7"
+    max: 169000
+    std: 44000
+    short: 43200
+  - label: "D8"
+    max: 235000
+    std: 50000
+    short: 49100
+  - label: "D9"
+    max: 301000
+    std: 57000
+    short: 56000
+  - label: "D10"
+    max: 397000
+    std: 60000
+    short: 58900
+  - label: "D11"
+    max: null
+    std: 72000
+    short: 70700
+kinto:
+  label: "C"
+  std: 15000
+  short: 14700
+hikazei: "B"
+seiho: "A"
