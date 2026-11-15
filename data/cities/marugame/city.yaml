@@ -1,0 +1,9 @@
+id: marugame
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 37
+name:
+  ja: 香川県 丸亀市
+  en: Marugame, Kagawa
+  zh: 香川县 丸龟市
+  vi: Marugame, Kagawa
+  ne: मारुगामे, कागावा

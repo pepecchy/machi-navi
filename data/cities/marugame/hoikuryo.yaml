@@ -1,0 +1,57 @@
+id: marugame-hoikuryo
+fiscal_year: 2026
+doc: 丸亀市 利用者負担金額表
+source: https://www.city.marugame.lg.jp/uploaded/attachment/8568.pdf
+checked: 2026-11-16
+quotes:
+  - "利用者負担金額表"
+# The table does not print a year; the city page titled fiscal 2026 (updated 2026-04-01) links this table and states the sibling rule.
+rule_source: https://www.city.marugame.lg.jp/page/2932.html
+rule_doc: 令和8年度 丸亀市利用者負担額(保育料)
+rule_quotes:
+  - "・きょうだい(第1子)が幼稚園・保育所・こども園に在園している場合、第2子は半額となります。"
+  - "4月分から8月分の負担額は令和7年度の市町村民税額、9月分から3月分の負担額は令和8年度の市町村民税額をもとに、保育料及び階層区分を決定します。"
+wording: [rule_half]
+second_child: half
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the rows for households other than single-parent and similar households (ひとり親世帯等以外).
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 14600
+    short: 14300
+  - label: "D1"
+    max: 72800
+    std: 21800
+    short: 21400
+  - label: "D2"
+    max: 97000
+    std: 28500
+    short: 28000
+  - label: "D3"
+    max: 133000
+    std: 37000
+    short: 36300
+  - label: "D4"
+    max: 169000
+    std: 41800
+    short: 41000
+  - label: "D5"
+    max: 301000
+    std: 49400
+    short: 48500
+  - label: "D6"
+    max: 397000
+    std: 50400
+    short: 49500
+  - label: "D7"
+    max: null
+    std: 51400
+    short: 50500
+kinto:
+  label: "C1"
+  std: 12700
+  short: 12400
+hikazei: "B"
+seiho: "A"

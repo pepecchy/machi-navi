@@ -1,0 +1,18 @@
+id: marugame-move-in
+window: "丸亀市役所 市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民登録に関する届出
+source: https://www.city.marugame.lg.jp/site/life-stage/44400.html
+quotes:
+  - "市内に転入した日から14日以内"
+  - "丸亀市役所 市民課"
+  - "届出人の本人確認できる資料(マイナンバーカード・免許証・健康保険資格確認書など)が必要です。"
+  - "前住所地で発行された転出証明書、マイナンバーカード(所有者のみ)、在留カード(外国人の方)"
+checked: 2026-11-16
