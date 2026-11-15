@@ -1,0 +1,9 @@
+id: yamato
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 14
+name:
+  ja: 神奈川県 大和市
+  en: Yamato, Kanagawa
+  zh: 神奈川县 大和市
+  vi: Yamato, Kanagawa
+  ne: यामातो, कानागावा
