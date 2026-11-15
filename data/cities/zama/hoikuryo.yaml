@@ -1,0 +1,113 @@
+id: zama-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度保育料金表
+source: https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/011/410/R8.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度保育料金表"
+  - "上段は保育標準時間認定者、下段()内は保育短時間認定者。"
+# The sibling rule is on the city page that links the table (updated 2026-07).
+rule_source: https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1011410.html
+rule_doc: 保育料について
+rule_quotes:
+  - "最年長の児童 ※2 から順に、基準額、2人目は半額(10円未満切り捨て)、3人目以降は無料となります。"
+wording: [rule_half10]
+second_child: half10
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are from the general table; the separate table for households in need (要保護世帯) is left out.
+tiers:
+  - label: "D1"
+    max: 5000
+    std: 10380
+    short: 10270
+  - label: "D2"
+    max: 16000
+    std: 11880
+    short: 11750
+  - label: "D3"
+    max: 32000
+    std: 14060
+    short: 13910
+  - label: "D4"
+    max: 48600
+    std: 16320
+    short: 16150
+  - label: "D5"
+    max: 64000
+    std: 18420
+    short: 18170
+  - label: "D6"
+    max: 80000
+    std: 20600
+    short: 20320
+  - label: "D7"
+    max: 97000
+    std: 22910
+    short: 22600
+  - label: "D8"
+    max: 120000
+    std: 26050
+    short: 25690
+  - label: "D9"
+    max: 144000
+    std: 29320
+    short: 28920
+  - label: "D10"
+    max: 169000
+    std: 32720
+    short: 32270
+  - label: "D11"
+    max: 192000
+    std: 35860
+    short: 35330
+  - label: "D12"
+    max: 216000
+    std: 39130
+    short: 38550
+  - label: "D13"
+    max: 240000
+    std: 42400
+    short: 41770
+  - label: "D14"
+    max: 264000
+    std: 45670
+    short: 44990
+  - label: "D15"
+    max: 288000
+    std: 48940
+    short: 48210
+  - label: "D16"
+    max: 301000
+    std: 50710
+    short: 49960
+  - label: "D17"
+    max: 312000
+    std: 52210
+    short: 51420
+  - label: "D18"
+    max: 336000
+    std: 55480
+    short: 54640
+  - label: "D19"
+    max: 360000
+    std: 58750
+    short: 57860
+  - label: "D20"
+    max: 384000
+    std: 62020
+    short: 61080
+  - label: "D21"
+    max: 397000
+    std: 63790
+    short: 62830
+  - label: "D22"
+    max: null
+    std: 65290
+    short: 64280
+kinto:
+  label: "C"
+  std: 6890
+  short: 6810
+hikazei: "B"
+seiho: "A"
