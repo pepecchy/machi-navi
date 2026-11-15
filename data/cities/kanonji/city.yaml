@@ -1,0 +1,9 @@
+id: kanonji
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 37
+name:
+  ja: 香川県 観音寺市
+  en: Kanonji, Kagawa
+  zh: 香川县 观音寺市
+  vi: Kanonji, Kagawa
+  ne: कान्ओन्जी, कागावा
