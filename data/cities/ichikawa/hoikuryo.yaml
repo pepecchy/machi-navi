@@ -1,0 +1,15 @@
+id: ichikawa-hoikuryo
+fiscal_year: 2026
+doc: "第1子の保育料無償化について"
+source: https://www.city.ichikawa.lg.jp/page/7252.html
+checked: 2026-11-15
+quotes:
+  - "令和8年9月よりすべての児童の保育料を無償化します!"
+  - "市川市に居住しており、対象施設の0~2歳児クラスに在籍しているすべての児童"
+  - "対象児童の保育料が無料となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child from September 2026, so the city publishes no tier amounts for it.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
