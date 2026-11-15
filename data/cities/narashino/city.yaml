@@ -1,0 +1,9 @@
+id: narashino
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 12
+name:
+  ja: 千葉県 習志野市
+  en: Narashino, Chiba
+  zh: 千叶县 习志野市
+  vi: Narashino, Chiba
+  ne: नारासिनो, चिबा
