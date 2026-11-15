@@ -1,0 +1,120 @@
+id: kashiwa-hoikuryo
+fiscal_year: 2026
+doc: 柏市2号・3号子ども保育料額表(月額)
+source: https://www.city.kashiwa.lg.jp/documents/477/hoikuryougakuhyou.pdf
+checked: 2026-11-15
+quotes:
+  - "軽減後の保育料は,10円未満切り捨てとなります"
+# The sibling rule is stated on the city page that links the table; the 10-yen rounding is in the table.
+rule_source: https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/shinsedo/hoikuriyo.html
+rule_doc: 保育園・認定こども園(保育利用)
+rule_quotes:
+  - "生計を一にする世帯で、2人以上のお子さんがいる場合、世帯所得や第1子の年齢にかかわらず、第2子の保育料を半額、第3子以降の保育料が無料になります"
+wording: [rule_half10_any]
+second_child: half10
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+tiers:
+  - label: "3-2"
+    max: 5000
+    std: 7700
+    short: 7560
+  - label: "3-3"
+    max: 18600
+    std: 9500
+    short: 9330
+  - label: "3-4"
+    max: 33600
+    std: 11300
+    short: 11100
+  - label: "3-5"
+    max: 48600
+    std: 13100
+    short: 12870
+  - label: "4-1"
+    max: 57000
+    std: 16400
+    short: 16120
+  - label: "4-2"
+    max: 67000
+    std: 19700
+    short: 19360
+  - label: "4-3"
+    max: 77000
+    std: 23000
+    short: 22600
+  - label: "4-4"
+    max: 87000
+    std: 26300
+    short: 25850
+  - label: "4-5"
+    max: 97000
+    std: 29600
+    short: 29090
+  - label: "5-1"
+    max: 115000
+    std: 32900
+    short: 32340
+  - label: "5-2"
+    max: 133000
+    std: 36200
+    short: 35580
+  - label: "5-3"
+    max: 151000
+    std: 39500
+    short: 38820
+  - label: "5-4"
+    max: 169000
+    std: 42800
+    short: 42070
+  - label: "6-1"
+    max: 195000
+    std: 46100
+    short: 45310
+  - label: "6-2"
+    max: 221000
+    std: 49400
+    short: 48560
+  - label: "6-3"
+    max: 247000
+    std: 52700
+    short: 51800
+  - label: "6-4"
+    max: 273000
+    std: 56000
+    short: 55040
+  - label: "6-5"
+    max: 301000
+    std: 59300
+    short: 58290
+  - label: "7-1"
+    max: 333000
+    std: 61300
+    short: 60250
+  - label: "7-2"
+    max: 365000
+    std: 63300
+    short: 62220
+  - label: "7-3"
+    max: 397000
+    std: 65300
+    short: 64180
+  - label: "8-1"
+    max: 445000
+    std: 67300
+    short: 66150
+  - label: "8-2"
+    max: 500000
+    std: 69300
+    short: 68120
+  - label: "8-3"
+    max: null
+    std: 71300
+    short: 70080
+# Households paying only the per-capita levy fall in tier 3-1.
+kinto:
+  label: "3-1"
+  std: 5900
+  short: 5790
+hikazei: "2"
+seiho: "1"
