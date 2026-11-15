@@ -1,0 +1,18 @@
+id: tokorozawa-move-in
+window: "市役所 市民課 各まちづくりセンター [並木まちづくりセンターを除く10か所]"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届(所沢市へ引越しをした時の届出)
+source: https://www.city.tokorozawa.saitama.jp/kurashi/sinseitodokesyoumei/hikkoshi/tennyu/tennyutodoke.html
+quotes:
+  - "所沢市に住み始めた日から14日以内に 転入届を届け出てください。"
+  - "市役所 市民課 各まちづくりセンター [並木まちづくりセンターを除く10か所]"
+  - "【1】窓口に来られる方の本人確認書類"
+  - "【2】転出証明書(前住所地で交付されたもの)"
+  - "【3】マイナンバーカード(お持ちの方のみ)"
+checked: 2026-11-16
