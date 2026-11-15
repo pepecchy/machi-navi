@@ -1,0 +1,20 @@
+id: fujimino-move-in
+window: "市民課(本庁舎)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.fujimino.saitama.jp/soshikiichiran/shiminka/shiminkakari/hikkoshisetaihennkou/2572.html
+quotes:
+  - "転入した日から14日以内"
+  - "市民課(本庁舎)"
+  - "届出人の本人確認書類"
+  - "転出証明書(前住所地の市区町村で発行)"
+  - "マイナンバーカード (お持ちの方のみ)"
+  - "在留カード または 特別永住者証明書 (外国人の方のみ)"
+checked: 2026-11-16
