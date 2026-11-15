@@ -1,0 +1,65 @@
+id: chikushino-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 筑紫野市認可保育所の保育料・副食費徴収金額表
+source: https://www.city.chikushino.fukuoka.jp/uploaded/attachment/35024.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 筑紫野市認可保育所の保育料・副食費徴収金額表"
+# The sibling rule is on the city fee page that links the table (updated 2026-10).
+rule_source: https://www.city.chikushino.fukuoka.jp/soshiki/49/3511.html
+rule_doc: 保育料
+rule_quotes:
+  - "同一世帯から2人以上の小学校就学前の子どもが、次の施設などの入所、または利用している場合において、上から2人目の子どもの保育料は半額、3人目以降の子どもは無料となります。"
+wording: [rule_table]
+# The table prints the amount for the first child (1子目) and the second child (2子目).
+second_child: table
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the columns for households with income levy of 57,700 yen or more that count only preschool siblings;
+# the columns for single-parent and similar households are left out.
+# 第5階層 is printed in three rows (57,700 / 77,101 / 97,000 yen) that share one amount in these columns.
+tiers:
+  - label: "第4階層"
+    max: 48600
+    std: 19500
+    short: 19300
+    std2: 9750
+    short2: 9650
+  - label: "第5階層"
+    max: 97000
+    std: 30000
+    short: 29600
+    std2: 15000
+    short2: 14800
+  - label: "第6階層"
+    max: 169000
+    std: 44500
+    short: 43900
+    std2: 22250
+    short2: 21950
+  - label: "第7階層"
+    max: 301000
+    std: 53000
+    short: 52250
+    std2: 26500
+    short2: 26120
+  - label: "第8階層"
+    max: 397000
+    std: 61000
+    short: 60100
+    std2: 30500
+    short2: 30050
+  - label: "第9階層"
+    max: null
+    std: 79850
+    short: 78650
+    std2: 39920
+    short2: 39320
+kinto:
+  label: "第3階層"
+  std: 14200
+  short: 14000
+  std2: 7100
+  short2: 7000
+hikazei: "第2階層"
+seiho: "第1階層"

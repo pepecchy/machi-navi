@@ -1,0 +1,18 @@
+id: chikushino-move-in
+window: "本庁の市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住民登録に関する届出一覧(転入・転出・転居)
+source: https://www.city.chikushino.fukuoka.jp/soshiki/11/3548.html
+quotes:
+  - "引越してきた日から14日以内"
+  - "住民登録の届出は本庁の市民課にて、平日のみ受付します。"
+  - "来庁される人は本人確認できるものをご持参ください。"
+  - "個人番号カード ※1"
+  - "転出証明書 ※1"
+checked: 2026-11-15
