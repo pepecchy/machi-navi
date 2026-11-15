@@ -1,0 +1,23 @@
+id: tahara-move-in
+window: "市民課"
+hours: 
+  open: "9:00"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民登録に関する手続き(転入・転出・転居等)
+source: https://www.city.tahara.aichi.jp/kurashi/todokede/1002749/1000758.html
+quotes:
+  - "転入した日から14日以内"
+  - "市民環境部 市民課"
+  - "(本庁舎窓口時間:平日午前9時から午後4時30分まで)"
+  - "本人確認書類(マイナンバーカード、運転免許証等)"
+  - "転出証明書"
+  - "マイナンバーカードまたは住基カード(注)"
+  - "在留カード(外国人の方)"
+checked: 2026-11-15

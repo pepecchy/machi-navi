@@ -1,0 +1,14 @@
+id: tahara-hoikuryo
+fiscal_year: 2026
+doc: "令和8年度 田原市内保育園・認定こども園保育料(利用者負担額)一覧表"
+source: https://www.city.tahara.aichi.jp/_res/projects/default_project/_page_/001/010/952/r8_kijun.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 田原市内保育園・認定こども園保育料(利用者負担額)一覧表"
+  - "6【田原市子育て支援独自施策による無償】上記にかかわらず、3歳未満で入所した児童は無料となります。(令和8年度継続)"
+wording: [rule_free_all]
+# The city's own program makes every child under 3 free in fiscal 2026; children 3 and over are free under the national program.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
