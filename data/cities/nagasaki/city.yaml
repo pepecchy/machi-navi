@@ -1,0 +1,9 @@
+id: nagasaki
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 42
+name:
+  ja: 長崎県 長崎市
+  en: Nagasaki, Nagasaki
+  zh: 长崎县 长崎市
+  vi: Nagasaki, Nagasaki
+  ne: नागासाकी, नागासाकी
