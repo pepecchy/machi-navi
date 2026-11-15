@@ -1,0 +1,96 @@
+id: otake-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所等の保育料(大竹市)
+source: https://www.city.otake.hiroshima.jp/material/files/group/9/202608hoikuryokijungakuhyo.pdf
+checked: 2026-11-15
+quotes:
+  - "令 和 8 年 度 保 育 所 等 の 保 育 料"
+  - "同一世帯の小学校就学前の児童が同時に 2 人以上保育所等を利用している場合、2 人目の子を半額、3 人目以降の子を無料とします。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the reductions for single-parent and similar households are left out.
+tiers:
+  - label: "B3"
+    max: 38400
+    std: 9100
+    short: 8900
+  - label: "B4"
+    max: 48600
+    std: 10100
+    short: 9900
+  - label: "C1"
+    max: 51000
+    std: 11700
+    short: 11500
+  - label: "C2"
+    max: 55000
+    std: 12700
+    short: 12400
+  - label: "C3"
+    max: 60000
+    std: 14700
+    short: 14400
+  - label: "C4"
+    max: 68000
+    std: 16700
+    short: 16400
+  - label: "C5"
+    max: 78000
+    std: 20800
+    short: 20400
+  - label: "C6"
+    max: 87000
+    std: 24900
+    short: 24400
+  - label: "C7"
+    max: 97000
+    std: 27000
+    short: 26500
+  - label: "C8"
+    max: 105000
+    std: 31100
+    short: 30500
+  - label: "C9"
+    max: 115000
+    std: 33100
+    short: 32500
+  - label: "C10"
+    max: 126000
+    std: 35600
+    short: 34900
+  - label: "C11"
+    max: 135000
+    std: 39400
+    short: 38700
+  - label: "C12"
+    max: 151000
+    std: 41600
+    short: 40800
+  - label: "C13"
+    max: 169000
+    std: 44000
+    short: 43200
+  - label: "C14"
+    max: 255000
+    std: 51400
+    short: 50500
+  - label: "C15"
+    max: 301000
+    std: 54600
+    short: 53600
+  - label: "C16"
+    max: 397000
+    std: 63600
+    short: 62500
+  - label: "C17"
+    max: null
+    std: 66800
+    short: 65600
+kinto:
+  label: "B2"
+  std: 7400
+  short: 7200
+hikazei: "B1"
+seiho: "A"
