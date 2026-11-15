@@ -1,0 +1,9 @@
+id: kamakura
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 14
+name:
+  ja: 神奈川県 鎌倉市
+  en: Kamakura, Kanagawa
+  zh: 神奈川县 镰仓市
+  vi: Kamakura, Kanagawa
+  ne: कामाकुरा, कानागावा
