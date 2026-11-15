@@ -1,0 +1,20 @@
+id: yamato-move-in
+window: "大和市役所本庁1階 市民課 5~9番窓口"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(他市から大和市へ引越しされた方)
+source: https://www.city.yamato.lg.jp/gyosei/soshik/43/todokede_shomeisho/hikkoshinitomonautodokede/5197.html
+quotes:
+  - "大和市に住み始めてから14日以内に転入の届出をしてください。"
+  - "大和市役所本庁1階 市民課 5~9番窓口"
+  - "本人確認できるもの(運転免許証・マイナンバーカード(個人番号カード)・ 在留カード"
+  - "転出証明書(前住所地で転出の届出を行ってください)"
+  - "マイナンバーカード(個人番号カード)・特定在留カード・特定特別永住者証明書(継続利用手続きを行います)"
+  - "在留カード または 特別永住者証明書・特定在留カード・特定特別永住者証明書(居住地変更の手続きを行います)"
+checked: 2026-11-15

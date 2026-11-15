@@ -1,0 +1,150 @@
+id: yamato-hoikuryo
+fiscal_year: 2026
+doc: 令和8年4月~令和8年8月分利用者負担額(保育料)についてのお知らせ
+source: https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/riyouhutanngaku.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年4月~令和8年8月分 利用者負担額(保育料) (月額)"
+  - "第2子に該当する3歳未満児は裏面の( )内の利用者負担額を適用し"
+wording: [rule_table]
+# The table prints the amount for the first child and, in brackets, the second child.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general table for April to August 2026; the table for single-parent and similar households is left out.
+# C 第1階層 covers all taxed households with income levy under 48,600 yen, so it stands for the per-capita levy alone.
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 8000
+    short: 7800
+    std2: 4000
+    short2: 3900
+  - label: "C2"
+    max: 60700
+    std: 10900
+    short: 10700
+    std2: 5400
+    short2: 5300
+  - label: "C3"
+    max: 72800
+    std: 13800
+    short: 13500
+    std2: 6900
+    short2: 6700
+  - label: "C4"
+    max: 84900
+    std: 16700
+    short: 16400
+    std2: 8300
+    short2: 8200
+  - label: "C5"
+    max: 97000
+    std: 19700
+    short: 19300
+    std2: 9800
+    short2: 9600
+  - label: "C6"
+    max: 115000
+    std: 24800
+    short: 24300
+    std2: 12400
+    short2: 12100
+  - label: "C7"
+    max: 133000
+    std: 29900
+    short: 29300
+    std2: 14900
+    short2: 14600
+  - label: "C8"
+    max: 151000
+    std: 35000
+    short: 34400
+    std2: 17500
+    short2: 17200
+  - label: "C9"
+    max: 169000
+    std: 40200
+    short: 39500
+    std2: 20100
+    short2: 19700
+  - label: "C10"
+    max: 202000
+    std: 44100
+    short: 43300
+    std2: 22000
+    short2: 21600
+  - label: "C11"
+    max: 235000
+    std: 48100
+    short: 47200
+    std2: 24000
+    short2: 23600
+  - label: "C12"
+    max: 268000
+    std: 52100
+    short: 51200
+    std2: 26000
+    short2: 25600
+  - label: "C13"
+    max: 301000
+    std: 56100
+    short: 55100
+    std2: 28000
+    short2: 27500
+  - label: "C14"
+    max: 325000
+    std: 57800
+    short: 56800
+    std2: 28900
+    short2: 28400
+  - label: "C15"
+    max: 349000
+    std: 59600
+    short: 58500
+    std2: 29800
+    short2: 29200
+  - label: "C16"
+    max: 373000
+    std: 61400
+    short: 60300
+    std2: 30700
+    short2: 30100
+  - label: "C17"
+    max: 397000
+    std: 63200
+    short: 62100
+    std2: 31600
+    short2: 31000
+  - label: "C18"
+    max: 440000
+    std: 69500
+    short: 68300
+    std2: 34700
+    short2: 34100
+  - label: "C19"
+    max: 483000
+    std: 75800
+    short: 74500
+    std2: 37900
+    short2: 37200
+  - label: "C20"
+    max: 526000
+    std: 82100
+    short: 80700
+    std2: 41000
+    short2: 40300
+  - label: "C21"
+    max: null
+    std: 88500
+    short: 86900
+    std2: 44200
+    short2: 43400
+kinto:
+  label: "C1"
+  std: 8000
+  short: 7800
+  std2: 4000
+  short2: 3900
+hikazei: "B"
+seiho: "A"
