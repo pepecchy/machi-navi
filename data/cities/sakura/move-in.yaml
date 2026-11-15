@@ -1,0 +1,20 @@
+id: sakura-move-in
+window: "佐倉市役所市民課、各出張所および派出所(西志津市民サービスセンターを除く)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入・転出・転居について
+source: https://www.city.sakura.lg.jp/soshiki/shiminka/1/4675.html
+quotes:
+  - "佐倉市に転入してから14日以内"
+  - "佐倉市役所市民課、各出張所および派出所(西志津市民サービスセンターを除く)"
+  - "転入前の市区町村から交付された転出証明書"
+  - "本人確認書類"
+  - "マイナンバーカード(お持ちの方のみ。)"
+  - "(外国人のかたについては転入者全員の在留カード)"
+checked: 2026-11-16
