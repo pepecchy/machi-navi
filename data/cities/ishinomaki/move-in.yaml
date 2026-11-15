@@ -1,0 +1,20 @@
+id: ishinomaki-move-in
+window: "市民課及び各総合支所市民福祉課・各支所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所変更の届出
+source: https://www.city.ishinomaki.lg.jp/cont/10304000/1089/1089.html
+quotes:
+  - "新住所に住み始めた日から14日以内に手続きをしてください。"
+  - "市民課及び各総合支所市民福祉課・各支所"
+  - "全ての住民異動届の際に虚偽の届出を防止し、市民の個人情報を保護するため本人確認をさせていただいています。"
+  - "転出証明書 前住所地で発行されたもの"
+  - "マイナンバーカード"
+  - "外国人が転入する場合:特別永住者証明書又は在留カード"
+checked: 2026-11-16

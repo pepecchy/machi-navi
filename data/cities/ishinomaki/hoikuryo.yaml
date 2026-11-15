@@ -1,0 +1,72 @@
+id: ishinomaki-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度保育施設等利用案内
+source: https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R8riyouannai.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度保育施設等利用案内"
+  - "(2)石巻市保育所及び認定こども園(1号認定除く。)保育料・食材料費(副食費)基準額表"
+  - "は、上記の表に掲げる金額を適用し、2人目の児童の保育料は、半額(( )内の金額)になり、食"
+wording: [rule_table]
+# The table prints the second-child amount in parentheses under the first-child amount.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are the ひとり親世帯等以外 table. 5A and 5B are printed as separate rows that share one amount, so they are one tier.
+tiers:
+  - label: "4"
+    max: 48600
+    std: 18000
+    short: 13200
+    std2: 9000
+    short2: 6600
+  - label: "5A・5B"
+    max: 77101
+    std: 23000
+    short: 16800
+    std2: 11500
+    short2: 8400
+  - label: "6"
+    max: 97000
+    std: 29000
+    short: 21200
+    std2: 14500
+    short2: 10600
+  - label: "7"
+    max: 123000
+    std: 37000
+    short: 27000
+    std2: 18500
+    short2: 13500
+  - label: "8"
+    max: 169000
+    std: 44000
+    short: 32000
+    std2: 22000
+    short2: 16000
+  - label: "9"
+    max: 211200
+    std: 50000
+    short: 36400
+    std2: 25000
+    short2: 18200
+  - label: "10"
+    max: 301000
+    std: 58000
+    short: 42200
+    std2: 29000
+    short2: 21100
+  - label: "11"
+    max: null
+    std: 65000
+    short: 47400
+    std2: 32500
+    short2: 23700
+kinto:
+  label: "3"
+  std: 12000
+  short: 8800
+  std2: 6000
+  short2: 4400
+hikazei: "2"
+seiho: "1"
