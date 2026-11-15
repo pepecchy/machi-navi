@@ -1,0 +1,78 @@
+id: yotsukaido-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所等利用のしおり
+source: https://www.city.yotsukaido.chiba.jp/kosodate/azukeru/hoikusyoinfo/r8nyuushoannnai.files/R8hoikusyosiori.pdf
+checked: 2026-11-16
+quotes:
+  - "○保育(2号・3号)認定子どもの利用者負担額(月額保育料)"
+  - "児童のうち第2子は半額、(その額に10円未満の端数がある場合は切り捨て。以下も同様。)第3子以"
+  - "令和8年度の保育料は、4月分~8月分は令和7年度分の市町村民税額、9月分~翌年3月分は令和8年"
+wording: [rule_half10]
+second_child: half10
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general table; the separate table for single-parent and similar households is left out.
+# 7 and 8, 9 and 10, and 12 and 13 are printed as separate rows that share one amount, so each pair is one tier.
+tiers:
+  - label: "4"
+    max: 48600
+    std: 6170
+    short: 6070
+  - label: "5"
+    max: 51500
+    std: 11180
+    short: 10990
+  - label: "6"
+    max: 56600
+    std: 14960
+    short: 14710
+  - label: "7・8"
+    max: 74000
+    std: 18840
+    short: 18520
+  - label: "9・10"
+    max: 97000
+    std: 26650
+    short: 26200
+  - label: "11"
+    max: 112000
+    std: 33450
+    short: 32880
+  - label: "12・13"
+    max: 132000
+    std: 40760
+    short: 40070
+  - label: "14"
+    max: 169000
+    std: 44000
+    short: 43250
+  - label: "15"
+    max: 203800
+    std: 51690
+    short: 50810
+  - label: "16"
+    max: 301000
+    std: 54330
+    short: 53410
+  - label: "17"
+    max: 397000
+    std: 57460
+    short: 56480
+  - label: "18"
+    max: 480000
+    std: 60600
+    short: 59570
+  - label: "19"
+    max: 671800
+    std: 65750
+    short: 64630
+  - label: "20"
+    max: null
+    std: 70900
+    short: 69690
+kinto:
+  label: "3"
+  std: 4110
+  short: 4040
+hikazei: "2"
+seiho: "1"

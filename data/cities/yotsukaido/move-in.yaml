@@ -1,0 +1,20 @@
+id: yotsukaido-move-in
+window: "四街道市窓口サービス課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.yotsukaido.chiba.jp/kurashi/todokede/tennyu/tennyu.html
+quotes:
+  - "四街道市に住み始めてから 14日以内 に四街道市窓口サービス課に届出してください。"
+  - "四街道市窓口サービス課"
+  - "窓口にお越しいただく方の本人確認書類"
+  - "転出市区町村から交付された転出証明書"
+  - "マイナンバーカード(お持ちの方、カードは転入される方全員分。住所の変更手続きが必要です。)"
+  - "外国籍の方は、在留カードまたは特別永住者証明書"
+checked: 2026-11-16
