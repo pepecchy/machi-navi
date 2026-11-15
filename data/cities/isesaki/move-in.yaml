@@ -1,0 +1,18 @@
+id: isesaki-move-in
+window: "市民課(市役所本館1階 1番A窓口)、各支所市民サービス課、各行政センター"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.isesaki.lg.jp/soshiki/siminbu/shiminka/koseki/hikkoshi/2718.html
+quotes:
+  - "住み始めた日から14日以内に届出を行ってください。"
+  - "市民課(市役所本館1階 1番A窓口)、各支所市民サービス課"
+  - "前住所地の市区町村で発行した転出証明書"
+  - "届出をする人の本人確認書類(運転免許証、マイナンバーカード、在留カードなど)"
+  - "マイナンバーカード(持っている人のみ)"
+checked: 2026-11-15

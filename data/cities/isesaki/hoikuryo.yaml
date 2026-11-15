@@ -1,0 +1,70 @@
+id: isesaki-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度利用者負担(保育料)/伊勢崎市
+source: https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/2976.html
+checked: 2026-11-15
+quotes:
+  - "令和8年度利用者負担(保育料)"
+  - "カッコ内の金額は、きょうだいが認定を受けて幼稚園や保育所・保育園、認定こども園などに同時に通っている場合の2人目の子どもの利用者負担の額です。"
+wording: [rule_table]
+# The table prints the amount for the first child and, in brackets, the second child.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 9200
+    short: 9000
+    std2: 4600
+    short2: 4500
+  - label: "C2"
+    max: 72800
+    std: 15000
+    short: 14600
+    std2: 7500
+    short2: 7300
+  - label: "C3"
+    max: 97000
+    std: 19000
+    short: 18500
+    std2: 9500
+    short2: 9250
+  - label: "C4"
+    max: 133000
+    std: 25000
+    short: 24400
+    std2: 12500
+    short2: 12200
+  - label: "C5"
+    max: 169000
+    std: 32000
+    short: 31300
+    std2: 16000
+    short2: 15650
+  - label: "C6"
+    max: 301000
+    std: 38000
+    short: 37100
+    std2: 19000
+    short2: 18550
+  - label: "C7"
+    max: 397000
+    std: 40000
+    short: 39100
+    std2: 20000
+    short2: 19550
+  - label: "C8"
+    max: null
+    std: 42000
+    short: 41100
+    std2: 21000
+    short2: 20550
+kinto:
+  label: "B2"
+  std: 3000
+  short: 3000
+  std2: 1500
+  short2: 1500
+hikazei: "B1"
+seiho: "A"
