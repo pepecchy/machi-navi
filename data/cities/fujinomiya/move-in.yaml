@@ -1,0 +1,20 @@
+id: fujinomiya-move-in
+window: "市民課(市役所1階)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届:本人または新しく同じ世帯になる方が手続きをするとき
+source: https://www.city.fujinomiya.lg.jp/citizen/kjdvo40000003py2.html
+quotes:
+  - "他の市区町村から富士宮市に引越しをしたときは、住み始めた日から14日以内に富士宮市の窓口で転入の手続きが必要です。"
+  - "市民課(市役所1階)"
+  - "1転出証明書"
+  - "窓口にお越しになる方の本人確認書類(マイナンバーカードなど)をお持ちください。"
+  - "3引越しをする方全員のマイナンバーカード(お持ちの方)"
+  - "5在留カードまたは特別永住者証明書(外国人の方)"
+checked: 2026-11-15
