@@ -1,0 +1,9 @@
+id: fujinomiya
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 22
+name:
+  ja: 静岡県 富士宮市
+  en: Fujinomiya, Shizuoka
+  zh: 静冈县 富士宫市
+  vi: Fujinomiya, Shizuoka
+  ne: फुजिनोमिया, सिजुओका
