@@ -1,0 +1,67 @@
+id: omuta-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育認定の子ども(3歳未満児)の保育料金表
+source: https://www.city.omuta.lg.jp/kiji0031041/3_1041_128556_up_xiluovsk.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 保育認定の子ども(3歳未満児)の保育料金表"
+  - "※4 生計を一にする子ども(同居・別居問わず)が2人以上いる場合は、次により多子軽減を行います。"
+  - "※3 保育短時間の場合は( )内の保育料です。"
+wording: [rule_table]
+# The table prints the first- and second-child amounts; the second child is counted from the eldest child of the household, at any age.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows (上記以外の世帯); the rows for single-parent and similar households are left out.
+# Labels are the income ranges, because the table's tier numbers do not mark each row.
+tiers:
+  - label: "48,600円未満"
+    max: 48600
+    std: 16000
+    short: 15000
+    std2: 8000
+    short2: 7500
+  - label: "48,600円以上77,000円未満"
+    max: 77000
+    std: 23500
+    short: 22500
+    std2: 11750
+    short2: 11250
+  - label: "77,000円以上97,000円未満"
+    max: 97000
+    std: 25000
+    short: 24000
+    std2: 12500
+    short2: 12000
+  - label: "97,000円以上126,000円未満"
+    max: 126000
+    std: 38000
+    short: 37000
+    std2: 19000
+    short2: 18500
+  - label: "126,000円以上169,000円未満"
+    max: 169000
+    std: 40500
+    short: 39500
+    std2: 20250
+    short2: 19750
+  - label: "169,000円以上301,000円未満"
+    max: 301000
+    std: 47000
+    short: 46000
+    std2: 23500
+    short2: 23000
+  - label: "301,000円以上"
+    max: null
+    std: 48000
+    short: 47000
+    std2: 24000
+    short2: 23500
+kinto:
+  label: "C"
+  std: 13000
+  short: 12000
+  std2: 6500
+  short2: 6000
+hikazei: "B"
+seiho: "A"
