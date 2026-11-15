@@ -1,0 +1,18 @@
+id: kumagaya-move-in
+window: "本庁舎市民課(市役所1階3番窓口)、各行政センター市民係・市民福祉係、さくらめいと出張所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入の届出
+source: https://www.city.kumagaya.lg.jp/kurashi/tetsuduki/syomei/tennyutodoke.html
+quotes:
+  - "転入をした日から14日以内"
+  - "本庁舎市民課(市役所1階3番窓口) 各行政センター市民係・市民福祉係 さくらめいと出張所"
+  - "本人確認書類(マイナンバーカード、運転免許証等) 転出証明書 マイナンバー(個人番号)カード お持ちのかたのみ"
+  - "在留カードまたは特別永住者証明書 外国籍のかたのみ"
+checked: 2026-11-15

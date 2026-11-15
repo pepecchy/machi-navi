@@ -1,0 +1,9 @@
+id: kumagaya
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 11
+name:
+  ja: 埼玉県 熊谷市
+  en: Kumagaya, Saitama
+  zh: 埼玉县 熊谷市
+  vi: Kumagaya, Saitama
+  ne: कुमागाया, साइतामा

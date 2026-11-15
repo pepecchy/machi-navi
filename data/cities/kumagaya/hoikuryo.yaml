@@ -1,0 +1,14 @@
+id: kumagaya-hoikuryo
+fiscal_year: 2026
+doc: "保育料完全無償化について"
+source: https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R8musyoka.html
+checked: 2026-11-15
+quotes:
+  - "子どもの年齢、人数、世帯の所得に関係なく、保育施設に入所するすべての子どもの保育料が無償化されました"
+  - "令和8年4月1から令和9年3月31までの期間において"
+wording: [rule_free_all]
+# The city waives the fee for every child in a 0-2 class since April 2025; the page (updated 2026-10) covers April 2026 to March 2027, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
