@@ -1,0 +1,9 @@
+id: karatsu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 41
+name:
+  ja: 佐賀県 唐津市
+  en: Karatsu, Saga
+  zh: 佐贺县 唐津市
+  vi: Karatsu, Saga
+  ne: कारात्सु, सागा

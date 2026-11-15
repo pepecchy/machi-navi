@@ -1,0 +1,20 @@
+id: karatsu-move-in
+window: "市民課窓口"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所変更の手続きはお済みですか?
+source: https://www.city.karatsu.lg.jp/site/navi/3082.html
+quotes:
+  - "引越し日から14日以内"
+  - "市民課窓口"
+  - "前の住所地の転出証明書"
+  - "マイナポータルで手続きしたときは紙の転出証明書はないので、マイナンバーカードを窓口に持ってきてください"
+  - "本人を確認できる書類"
+  - "在留カード"
+checked: 2026-11-16
