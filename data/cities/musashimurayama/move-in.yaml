@@ -1,0 +1,20 @@
+id: musashimurayama-move-in
+window: "市民課(市役所本庁舎1階)又は緑が丘出張所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届 (市外から市内へ引っ越してきたとき)
+source: https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005178/jumintouroku/1000316.html
+quotes:
+  - "転入した日(武蔵村山市に住み始めた日)から14日以内"
+  - "市民課(市役所本庁舎1階)又は緑が丘出張所"
+  - "届出するかたの本人確認書類(マイナンバーカード、運転免許証、パスポート等)"
+  - "転出証明書(前住所地の市区町村に転出の届出をすると交付されます"
+  - "マイナンバーカード又は住民基本台帳カード(お持ちのかたのみ。暗証番号を確認してお持ちください。)"
+  - "A.在留カード"
+checked: 2026-11-15
