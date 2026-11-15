@@ -1,0 +1,20 @@
+id: ebina-move-in
+window: "市役所1階市民総合窓口(窓口サービス課)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入、転出、市内転居などに関する届出
+source: https://www.city.ebina.kanagawa.jp/guide/todokede/todokede/1002810.html
+quotes:
+  - "新しい住所に住み始めた日から14日以内"
+  - "市役所1階市民総合窓口(窓口サービス課)"
+  - "転出証明書(マイナンバーカードを利用して、転入手続の特例を受けている方を除く)"
+  - "転入する方全員の在留カードまたは特別永住者証明書(外国人住民のみ)"
+  - "届出人の本人確認書類(例:運転免許証・マイナンバーカード・資格確認書など)"
+  - "転入される方のマイナンバーカード(お持ちの方のみ)"
+checked: 2026-11-15

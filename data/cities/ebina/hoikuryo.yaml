@@ -1,0 +1,104 @@
+id: ebina-hoikuryo
+fiscal_year: 2026
+doc: 認可保育所・認定こども園(保育認定)・地域型保育施設 保育料表【令和8年度版】
+source: https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/003/010/hoikuryouhyouR8.pdf
+checked: 2026-11-15
+quotes:
+  - "認可保育所・認定こども園(保育認定)・地域型保育施設 保育料表"
+  - "【令和8年度版】"
+# The sibling rule is on the city page that links the table (updated 2026-03).
+rule_source: https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/1003010.html
+rule_doc: 保育料について
+rule_quotes:
+  - "保育所等をきょうだいで利用する場合、最年長の児童から順に2人目は半額、3人目は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+tiers:
+  - label: "D1"
+    max: 12000
+    std: 8100
+    short: 7900
+  - label: "D2"
+    max: 24000
+    std: 9300
+    short: 9100
+  - label: "D3"
+    max: 36000
+    std: 10500
+    short: 10300
+  - label: "D4"
+    max: 48600
+    std: 11700
+    short: 11500
+  - label: "D5"
+    max: 60000
+    std: 14300
+    short: 14000
+  - label: "D6"
+    max: 72000
+    std: 16900
+    short: 16600
+  - label: "D7"
+    max: 84000
+    std: 19500
+    short: 19100
+  - label: "D8"
+    max: 97000
+    std: 23300
+    short: 22900
+  - label: "D9"
+    max: 115000
+    std: 28200
+    short: 27700
+  - label: "D10"
+    max: 133000
+    std: 31100
+    short: 30500
+  - label: "D11"
+    max: 151000
+    std: 34700
+    short: 34100
+  - label: "D12"
+    max: 169000
+    std: 38300
+    short: 37600
+  - label: "D13"
+    max: 213000
+    std: 42000
+    short: 41200
+  - label: "D14"
+    max: 257000
+    std: 45700
+    short: 44900
+  - label: "D15"
+    max: 301000
+    std: 50400
+    short: 49500
+  - label: "D16"
+    max: 333000
+    std: 55200
+    short: 54200
+  - label: "D17"
+    max: 365000
+    std: 60000
+    short: 58900
+  - label: "D18"
+    max: 397000
+    std: 64200
+    short: 63100
+  - label: "D19"
+    max: 450000
+    std: 68500
+    short: 67300
+  - label: "D20"
+    max: null
+    std: 72800
+    short: 71500
+kinto:
+  label: "C"
+  std: 7000
+  short: 6800
+hikazei: "B"
+seiho: "A"
