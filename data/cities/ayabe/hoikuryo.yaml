@@ -1,0 +1,66 @@
+id: ayabe-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育園・認定こども園 ご利用案内(2号・3号認定)
+source: https://www.city.ayabe.lg.jp/cmsfiles/contents/0000005/5977/2.3siori.pdf
+checked: 2026-11-16
+quotes:
+  - "(7)令和8年度保育料と副食費基準額表(2号・3号認定)"
+  - "◇同時在園の範囲内で、第2子が半額、第3子が無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general table; the reduction for single-parent and similar households is left out.
+# C4-1 and C4-2, and C5-1 and C5-2, are printed as separate rows that share one amount, so each pair is one tier.
+# The table prints inclusive upper bounds (for example 24,200 ~ 48,599); max is the next row's lower bound.
+tiers:
+  - label: "C2"
+    max: 24200
+    std: 16000
+    short: 15800
+  - label: "C3"
+    max: 48600
+    std: 18000
+    short: 17800
+  - label: "C4-1・C4-2"
+    max: 63000
+    std: 21000
+    short: 20700
+  - label: "C5-1・C5-2"
+    max: 79000
+    std: 25000
+    short: 24700
+  - label: "C6"
+    max: 97000
+    std: 29000
+    short: 28600
+  - label: "C7"
+    max: 117000
+    std: 36400
+    short: 35900
+  - label: "C8"
+    max: 169000
+    std: 44500
+    short: 43900
+  - label: "C9"
+    max: 221000
+    std: 55500
+    short: 54700
+  - label: "C10"
+    max: 301000
+    std: 58500
+    short: 57600
+  - label: "C11"
+    max: 397000
+    std: 62100
+    short: 61100
+  - label: "C12"
+    max: null
+    std: 74700
+    short: 73500
+kinto:
+  label: "C1"
+  std: 14100
+  short: 14000
+hikazei: "B"
+seiho: "A"

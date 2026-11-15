@@ -1,0 +1,20 @@
+id: ayabe-move-in
+window: "市役所市民・国保課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民票に関する届出
+source: https://www.city.ayabe.lg.jp/0000002750.html
+quotes:
+  - "住所や世帯の異動に関する届出は市役所市民・国保課で手続きをしてください。"
+  - "転入の日から14日以内"
+  - "届出人の本人確認書類"
+  - "前住所地発行の転出証明書"
+  - "マイナンバーカード(お持ちの人のみ)"
+  - "在留カードまたは特別永住者証明書(外国人住民のみ)"
+checked: 2026-11-16
