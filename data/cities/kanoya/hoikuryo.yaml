@@ -1,0 +1,81 @@
+id: kanoya-hoikuryo
+fiscal_year: 2026
+doc: 鹿屋市 保育所等入所案内 4 保育料等(令和8年度)
+source: https://www.city.kanoya.lg.jp/documents/10099/06-3-5hoikuryoutou.pdf
+checked: 2026-11-15
+quotes:
+  - "(1)令和8年度の算定"
+  - "特定の施設に入所している児童(以下、入所児童という。)のうち、2子目は半額、3子目以降は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general table; the reduction for single-parent and similar households is left out.
+# 階層 3 covers all taxed households with income levy under 48,600 yen, so it stands for the per-capita levy alone.
+tiers:
+  - label: "3"
+    max: 48600
+    std: 17000
+    short: 16800
+  - label: "4-1"
+    max: 54600
+    std: 23000
+    short: 22600
+  - label: "4-2"
+    max: 60600
+    std: 24000
+    short: 23600
+  - label: "4-3"
+    max: 66600
+    std: 25000
+    short: 24600
+  - label: "4-4"
+    max: 72600
+    std: 26000
+    short: 25600
+  - label: "4-5"
+    max: 78600
+    std: 27000
+    short: 26600
+  - label: "4-6"
+    max: 84600
+    std: 28000
+    short: 27600
+  - label: "4-7"
+    max: 90600
+    std: 29000
+    short: 28600
+  - label: "4-8"
+    max: 97000
+    std: 30000
+    short: 29600
+  - label: "5-1"
+    max: 121000
+    std: 34000
+    short: 33500
+  - label: "5-2"
+    max: 145000
+    std: 38000
+    short: 37400
+  - label: "5-3"
+    max: 169000
+    std: 42000
+    short: 41400
+  - label: "6"
+    max: 301000
+    std: 46000
+    short: 45300
+  - label: "7"
+    max: 397000
+    std: 48000
+    short: 47200
+  - label: "8"
+    max: null
+    std: 50000
+    short: 49200
+kinto:
+  label: "3"
+  std: 17000
+  short: 16800
+hikazei: "2"
+seiho: "1"
