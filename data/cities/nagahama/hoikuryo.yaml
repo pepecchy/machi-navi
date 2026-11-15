@@ -1,0 +1,77 @@
+id: nagahama-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度利用者負担額表(保育所保育料) 長浜市
+source: https://www.city.nagahama.lg.jp/cmsfiles/contents/0000013/13334/1.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度利用者負担額表(保育所保育料)"
+  - "※ 各階層の下段( )内は第2子の金額です。第3子以降は階層にかかわらず無料になります。"
+wording: [rule_table]
+# The table prints the amount for the first child and, in brackets, the second child.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# The PDF lists the short-hours column before the standard-hours column.
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 14000
+    short: 13700
+    std2: 7000
+    short2: 6850
+  - label: "D1"
+    max: 72800
+    std: 21500
+    short: 21100
+    std2: 10750
+    short2: 10550
+  - label: "D2"
+    max: 97000
+    std: 27000
+    short: 26500
+    std2: 13500
+    short2: 13250
+  - label: "D3"
+    max: 133000
+    std: 34000
+    short: 33400
+    std2: 17000
+    short2: 16700
+  - label: "D4"
+    max: 169000
+    std: 38000
+    short: 37300
+    std2: 19000
+    short2: 18650
+  - label: "D5"
+    max: 211200
+    std: 45500
+    short: 44700
+    std2: 22750
+    short2: 22350
+  - label: "D6"
+    max: 301000
+    std: 52500
+    short: 51600
+    std2: 26250
+    short2: 25800
+  - label: "D7"
+    max: 397000
+    std: 61000
+    short: 59900
+    std2: 30500
+    short2: 29950
+  - label: "D8"
+    max: null
+    std: 71000
+    short: 69700
+    std2: 35500
+    short2: 34850
+kinto:
+  label: "C1"
+  std: 9800
+  short: 9600
+  std2: 4900
+  short2: 4800
+hikazei: "B"
+seiho: "A"

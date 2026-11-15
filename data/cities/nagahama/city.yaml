@@ -1,0 +1,9 @@
+id: nagahama
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 25
+name:
+  ja: 滋賀県 長浜市
+  en: Nagahama, Shiga
+  zh: 滋贺县 长滨市
+  vi: Nagahama, Shiga
+  ne: नागाहामा, सिगा

@@ -1,0 +1,20 @@
+id: nagahama-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.nagahama.lg.jp/0000003854.html
+quotes:
+  - "届出は、市民課・くらし窓口課(北部合同庁舎内)・各市民サービス窓口で受付けています。"
+  - "転入をした日から14日以内"
+  - "転出証明書"
+  - "窓口に来られる人の本人確認ができるもの"
+  - "マイナンバーカード (お持ちの方全員分。"
+  - "【外国籍の方】住所登録される方全員の在留カード又は特別永住者証明書"
+checked: 2026-11-15
