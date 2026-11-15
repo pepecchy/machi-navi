@@ -1,0 +1,9 @@
+id: shimonoseki
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 35
+name:
+  ja: 山口県 下関市
+  en: Shimonoseki, Yamaguchi
+  zh: 山口县 下关市
+  vi: Shimonoseki, Yamaguchi
+  ne: शिमोनोसेकी, यामागुची

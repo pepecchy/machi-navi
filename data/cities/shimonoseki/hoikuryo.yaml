@@ -1,0 +1,68 @@
+id: shimonoseki-hoikuryo
+fiscal_year: 2026
+doc: 下関市の保育料 ※令和8年度9月以降
+source: https://www.city.shimonoseki.lg.jp/uploaded/attachment/99994.pdf
+checked: 2026-11-15
+quotes:
+  - "■ 下関市の保育料 ※令和8年度9月以降"
+# The table prints 0 in the 第2子以降 column; the city page states the rule in words.
+rule_source: https://www.city.shimonoseki.lg.jp/soshiki/45/4614.html
+rule_doc: 下関市の保育料等について
+rule_quotes:
+  - "同一生計のきょうだいで数えて第2子以降の保育料は、山口県と下関市の共同事業により「無償」となりました"
+wording: [rule_free]
+second_child: free
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are for "(2) その他の世帯". D4 prints 20,200 and 19,900 in both of its rows (to 57,700 and 58,800), so it is one tier.
+tiers:
+  - label: "D2"
+    max: 48600
+    std: 15600
+    short: 15400
+  - label: "D4"
+    max: 58800
+    std: 20200
+    short: 19900
+  - label: "D6"
+    max: 77101
+    std: 24900
+    short: 24500
+  - label: "D7"
+    max: 97000
+    std: 28000
+    short: 27600
+  - label: "D8"
+    max: 108600
+    std: 32600
+    short: 32100
+  - label: "D9"
+    max: 169000
+    std: 40000
+    short: 39400
+  - label: "D10"
+    max: 211201
+    std: 43600
+    short: 42900
+  - label: "D11"
+    max: 230100
+    std: 45400
+    short: 44700
+  - label: "D12"
+    max: 301000
+    std: 55000
+    short: 54100
+  - label: "D13"
+    max: 397000
+    std: 59400
+    short: 58500
+  - label: "D14"
+    max: null
+    std: 78000
+    short: 76800
+kinto:
+  label: "C2"
+  std: 13600
+  short: 13400
+hikazei: "B"
+seiho: "A"
