@@ -1,0 +1,9 @@
+id: asahikawa
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 1
+name:
+  ja: 北海道 旭川市
+  en: Asahikawa, Hokkaido
+  zh: 北海道 旭川市
+  vi: Asahikawa, Hokkaido
+  ne: असाहिकावा, होक्काइदो

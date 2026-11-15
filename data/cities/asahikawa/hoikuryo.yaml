@@ -1,0 +1,119 @@
+id: asahikawa-hoikuryo
+fiscal_year: 2026
+doc: 保育料について
+source: https://www.city.asahikawa.hokkaido.jp/800/808/811/p004303.html
+checked: 2026-11-15
+quotes:
+  - "保育料表(令和8年4月1日時点)"
+  - "そのうち年齢の高い子どもから数えて第2子目の子どもの保育料は表の( )内の額、第3子目以降の子どもの保育料は0円となります"
+wording: [rule_table]
+# The table prints the second-child amount in brackets; it is 0 yen up to C9-(1).
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# C3 and C4 are split in two rows that share one amount.
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 7800
+    short: 7700
+    std2: 0
+    short2: 0
+  - label: "C2"
+    max: 53000
+    std: 11000
+    short: 10800
+    std2: 0
+    short2: 0
+  - label: "C3-(1)"
+    max: 57700
+    std: 14800
+    short: 14500
+    std2: 0
+    short2: 0
+  - label: "C3-(2)"
+    max: 69000
+    std: 14800
+    short: 14500
+    std2: 0
+    short2: 0
+  - label: "C4-(1)"
+    max: 77101
+    std: 19100
+    short: 18800
+    std2: 0
+    short2: 0
+  - label: "C4-(2)"
+    max: 87000
+    std: 19100
+    short: 18800
+    std2: 0
+    short2: 0
+  - label: "C5"
+    max: 105000
+    std: 24000
+    short: 23600
+    std2: 0
+    short2: 0
+  - label: "C6"
+    max: 123000
+    std: 30200
+    short: 29700
+    std2: 0
+    short2: 0
+  - label: "C7"
+    max: 140000
+    std: 33400
+    short: 32800
+    std2: 0
+    short2: 0
+  - label: "C8"
+    max: 163000
+    std: 36700
+    short: 36100
+    std2: 0
+    short2: 0
+  - label: "C9-(1)"
+    max: 169000
+    std: 40000
+    short: 39300
+    std2: 0
+    short2: 0
+  - label: "C9-(2)"
+    max: 193500
+    std: 40000
+    short: 39300
+    std2: 10000
+    short2: 9820
+  - label: "C10"
+    max: 254000
+    std: 47400
+    short: 46600
+    std2: 11850
+    short2: 11650
+  - label: "C11"
+    max: 360000
+    std: 54900
+    short: 54000
+    std2: 13720
+    short2: 13500
+  - label: "C12"
+    max: 415000
+    std: 63400
+    short: 62300
+    std2: 15850
+    short2: 15570
+  - label: "C13"
+    max: null
+    std: 72000
+    short: 70800
+    std2: 18000
+    short2: 17700
+kinto:
+  label: "C1"
+  std: 7800
+  short: 7700
+  std2: 0
+  short2: 0
+hikazei: "B"
+seiho: "A"
