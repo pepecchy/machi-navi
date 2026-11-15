@@ -1,0 +1,20 @@
+id: iwata-move-in
+window: "磐田市役所 本庁舎1階 市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html
+quotes:
+  - "新住所(磐田市)に住みはじめた日から、14日以内に届け出てください。"
+  - "本庁舎1階"
+  - "転出証明書(前住所地で発行されます)"
+  - "届出人の本人確認書類"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "在留カードまたは特別永住者証明書(異動者に外国籍の方がいる場合のみ)"
+checked: 2026-11-15
