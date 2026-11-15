@@ -1,0 +1,9 @@
+id: dazaifu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 40
+name:
+  ja: 福岡県 太宰府市
+  en: Dazaifu, Fukuoka
+  zh: 福冈县 太宰府市
+  vi: Dazaifu, Fukuoka
+  ne: दाजाइफु, फुकुओका

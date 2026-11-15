@@ -1,0 +1,60 @@
+id: dazaifu-hoikuryo
+fiscal_year: 2026
+doc: 太宰府市 令和8年度 保育所等(2・3号認定)保育料表
+source: https://www.city.dazaifu.lg.jp/uploaded/attachment/28853.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 保育所等(2・3号認定)保育料表"
+  - "2 第2子......( )の金額"
+wording: [rule_table]
+# The table prints the amount for the first child (upper row) and, in brackets, the second child.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the ★ rows for single-parent and similar households are left out.
+# 第3階層 covers all taxed households with income levy under 48,600 yen, so it stands for the per-capita levy alone.
+tiers:
+  - label: "第3階層"
+    max: 48600
+    std: 19500
+    short: 19300
+    std2: 9750
+    short2: 9650
+  - label: "第4階層"
+    max: 97000
+    std: 30000
+    short: 29600
+    std2: 15000
+    short2: 14800
+  - label: "第5階層"
+    max: 169000
+    std: 44500
+    short: 43900
+    std2: 22250
+    short2: 21950
+  - label: "第6階層"
+    max: 301000
+    std: 61000
+    short: 60100
+    std2: 30500
+    short2: 30050
+  - label: "第7階層"
+    max: 397000
+    std: 80000
+    short: 78800
+    std2: 40000
+    short2: 39400
+  - label: "第8階層"
+    max: null
+    std: 97080
+    short: 95580
+    std2: 48540
+    short2: 47790
+kinto:
+  label: "第3階層"
+  std: 19500
+  short: 19300
+  std2: 9750
+  short2: 9650
+hikazei: "第2階層"
+seiho: "第1階層"

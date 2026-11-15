@@ -1,0 +1,20 @@
+id: dazaifu-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 異動届(転出届・転入届・転居届)の手続き
+source: https://www.city.dazaifu.lg.jp/site/navi/2993.html
+quotes:
+  - "引越した日から14日以内 (太宰府市に住み始めてからでないと手続きできません)"
+  - "窓口 市民課"
+  - "虚偽の申し出を防ぐため、平成17年10月1日から窓口に来た人の本人確認を行っています。"
+  - "転出証明書(前住所の市区町村で特例転出をした場合は不要ですが、マイナンバーカードが代わりに必要です。)"
+  - "マイナンバーカード(個人番号カード)"
+  - "在留カードもしくは特別永住者証明書(外国人のみ)"
+checked: 2026-11-15
