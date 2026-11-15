@@ -1,0 +1,61 @@
+id: matsumoto-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 松本市保育料(利用者負担額)等について
+source: https://www.city.matsumoto.nagano.jp/uploaded/attachment/124270.pdf
+checked: 2026-11-15
+quotes:
+  - "第2子以降の保育料は、令和7年4月から無償となっています"
+  - "子どもの数え方については、保護者と同一生計(保護者の方の収入で生活していること)のお子さんのうち、年齢の高い順にカウントします"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The table lists short hours before standard hours.
+tiers:
+  - label: "D1"
+    max: 48600
+    std: 7450
+    short: 6400
+  - label: "D2"
+    max: 57700
+    std: 11100
+    short: 9000
+  - label: "D2"
+    max: 69300
+    std: 22200
+    short: 18000
+  - label: "D3"
+    max: 97000
+    std: 28700
+    short: 24500
+  - label: "D4"
+    max: 133000
+    std: 41200
+    short: 37000
+  - label: "D5"
+    max: 169000
+    std: 44300
+    short: 39500
+  - label: "D6"
+    max: 235000
+    std: 51900
+    short: 45300
+  - label: "D7"
+    max: 301000
+    std: 57600
+    short: 51000
+  - label: "D8"
+    max: 397000
+    std: 60600
+    short: 54000
+  - label: "D9"
+    max: null
+    std: 62600
+    short: 56000
+# Households paying only the per-capita levy fall in C.
+kinto:
+  label: "C"
+  std: 7050
+  short: 6000
+hikazei: "B"
+seiho: "A"
