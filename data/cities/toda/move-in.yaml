@@ -1,0 +1,20 @@
+id: toda-move-in
+window: "戸田市役所2階市民課窓口、美笹支所、戸田公園駅前出張所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.toda.saitama.jp/soshiki/191/simin-tennyu.html
+quotes:
+  - "戸田市内に住み始めた日から14日以内に届けて下さい。"
+  - "戸田市役所2階市民課窓口"
+  - "転出証明書または転出証明書に準ずる証明書"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "届出人の本人確認できるもの"
+  - "在留カードまたは特別永住者証明書(外国人住民の方)"
+checked: 2026-11-15

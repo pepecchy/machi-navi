@@ -1,0 +1,9 @@
+id: toda
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 11
+name:
+  ja: 埼玉県 戸田市
+  en: Toda, Saitama
+  zh: 埼玉县 户田市
+  vi: Toda, Saitama
+  ne: तोदा, साइतामा
