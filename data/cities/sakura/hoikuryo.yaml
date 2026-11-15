@@ -1,0 +1,82 @@
+id: sakura-hoikuryo
+fiscal_year: 2026
+doc: 佐倉市2号及び3号認定保育料金表
+source: https://www.city.sakura.lg.jp/material/files/group/22/hoikuryouryoukinnhyou2027.pdf
+checked: 2026-11-16
+quotes:
+  - "※ 別表第1 保育料表(第3条関係) 2号・3号認定(0~2歳児クラス)の方はこちらの表をご覧ください"
+  - "※保育料表は令和 8 年 8 月時点のものになります。"
+# The table states it is as of August 2026; the city fee page states the sibling rule.
+rule_source: https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/4589.html
+rule_doc: 保育料
+rule_quotes:
+  - "2号・3号認定の方で同一世帯に保育施設、幼稚園、認定こども園又は特別支援学校幼稚部などを利用されている上の子がいる場合、その範囲において、第2子の保育料を半額、第3子以降の保育料を無料とする軽減措置を行っています。"
+wording: [rule_half]
+second_child: half
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the general rows; C1 (single-parent and similar households paying only the per-capita levy) is left out and C2 is the per-capita-levy tier.
+# D1 starts at 100 yen of income levy, as printed.
+tiers:
+  - label: "D1"
+    max: 22000
+    std: 16000
+    short: 15800
+  - label: "D2"
+    max: 48600
+    std: 18000
+    short: 17700
+  - label: "D3"
+    max: 56000
+    std: 22800
+    short: 22500
+  - label: "D4"
+    max: 72000
+    std: 26900
+    short: 26500
+  - label: "D5"
+    max: 97000
+    std: 30000
+    short: 29500
+  - label: "D6"
+    max: 112000
+    std: 37300
+    short: 36700
+  - label: "D7"
+    max: 138000
+    std: 42300
+    short: 41600
+  - label: "D8"
+    max: 169000
+    std: 44500
+    short: 43800
+  - label: "D9"
+    max: 180000
+    std: 49200
+    short: 48400
+  - label: "D10"
+    max: 210000
+    std: 51000
+    short: 50200
+  - label: "D11"
+    max: 245000
+    std: 54300
+    short: 53400
+  - label: "D12"
+    max: 260000
+    std: 57200
+    short: 56300
+  - label: "D13"
+    max: 301000
+    std: 61000
+    short: 60000
+  - label: "D14"
+    max: null
+    std: 63500
+    short: 62500
+kinto:
+  label: "C2"
+  std: 10400
+  short: 10300
+hikazei: "B"
+seiho: "A"
