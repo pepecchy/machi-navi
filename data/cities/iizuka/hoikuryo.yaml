@@ -1,0 +1,57 @@
+id: iizuka-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 飯塚市 2号・3号認定(保育認定)児童の保育料
+source: https://www.city.iizuka.lg.jp/uploaded/attachment/14915.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 飯塚市 2号・3号認定(保育認定)児童の保育料"
+  - "※入所する児童が3歳未満で第2子以降の場合は無料となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the rows for single-parent and similar households (ひとり親等) are left out.
+# The table has no tier for the per-capita levy alone, so the first taxed tier stands for it.
+tiers:
+  - label: "3・1"
+    max: 48600
+    std: 15600
+    short: 15440
+  - label: "4・1"
+    max: 57700
+    std: 24000
+    short: 23680
+  - label: "4・3"
+    max: 77101
+    std: 24000
+    short: 23680
+  - label: "4・4"
+    max: 97000
+    std: 25500
+    short: 25160
+  - label: "5・1"
+    max: 133000
+    std: 35600
+    short: 35120
+  - label: "5・2"
+    max: 169000
+    std: 37820
+    short: 37310
+  - label: "6・1"
+    max: 235000
+    std: 48800
+    short: 48080
+  - label: "6・2"
+    max: 301000
+    std: 51850
+    short: 51080
+  - label: "7"
+    max: null
+    std: 57500
+    short: 56630
+kinto:
+  label: "3・1"
+  std: 15600
+  short: 15440
+hikazei: "2・1"
+seiho: "1"
