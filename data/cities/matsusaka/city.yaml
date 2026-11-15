@@ -1,0 +1,9 @@
+id: matsusaka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 24
+name:
+  ja: 三重県 松阪市
+  en: Matsusaka, Mie
+  zh: 三重县 松阪市
+  vi: Matsusaka, Mie
+  ne: मात्सुसाका, मिए

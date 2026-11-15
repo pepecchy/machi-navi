@@ -1,0 +1,20 @@
+id: matsusaka-move-in
+window: "戸籍住民課、各地域振興局地域住民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届の手続き方法(市外から松阪市に引っ越しをした場合)
+source: https://www.city.matsusaka.mie.jp/soshiki/15/tennyuu.html
+quotes:
+  - "松阪市に住み始めてから14日以内"
+  - "戸籍住民課、各地域振興局地域住民課"
+  - "前住所地から発行された 転出証明書"
+  - "市役所にお越しいただく方の 本人確認ができる書類"
+  - "マイナンバーカード(お持ちの方)"
+  - "在留カード、特別永住者証明書または特定在留カード、特定特別永住者証明書"
+checked: 2026-11-16
