@@ -1,0 +1,9 @@
+id: tsuruoka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 6
+name:
+  ja: 山形県 鶴岡市
+  en: Tsuruoka, Yamagata
+  zh: 山形县 鹤冈市
+  vi: Tsuruoka, Yamagata
+  ne: चुरुओका, यामागाता
