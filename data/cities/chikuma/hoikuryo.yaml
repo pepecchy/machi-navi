@@ -1,0 +1,125 @@
+id: chikuma-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 3号認定 保育料基準額表
+source: https://www.city.chikuma.lg.jp/material/files/group/43/R8riyoushahutangakuhyou.pdf
+checked: 2026-11-15
+quotes:
+  - "★令和8年度 3号認定 保育料基準額表"
+  - "※第3子以降は、多子世帯への軽減制度により、どの世帯も保育料は0円です。"
+# The sibling rule is on the city page that links the table (updated 2026-08).
+rule_source: https://www.city.chikuma.lg.jp/soshiki/hoiku/ikuji_mishugakuji/1/hoikuen/1773.html
+rule_doc: 利用者負担額(保育料及び副食費)
+rule_quotes:
+  - "千曲市では、令和5年度まで市独自の3歳未満児の保育料軽減施策として第2子以降半額を実施してまいりましたが、新たに令和6年4月から長野県と連携し、さらなる子育て世帯の経済的負担の軽減を図るため、下記の内容で保育料軽減事業を拡充いたします。"
+wording: [rule_table]
+# The table prints the first- and second-child amounts for every tier; the second child pays 0 yen below 57,700 yen.
+second_child: table
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the general rows; the rows for households in need (要保護世帯等) are left out.
+# D2 is split in two rows at 57,700 yen. The table prints the D3 bound as "7,2300"; the row for households in need of the same tier prints 72,300.
+tiers:
+  - label: "C3"
+    max: 48600
+    std: 6550
+    short: 5300
+    std2: 0
+    short2: 0
+  - label: "D1"
+    max: 53600
+    std: 7850
+    short: 6600
+    std2: 0
+    short2: 0
+  - label: "D2-(1)"
+    max: 57700
+    std: 8750
+    short: 7500
+    std2: 0
+    short2: 0
+  - label: "D2-(2)"
+    max: 61200
+    std: 17500
+    short: 15000
+    std2: 8750
+    short2: 7500
+  - label: "D3"
+    max: 72300
+    std: 19600
+    short: 17100
+    std2: 9800
+    short2: 8550
+  - label: "D4"
+    max: 83900
+    std: 22100
+    short: 19600
+    std2: 11050
+    short2: 9800
+  - label: "D5"
+    max: 97000
+    std: 26400
+    short: 23900
+    std2: 13200
+    short2: 11950
+  - label: "D6"
+    max: 113800
+    std: 31000
+    short: 28500
+    std2: 15500
+    short2: 14250
+  - label: "D7"
+    max: 132000
+    std: 34700
+    short: 32200
+    std2: 17350
+    short2: 16100
+  - label: "D8"
+    max: 147000
+    std: 38400
+    short: 35900
+    std2: 19200
+    short2: 17950
+  - label: "D9"
+    max: 169000
+    std: 41900
+    short: 39400
+    std2: 20950
+    short2: 19700
+  - label: "D10"
+    max: 234000
+    std: 48000
+    short: 45500
+    std2: 24000
+    short2: 22750
+  - label: "D11"
+    max: 301000
+    std: 54100
+    short: 51600
+    std2: 27050
+    short2: 25800
+  - label: "D12"
+    max: 350000
+    std: 56300
+    short: 53800
+    std2: 28150
+    short2: 26900
+  - label: "D13"
+    max: 397000
+    std: 56700
+    short: 54200
+    std2: 28350
+    short2: 27100
+  - label: "D14"
+    max: null
+    std: 57500
+    short: 55000
+    std2: 28750
+    short2: 27500
+kinto:
+  label: "C2"
+  std: 6250
+  short: 5000
+  std2: 0
+  short2: 0
+hikazei: "B"
+seiho: "A"
