@@ -1,0 +1,16 @@
+id: okegawa-move-in
+window: "市民課 窓口係"
+hours: null
+bring:
+  - tensyutsu
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入・転出・転居・世帯変更
+source: https://www.city.okegawa.lg.jp/soshiki/soumubu/shimin/todoke_shoumei/hikkoshi/1477.html
+quotes:
+  - "桶川市に住所を移した日から14日以内"
+  - "市民課 窓口係"
+  - "・転出証明書(前住所地において発行)"
+  - "・個人番号カード(所持されている方)"
+checked: 2026-11-16
