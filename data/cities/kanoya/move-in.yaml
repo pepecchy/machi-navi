@@ -1,0 +1,18 @@
+id: kanoya-move-in
+window: "本庁市民課、各総合支所 住民サービス課、各出張所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住民登録
+source: https://www.city.kanoya.lg.jp/mado/kurashi/koseki/juminhyo/jumintoroku.html
+quotes:
+  - "他の市区町村や海外から鹿屋市へ引越してきたとき、新住所にお住まいになった日から14日以内に届出が必要です。"
+  - "本庁市民課"
+  - "届出人の本人確認ができるもの(本人確認)"
+  - "転出証明書"
+  - "転入届の際に住民基本台帳カードまたはマイナンバーカードをご持参ください。"
+checked: 2026-11-15
