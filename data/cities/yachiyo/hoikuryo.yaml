@@ -10,7 +10,7 @@ rule_source: https://www.city.yachiyo.lg.jp/site/kosodate/70093.html
 rule_doc: 保育料について
 rule_quotes:
   - "同一世帯に保育園等,幼稚園,特別支援学校幼稚部,企業主導型保育事業所,児童発達支援施設(以下「保育園等,幼稚園など」という)に兄姉がいる場合,2人目は該当年齢の保育料の半額,3人目以降は無料に軽減します"
-  - "(1)令和8年9月~令和9年8月の保育料 &rarr; 令和8年度市民税額に基づき決定"
+  - "(1)令和8年9月~令和9年8月の保育料"
 wording: [rule_half]
 second_child: half
 # Which entry of rule_quotes states the second-child rule (0 = first).
