@@ -1,0 +1,48 @@
+id: handa-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 半田市保育料等徴収金基準額表
+source: https://www.city.handa.lg.jp/_res/projects/default_project/_page_/001/010/914/r8_hoikuryou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 半田市保育料等徴収金基準額表"
+  - "生計を同一にしている18歳未満の子どものうち、最年長者を第1子、その下の子を第2子として、第2子以降の保育料が無償となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# C1 is the tier for households paying only the per-capita levy.
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 10500
+    short: 10000
+  - label: "D1"
+    max: 60000
+    std: 15200
+    short: 14700
+  - label: "D2"
+    max: 97000
+    std: 22700
+    short: 22200
+  - label: "D3"
+    max: 132000
+    std: 33900
+    short: 33400
+  - label: "D4"
+    max: 169000
+    std: 38500
+    short: 38000
+  - label: "D5"
+    max: 301000
+    std: 46700
+    short: 46200
+  - label: "D6"
+    max: null
+    std: 47100
+    short: 46600
+kinto:
+  label: "C1"
+  std: 8400
+  short: 7900
+hikazei: "B"
+seiho: "A"
