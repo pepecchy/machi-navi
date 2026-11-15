@@ -1,0 +1,115 @@
+id: muko-hoikuryo
+fiscal_year: 2026
+doc: 向日市 保育所等入所案内(2号認定・3号認定用) 令和8年度(向日市保育料徴収基準額表)
+source: https://www.city.muko.kyoto.jp/uploaded/attachment/19404.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 向日市保育料徴収基準額表"
+  - "同時在園の第2子の徴収額は、表の金額の1/2。第3子の徴収額は0円です。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+tiers:
+  - label: "4"
+    max: 24300
+    std: 7000
+    short: 6000
+  - label: "5"
+    max: 48600
+    std: 10000
+    short: 8500
+  - label: "6"
+    max: 51600
+    std: 15000
+    short: 12800
+  - label: "7"
+    max: 60000
+    std: 19100
+    short: 16300
+  - label: "8"
+    max: 70800
+    std: 23200
+    short: 19800
+  - label: "9"
+    max: 97000
+    std: 26500
+    short: 22600
+  - label: "10"
+    max: 103000
+    std: 29000
+    short: 24700
+  - label: "11"
+    max: 116400
+    std: 30000
+    short: 25500
+  - label: "12"
+    max: 125000
+    std: 33000
+    short: 28100
+  - label: "13"
+    max: 138000
+    std: 35500
+    short: 30200
+  - label: "14"
+    max: 169000
+    std: 39600
+    short: 33700
+  - label: "15"
+    max: 183300
+    std: 44000
+    short: 37400
+  - label: "16"
+    max: 196500
+    std: 47000
+    short: 40000
+  - label: "17"
+    max: 214500
+    std: 49500
+    short: 42100
+  - label: "18"
+    max: 238500
+    std: 52000
+    short: 44200
+  - label: "19"
+    max: 278800
+    std: 54500
+    short: 46400
+  - label: "20"
+    max: 301000
+    std: 57000
+    short: 48500
+  - label: "21"
+    max: 333000
+    std: 60600
+    short: 51600
+  - label: "22"
+    max: 365000
+    std: 66300
+    short: 56500
+  - label: "23"
+    max: 397000
+    std: 72000
+    short: 61300
+  - label: "24"
+    max: 442000
+    std: 77400
+    short: 65900
+  - label: "25"
+    max: 487000
+    std: 82800
+    short: 70500
+  - label: "26"
+    max: 532000
+    std: 88200
+    short: 75100
+  - label: "27"
+    max: null
+    std: 93600
+    short: 79700
+kinto:
+  label: "3"
+  std: 6500
+  short: 5600
+hikazei: "2"
+seiho: "1"

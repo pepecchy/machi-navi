@@ -1,0 +1,9 @@
+id: muko
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 26
+name:
+  ja: 京都府 向日市
+  en: Muko, Kyoto
+  zh: 京都府 向日市
+  vi: Muko, Kyoto
+  ne: मुको, क्योतो
