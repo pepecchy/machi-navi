@@ -1,0 +1,18 @@
+id: tamano-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.tamano.lg.jp/soshiki/10/2312.html
+quotes:
+  - "玉野市に引越して来られた日から14日以内"
+  - "市民課"
+  - "前住所地で発行された「転出証明書」"
+  - "来庁者の本人確認書類(免許証、資格確認書など)"
+  - "外国人の方は在留カード(または特別永住者証明書)"
+checked: 2026-11-16
