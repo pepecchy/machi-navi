@@ -1,0 +1,20 @@
+id: miyakonojo-move-in
+window: "本庁市民課ピンク2番窓口、各総合支所地域生活課、各地区市民センター"
+hours: 
+  open: "8:45"
+  close: "16:30"
+bring:
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 市へ引っ越してきたときは転入の届け出が必要です
+source: https://www.city.miyakonojo.miyazaki.jp/soshiki/24/3701.html
+quotes:
+  - "引っ越しをした日から14日以内"
+  - "本庁市民課ピンク2番窓口"
+  - "各総合支所地域生活課"
+  - "平日の午前8時45分から午後4時30分まで"
+  - "本人確認書類(マイナンバーカード、運転免許証など)"
+  - "世帯全員分のマイナンバーカード(お持ちの方のみ)"
+checked: 2026-11-15
