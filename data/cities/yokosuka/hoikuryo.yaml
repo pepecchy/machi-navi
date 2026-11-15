@@ -1,0 +1,106 @@
+id: yokosuka-hoikuryo
+fiscal_year: 2026
+doc: 2号認定・3号認定の保育料基準額表
+source: https://www.city.yokosuka.kanagawa.jp/2645/documents/r7-4kijungakuhyou.pdf
+checked: 2026-11-15
+quotes:
+  - "入所児童と同じ世帯の兄姉(年齢制限なし)を年齢の高い順に第1子、第2子、第3子と数えます。第2子のお子さんの保育料は基準額の概ね半額に、第3子以降のお子さんの保育料は0円となります"
+wording: [rule_table]
+# The table prints its own second-child row for D7-1 to D13 ("概ね半額"); tiers up to D6 are free for every child.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the 0-2 column for households other than single-parent households.
+tiers:
+  - label: "D1"
+    max: 8700
+    std: 0
+    short: 0
+    std2: 0
+    short2: 0
+  - label: "D2"
+    max: 48600
+    std: 0
+    short: 0
+    std2: 0
+    short2: 0
+  - label: "D3"
+    max: 53000
+    std: 0
+    short: 0
+    std2: 0
+    short2: 0
+  - label: "D4"
+    max: 73000
+    std: 0
+    short: 0
+    std2: 0
+    short2: 0
+  - label: "D5"
+    max: 97000
+    std: 0
+    short: 0
+    std2: 0
+    short2: 0
+  - label: "D6"
+    max: 115000
+    std: 0
+    short: 0
+    std2: 0
+    short2: 0
+  - label: "D7-1"
+    max: 135600
+    std: 35400
+    short: 34900
+    std2: 17700
+    short2: 17400
+  - label: "D7-2"
+    max: 169000
+    std: 35400
+    short: 34900
+    std2: 17700
+    short2: 17400
+  - label: "D8"
+    max: 229000
+    std: 41400
+    short: 40700
+    std2: 20700
+    short2: 20300
+  - label: "D9"
+    max: 268000
+    std: 48700
+    short: 47900
+    std2: 24300
+    short2: 23900
+  - label: "D10"
+    max: 301000
+    std: 53700
+    short: 52900
+    std2: 26800
+    short2: 26400
+  - label: "D11"
+    max: 322000
+    std: 58700
+    short: 57800
+    std2: 29300
+    short2: 28900
+  - label: "D12"
+    max: 343000
+    std: 60000
+    short: 59100
+    std2: 30000
+    short2: 29500
+  - label: "D13"
+    max: null
+    std: 61500
+    short: 60500
+    std2: 30700
+    short2: 30200
+kinto:
+  label: "C"
+  std: 0
+  short: 0
+  std2: 0
+  short2: 0
+hikazei: "B"
+seiho: "A"

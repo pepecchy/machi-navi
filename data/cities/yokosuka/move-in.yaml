@@ -1,0 +1,21 @@
+id: yokosuka-move-in
+window: "窓口サービス課(市役所1号館1階緑色の6番から8番窓口)、行政センター(市内9か所)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.yokosuka.kanagawa.jp/2740/g_info/l100000277.html
+quotes:
+  - "転入をした日(横須賀市外から横須賀市に住み始めた日)から14日以内"
+  - "窓口サービス課(市役所1号館1階緑色の6番から8番窓口)"
+  - "行政センター(市内9か所)"
+  - "転出証明書 (今まで住んでいた市区町村で発行されるもの)"
+  - "届出人の本人確認書類"
+  - "引越しする方全員のマイナンバーカード"
+  - "・在留カード"
+checked: 2026-11-15
