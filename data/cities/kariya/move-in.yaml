@@ -1,0 +1,22 @@
+id: kariya-move-in
+window: "市役所市民課、富士松支所"
+hours: 
+  open: "9:00"
+  close: "16:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(市外→刈谷)
+source: https://www.city.kariya.lg.jp/kurashi/todokede/koseki/1002932.html
+quotes:
+  - "他の市区町村から刈谷市に引っ越してきた方は、住み始めてから14日以内に転入届をしてください。"
+  - "市役所市民課、富士松支所 月曜日~金曜日 9時00分~16時00分"
+  - "届出人の運転免許証などの本人確認書類"
+  - "転出証明書(前住所地の市区町村長が発行したもの)"
+  - "マイナンバーカード(お持ちの方全員分)"
+  - "在留カード(お持ちの方全員分)"
+checked: 2026-11-15
