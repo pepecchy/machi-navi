@@ -1,0 +1,18 @@
+id: kashiwa-move-in
+window: "市民課 または 沼南支所 、 各出張所(柏の葉サービスコーナーを除く) 、 柏駅前行政サービスセンター"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届:本人または同一世帯人が柏市外から柏市に住所を変更したとき
+source: https://www.city.kashiwa.lg.jp/shimin/todokede/juusho/tennyuu/dosetai.html
+quotes:
+  - "柏市の新しい住所に住み始めてから14日以内に届けてください"
+  - "市民課 または 沼南支所 、 各出張所(柏の葉サービスコーナーを除く) 、 柏駅前行政サービスセンター で受け付けています"
+  - "1.転出証明書"
+  - "2.窓口で手続きを行う方の本人確認書類"
+  - "3.引越しをする方のマイナンバー(個人番号)カード(お持ちの方のみ)"
+checked: 2026-11-15
