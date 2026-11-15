@@ -1,0 +1,9 @@
+id: ichikawa
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 12
+name:
+  ja: 千葉県 市川市
+  en: Ichikawa, Chiba
+  zh: 千叶县 市川市
+  vi: Ichikawa, Chiba
+  ne: इचिकावा, चिबा
