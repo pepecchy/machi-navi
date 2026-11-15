@@ -1,0 +1,53 @@
+id: katori-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 2号認定・3号認定を受けた小学校就学前子どもの利用者負担額基準表
+source: https://www.city.katori.lg.jp/kosodate/hoikujo_yochien/hoikusyo.files/reiwa8nenhoikuryoukijyunnhyou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 2号認定・3号認定を受けた小学校就学前子どもの利用者負担額基準表"
+  - "※同一世帯で2人以上の小学校就学前子どもが同時に保育所等を利用している場合、最年長の子どもから順に2人目は半額、3人目以降は無料になります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the rows for households in need (要保護世帯等軽減) are left out.
+# The table has no tier for the per-capita levy alone, so the first taxed tier stands for it.
+tiers:
+  - label: "3"
+    max: 48600
+    std: 14600
+    short: 14500
+  - label: "4"
+    max: 65000
+    std: 19500
+    short: 19300
+  - label: "5"
+    max: 97000
+    std: 21000
+    short: 20800
+  - label: "6"
+    max: 120000
+    std: 28900
+    short: 28600
+  - label: "7"
+    max: 169000
+    std: 31100
+    short: 30700
+  - label: "8"
+    max: 270000
+    std: 39700
+    short: 39200
+  - label: "9"
+    max: 301000
+    std: 42700
+    short: 42100
+  - label: "10"
+    max: null
+    std: 56000
+    short: 55200
+kinto:
+  label: "3"
+  std: 14600
+  short: 14500
+hikazei: "2"
+seiho: "1"
