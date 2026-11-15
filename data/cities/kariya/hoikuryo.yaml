@@ -1,0 +1,57 @@
+id: kariya-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度保育料・給食費
+source: https://www.city.kariya.lg.jp/kosodatenavi/1014910/1011895/1015435/1015449.html
+checked: 2026-11-15
+quotes:
+  - "令和8年度保育料の4月分から8月分は令和7年度の市町村民税額によって、9月分以降は令和8年度の市町村民税額により決定しますので、保育料は9月分から変更になることがあります。"
+  - "「18歳未満の児童で数えて2番目」である場合は、上記基準額の規定にかかわらず、保育料は無料になります。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# The table prints one amount per tier for children under 3, with no split by hours, so std and short are the same.
+# The table has no tier for the per-capita levy alone, so the first taxed tier stands for it.
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 8400
+    short: 8400
+  - label: "C2"
+    max: 62000
+    std: 11400
+    short: 11400
+  - label: "C3"
+    max: 71500
+    std: 14600
+    short: 14600
+  - label: "C4"
+    max: 110000
+    std: 19800
+    short: 19800
+  - label: "C5"
+    max: 140000
+    std: 27400
+    short: 27400
+  - label: "C6"
+    max: 165000
+    std: 36400
+    short: 36400
+  - label: "C7"
+    max: 205000
+    std: 40200
+    short: 40200
+  - label: "C8"
+    max: 335000
+    std: 44000
+    short: 44000
+  - label: "C9"
+    max: null
+    std: 47000
+    short: 47000
+kinto:
+  label: "C1"
+  std: 8400
+  short: 8400
+hikazei: "B"
+seiho: "A"
