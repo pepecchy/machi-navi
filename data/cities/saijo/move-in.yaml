@@ -1,0 +1,18 @@
+id: saijo-move-in
+window: "西条市役所 本庁 市民課 市民係 (新館1階)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: <届け出・登録・証明>住民登録
+source: https://www.city.saijo.ehime.jp/soshiki/shiminseikatsu/jumintoroku.html
+quotes:
+  - "転入した日から14日以内"
+  - "西条市役所 本庁 市民課 市民係 (新館1階)"
+  - "窓口に来られた方(代理人を含む)の本人確認が義務付けられています"
+  - "転出証明書(前住地で発行)"
+  - "必ずマイナンバーカード持参して転入手続きを行ってください。"
+checked: 2026-11-16
