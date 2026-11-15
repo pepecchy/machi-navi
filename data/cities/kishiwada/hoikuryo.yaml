@@ -1,0 +1,66 @@
+id: kishiwada-hoikuryo
+fiscal_year: 2026
+doc: 【令和8年度用】岸和田市保育施設利用者負担額表(保育料表)
+source: https://www.city.kishiwada.lg.jp/uploaded/attachment/155005.pdf
+checked: 2026-11-15
+quotes:
+  - "【令和8年度用】"
+  - "岸和田市保育施設利用者負担額表( 保育料表 )"
+  - "きょうだい同時利用の場合の保育料の額は、年齢の高い子どもから全額・半額・0円となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are the rows for households other than 特定世帯 (single-parent and similar households).
+# D2 is printed in two rows split at 77,101 yen that share one amount.
+tiers:
+  - label: "C2"
+    max: 40000
+    std: 14000
+    short: 11000
+  - label: "D1"
+    max: 60000
+    std: 17000
+    short: 14000
+  - label: "D2"
+    max: 80000
+    std: 21000
+    short: 18000
+  - label: "D3"
+    max: 100000
+    std: 24000
+    short: 21000
+  - label: "D4"
+    max: 120000
+    std: 29000
+    short: 26000
+  - label: "D5"
+    max: 140000
+    std: 35000
+    short: 32000
+  - label: "D6"
+    max: 160000
+    std: 40000
+    short: 37000
+  - label: "D7"
+    max: 200000
+    std: 44000
+    short: 41000
+  - label: "D8"
+    max: 240000
+    std: 51000
+    short: 48000
+  - label: "D9"
+    max: 320000
+    std: 56000
+    short: 53000
+  - label: "D10"
+    max: null
+    std: 59000
+    short: 56000
+kinto:
+  label: "C1"
+  std: 13000
+  short: 10000
+hikazei: "B"
+seiho: "A"
