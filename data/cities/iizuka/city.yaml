@@ -1,0 +1,9 @@
+id: iizuka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 40
+name:
+  ja: 福岡県 飯塚市
+  en: Iizuka, Fukuoka
+  zh: 福冈县 饭冢市
+  vi: Iizuka, Fukuoka
+  ne: इइजुका, फुकुओका
