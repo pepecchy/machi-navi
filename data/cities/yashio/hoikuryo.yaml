@@ -1,0 +1,55 @@
+id: yashio-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育のしおり
+source: https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/2025_shinseihoiku.files/r8hoikunosiori.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育料一覧(月額)"
+  - "令和8年4月~8月の保育料は令和7年度の市区町村民税所得割額、令和8年9月~令和9年3月の保"
+  - "第2子の保育料を徴収基準額の"
+  - "半額とし、第3子の保育料を"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The sentence is split across two lines of the guide.
+second_child_quote: 2
+# Amounts are the general columns; the 要保護世帯等 columns are left out.
+# D-1 and D-2 are each printed as two rows (split at 57,700 and 77,101 yen for the multi-child reduction) with the same general amounts.
+tiers:
+  - label: "C-2"
+    max: 30000
+    std: 16000
+    short: 15700
+  - label: "D-1"
+    max: 65000
+    std: 18000
+    short: 17600
+  - label: "D-2"
+    max: 105000
+    std: 27000
+    short: 26500
+  - label: "D-3"
+    max: 140000
+    std: 38000
+    short: 37300
+  - label: "D-4"
+    max: 190000
+    std: 44000
+    short: 43200
+  - label: "D-5"
+    max: 265000
+    std: 55000
+    short: 54000
+  - label: "D-6"
+    max: 380000
+    std: 56000
+    short: 55000
+  - label: "D-7"
+    max: null
+    std: 60000
+    short: 58900
+kinto:
+  label: "C-1"
+  std: 13000
+  short: 12700
+hikazei: "B"
+seiho: "A"
