@@ -1,0 +1,98 @@
+id: hakodate-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度(2026年度) 保育所・認定こども園・幼稚園 利用のしおり
+source: https://www.city.hakodate.hokkaido.jp/docs/2017051700061/file_contents/r8riyou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度(2026年度)"
+  - "■函館市 保育料基準額表"
+  - "きょうだいのうち2人目以降の子どもは,保育料が無料です。"
+  - "きょうだいの年齢は問いません。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are the 右記以外 columns (households other than single-parent or disability households). D3 prints 25,100 and 24,700 in both of its rows (to 77,101 and 80,600), so it is one tier.
+tiers:
+  - label: "C2"
+    max: 24300
+    std: 12300
+    short: 12100
+  - label: "C3"
+    max: 48600
+    std: 16700
+    short: 16400
+  - label: "D1"
+    max: 53100
+    std: 20400
+    short: 20000
+  - label: "D2"
+    max: 62100
+    std: 21800
+    short: 21400
+  - label: "D3"
+    max: 80600
+    std: 25100
+    short: 24700
+  - label: "D4"
+    max: 98600
+    std: 28500
+    short: 28100
+  - label: "D5"
+    max: 116600
+    std: 32900
+    short: 32300
+  - label: "D6"
+    max: 134600
+    std: 36400
+    short: 35800
+  - label: "D7"
+    max: 158200
+    std: 40000
+    short: 39400
+  - label: "D8"
+    max: 171900
+    std: 43600
+    short: 43000
+  - label: "D9"
+    max: 294900
+    std: 47600
+    short: 46700
+  - label: "D10"
+    max: 366900
+    std: 51700
+    short: 50800
+  - label: "D11"
+    max: 416400
+    std: 55800
+    short: 54900
+  - label: "D12"
+    max: 456600
+    std: 59700
+    short: 58500
+  - label: "D13"
+    max: 491700
+    std: 64400
+    short: 63200
+  - label: "D14"
+    max: 523800
+    std: 69000
+    short: 67800
+  - label: "D15"
+    max: 556800
+    std: 73700
+    short: 72100
+  - label: "D16"
+    max: 589800
+    std: 78400
+    short: 76800
+  - label: "D17"
+    max: null
+    std: 86200
+    short: 84600
+kinto:
+  label: "C1"
+  std: 7800
+  short: 7600
+hikazei: "B"
+seiho: "A"
