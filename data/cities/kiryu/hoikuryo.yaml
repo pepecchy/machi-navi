@@ -1,0 +1,102 @@
+id: kiryu-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育料の御案内(桐生市公立幼稚園、公立・私立保育園、認定こども園保育料)
+source: https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/001/361/r8hoikuryo.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 桐生市公立幼稚園、公立・私立保育園、認定こども園保育料"
+  - "2人目・・・保育料金表の( )内の額"
+wording: [rule_table]
+# The table prints the amount for the first child and, in brackets, the second child.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the rows for households other than ひとり親世帯等.
+# D2 is printed in two rows split at 57,700 yen that share one amount; D4 ends below 77,100 yen as printed.
+tiers:
+  - label: "D1"
+    max: 48600
+    std: 8800
+    short: 8600
+    std2: 4400
+    short2: 4300
+  - label: "D2"
+    max: 58600
+    std: 11800
+    short: 11500
+    std2: 5900
+    short2: 5750
+  - label: "D3"
+    max: 68000
+    std: 14200
+    short: 13900
+    std2: 7100
+    short2: 6950
+  - label: "D4"
+    max: 77100
+    std: 18800
+    short: 18400
+    std2: 9400
+    short2: 9200
+  - label: "D5"
+    max: 97000
+    std: 20800
+    short: 20400
+    std2: 10400
+    short2: 10200
+  - label: "D6"
+    max: 107000
+    std: 26800
+    short: 26300
+    std2: 13400
+    short2: 13150
+  - label: "D7"
+    max: 117000
+    std: 31000
+    short: 30400
+    std2: 15500
+    short2: 15200
+  - label: "D8"
+    max: 127000
+    std: 34400
+    short: 33800
+    std2: 17200
+    short2: 16900
+  - label: "D9"
+    max: 169000
+    std: 36900
+    short: 36200
+    std2: 18450
+    short2: 18100
+  - label: "D10"
+    max: 211200
+    std: 39000
+    short: 38300
+    std2: 19500
+    short2: 19150
+  - label: "D11"
+    max: 301000
+    std: 40600
+    short: 39900
+    std2: 20300
+    short2: 19950
+  - label: "D12"
+    max: 397000
+    std: 43000
+    short: 42200
+    std2: 21500
+    short2: 21100
+  - label: "D13"
+    max: null
+    std: 44000
+    short: 43200
+    std2: 22000
+    short2: 21600
+kinto:
+  label: "C"
+  std: 7200
+  short: 7000
+  std2: 3600
+  short2: 3500
+hikazei: "B"
+seiho: "A"
