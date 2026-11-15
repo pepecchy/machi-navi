@@ -1,0 +1,56 @@
+id: okegawa-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度【年度途中入所用】保育施設入所のてびき
+source: https://www.city.okegawa.lg.jp/material/files/group/25/hoikunyusyo2.pdf
+checked: 2026-11-16
+quotes:
+  - "令和 8 年度【年度途中入所用】"
+  - "令和8年4月~8月分 令和8年9月~令和9年3月分"
+  - "生計を一にする世帯に子どもが2人以上いる場合、市独自制度により兄姉の年齢に関わらず、2人目"
+  - "は半額になります。"
+wording: [rule_half_any]
+# Half price like "half"; who counts as the second child is in the wording (rule_half_any).
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The sentence is split across two lines of the guide.
+second_child_quote: 2
+# Amounts are the general table; the reductions for single-parent and similar households are left out.
+# 第3 is the taxed household with no income levy (per-capita levy only); 第4 starts at 1 yen of income levy.
+tiers:
+  - label: "第4"
+    max: 58000
+    std: 11900
+    short: 11600
+  - label: "第5"
+    max: 76000
+    std: 20800
+    short: 20400
+  - label: "第6"
+    max: 97000
+    std: 29700
+    short: 29100
+  - label: "第7"
+    max: 130000
+    std: 35200
+    short: 34600
+  - label: "第8"
+    max: 190300
+    std: 44000
+    short: 43200
+  - label: "第9"
+    max: 259200
+    std: 48300
+    short: 47400
+  - label: "第10"
+    max: 388500
+    std: 56000
+    short: 55000
+  - label: "第11"
+    max: null
+    std: 72800
+    short: 71500
+kinto:
+  label: "第3"
+  std: 7800
+  short: 7600
+hikazei: "第2"
+seiho: "第1"
