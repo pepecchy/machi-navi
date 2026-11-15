@@ -1,0 +1,15 @@
+id: miyakonojo-hoikuryo
+fiscal_year: 2026
+doc: "令和5年4月分から「保育料の完全無料化」を実施します"
+source: https://www.city.miyakonojo.miyazaki.jp/soshiki/89/53897.html
+checked: 2026-11-15
+quotes:
+  - "0歳児から2歳児までの保育料を無料にし、全児童の保育料を完全無料にします"
+  - "令和8年4月から一部保育料無料化の上限額が変わります"
+  - "保育料を全額無料"
+wording: [rule_free_all]
+# The city waives the fee for every child aged 0 to 2 as its own measure, so no tier amounts are needed. The page notes changes for April 2026, so it covers fiscal 2026.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0

@@ -1,0 +1,9 @@
+id: miyakonojo
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 45
+name:
+  ja: 宮崎県 都城市
+  en: Miyakonojo, Miyazaki
+  zh: 宫崎县 都城市
+  vi: Miyakonojo, Miyazaki
+  ne: मियाकोनोजो, मियाजाकी
