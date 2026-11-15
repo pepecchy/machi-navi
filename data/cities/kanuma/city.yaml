@@ -1,0 +1,9 @@
+id: kanuma
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 9
+name:
+  ja: 栃木県 鹿沼市
+  en: Kanuma, Tochigi
+  zh: 栃木县 鹿沼市
+  vi: Kanuma, Tochigi
+  ne: कानुमा, तोचिगी

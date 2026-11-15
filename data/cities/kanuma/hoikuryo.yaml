@@ -1,0 +1,68 @@
+id: kanuma-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度鹿沼市 利用者負担額(保育料)表
+source: https://www.city.kanuma.tochigi.jp/0191/info-0000002352-0.html
+checked: 2026-11-16
+quotes:
+  - "令和8年度鹿沼市 利用者負担額(保育料)表"
+  - "18歳未満(18歳到達後、最初の3月31日まで)の児童を2人以上養育している場合、その2人目以降の児童は、申請に基づき保育料が無料となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first). The rule is for 3号 children (under 3).
+second_child_quote: 1
+# Amounts are the 3号 columns; the amounts for single-parent and similar households are left out.
+tiers:
+  - label: "4"
+    max: 39600
+    std: 8000
+    short: 7800
+  - label: "5"
+    max: 48600
+    std: 11000
+    short: 10800
+  - label: "6"
+    max: 61800
+    std: 14000
+    short: 13700
+  - label: "7"
+    max: 77200
+    std: 20000
+    short: 19600
+  - label: "8"
+    max: 97000
+    std: 23000
+    short: 22600
+  - label: "9"
+    max: 112000
+    std: 27000
+    short: 26500
+  - label: "10"
+    max: 133700
+    std: 30000
+    short: 29400
+  - label: "11"
+    max: 169000
+    std: 35000
+    short: 34400
+  - label: "12"
+    max: 211300
+    std: 38000
+    short: 37300
+  - label: "13"
+    max: 301000
+    std: 40000
+    short: 39300
+  - label: "14"
+    max: 397000
+    std: 45000
+    short: 44200
+  - label: "15"
+    max: null
+    std: 49000
+    short: 48100
+kinto:
+  label: "3"
+  std: 8000
+  short: 7800
+hikazei: "2"
+seiho: "1"
