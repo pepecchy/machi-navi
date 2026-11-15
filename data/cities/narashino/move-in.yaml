@@ -1,0 +1,20 @@
+id: narashino-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 引越しの届出(転入・転居・転出・世帯変更)
+source: https://www.city.narashino.lg.jp/kurashi/todokede/juminhyo/hikkoshi.html
+quotes:
+  - "住所を移した日から 14日以内"
+  - "引越しの届出は市役所市民課のみでの受付となります。"
+  - "転出証明書"
+  - "届出人の本人確認書類(運転免許証、資格確認書など)"
+  - "在留カード・特別永住者証明書(外国籍の方全員分)"
+  - "マイナンバーカード(お持ちの方)"
+checked: 2026-11-15

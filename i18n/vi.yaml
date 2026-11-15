@@ -64,6 +64,7 @@ rule_half_any: Ở thành phố này, con thứ hai trả một nửa, không k�
 rule_half10_any: Ở thành phố này, con thứ hai trả một nửa, không kể tuổi của anh chị (làm tròn xuống 10 yên).
 rule_free_all: Ở đây, phí cơ bản tại nhà trẻ được cấp phép miễn phí cho mọi trẻ, không kể tuổi hay anh chị em.
 rule_half100: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả một nửa (làm tròn xuống 100 yên).
+rule_half10: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả một nửa (làm tròn xuống 10 yên).
 rule_table: Ở thành phố này, con thứ hai trả mức dành cho con thứ hai trong bảng phí của thành phố.
 rule_first: Đây là mức phí cho con thứ nhất. Quy định cho con thứ hai khác nhau theo thành phố. Hãy đổi ở trên để xem.
 rule_quote: "Nguyên văn trong tài liệu của thành phố (tiếng Nhật)"
