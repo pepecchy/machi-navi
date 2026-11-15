@@ -1,0 +1,9 @@
+id: ayabe
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 26
+name:
+  ja: 京都府 綾部市
+  en: Ayabe, Kyoto
+  zh: 京都府 绫部市
+  vi: Ayabe, Kyoto
+  ne: आयाबे, क्योटो
