@@ -58,6 +58,7 @@ tier: Bậc
 source: Nguồn
 checked: Ngày kiểm tra
 rule_free: Ở thành phố này, con thứ hai trở đi dưới 3 tuổi được miễn phí.
+rule_free_same: Ở thành phố này, con thứ hai trở đi đi nhà trẻ cùng lúc được miễn phí.
 rule_half: Ở thành phố này, con thứ hai đi nhà trẻ cùng lúc trả một nửa.
 rule_half_any: Ở thành phố này, con thứ hai trả một nửa, không kể tuổi của anh chị.
 rule_half10_any: Ở thành phố này, con thứ hai trả một nửa, không kể tuổi của anh chị (làm tròn xuống 10 yên).

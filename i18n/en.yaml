@@ -58,6 +58,7 @@ tier: Tier
 source: Source
 checked: Checked on
 rule_free: In this city, the 2nd child and later under age 3 are free.
+rule_free_same: In this city, the 2nd child and later enrolled at the same time are free.
 rule_half: In this city, a 2nd child enrolled at the same time pays half.
 rule_half_any: In this city, a 2nd child pays half, whatever the age of the older sibling.
 rule_half10_any: In this city, a 2nd child pays half, whatever the age of the older sibling (rounded down to 10 yen).
