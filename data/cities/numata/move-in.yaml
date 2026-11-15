@@ -1,0 +1,20 @@
+id: numata-move-in
+window: "市民課(テラス沼田3階)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.numata.gunma.jp/life/tetsuduki/juminhyo/1010124/1002163.html
+quotes:
+  - "転入した日(沼田市に生活の本拠が移った日)から14日以内に、転入届をしてください。"
+  - "市民課(テラス沼田3階)"
+  - "本人確認書類"
+  - "転出証明書"
+  - "転入する方全員のマイナンバーカード"
+  - "在留カードまたは特別永住者証明書"
+checked: 2026-11-16
