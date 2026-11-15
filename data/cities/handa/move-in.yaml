@@ -1,0 +1,18 @@
+id: handa-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 窓口での住民異動手続き
+source: https://www.city.handa.lg.jp/kurashi/koseki/1001642/1001643.html
+quotes:
+  - "引越した日から14日以内"
+  - "※2 住民異動届は市民課窓口にあります。"
+  - "届出人の本人確認書類 ※3"
+  - "前住所地の市町村長が発行した転出証明書"
+  - "マイナンバーカード(お持ちの方のみ)"
+checked: 2026-11-15
