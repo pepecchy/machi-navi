@@ -1,0 +1,60 @@
+id: tsukubamirai-hoikuryo
+fiscal_year: 2026
+doc: 【保育所】利用者負担額(保育料・副食費)について
+source: https://www.city.tsukubamirai.lg.jp/jyumin/hoiku/hoikujo/page006208.html
+checked: 2026-11-16
+quotes:
+  - "令和8年度 4月〜8月分"
+  - "利用者負担額(保育料)階層表(2・3号認定)"
+  - "同一世帯の中から認可保育施設、認定こども園、地域型保育施設、幼稚園、企業主導型保育施設を利用しているお子様の人数でカウントします。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are the general rows; the single-parent and similar rows ((3) and (5)) are left out.
+# (6) and (7) share the same amounts and are merged. (4) is the first taxed tier (income levy under 48,600 yen, per-capita levy included).
+tiers:
+  - label: "第3 (4)"
+    max: 48600
+    std: 8500
+    short: 8400
+    std2: 4250
+    short2: 4200
+  - label: "第4 (6)(7)"
+    max: 97000
+    std: 19500
+    short: 19200
+    std2: 9750
+    short2: 9600
+  - label: "第5 (8)"
+    max: 169000
+    std: 37500
+    short: 36900
+    std2: 18750
+    short2: 18450
+  - label: "第6 (9)"
+    max: 301000
+    std: 50000
+    short: 49200
+    std2: 25000
+    short2: 24600
+  - label: "第7 (10)"
+    max: 397000
+    std: 56000
+    short: 55100
+    std2: 28000
+    short2: 27550
+  - label: "第8 (11)"
+    max: null
+    std: 60000
+    short: 59000
+    std2: 30000
+    short2: 29500
+kinto:
+  label: "第3 (4)"
+  std: 8500
+  short: 8400
+  std2: 4250
+  short2: 4200
+hikazei: "第2 (2)"
+seiho: "第1"

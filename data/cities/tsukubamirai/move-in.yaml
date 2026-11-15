@@ -1,0 +1,20 @@
+id: tsukubamirai-move-in
+window: "伊奈庁舎1階市民窓口課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民票登録に関する届出
+source: https://www.city.tsukubamirai.lg.jp/jyumin/todokede-shoumei-zeikin/koseki/hikkoshi/page000408.html
+quotes:
+  - "住み始めた日から14日以内"
+  - "伊奈庁舎1階市民窓口課"
+  - "転出証明書 ※所持者のみ"
+  - "マイナンバーカード(個人番号カード) ※所持者のみ"
+  - "運転免許証、マイナンバーカード(個人番号カード)、パスポート等本人確認のできるもの"
+  - "在留カード、特別永住者証明書、特定在留カード等"
+checked: 2026-11-16
