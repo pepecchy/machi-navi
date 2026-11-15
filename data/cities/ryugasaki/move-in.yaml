@@ -1,0 +1,18 @@
+id: ryugasaki-move-in
+window: "市民窓口課(市役所庁舎1階)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届(他市区町村や国外から龍ケ崎市への引っ越し)
+source: https://www.city.ryugasaki.ibaraki.jp/kurashi/todokede/jumintouroku/jyuminhyo/2016030700078.html
+quotes:
+  - "龍ケ崎市に引っ越しをしてから14日以内に行ってください。"
+  - "市民窓口課(市役所庁舎1階)"
+  - "窓口に来られる方の 本人確認書類A から1点"
+  - "転出証明書(マイナンバーカードをお持ちで、引越しワンストップサービスによる手続きや特例転出の手続きをした方は不要)"
+  - "マイナンバーカード(お持ちの方)"
+checked: 2026-11-16

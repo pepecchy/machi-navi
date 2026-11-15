@@ -1,0 +1,60 @@
+id: ryugasaki-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所等・幼稚園・認定こども園 利用案内
+source: https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R8-hoikumousikomi.files/R8.riyouannaimatome.pdf
+checked: 2026-11-16
+quotes:
+  - "☆ 保育認定(2号・3号認定)の子どもの保育料(月額)【3歳児以上は無償化】"
+  - "4 月から8月の保育料は令和7年度、9 月から 3 月は令和8年度の市町村民税所得割額に基づく保育"
+  - "等を同時に利用する最年長の子"
+  - "保育標準・短時間 無料 半額 全額 半額、3人目以降は0円となり"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+# The guide prints the rule in a chart: counted from the oldest preschool child using care at the same time, the second is half and the third and later are free.
+second_child_quote: 3
+# Amounts are the general table; the separate table for single-parent and similar households is left out.
+# 第3 is the first taxed tier (income levy under 48,600 yen) and also covers households paying only the per-capita levy, so kinto shares its amount.
+tiers:
+  - label: "第3"
+    max: 48600
+    std: 11300
+    short: 11100
+  - label: "第4"
+    max: 77700
+    std: 17200
+    short: 16900
+  - label: "第5"
+    max: 97000
+    std: 24700
+    short: 24200
+  - label: "第6"
+    max: 140200
+    std: 27700
+    short: 27200
+  - label: "第7"
+    max: 169000
+    std: 34500
+    short: 33900
+  - label: "第8"
+    max: 248200
+    std: 37500
+    short: 36800
+  - label: "第9"
+    max: 301000
+    std: 45000
+    short: 44200
+  - label: "第10"
+    max: 397000
+    std: 49000
+    short: 48100
+  - label: "第11"
+    max: null
+    std: 51500
+    short: 50600
+kinto:
+  label: "第3"
+  std: 11300
+  short: 11100
+hikazei: "第2"
+seiho: "第1"
