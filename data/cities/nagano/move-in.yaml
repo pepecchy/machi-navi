@@ -1,0 +1,23 @@
+id: nagano-move-in
+window: "総合窓口(市役所第一庁舎2階)、各支所"
+hours:
+  open: "9:00"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(長野市への引越し)
+source: https://www.city.nagano.nagano.jp/n085500/contents/p000227.html
+quotes:
+  - "長野市に住み始めた日から14日以内"
+  - "総合窓口(市役所第一庁舎2階)"
+  - "平日(月曜日から金曜日)午前9時から午後4時30分"
+  - "本人確認書類"
+  - "転出証明書(前住所地で発行されます。マイナンバーカード等を利用した転入の場合は不要です。)"
+  - "マイナンバーカード、住民基本台帳カード(お持ちの方のみ)"
+  - "在留カードまたは特別永住者証明書"
+checked: 2026-11-15

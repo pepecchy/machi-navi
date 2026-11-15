@@ -1,0 +1,80 @@
+id: nagano-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育料基準額表(軽減拡充後)
+source: https://www.city.nagano.nagano.jp/documents/63/r8hoikuryou_hukusyoku_kizyun.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 保育料基準額表(軽減拡充後)"
+# The sibling rule is stated in the city's guide to the 2026 fees.
+rule_source: https://www.city.nagano.nagano.jp/documents/63/r8hoikuryou_goannai.pdf
+rule_doc: 令和8年度の保育料について
+rule_quotes:
+  - "きょうだいの年齢等にかかわらず、保護者と生計を一にする最年長の兄姉から順にカウントし、2人目以降を無償としています"
+wording: [rule_free]
+second_child: free
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+tiers:
+  - label: "C"
+    max: 48600
+    std: 4950
+    short: 4950
+  - label: "D1"
+    max: 57700
+    std: 7100
+    short: 7000
+  - label: "D1"
+    max: 60000
+    std: 14200
+    short: 14000
+  - label: "D2"
+    max: 76000
+    std: 19400
+    short: 19100
+  - label: "D2"
+    max: 77101
+    std: 24500
+    short: 24100
+  - label: "D3"
+    max: 97000
+    std: 24500
+    short: 24100
+  - label: "D4"
+    max: 123000
+    std: 31500
+    short: 31000
+  - label: "D5"
+    max: 148000
+    std: 40500
+    short: 39800
+  - label: "D6"
+    max: 169000
+    std: 44000
+    short: 43300
+  - label: "D7"
+    max: 219000
+    std: 50500
+    short: 49700
+  - label: "D8"
+    max: 265000
+    std: 53600
+    short: 52700
+  - label: "D9"
+    max: 301000
+    std: 54500
+    short: 53600
+  - label: "D10"
+    max: 397000
+    std: 55600
+    short: 54700
+  - label: "D11"
+    max: null
+    std: 56700
+    short: 55700
+# C covers income levy under 48,600 yen, so households paying only the per-capita levy fall in it.
+kinto:
+  label: "C"
+  std: 4950
+  short: 4950
+hikazei: "B"
+seiho: "A"
