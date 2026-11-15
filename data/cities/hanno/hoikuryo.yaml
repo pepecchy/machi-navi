@@ -1,0 +1,69 @@
+id: hanno-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所(園)等利用のご案内
+source: https://www.city.hanno.lg.jp/material/files/group/29/10.pdf
+checked: 2026-11-16
+quotes:
+  - "令和 8 年度 飯能市保育料徴収基準表(保育認定の子ども 2 号・3 号)"
+  - "または、幼稚園と認可保育所を同時に利用する場合、最年長の子供から順に認可保育所入所の"
+  - "2 人目の児童は表の半額、3 人目以降の児童については無料になります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The sentence is split across two lines of the guide.
+second_child_quote: 2
+# Amounts are the general table; the 1,000-yen reduction for single-parent and similar households is left out.
+tiers:
+  - label: "C2"
+    max: 21000
+    std: 8900
+    short: 8700
+  - label: "C3"
+    max: 29300
+    std: 10500
+    short: 10300
+  - label: "C4"
+    max: 48600
+    std: 13000
+    short: 12700
+  - label: "C5"
+    max: 77200
+    std: 17000
+    short: 16700
+  - label: "C6"
+    max: 105600
+    std: 25000
+    short: 24500
+  - label: "C7"
+    max: 154100
+    std: 34000
+    short: 33400
+  - label: "C8"
+    max: 205400
+    std: 42000
+    short: 41200
+  - label: "C9"
+    max: 262400
+    std: 50000
+    short: 49100
+  - label: "C10"
+    max: 319400
+    std: 53000
+    short: 52000
+  - label: "C11"
+    max: 364700
+    std: 55000
+    short: 54000
+  - label: "C12"
+    max: 437000
+    std: 57000
+    short: 56000
+  - label: "C13"
+    max: null
+    std: 58000
+    short: 57000
+kinto:
+  label: "C1"
+  std: 7400
+  short: 7200
+hikazei: "B"
+seiho: "A"
