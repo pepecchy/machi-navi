@@ -1,0 +1,9 @@
+id: hanno
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 11
+name:
+  ja: 埼玉県 飯能市
+  en: Hanno, Saitama
+  zh: 埼玉县 饭能市
+  vi: Hanno, Saitama
+  ne: हान्नो, साइतामा

@@ -1,0 +1,19 @@
+id: hanno-move-in
+window: "市役所市民課(本庁舎1階)、各地区行政センター(富士見地区行政センターを除く)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入手続き
+source: https://www.city.hanno.lg.jp/lifescene/hikkoshi/5982.html
+quotes:
+  - "飯能市に住み始めてから14日以内"
+  - "市役所市民課(本庁舎1階)、各地区行政センター(富士見地区行政センターを除く)"
+  - "本人確認書類(マイナンバーカード、運転免許証等)"
+  - "転出証明書(前住所地の役所で発行されたもの)またはマイナンバーカード(特例転入の方)"
+  - "在留カード(外国人の方)"
+checked: 2026-11-16
