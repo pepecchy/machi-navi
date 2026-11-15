@@ -1,0 +1,14 @@
+id: musashimurayama-hoikuryo
+fiscal_year: 2026
+doc: 保育料の額
+source: https://www.city.musashimurayama.lg.jp/kosodate/azukeru/1012423/1011099/1011100.html
+checked: 2026-11-15
+quotes:
+  - "令和7年9月分の保育料から完全無料化となります"
+  - "全ての保育所等に入所する児童は 0円(完全無料) となります"
+wording: [rule_free_all]
+# The basic fee is waived for every child, so the city publishes no tier amounts.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
