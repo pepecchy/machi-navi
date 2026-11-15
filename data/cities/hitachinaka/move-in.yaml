@@ -1,0 +1,19 @@
+id: hitachinaka-move-in
+window: "市民課(本庁)及び支所市民生活担当"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(他市区町村からひたちなか市への引越し)
+source: https://www.city.hitachinaka.lg.jp/kurashi/koseki/1003515/1003521.html
+quotes:
+  - "他市区町村からひたちなか市へ引越しされた方は、引越しをした日から14日以内に転入届を出してください。"
+  - "市民課(本庁)及び支所市民生活担当"
+  - "転入する方全員のマイナンバーカード(継続利用手続きしたもの)または転出証明書"
+  - "在留カード等(外国籍の方)"
+  - "窓口にこられる方の本人確認書類"
+checked: 2026-11-15

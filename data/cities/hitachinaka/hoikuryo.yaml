@@ -1,0 +1,77 @@
+id: hitachinaka-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度保育料徴収基準額表
+source: https://www.city.hitachinaka.lg.jp/_res/projects/default_project/_page_/001/005/448/r8kijyun.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度保育料徴収基準額表"
+  - "※第1~第8階層まで:同居の兄姉を年齢順に1人目,2人目と数えます。"
+wording: [rule_table]
+# The table prints the amount for the first and the second child; up to the 8th tier all siblings living together count, from the 9th tier only preschool siblings.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows (ア, ウ); the rows for single-parent and similar households (イ) are left out.
+tiers:
+  - label: "第4ア"
+    max: 48600
+    std: 12000
+    short: 11700
+    std2: 6000
+    short2: 5850
+  - label: "第5ア"
+    max: 62000
+    std: 18000
+    short: 17600
+    std2: 9000
+    short2: 8800
+  - label: "第6ア"
+    max: 77101
+    std: 26000
+    short: 25500
+    std2: 13000
+    short2: 12750
+  - label: "第6ウ"
+    max: 97000
+    std: 26000
+    short: 25500
+    std2: 13000
+    short2: 12750
+  - label: "第7"
+    max: 136000
+    std: 36000
+    short: 35300
+    std2: 18000
+    short2: 17650
+  - label: "第8"
+    max: 169000
+    std: 41000
+    short: 40300
+    std2: 20500
+    short2: 20150
+  - label: "第9"
+    max: 301000
+    std: 53000
+    short: 52000
+    std2: 26500
+    short2: 26000
+  - label: "第10"
+    max: 397000
+    std: 55000
+    short: 54000
+    std2: 27500
+    short2: 27000
+  - label: "第11"
+    max: null
+    std: 57000
+    short: 55900
+    std2: 28500
+    short2: 27950
+kinto:
+  label: "第3ア"
+  std: 9000
+  short: 8800
+  std2: 4500
+  short2: 4400
+hikazei: "第2"
+seiho: "第1"
