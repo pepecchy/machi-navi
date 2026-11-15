@@ -1,0 +1,14 @@
+id: motomiya-hoikuryo
+fiscal_year: 2026
+doc: "保育所保育料について(令和8年度より無償)"
+source: https://www.city.motomiya.lg.jp/soshiki/18/hoikuryo.html
+checked: 2026-11-15
+quotes:
+  - "令和8年度保育所保育料について"
+  - "令和8年度より、本宮市独自の保育料全額助成制度により保護者負担額が0円となります。"
+wording: [rule_free_all]
+# From fiscal 2026 the city pays the whole fee of every child under 3 by its own subsidy; children 3 and over are free under the national program.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
