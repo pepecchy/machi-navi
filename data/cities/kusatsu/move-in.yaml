@@ -1,0 +1,18 @@
+id: kusatsu-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入・転出・転居の手続き
+source: https://www.city.kusatsu.shiga.jp/kurashi/kosekizyuuminhyou/idotodokede/idotetsuzuki.html
+quotes:
+  - "住み始めた日から14日以内"
+  - "まちづくり協働部 市民課 戸籍住基係"
+  - "日本人の場合 マイナンバーカードか転出証明書と本人確認書類"
+  - "外国人の場合(下記のいずれかの書類) 転出証明書と在留カードか特別永住者証明書"
+checked: 2026-11-15
