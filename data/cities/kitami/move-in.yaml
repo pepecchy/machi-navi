@@ -1,0 +1,20 @@
+id: kitami-move-in
+window: "本庁舎(1階窓口課)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 他の市区町村から引越しして来た方へ(転入届)
+source: https://www.city.kitami.lg.jp/administration/town/detail.php?content=7967
+quotes:
+  - "住み始めてから14日以内"
+  - "本庁舎(1階窓口課)"
+  - "前の住所地で発行された転出証明書"
+  - "窓口に来る方の本人確認書類"
+  - "マイナンバーカードが転出証明書の代わりになります"
+  - "外国人の方の場合は、在留カード"
+checked: 2026-11-16
