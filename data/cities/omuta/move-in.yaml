@@ -1,0 +1,23 @@
+id: omuta-move-in
+window: "市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民異動届
+source: https://www.city.omuta.lg.jp/kiji0032488/index.html
+quotes:
+  - "届出期間 転入の日から14日以内"
+  - "市民課の窓口へ届書を持参した人"
+  - "●取扱い時間 午前8時30分から午後5時15分まで"
+  - "1.前住所地の市区町村が発行した転出証明書"
+  - "2.マイナンバーカード(お持ちのかたのみ)"
+  - "3. 在留カード(中長期在留者のかたのみ)"
+  - "運転免許証、マイナンバーカード、パスポート、在留カード、特別永住者証明書 など"
+checked: 2026-11-15
