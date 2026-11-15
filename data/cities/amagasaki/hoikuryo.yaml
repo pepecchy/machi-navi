@@ -1,0 +1,69 @@
+id: amagasaki-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度2号・3号の保育認定を受けた子どもの利用者負担額(保育料)について(お知らせ)
+source: https://www.city.amagasaki.hyogo.jp/_res/projects/default_project/_page_/001/013/874/R8hoikuryou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度3号の保育認定を受けた子どもの利用者負担額(保育料)は次のとおりです"
+# The sibling rule is stated on the city page that links the notice.
+rule_source: https://www.city.amagasaki.hyogo.jp/kosodate-kyoiku/service/hoikusyo/1013874.html
+rule_doc: 保育料(利用者負担額)について
+rule_quotes:
+  - "年齢の高い順番に数えて、2人目の保育料は半額に、3人目以降の保育料は無料となります"
+wording: [rule_half]
+second_child: half
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are for households other than single-parent households ("その他").
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 13200
+    short: 13100
+  - label: "D1"
+    max: 64700
+    std: 21000
+    short: 20800
+  - label: "D2"
+    max: 80800
+    std: 22300
+    short: 22100
+  - label: "D3"
+    max: 97000
+    std: 23700
+    short: 23400
+  - label: "D4"
+    max: 133000
+    std: 34300
+    short: 33900
+  - label: "D5"
+    max: 169000
+    std: 36100
+    short: 35700
+  - label: "D6"
+    max: 213000
+    std: 49500
+    short: 48600
+  - label: "D7"
+    max: 257000
+    std: 52200
+    short: 51500
+  - label: "D8"
+    max: 301000
+    std: 54900
+    short: 54100
+  - label: "D9"
+    max: 397000
+    std: 65500
+    short: 64600
+  - label: "D10"
+    max: null
+    std: 76100
+    short: 75100
+# C2 is income levy under 48,600 yen for other households, so households paying only the per-capita levy fall in it.
+kinto:
+  label: "C2"
+  std: 13200
+  short: 13100
+hikazei: "B2"
+seiho: "A"
