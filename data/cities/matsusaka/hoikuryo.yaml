@@ -1,0 +1,50 @@
+id: matsusaka-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 幼稚園・保育園等 入園案内
+source: https://www.city.matsusaka.mie.jp/uploaded/attachment/97739.pdf
+checked: 2026-11-16
+quotes:
+  - "令和 8 年度保育料・副食費免除基準額表"
+  - "同一世帯から2人以上、幼稚園、保育園、認定こども園等に入園されている場合、在園児の2人目にあたる児童は保育"
+  - "料が半額(副食費は半額になりません)、3人目以降の児童は保育料・副食費が無料になります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The sentence is split across two lines of the guide.
+second_child_quote: 1
+# Amounts are the その他世帯 rows; the ひとり親世帯等 rows are left out.
+# 4 is the first taxed tier (combined income levy under 48,600 yen, per-capita levy included).
+tiers:
+  - label: "4"
+    max: 48600
+    std: 13000
+    short: 12700
+  - label: "5"
+    max: 67000
+    std: 19000
+    short: 18600
+  - label: "6"
+    max: 114000
+    std: 25000
+    short: 24500
+  - label: "7"
+    max: 169000
+    std: 31000
+    short: 30400
+  - label: "8"
+    max: 250000
+    std: 37000
+    short: 36300
+  - label: "9"
+    max: 340000
+    std: 43000
+    short: 42200
+  - label: "10"
+    max: null
+    std: 49000
+    short: 48100
+kinto:
+  label: "4"
+  std: 13000
+  short: 12700
+hikazei: "3"
+seiho: "1"
