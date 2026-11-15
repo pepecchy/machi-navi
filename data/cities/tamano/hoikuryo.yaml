@@ -1,0 +1,74 @@
+id: tamano-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育園・認定こども園 入園案内
+source: https://www.city.tamano.lg.jp/uploaded/attachment/32027.pdf
+checked: 2026-11-16
+quotes:
+  - "令和 8 年度 玉野市保育料表(3歳児未満)"
+  - "ども園の教育利用の場合は、小学3年生以下の子どものうち)年齢の高い順に2人目"
+  - "は半額、3人目以降は無償となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The sentence is split across two lines of the guide.
+second_child_quote: 2
+# Amounts are the general rows; the single-parent and similar rows (C91 and the like) are left out.
+# C41/C42 and C51/C52 share the same amounts and are merged.
+tiers:
+  - label: "C2"
+    max: 11000
+    std: 15700
+    short: 15500
+  - label: "C3"
+    max: 48600
+    std: 17900
+    short: 17600
+  - label: "C41・C42"
+    max: 65000
+    std: 19400
+    short: 19100
+  - label: "C51・C52"
+    max: 91000
+    std: 22800
+    short: 22400
+  - label: "C6"
+    max: 97000
+    std: 26000
+    short: 25600
+  - label: "C7"
+    max: 121000
+    std: 28000
+    short: 27500
+  - label: "C8"
+    max: 145000
+    std: 32600
+    short: 32000
+  - label: "C9"
+    max: 169000
+    std: 35000
+    short: 34400
+  - label: "C10"
+    max: 213000
+    std: 41800
+    short: 41000
+  - label: "C11"
+    max: 257000
+    std: 45000
+    short: 44200
+  - label: "C12"
+    max: 301000
+    std: 45700
+    short: 44900
+  - label: "C13"
+    max: 397000
+    std: 48000
+    short: 47100
+  - label: "C14"
+    max: null
+    std: 55000
+    short: 54000
+kinto:
+  label: "C1"
+  std: 13500
+  short: 13300
+hikazei: "B"
+seiho: "A"
