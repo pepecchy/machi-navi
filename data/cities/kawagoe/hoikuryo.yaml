@@ -1,0 +1,93 @@
+id: kawagoe-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育園等入園の手引き(保育料額表)
+source: https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/004/360/r8tebiki.pdf
+checked: 2026-11-15
+quotes:
+  - "令和 8 年度 保育園等入園の手引き"
+  - "入園児と同一世帯の兄または姉(小学校就学前)が、幼稚園、認可保育園、企業主導型保育施設、障害児通園施設等を利用している場合、第2子(入園児)にかかる保育料を軽減します"
+  - "第2子半額"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+tiers:
+  - label: "D1"
+    max: 15000
+    std: 6500
+    short: 6300
+  - label: "D2"
+    max: 48600
+    std: 7400
+    short: 7200
+  - label: "D3"
+    max: 53000
+    std: 8200
+    short: 8000
+  - label: "D4"
+    max: 60000
+    std: 9900
+    short: 9700
+  - label: "D5"
+    max: 70000
+    std: 11900
+    short: 11600
+  - label: "D6"
+    max: 80000
+    std: 16200
+    short: 15900
+  - label: "D7"
+    max: 100000
+    std: 21600
+    short: 21200
+  - label: "D8"
+    max: 115000
+    std: 28100
+    short: 27600
+  - label: "D9"
+    max: 130000
+    std: 35200
+    short: 34600
+  - label: "D10"
+    max: 145000
+    std: 42200
+    short: 41400
+  - label: "D11"
+    max: 170000
+    std: 44400
+    short: 43600
+  - label: "D12"
+    max: 200000
+    std: 50400
+    short: 49500
+  - label: "D13"
+    max: 235000
+    std: 52800
+    short: 51900
+  - label: "D14"
+    max: 270000
+    std: 55200
+    short: 54200
+  - label: "D15"
+    max: 300000
+    std: 57200
+    short: 56200
+  - label: "D16"
+    max: 340000
+    std: 58500
+    short: 57500
+  - label: "D17"
+    max: 365000
+    std: 58900
+    short: 57800
+  - label: "D18"
+    max: null
+    std: 59300
+    short: 58200
+# Households paying only the per-capita levy fall in C.
+kinto:
+  label: "C"
+  std: 6000
+  short: 5800
+hikazei: "B"
+seiho: "A"

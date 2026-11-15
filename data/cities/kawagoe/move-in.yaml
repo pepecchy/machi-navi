@@ -1,0 +1,23 @@
+id: kawagoe-move-in
+window: "市民課(本庁舎1階)、各市民センター"
+hours:
+  open: "8:45"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 市外から川越市内へ引越してきたとき(転入届)
+source: https://www.city.kawagoe.saitama.jp/kurashi/koseki/1001847/1001854.html
+quotes:
+  - "新しい住所に住み始めた日から14日以内です"
+  - "市民課(本庁舎1階)"
+  - "市民課・各市民センターは月曜日から金曜日の午前8時45分から午後4時30分まで"
+  - "前住所地の市区町村長が発行した転出証明書"
+  - "届出人の本人確認書類"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "外国人住民の方は、転入する方全員分の在留カードまたは特別永住者証"
+checked: 2026-11-15
