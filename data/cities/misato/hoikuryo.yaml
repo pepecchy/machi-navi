@@ -1,0 +1,114 @@
+id: misato-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育利用希望申込みのてびき
+source: https://www.city.misato.lg.jp/material/files/group/35/R8tebiki2.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度"
+  - "多子軽減対象となる兄弟姉妹がいる第2子は( )内の金額です。"
+wording: [rule_table]
+# The table prints the second-child amount in parentheses under the first-child amount.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the lower rows for single-parent and similar households are left out.
+# D4 is printed as two rows (72,800 to 77,101 and 77,101 to 97,000) with the same general amount, so it is one tier.
+tiers:
+  - label: "D1"
+    max: 24300
+    std: 13600
+    short: 13300
+    std2: 6800
+    short2: 6650
+  - label: "D2"
+    max: 48600
+    std: 15600
+    short: 15300
+    std2: 7800
+    short2: 7650
+  - label: "D3"
+    max: 72800
+    std: 23000
+    short: 22600
+    std2: 11500
+    short2: 11300
+  - label: "D4"
+    max: 97000
+    std: 24000
+    short: 23500
+    std2: 12000
+    short2: 11750
+  - label: "D5"
+    max: 110000
+    std: 30000
+    short: 29400
+    std2: 15000
+    short2: 14700
+  - label: "D6"
+    max: 130000
+    std: 38000
+    short: 37300
+    std2: 19000
+    short2: 18650
+  - label: "D7"
+    max: 150000
+    std: 40000
+    short: 39300
+    std2: 20000
+    short2: 19650
+  - label: "D8"
+    max: 169000
+    std: 43000
+    short: 42200
+    std2: 21500
+    short2: 21100
+  - label: "D9"
+    max: 190000
+    std: 54000
+    short: 53000
+    std2: 27000
+    short2: 26500
+  - label: "D10"
+    max: 210000
+    std: 55000
+    short: 54000
+    std2: 27500
+    short2: 27000
+  - label: "D11"
+    max: 230000
+    std: 56000
+    short: 55000
+    std2: 28000
+    short2: 27500
+  - label: "D12"
+    max: 250000
+    std: 57000
+    short: 56000
+    std2: 28500
+    short2: 28000
+  - label: "D13"
+    max: 270000
+    std: 58000
+    short: 57000
+    std2: 29000
+    short2: 28500
+  - label: "D14"
+    max: 301000
+    std: 59000
+    short: 57900
+    std2: 29500
+    short2: 28950
+  - label: "D15"
+    max: null
+    std: 68000
+    short: 66800
+    std2: 34000
+    short2: 33400
+kinto:
+  label: "C"
+  std: 12000
+  short: 11700
+  std2: 6000
+  short2: 5850
+hikazei: "B"
+seiho: "A"
