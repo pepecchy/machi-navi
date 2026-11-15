@@ -1,0 +1,9 @@
+id: kitami
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 1
+name:
+  ja: 北海道 北見市
+  en: Kitami, Hokkaido
+  zh: 北海道 北见市
+  vi: Kitami, Hokkaido
+  ne: कितामी, होक्काइदो

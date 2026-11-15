@@ -1,0 +1,61 @@
+id: kitami-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 北見市保育料基準額表
+source: https://www.city.kitami.lg.jp/common/img/content/content_20260226_145601.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 北見市保育料基準額表"
+  - "数えます。2、3号認定を受けた児童が1人目の場合は、右表の第1子の額、第2子目以降は無料となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the 上記以外世帯 rows; the ひとり親世帯等 rows are left out. C4 is printed as two rows with the same amounts.
+# Households paying only the per-capita levy are in B (0 yen), as printed.
+tiers:
+  - label: "C1"
+    max: 24300
+    std: 10260
+    short: 10060
+  - label: "C2"
+    max: 48600
+    std: 13680
+    short: 13480
+  - label: "C3"
+    max: 72800
+    std: 19090
+    short: 18690
+  - label: "C4"
+    max: 97000
+    std: 24600
+    short: 24200
+  - label: "C5"
+    max: 133000
+    std: 31540
+    short: 30940
+  - label: "C6"
+    max: 169000
+    std: 38470
+    short: 37870
+  - label: "C7"
+    max: 235000
+    std: 46170
+    short: 45270
+  - label: "C8"
+    max: 301000
+    std: 53480
+    short: 52580
+  - label: "C9"
+    max: 397000
+    std: 64220
+    short: 63020
+  - label: "C10"
+    max: null
+    std: 77040
+    short: 75440
+kinto:
+  label: "B"
+  std: 0
+  short: 0
+hikazei: "B"
+seiho: "A"
