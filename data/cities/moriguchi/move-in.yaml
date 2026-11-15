@@ -1,0 +1,20 @@
+id: moriguchi-move-in
+window: "市役所総合窓口課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入・転居・転出・世帯変更届
+source: https://www.city.moriguchi.osaka.jp/kakukanoannai/shiminseikatsubu/sogomadoguchika/kosekijumintorokupasupoto/juki/2090.html
+quotes:
+  - "転入した日から14日以内"
+  - "届出先 総合窓口課"
+  - "前住所地の市町村の転出証明書"
+  - "必要なもの 本人確認書類"
+  - "個人番号カード(転入される方全員、それぞれ4桁の暗証番号入力が必要)"
+  - "在留カードなど(外国人住民のみ)"
+checked: 2026-11-15
