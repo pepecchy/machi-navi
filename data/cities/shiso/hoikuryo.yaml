@@ -1,0 +1,72 @@
+id: shiso-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育料徴収基準表
+source: https://www.city.shiso.lg.jp/material/files/group/24/R8hoikuryou.pdf
+checked: 2026-11-16
+quotes:
+  - "令 和 8 年 度 保 育 料 徴 収 基 準 表"
+  - "複数人同時に保育所等を利用している場合は、その範囲内の子どものなかで、上から"
+  - "順に2人目の保育料は半額、3人目以降の保育料は無料です。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). The sentence is split across two lines of the table.
+second_child_quote: 2
+# Amounts are the general columns; the 別表 for single-parent and similar households is left out.
+# 3 is the first taxed tier (income levy under 48,600 yen, per-capita levy included). 4 and 5 share the same amounts and are merged.
+tiers:
+  - label: "3"
+    max: 48600
+    std: 13600
+    short: 13400
+    std2: 6800
+    short2: 6700
+  - label: "4・5"
+    max: 77101
+    std: 21000
+    short: 20600
+    std2: 10500
+    short2: 10300
+  - label: "6"
+    max: 97000
+    std: 24000
+    short: 23600
+    std2: 12000
+    short2: 11800
+  - label: "7"
+    max: 133000
+    std: 28900
+    short: 28400
+    std2: 14450
+    short2: 14200
+  - label: "8"
+    max: 169000
+    std: 31100
+    short: 30600
+    std2: 15550
+    short2: 15300
+  - label: "9"
+    max: 235000
+    std: 39600
+    short: 39100
+    std2: 19800
+    short2: 19550
+  - label: "10"
+    max: 301000
+    std: 42700
+    short: 42000
+    std2: 21350
+    short2: 21000
+  - label: "11"
+    max: null
+    std: 56000
+    short: 55000
+    std2: 28000
+    short2: 27500
+kinto:
+  label: "3"
+  std: 13600
+  short: 13400
+  std2: 6800
+  short2: 6700
+hikazei: "2"
+seiho: "1"
