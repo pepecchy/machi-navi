@@ -1,0 +1,23 @@
+id: matsumoto-move-in
+window: "市民課 (松本市役所 東庁舎1階)、支所・出張所"
+hours:
+  open: "9:00"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.matsumoto.nagano.jp/site/benricho/3357.html
+quotes:
+  - "新しい住所に住み始めてから14日以内に届出をしてください"
+  - "市民課 (松本市役所 東庁舎1階)"
+  - "平日(月曜日~金曜日):午前9時から午後4時30分"
+  - "転出証明書"
+  - "本人確認のできる身分証明書(運転免許証等)"
+  - "在留カードまたは特別永住者証明書(外国籍の方)"
+  - "個人番号カード"
+checked: 2026-11-15
