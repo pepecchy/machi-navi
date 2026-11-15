@@ -1,0 +1,73 @@
+id: toda-hoikuryo
+fiscal_year: 2026
+doc: 戸田市保育料徴収基準額表(令和8年度)
+source: https://www.city.toda.saitama.jp/uploaded/attachment/80212.pdf
+checked: 2026-11-15
+quotes:
+  - "戸田市保育料徴収基準額表(令和8年度)"
+  - "同一世帯から2人以上の児童が、該当する保育施設、幼稚園、認定こども園及び企業主導型保育所等に入所している場合、第2子の児童に係る保育料は半額、第3子以降の児童に係る保育料は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the full (全) rows; the bracketed amounts for single-parent and similar households are left out.
+# 第6階層 is printed in two rows split at 77,101 yen that share one amount.
+tiers:
+  - label: "第4階層"
+    max: 48600
+    std: 9500
+    short: 9300
+  - label: "第5階層"
+    max: 58800
+    std: 12500
+    short: 12200
+  - label: "第6階層"
+    max: 97000
+    std: 19500
+    short: 19100
+  - label: "第7階層"
+    max: 132600
+    std: 31000
+    short: 30400
+  - label: "第8階層"
+    max: 169000
+    std: 44000
+    short: 43200
+  - label: "第9階層"
+    max: 202000
+    std: 52000
+    short: 51100
+  - label: "第10階層"
+    max: 235000
+    std: 54000
+    short: 53000
+  - label: "第11階層"
+    max: 268000
+    std: 56000
+    short: 55000
+  - label: "第12階層"
+    max: 301000
+    std: 58000
+    short: 57000
+  - label: "第13階層"
+    max: 333000
+    std: 60000
+    short: 58900
+  - label: "第14階層"
+    max: 365000
+    std: 62000
+    short: 60900
+  - label: "第15階層"
+    max: 397000
+    std: 64000
+    short: 62900
+  - label: "第16階層"
+    max: null
+    std: 66000
+    short: 64800
+kinto:
+  label: "第3階層"
+  std: 7600
+  short: 7400
+hikazei: "第2階層"
+seiho: "第1階層"
