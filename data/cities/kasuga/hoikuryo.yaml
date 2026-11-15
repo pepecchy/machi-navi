@@ -1,0 +1,115 @@
+id: kasuga-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度春日市利用者負担額(保育料)表
+source: https://www.city.kasuga.fukuoka.jp/_res/projects/default_project/_page_/001/005/734/r8hoikuryou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度春日市利用者負担額(保育料)表1"
+  - "上段:第1子"
+  - "下段:第2子"
+wording: [rule_table]
+# The table prints the amount for the first child (upper row) and the second child (lower row).
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are from table 1 (general households); table 2 for single-parent and similar households is left out.
+# 第3階層 covers both the per-capita levy alone and income levy under 24,300 yen.
+tiers:
+  - label: "第3階層"
+    max: 24300
+    std: 14200
+    short: 14000
+    std2: 7100
+    short2: 7000
+  - label: "第4階層"
+    max: 48600
+    std: 17500
+    short: 17300
+    std2: 8750
+    short2: 8650
+  - label: "第5A階層"
+    max: 57700
+    std: 21000
+    short: 20700
+    std2: 10500
+    short2: 10350
+  - label: "第5B階層"
+    max: 60700
+    std: 21000
+    short: 20700
+    std2: 10500
+    short2: 10350
+  - label: "第6階層"
+    max: 72800
+    std: 22500
+    short: 22200
+    std2: 11250
+    short2: 11100
+  - label: "第7A階層"
+    max: 77101
+    std: 25500
+    short: 25100
+    std2: 12750
+    short2: 12550
+  - label: "第7B階層"
+    max: 84900
+    std: 25500
+    short: 25100
+    std2: 12750
+    short2: 12550
+  - label: "第8階層"
+    max: 97000
+    std: 27000
+    short: 26600
+    std2: 13500
+    short2: 13300
+  - label: "第9階層"
+    max: 121000
+    std: 31100
+    short: 30700
+    std2: 15550
+    short2: 15350
+  - label: "第10階層"
+    max: 145000
+    std: 35600
+    short: 35100
+    std2: 17800
+    short2: 17550
+  - label: "第11階層"
+    max: 169000
+    std: 40000
+    short: 39500
+    std2: 20000
+    short2: 19750
+  - label: "第12階層"
+    max: 235000
+    std: 48800
+    short: 48000
+    std2: 24400
+    short2: 24000
+  - label: "第13階層"
+    max: 301000
+    std: 53000
+    short: 52250
+    std2: 26500
+    short2: 26120
+  - label: "第14階層"
+    max: 397000
+    std: 61000
+    short: 60100
+    std2: 30500
+    short2: 30050
+  - label: "第15階層"
+    max: null
+    std: 79850
+    short: 78650
+    std2: 39920
+    short2: 39320
+kinto:
+  label: "第3階層"
+  std: 14200
+  short: 14000
+  std2: 7100
+  short2: 7000
+hikazei: "第2階層"
+seiho: "第1階層"
