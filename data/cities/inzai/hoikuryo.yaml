@@ -1,0 +1,61 @@
+id: inzai-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 印西市 保育園利用のご案内
+source: https://www.city.inzai.lg.jp/kosodatenavi/cmsfiles/contents/0000020/20713/R8hoikuennriyounogoannnai.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育料(利用者負担額)"
+  - "・多子軽減措置として、生計を一にするお子様の年齢に関わらず、第二子は保育料が半額に、第三子以降は無料となり"
+wording: [rule_half_any]
+# Half price like "half"; who counts as the second child is in the wording (rule_half_any).
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general table; the reduction for single-parent and similar households is left out.
+tiers:
+  - label: "第4"
+    max: 48600
+    std: 13000
+    short: 12700
+  - label: "第5"
+    max: 67000
+    std: 17000
+    short: 16700
+  - label: "第6"
+    max: 97000
+    std: 24000
+    short: 23500
+  - label: "第7"
+    max: 169000
+    std: 35600
+    short: 34900
+  - label: "第8"
+    max: 210000
+    std: 46000
+    short: 45200
+  - label: "第9"
+    max: 256000
+    std: 48000
+    short: 47100
+  - label: "第10"
+    max: 301000
+    std: 48800
+    short: 47900
+  - label: "第11"
+    max: 327000
+    std: 57000
+    short: 56000
+  - label: "第12"
+    max: 366000
+    std: 60000
+    short: 58900
+  - label: "第13"
+    max: null
+    std: 62000
+    short: 60900
+kinto:
+  label: "第3"
+  std: 9000
+  short: 8800
+hikazei: "第2"
+seiho: "第1"
