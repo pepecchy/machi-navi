@@ -1,0 +1,48 @@
+id: yamagata-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 利用者負担額(保育料)表
+source: https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/006/295/r8hoiku.pdf
+checked: 2026-11-15
+quotes:
+  - "同時在園中の第2子は保育料が半額となります(多子軽減の課税額制限はありません)"
+  - "二人親世帯の所得割課税額が57,700円未満であり、利用児童が第2子である場合は保育料が半額となります"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the under-3 column for two-parent households. D3 prints 20,900 and 20,600 in all three of its rows (to 57,700, 77,101 and 97,000), so it is one tier.
+tiers:
+  - label: "D1"
+    max: 15000
+    std: 12700
+    short: 12500
+  - label: "D2"
+    max: 48600
+    std: 16900
+    short: 16700
+  - label: "D3"
+    max: 97000
+    std: 20900
+    short: 20600
+  - label: "D4"
+    max: 169000
+    std: 35600
+    short: 35000
+  - label: "D5"
+    max: 301000
+    std: 43700
+    short: 43000
+  - label: "D6"
+    max: 397000
+    std: 51500
+    short: 50700
+  - label: "D7"
+    max: null
+    std: 56700
+    short: 55800
+kinto:
+  label: "C"
+  std: 9200
+  short: 9100
+hikazei: "B"
+seiho: "A"
