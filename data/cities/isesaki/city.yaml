@@ -1,0 +1,9 @@
+id: isesaki
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 10
+name:
+  ja: 群馬県 伊勢崎市
+  en: Isesaki, Gunma
+  zh: 群马县 伊势崎市
+  vi: Isesaki, Gunma
+  ne: इसेसाकी, गुन्मा
