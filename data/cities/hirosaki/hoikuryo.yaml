@@ -1,0 +1,15 @@
+id: hirosaki-hoikuryo
+fiscal_year: 2026
+doc: "保育料・副食費等の無償化について"
+source: https://www.city.hirosaki.aomori.jp/kyouiku/kyouikuhoiku-musyouka.html
+checked: 2026-11-15
+quotes:
+  - "令和8年7月から、 市の独自施策として 、保育所等に子どもを預ける子育て世帯の経済的負担の軽減と、安心して子どもを産み育てやすい環境の充実を図るために、保育料及び副食費等を無償化いたします"
+  - "※令和8年4月にさかのぼって適用します"
+  - "「教育・保育給付認定」を受けている0歳児から5歳児クラスの全てのお子さんの保育料が無料になります"
+wording: [rule_free_all]
+# The city waives the fee for every child in a 0-5 class from July 2026, backdated to April 2026, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 2
