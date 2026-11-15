@@ -1,0 +1,49 @@
+id: yukuhashi-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 行橋市保育施設等利用のご案内
+source: https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/19518.pdf
+checked: 2026-11-16
+quotes:
+  - "行橋市保育施設等利用のご案内"
+  - "〈令和8年度年齢別クラス〉"
+  - "小学校就学前の子どものうち上から2人目 上記一覧表の半額"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are the general table; the reductions for single-parent and similar households are left out.
+tiers:
+  - label: "4"
+    max: 48600
+    std: 16100
+    short: 15800
+  - label: "5"
+    max: 72800
+    std: 24500
+    short: 24100
+  - label: "6"
+    max: 97000
+    std: 28200
+    short: 27800
+  - label: "7"
+    max: 133000
+    std: 35600
+    short: 35100
+  - label: "8"
+    max: 169000
+    std: 43000
+    short: 42400
+  - label: "9"
+    max: 301000
+    std: 50000
+    short: 49300
+  - label: "10"
+    max: null
+    std: 59000
+    short: 58200
+kinto:
+  label: "3"
+  std: 13700
+  short: 13500
+hikazei: "2"
+seiho: "1"
