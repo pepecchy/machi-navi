@@ -1,0 +1,23 @@
+id: towada-move-in
+window: "十和田市役所 本館 1階 市民課窓口"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民異動届:転入届(他の市区町村から十和田市にきたとき)
+source: https://www.city.towada.lg.jp/kurashi/koseki-jyuminhyounado/jyumintoroku/tennyuu_todoke.html
+quotes:
+  - "十和田市にお住まいになった日(転入した日)から14日以内に届出を行ってください"
+  - "十和田市役所 本館 1階 市民課窓口"
+  - "8時30分~17時15分"
+  - "2.転出証明書"
+  - "3.本人確認書類"
+  - "4.転入した方全員のマイナンバーカード"
+  - "5.転入した方全員の在留カードまたは特別永住者証明書(外国籍のかたのみ)"
+checked: 2026-11-15
