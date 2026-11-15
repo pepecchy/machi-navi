@@ -1,0 +1,98 @@
+id: fujimino-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度(2026年度) ふじみ野市 保育所利用のご案内
+source: https://www.city.fujimino.saitama.jp/material/files/group/26/R8_annai_.pdf
+checked: 2026-11-16
+quotes:
+  - "令和 8 年度(2026 年度)"
+  - "3 ◎2人以上の児童が保育所等に在籍して 1人目 全額"
+  - "いる 2人目 半額"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+# The rule row is printed across two lines: 2 人以上が保育所等に在籍している場合、1 人目は全額、2 人目は半額。
+second_child_quote: 2
+# Amounts are the general table; the reductions for single-parent and similar households are left out.
+tiers:
+  - label: "D1"
+    max: 10000
+    std: 8900
+    short: 8700
+  - label: "D2"
+    max: 30000
+    std: 10300
+    short: 10100
+  - label: "D3"
+    max: 48600
+    std: 13100
+    short: 12700
+  - label: "D4"
+    max: 60000
+    std: 15900
+    short: 15500
+  - label: "D5"
+    max: 97000
+    std: 18700
+    short: 18300
+  - label: "D6"
+    max: 120000
+    std: 21500
+    short: 20900
+  - label: "D7"
+    max: 169000
+    std: 24400
+    short: 23800
+  - label: "D8"
+    max: 200000
+    std: 30000
+    short: 29100
+  - label: "D9"
+    max: 220000
+    std: 35600
+    short: 34700
+  - label: "D10"
+    max: 240000
+    std: 41300
+    short: 40400
+  - label: "D11"
+    max: 260000
+    std: 42700
+    short: 41800
+  - label: "D12"
+    max: 280000
+    std: 44100
+    short: 43200
+  - label: "D13"
+    max: 301000
+    std: 45500
+    short: 44600
+  - label: "D14"
+    max: 310000
+    std: 46900
+    short: 46000
+  - label: "D15"
+    max: 330000
+    std: 48300
+    short: 47400
+  - label: "D16"
+    max: 350000
+    std: 49700
+    short: 48800
+  - label: "D17"
+    max: 370000
+    std: 51100
+    short: 50200
+  - label: "D18"
+    max: 397000
+    std: 52600
+    short: 51700
+  - label: "D19"
+    max: null
+    std: 55600
+    short: 54700
+kinto:
+  label: "C"
+  std: 5000
+  short: 4800
+hikazei: "B"
+seiho: "A"
