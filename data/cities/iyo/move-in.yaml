@@ -1,0 +1,20 @@
+id: iyo-move-in
+window: "市民課または各地域事務所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 他の市区町村から転入してきたとき
+source: https://www.city.iyo.lg.jp/shiminseikatsu/kurashi/koseki/hikkoshi/tennyu.html
+quotes:
+  - "住み始めてから14日以内"
+  - "市民課または各地域事務所"
+  - "届出人の 本人確認書類"
+  - "転出証明書"
+  - "マイナンバーカード(暗証番号がわかる状態でお越しください)"
+  - "在留カード(外国人の方)"
+checked: 2026-11-16
