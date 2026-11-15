@@ -1,0 +1,19 @@
+id: zama-move-in
+window: "市役所1階戸籍住民課窓口"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.zama.kanagawa.jp/kurashi/koseki/tetsuduki/1001837.html
+quotes:
+  - "市への転入の手続は、市内にお住まいになってから14日以内に、市役所1階戸籍住民課窓口で行ってください"
+  - "届出人(窓口に来られた方)の本人確認書類"
+  - "転出証明書※1(前住所地での転出手続時に交付されたもの)"
+  - "マイナンバーカード※2(交付されている方のみお持ちください。"
+  - "外国人住民の方は在留カードまたは特別永住者証明書(外国人登録証明書を含む)"
+checked: 2026-11-15
