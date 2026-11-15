@@ -1,0 +1,20 @@
+id: kiryu-move-in
+window: "桐生市役所市民課、新里支所市民生活課、黒保根支所市民生活課、各行政連絡所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 桐生市に引っ越してきたとき(転入届)
+source: https://www.city.kiryu.lg.jp/kurashi/juminhyo/juminhyo/1000657.html
+quotes:
+  - "桐生市に住み始めてから14日以内"
+  - "桐生市役所市民課"
+  - "転出証明書(今までお住まいであった市区町村発行のもの)"
+  - "本人確認書類(官公署が発行した顔写真貼付のもの等)"
+  - "取得済みの人の「マイナンバー(個人番号)カード」"
+  - "転入する全員分の「在留カード」、「特別永住者証明書」"
+checked: 2026-11-15
