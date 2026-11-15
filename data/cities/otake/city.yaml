@@ -1,0 +1,9 @@
+id: otake
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 34
+name:
+  ja: 広島県 大竹市
+  en: Otake, Hiroshima
+  zh: 广岛县 大竹市
+  vi: Otake, Hiroshima
+  ne: ओताके, हिरोसिमा
