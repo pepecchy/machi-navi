@@ -1,0 +1,9 @@
+id: iyo
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 38
+name:
+  ja: 愛媛県 伊予市
+  en: Iyo, Ehime
+  zh: 爱媛县 伊予市
+  vi: Iyo, Ehime
+  ne: इयो, एहिमे
