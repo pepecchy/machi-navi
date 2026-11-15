@@ -1,0 +1,57 @@
+id: hashima-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度の保育料(利用者負担額)
+source: https://www.city.hashima.lg.jp/2023.html
+checked: 2026-11-16
+quotes:
+  - "令和8年度保育所等保育料基準額表"
+  - "<2・3号認定> 保育料基準額表2. (1.(ひとり親世帯等)以外の世帯)"
+  - "保育所、幼稚園、認定こども園等の特定教育・保育施設等を利用している小学校就学前の子どもが同一世帯に2人以上いる場合は、最年長の子どもから数えて、第2子は半額、第3子以降は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are table 2 (households other than single-parent and similar households).
+tiers:
+  - label: "C-2"
+    max: 5000
+    std: 15000
+    short: 14800
+  - label: "C-3"
+    max: 48600
+    std: 15800
+    short: 15600
+  - label: "D-1"
+    max: 97000
+    std: 22500
+    short: 22200
+  - label: "D-2"
+    max: 133000
+    std: 25000
+    short: 24600
+  - label: "D-3"
+    max: 169000
+    std: 35000
+    short: 34500
+  - label: "D-4"
+    max: 202000
+    std: 36000
+    short: 35400
+  - label: "D-5"
+    max: 301000
+    std: 48000
+    short: 47200
+  - label: "D-6"
+    max: 397000
+    std: 53000
+    short: 52100
+  - label: "D-7"
+    max: null
+    std: 62000
+    short: 61000
+kinto:
+  label: "C-1"
+  std: 14900
+  short: 14700
+hikazei: "B"
+seiho: "A"

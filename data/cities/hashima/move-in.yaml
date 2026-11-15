@@ -1,0 +1,20 @@
+id: hashima-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.hashima.lg.jp/1152.html
+quotes:
+  - "転入した日から14日以内"
+  - "お問い合わせ先 市民課"
+  - "届出人の本人確認書類"
+  - "転出証明書(前住所で交付されたもの)"
+  - "異動者全員分のマイナンバーカード(お持ちの方のみ、暗証番号の入力が必要)"
+  - "異動者全員分の在留カード、特別永住者証明書、または外国人登録証明書のいずれか1点"
+checked: 2026-11-16
