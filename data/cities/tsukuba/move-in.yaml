@@ -1,0 +1,20 @@
+id: tsukuba-move-in
+window: "市役所本庁舎1階市民窓口課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(つくば市への引越し)
+source: https://www.city.tsukuba.lg.jp/soshikikarasagasu/shimimbushimimmadoguchika/gyomuannai/5/10/1000762.html
+quotes:
+  - "「引越した日」から14日以内"
+  - "市役所本庁舎1階市民窓口課"
+  - "窓口に来られる方の 本人確認書類"
+  - "転出証明書 または転出処理をした マイナンバーカード"
+  - "マイナンバーカード (暗証番号要)"
+  - "在留カード等 (外国人の方)"
+checked: 2026-11-16
