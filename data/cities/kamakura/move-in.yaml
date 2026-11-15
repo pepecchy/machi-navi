@@ -1,0 +1,24 @@
+id: kamakura-move-in
+window: "市民課、各支所"
+hours: 
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民票の異動の手続き
+source: https://www.city.kamakura.kanagawa.jp/shiminka/juidozen.html
+quotes:
+  - "住んだ日から14日以内"
+  - "市役所市民課36番の窓口"
+  - "各支所(腰越・深沢・大船・玉縄)"
+  - "平日:8時30分から17時まで"
+  - "転出証明書"
+  - "マイナンバーカード(交付されている人のみ)"
+  - "ご本人確認できる書類(運転免許証やパスポート、資格確認書等)"
+  - "外国人住民の人は、在留カード又は特別永住者証明書を持って住民異動の届出を行うことで、法務大臣への届出を兼ねることができます。"
+checked: 2026-11-15

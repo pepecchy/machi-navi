@@ -1,0 +1,84 @@
+id: kamakura-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 鎌倉市保育所等保育料(利用料)月額表 令和8年9月分以降適用
+source: https://www.city.kamakura.kanagawa.jp/hoiku/documents/r8_9_hoikugetsugakuhyou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 鎌倉市保育所等保育料(利用料)月額表 令和8年9月分以降適用"
+  - "令和8年9月分以降、同一生計の最も年齢の高い児童を第1子としてカウントし、認可保育所等を利用している第2子以降の保育料は無償です。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Labels are the city tiers (市階層); 3 is the tier for households paying only the per-capita levy.
+tiers:
+  - label: "4"
+    max: 48600
+    std: 9000
+    short: 8900
+  - label: "5"
+    max: 64800
+    std: 12700
+    short: 12500
+  - label: "6"
+    max: 80900
+    std: 17200
+    short: 16900
+  - label: "7"
+    max: 97000
+    std: 21600
+    short: 21200
+  - label: "8"
+    max: 121000
+    std: 26600
+    short: 26100
+  - label: "9"
+    max: 154000
+    std: 33700
+    short: 33100
+  - label: "10"
+    max: 169000
+    std: 40600
+    short: 39900
+  - label: "11"
+    max: 213000
+    std: 45100
+    short: 44300
+  - label: "12"
+    max: 257000
+    std: 49500
+    short: 48700
+  - label: "13"
+    max: 301000
+    std: 52800
+    short: 51900
+  - label: "14"
+    max: 333000
+    std: 54700
+    short: 53800
+  - label: "15"
+    max: 365000
+    std: 56800
+    short: 55800
+  - label: "16"
+    max: 397000
+    std: 59000
+    short: 58000
+  - label: "17"
+    max: 456000
+    std: 65900
+    short: 64800
+  - label: "18"
+    max: 515000
+    std: 72800
+    short: 71600
+  - label: "19"
+    max: null
+    std: 79700
+    short: 78300
+kinto:
+  label: "3"
+  std: 6700
+  short: 6600
+hikazei: "2"
+seiho: "1"
