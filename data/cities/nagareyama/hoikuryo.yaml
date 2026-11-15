@@ -1,0 +1,69 @@
+id: nagareyama-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度流山市認可保育施設入所申込み
+source: https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf
+checked: 2026-11-15
+quotes:
+  - "1.令和8年度における入所案内"
+  - "流 山 市 保 育 料 徴 収 基 準 額 表 (2・ 3 号 認 定 )"
+# The guide does not state the sibling rule; the city fee page does.
+rule_source: https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1001167.html
+rule_doc: 保育料の決定方法について(教育・保育給付認定1号および2・3号認定)
+rule_quotes:
+  - "2人以上の児童が認可保育所、幼稚園、認定こども園、小規模保育事業所または企業主導型保育事業所等で保育を受けている場合、2人目で認可保育施設、認定こども園(保育部分)、家庭的保育事業等で保育を受けている児童の保育料の月額は、基準額の2分の1となります"
+wording: [rule_half]
+second_child: half
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# The table has no separate tier for households paying only the per-capita levy; their income-based levy is 0, so they fall in C1 (under 16,200).
+tiers:
+  - label: "C1"
+    max: 16200
+    std: 8500
+    short: 8300
+  - label: "C2"
+    max: 32400
+    std: 10100
+    short: 9900
+  - label: "C3"
+    max: 48600
+    std: 11900
+    short: 11600
+  - label: "C4"
+    max: 60600
+    std: 14800
+    short: 14500
+  - label: "C5"
+    max: 97000
+    std: 24900
+    short: 24400
+  - label: "C6"
+    max: 133000
+    std: 33900
+    short: 33300
+  - label: "C7"
+    max: 169000
+    std: 42700
+    short: 41900
+  - label: "C8"
+    max: 195400
+    std: 48100
+    short: 47200
+  - label: "C9"
+    max: 301000
+    std: 59900
+    short: 58800
+  - label: "C10"
+    max: 397000
+    std: 65400
+    short: 64200
+  - label: "C11"
+    max: null
+    std: 70000
+    short: 68800
+kinto:
+  label: "C1"
+  std: 8500
+  short: 8300
+hikazei: "B"
+seiho: "A"

@@ -1,0 +1,21 @@
+id: nagareyama-move-in
+window: "市役所市民課、おおたかの森市民窓口センター"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入・転出等の住民登録に関する届出
+source: https://www.city.nagareyama.chiba.jp/life/1000371/1000385/1000386.html
+quotes:
+  - "流山市に引っ越した日から14日以内(引っ越し前の届出はできません)"
+  - "おおたかの森市民窓口センター"
+  - "市民生活部 市民課"
+  - "届出人の本人確認書類"
+  - "転出証明書(前住所地発行のもの)"
+  - "転入者のマイナンバーカード(お持ちの方のみ)"
+  - "外国籍の方は、転入者の在留カードまたは特別永住者証明書"
+checked: 2026-11-15
