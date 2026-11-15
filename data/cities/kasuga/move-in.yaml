@@ -1,0 +1,21 @@
+id: kasuga-move-in
+window: "市民課 受付戸籍担当(市役所1階)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(市外からの引越し)
+source: https://www.city.kasuga.fukuoka.jp/kurashi/koseki/jumintouroku/1000840.html
+quotes:
+  - "転入した日から14日以内"
+  - "市民課 受付戸籍担当 〒816-8501 福岡県春日市原町3-1-5 市役所1階"
+  - "前住所地の市区町村が発行した転出証明書(※1)"
+  - "マイナンバーカード(持っている人)"
+  - "在留カード(持っている人)"
+  - "特別永住者証明書(持っている人)"
+  - "官公署が発行した顔写真付き本人確認書類"
+checked: 2026-11-15
