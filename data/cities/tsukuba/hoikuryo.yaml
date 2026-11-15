@@ -1,0 +1,96 @@
+id: tsukuba-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度(2026年度)つくば市特定教育・保育施設 利用者負担額(保育料)早見表(2・3号認定)
+source: https://www.city.tsukuba.lg.jp/material/files/group/65/hoikuryou_hayamihyou_R8.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度(2026年度)つくば市特定教育・保育施設"
+  - "階層定義 第1子 第2子 第3子"
+wording: [rule_table]
+# The table prints the amounts for the first and the second child side by side.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the rows for single-parent and similar households are left out.
+# Labels are the city tiers. 5-1 and 5-2, and 6-1 and 6-2, share one amount, so each pair is one tier.
+tiers:
+  - label: "4"
+    max: 48600
+    std: 12000
+    short: 11700
+    std2: 6000
+    short2: 5850
+  - label: "5-1・5-2"
+    max: 61000
+    std: 14000
+    short: 13700
+    std2: 7000
+    short2: 6850
+  - label: "6-1・6-2"
+    max: 79000
+    std: 18000
+    short: 17600
+    std2: 9000
+    short2: 8800
+  - label: "7"
+    max: 97000
+    std: 21000
+    short: 20600
+    std2: 10500
+    short2: 10300
+  - label: "8"
+    max: 125000
+    std: 28000
+    short: 27500
+    std2: 14000
+    short2: 13750
+  - label: "9"
+    max: 169000
+    std: 31000
+    short: 30400
+    std2: 15500
+    short2: 15200
+  - label: "10"
+    max: 234000
+    std: 40000
+    short: 39300
+    std2: 20000
+    short2: 19650
+  - label: "11"
+    max: 301000
+    std: 45000
+    short: 44200
+    std2: 22500
+    short2: 22100
+  - label: "12"
+    max: 397000
+    std: 53000
+    short: 52100
+    std2: 26500
+    short2: 26050
+  - label: "13"
+    max: 480000
+    std: 61000
+    short: 59900
+    std2: 30500
+    short2: 29950
+  - label: "14"
+    max: 570000
+    std: 69000
+    short: 67800
+    std2: 34500
+    short2: 33900
+  - label: "15"
+    max: null
+    std: 78000
+    short: 76600
+    std2: 39000
+    short2: 38300
+kinto:
+  label: "3"
+  std: 9000
+  short: 8800
+  std2: 4500
+  short2: 4400
+hikazei: "2"
+seiho: "1"
