@@ -1,0 +1,119 @@
+id: kusatsu-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 草津市利用者負担額表(保育認定)
+source: https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/riyousyahutangaku.files/R8hutangakuhyo.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度草津市利用者負担額表(保育認定)"
+  - "※5 C1~C6 の階層に属し、ひとり親・在宅障害者等の世帯は、 ( )内の金額となります。"
+# The sibling rule is on the city page that links the table (updated 2026-04).
+rule_source: https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/riyousyahutangaku.html
+rule_doc: 認可保育所(園)等利用者負担額(保育料)について
+rule_quotes:
+  - "要件を満たすきょうだい児がいる場合は、利用者負担額が軽減され、第2子の場合は半額(注記)となります。"
+wording: [rule_table]
+# The table prints the amount for the first and the second child. Up to C6 siblings of any age count; from C7 only preschool siblings.
+second_child: table
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the general rows; the bracketed amounts for single-parent and similar households are left out.
+# C4 is split in two rows at 57,700 yen that share one amount.
+tiers:
+  - label: "C2"
+    max: 22800
+    std: 12800
+    short: 12500
+    std2: 6400
+    short2: 6250
+  - label: "C3"
+    max: 48600
+    std: 13500
+    short: 13200
+    std2: 6750
+    short2: 6600
+  - label: "C4-(1)"
+    max: 57700
+    std: 22400
+    short: 22000
+    std2: 11200
+    short2: 11000
+  - label: "C4-(2)"
+    max: 60700
+    std: 22400
+    short: 22000
+    std2: 11200
+    short2: 11000
+  - label: "C5"
+    max: 72800
+    std: 23700
+    short: 23200
+    std2: 11850
+    short2: 11600
+  - label: "C6"
+    max: 77101
+    std: 25200
+    short: 24700
+    std2: 12600
+    short2: 12350
+  - label: "C7"
+    max: 84900
+    std: 25200
+    short: 24700
+    std2: 12600
+    short2: 12350
+  - label: "C8"
+    max: 97000
+    std: 26600
+    short: 26100
+    std2: 13300
+    short2: 13050
+  - label: "C9"
+    max: 115000
+    std: 38100
+    short: 37400
+    std2: 19050
+    short2: 18700
+  - label: "C10"
+    max: 133000
+    std: 40300
+    short: 39600
+    std2: 20150
+    short2: 19800
+  - label: "C11"
+    max: 151000
+    std: 42200
+    short: 41400
+    std2: 21100
+    short2: 20700
+  - label: "C12"
+    max: 169000
+    std: 44200
+    short: 43400
+    std2: 22100
+    short2: 21700
+  - label: "C13"
+    max: 235000
+    std: 53700
+    short: 52700
+    std2: 26850
+    short2: 26350
+  - label: "C14"
+    max: 301000
+    std: 54500
+    short: 53500
+    std2: 27250
+    short2: 26750
+  - label: "C15"
+    max: null
+    std: 62100
+    short: 61000
+    std2: 31050
+    short2: 30500
+kinto:
+  label: "C1"
+  std: 9700
+  short: 9500
+  std2: 4850
+  short2: 4750
+hikazei: "B2"
+seiho: "A"
