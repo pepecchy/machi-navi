@@ -1,0 +1,14 @@
+id: moriguchi-hoikuryo
+fiscal_year: 2026
+doc: "令和8年(2026年)度 守口市認定こども園等入園(所)案内"
+source: https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260401.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年(2026 年)度"
+  - "守口市では、世帯の所得に関わらず市内に住む全ての0歳から5歳児までの認定こども園・保育所・幼稚園・地域型保育事業(小規模保育事業や事業所内保育事業等)の利用者負担額が無料"
+wording: [rule_free_all]
+# The city waives the fee for every child aged 0 to 5 whatever the household income, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
