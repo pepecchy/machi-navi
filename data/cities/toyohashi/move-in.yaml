@@ -1,0 +1,23 @@
+id: toyohashi-move-in
+window: "市民課、 窓口センター"
+hours:
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民異動の届出
+source: https://www.city.toyohashi.lg.jp/8814.htm
+quotes:
+  - "住み始めた日から14日以内"
+  - "市民課、 窓口センター"
+  - "午前8時30分 ~ 午後5時15分"
+  - "転出証明書(前住所地の市区町村で取得)"
+  - "提示書類:官公署が発行した身分証明等(マイナンバーカード、在留カード、特別永住者証明書、運転免許証、パスポート、健康保険資格確認書、医療受給者証など)"
+  - "マイナンバーカード(持っている方)"
+  - "在留カード、特別永住者証明書 (外国人住民の方のみ)"
+checked: 2026-11-15
