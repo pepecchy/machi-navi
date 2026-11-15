@@ -1,0 +1,9 @@
+id: yasu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 25
+name:
+  ja: 滋賀県 野洲市
+  en: Yasu, Shiga
+  zh: 滋贺县 野洲市
+  vi: Yasu, Shiga
+  ne: यासु, शिगा

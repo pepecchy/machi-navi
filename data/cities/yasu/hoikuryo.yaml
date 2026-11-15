@@ -1,0 +1,59 @@
+id: yasu-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所(園)・認定こども園・小規模保育園 入所申込のご案内
+source: https://www.city.yasu.lg.jp/material/files/group/25/R8_P32.pdf
+checked: 2026-11-16
+quotes:
+  - "令 和 8 年 度"
+  - "保育所利用者負担額 【月額】"
+  - "生計を一にし、同時に保育施設・幼稚園・認定こども園等を利用する子どものうち、"
+  - "年齢の高い子どもから数えて 第2子は半額 第3子以降は無料"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The rule for tiers 5-1 to 8 is split across two lines.
+second_child_quote: 3
+# Amounts are the general rows; the amounts in parentheses for single-parent and similar households are left out.
+# 4-1 and 4-2 are printed as separate rows that share one amount, so they are one tier.
+tiers:
+  - label: "3-2"
+    max: 48600
+    std: 13600
+    short: 13300
+  - label: "4-1・4-2"
+    max: 77100
+    std: 18000
+    short: 17600
+  - label: "4-3"
+    max: 97000
+    std: 24000
+    short: 23500
+  - label: "5-1"
+    max: 140000
+    std: 33300
+    short: 32700
+  - label: "5-2"
+    max: 169000
+    std: 40000
+    short: 39300
+  - label: "6-1"
+    max: 260000
+    std: 48800
+    short: 47900
+  - label: "6-2"
+    max: 301000
+    std: 54900
+    short: 53900
+  - label: "7"
+    max: 397000
+    std: 66400
+    short: 65200
+  - label: "8"
+    max: null
+    std: 70700
+    short: 69400
+kinto:
+  label: "3-1"
+  std: 9700
+  short: 9500
+hikazei: "2"
+seiho: "1"

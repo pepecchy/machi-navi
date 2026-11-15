@@ -1,0 +1,20 @@
+id: yasu-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 引越しや世帯の変更をするとき
+source: https://www.city.yasu.lg.jp/soshiki/shimin/idou/1591666458834.html
+quotes:
+  - "住み始めた日から14日以内"
+  - "市民課で住民票の転入手続き後"
+  - "本人確認書類(運転免許証、パスポートなど)"
+  - "転出証明書(注釈)"
+  - "マイナンバーカード(保有者のみ)"
+  - "在留カードまたは特別永住者証明書 (外国人)"
+checked: 2026-11-16
