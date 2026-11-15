@@ -1,0 +1,61 @@
+id: mito-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所・認定こども園(保育所機能部分)・小規模保育事業を利用する場合の基準額表
+source: https://www.city.mito.lg.jp/uploaded/attachment/65327.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 保育所・認定こども園(保育所機能部分)・小規模保育事業を利用する場合の基準"
+  - "第2子以降"
+  - "年齢・保育必要量・階層にかかわらず無料"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first). The table's 第2子以降 column reads 年齢・保育必要量・階層にかかわらず無料.
+second_child_quote: 2
+# Amounts are the 第1子 column for households other than ひとり親等世帯. Each tier number sits between its general row and its ひとり親等世帯 row in the layout.
+tiers:
+  - label: "4"
+    max: 48600
+    std: 14000
+    short: 13000
+  - label: "5"
+    max: 63000
+    std: 20000
+    short: 19000
+  - label: "6"
+    max: 77101
+    std: 26000
+    short: 25000
+  - label: "7"
+    max: 97000
+    std: 28000
+    short: 27000
+  - label: "8"
+    max: 136000
+    std: 36000
+    short: 35000
+  - label: "9"
+    max: 169000
+    std: 42000
+    short: 41000
+  - label: "10"
+    max: 235000
+    std: 52000
+    short: 51000
+  - label: "11"
+    max: 301000
+    std: 54000
+    short: 53000
+  - label: "12"
+    max: 397000
+    std: 56000
+    short: 55000
+  - label: "13"
+    max: null
+    std: 58000
+    short: 57000
+kinto:
+  label: "3"
+  std: 10000
+  short: 9000
+hikazei: "2"
+seiho: "1"
