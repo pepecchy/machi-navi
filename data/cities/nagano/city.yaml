@@ -1,0 +1,9 @@
+id: nagano
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 20
+name:
+  ja: 長野県 長野市
+  en: Nagano, Nagano
+  zh: 长野县 长野市
+  vi: Nagano, Nagano
+  ne: नागानो, नागानो
