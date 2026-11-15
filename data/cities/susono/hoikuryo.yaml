@@ -1,0 +1,78 @@
+id: susono-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 裾野市保育料利用者負担額表
+source: https://www.city.susono.shizuoka.jp/material/files/group/18/R8-hoikuryou.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 裾野市保育料利用者負担額表"
+  - "カッコ内は第2子の金額です。"
+  - "◇令和8年4月1日現在の内容です。"
+wording: [rule_table]
+# The table prints the second-child amount in brackets. Siblings are counted among preschool children, or among all children for households under about 3.6 million yen a year.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the rows for single-parent and similar households (ひとり親世帯等) are left out. 3-1 is the tier with no income-based levy.
+tiers:
+  - label: "3-2"
+    max: 48600
+    std: 12400
+    short: 12100
+    std2: 6200
+    short2: 6050
+  - label: "4-1"
+    max: 77101
+    std: 19400
+    short: 19000
+    std2: 9700
+    short2: 9500
+  - label: "4-2"
+    max: 97000
+    std: 22000
+    short: 21600
+    std2: 11000
+    short2: 10800
+  - label: "5-1"
+    max: 128000
+    std: 27000
+    short: 26500
+    std2: 13500
+    short2: 13250
+  - label: "5-2"
+    max: 169000
+    std: 34800
+    short: 34200
+    std2: 17400
+    short2: 17100
+  - label: "6-1"
+    max: 211200
+    std: 42600
+    short: 41800
+    std2: 21300
+    short2: 20900
+  - label: "6-2"
+    max: 301000
+    std: 45800
+    short: 45000
+    std2: 22900
+    short2: 22500
+  - label: "7"
+    max: 397000
+    std: 50000
+    short: 49100
+    std2: 25000
+    short2: 24550
+  - label: "8"
+    max: null
+    std: 53000
+    short: 52000
+    std2: 26500
+    short2: 26000
+kinto:
+  label: "3-1"
+  std: 9000
+  short: 8800
+  std2: 4500
+  short2: 4400
+hikazei: "2"
+seiho: "1"

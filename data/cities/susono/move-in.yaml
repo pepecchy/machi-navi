@@ -1,0 +1,18 @@
+id: susono-move-in
+window: "市民課、各支所(富岡支所、深良支所、須山支所)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住民登録(転入・転出・転居・世帯主変更・世帯合併・世帯分離届)
+source: https://www.city.susono.shizuoka.jp/soshiki/2/2/5/7/1744.html
+quotes:
+  - "転入をした日から14日以内"
+  - "各支所(富岡支所、深良支所、須山支所)"
+  - "転出証明書 (注釈)従前の市役所であらかじめ転出の届け出をする必要があります。"
+  - "マイナンバーカード(所有者のみ)(注釈)暗証番号が必要"
+  - "本人であることを確認できる物(本人確認)"
+checked: 2026-11-15
