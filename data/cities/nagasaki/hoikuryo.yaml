@@ -1,0 +1,45 @@
+id: nagasaki-hoikuryo
+fiscal_year: 2026
+doc: 長崎市利用者負担額【保育料】
+source: https://www.city.nagasaki.lg.jp/uploaded/attachment/42978.pdf
+checked: 2026-11-15
+quotes:
+  - "小学校就学前の範囲において、保育所や幼稚園等を同時に利用する最年長の子どもから順に2人目以降は0円とします"
+  - "ただし、市民税所得割課税額 97,000 円未満(D1 階層以下)の世帯は、同一世帯の最年長の子ども(概ね満 18 歳までの子ども)から数えて、2人目以降は0円とします"
+wording: [rule_free_same]
+# The second child enrolled at the same time is 0 yen in every tier; in D1 and below an older sibling up to about 18 also counts.
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the 3-go column for households other than single-parent households. The table splits D1 at 77,101 only for the bracketed single-parent amounts; both rows print 24,000 and 21,600.
+tiers:
+  - label: "C"
+    max: 48600
+    std: 16000
+    short: 14400
+  - label: "D1"
+    max: 97000
+    std: 24000
+    short: 21600
+  - label: "D2"
+    max: 169000
+    std: 37000
+    short: 33300
+  - label: "D3"
+    max: 301000
+    std: 47000
+    short: 42300
+  - label: "D4"
+    max: 397000
+    std: 51000
+    short: 45900
+  - label: "D5"
+    max: null
+    std: 58000
+    short: 52200
+kinto:
+  label: "C"
+  std: 16000
+  short: 14400
+hikazei: "B"
+seiho: "A"
