@@ -1,0 +1,61 @@
+id: toyohashi-hoikuryo
+fiscal_year: 2026
+doc: 令和8年4月以降 豊橋市保育料徴収額表
+source: https://www.city.toyohashi.lg.jp/17960.htm
+checked: 2026-11-15
+quotes:
+  - "令和8年4月以降 豊橋市保育料徴収額表"
+  - "22歳未満の児童が2人以上いる世帯の2人目以降は無料となります"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are for households other than single-parent households ("その他の世帯").
+tiers:
+  - label: "3"
+    max: 48600
+    std: 0
+    short: 0
+  - label: "4-1"
+    max: 57700
+    std: 0
+    short: 0
+  - label: "4-2"
+    max: 73000
+    std: 15700
+    short: 14800
+  - label: "5-1"
+    max: 77101
+    std: 22200
+    short: 20900
+  - label: "5-2"
+    max: 116000
+    std: 22200
+    short: 20900
+  - label: "6"
+    max: 163000
+    std: 30300
+    short: 28600
+  - label: "7"
+    max: 209000
+    std: 39000
+    short: 36900
+  - label: "8"
+    max: 340000
+    std: 48000
+    short: 45600
+  - label: "9"
+    max: 397000
+    std: 53000
+    short: 50400
+  - label: "10"
+    max: null
+    std: 58000
+    short: 55200
+# Tier 2 is households with no income levy, so households paying only the per-capita levy fall in it.
+kinto:
+  label: "2"
+  std: 0
+  short: 0
+hikazei: "2"
+seiho: "1"

@@ -1,0 +1,9 @@
+id: toyohashi
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 23
+name:
+  ja: 愛知県 豊橋市
+  en: Toyohashi, Aichi
+  zh: 爱知县 丰桥市
+  vi: Toyohashi, Aichi
+  ne: तोयोहाशी, आइची
