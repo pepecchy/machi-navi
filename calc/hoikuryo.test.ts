@@ -110,6 +110,10 @@ test("known results", () => {
   expect(calc(load("hakodate"), "tax", 78000, 1, "std")).toMatchObject({ tier: "D3", fee: 25100 });
   expect(calc(load("hakodate"), "tax", 200000, 2, "short").fee).toBe(0);
   expect(calc(load("hakodate"), "kinto", 0, 1, "std").fee).toBe(7800);
+  // Nagareyama: C5 covers 60,600 to 97,000; the second child pays half.
+  expect(calc(load("nagareyama"), "tax", 80000, 1, "std")).toMatchObject({ tier: "C5", fee: 24900 });
+  expect(calc(load("nagareyama"), "tax", 80000, 2, "std").fee).toBe(12450);
+  expect(calc(load("nagareyama"), "kinto", 0, 1, "std").fee).toBe(8500);
   // Kitakyushu: 120,000 on the notice is 90,000 at the 6% rate, tier D3.
   expect(calc(load("kitakyushu"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D3", fee: 28400 });
   expect(calc(load("kitakyushu"), "tax", 120000, 2, "std").fee).toBe(0);
