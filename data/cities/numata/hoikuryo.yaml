@@ -1,0 +1,96 @@
+id: numata-hoikuryo
+fiscal_year: 2026
+doc: 沼田市特定教育・保育施設及び特定地域型保育事業 利用者負担(保育料)基準額表【2号・3号認定】 令和8年度
+source: https://www.city.numata.gunma.jp/_res/projects/default_project/_page_/001/002/247/reiwa8nenndo2gou.pdf
+checked: 2026-11-16
+quotes:
+  - "利用者負担(保育料)基準額表【2号・3号認定】 令和8年度"
+  - "1世帯から2人以上の就学前児童が下記の施設等を利用している場合は、2人目の利用者負担額を( )内の額とし、3人目以降については0円とします。"
+wording: [rule_table]
+# The table prints the amount for the first child and, in brackets, the second child.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general table; the zero amount for single-parent and similar households is left out.
+# C (所得割非課税世帯) is the household with the per-capita levy only.
+tiers:
+  - label: "D1"
+    max: 5000
+    std: 7550
+    short: 7400
+    std2: 3770
+    short2: 3700
+  - label: "D2"
+    max: 48200
+    std: 8400
+    short: 8250
+    std2: 4200
+    short2: 4120
+  - label: "D3"
+    max: 56600
+    std: 10350
+    short: 10150
+    std2: 5170
+    short2: 5070
+  - label: "D4"
+    max: 66200
+    std: 12900
+    short: 12700
+    std2: 6450
+    short2: 6350
+  - label: "D5"
+    max: 86600
+    std: 18150
+    short: 17850
+    std2: 9070
+    short2: 8920
+  - label: "D6"
+    max: 105800
+    std: 24750
+    short: 24350
+    std2: 12370
+    short2: 12170
+  - label: "D7"
+    max: 144500
+    std: 31000
+    short: 30450
+    std2: 14000
+    short2: 13750
+  - label: "D8"
+    max: 154700
+    std: 34400
+    short: 33800
+    std2: 15700
+    short2: 15450
+  - label: "D9"
+    max: 166100
+    std: 39700
+    short: 39050
+    std2: 18350
+    short2: 18050
+  - label: "D10"
+    max: 185900
+    std: 42200
+    short: 41500
+    std2: 19600
+    short2: 19250
+  - label: "D11"
+    max: 225000
+    std: 45900
+    short: 45100
+    std2: 21450
+    short2: 21100
+  - label: "D12"
+    max: null
+    std: 49500
+    short: 48650
+    std2: 23250
+    short2: 22850
+kinto:
+  label: "C"
+  std: 6300
+  short: 6200
+  std2: 3150
+  short2: 3100
+hikazei: "B"
+seiho: "A"
