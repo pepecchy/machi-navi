@@ -1,0 +1,9 @@
+id: kochi
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 39
+name:
+  ja: 高知県 高知市
+  en: Kochi, Kochi
+  zh: 高知县 高知市
+  vi: Kochi, Kochi
+  ne: कोची, कोची
