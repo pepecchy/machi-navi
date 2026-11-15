@@ -1,0 +1,77 @@
+id: mishima-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 三島市保育料表(2号認定・3号認定用)
+source: https://www.city.mishima.shizuoka.jp/uploaded/attachment/13792.pdf
+checked: 2026-11-15
+quotes:
+  - "令和8年度 三島市保育料表(2号認定・3号認定用)"
+  - "生計を一にしている子ども等の2人目は半額(カッコ内の数字)、3人目以降は無料となります。"
+wording: [rule_table]
+# The table prints the amount for the first child and, in brackets, the second child.
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the reduction for single-parent and similar households is left out.
+tiers:
+  - label: "D1"
+    max: 48600
+    std: 9800
+    short: 9600
+    std2: 4900
+    short2: 4800
+  - label: "D2"
+    max: 73000
+    std: 15000
+    short: 14800
+    std2: 7500
+    short2: 7400
+  - label: "D3"
+    max: 97000
+    std: 18000
+    short: 17700
+    std2: 9000
+    short2: 8850
+  - label: "D4"
+    max: 134000
+    std: 26700
+    short: 26300
+    std2: 13350
+    short2: 13150
+  - label: "D5"
+    max: 169000
+    std: 29800
+    short: 29300
+    std2: 14900
+    short2: 14650
+  - label: "D6"
+    max: 246000
+    std: 36200
+    short: 35600
+    std2: 18100
+    short2: 17800
+  - label: "D7"
+    max: 301000
+    std: 38600
+    short: 38000
+    std2: 19300
+    short2: 19000
+  - label: "D8"
+    max: 397000
+    std: 51000
+    short: 50200
+    std2: 25500
+    short2: 25100
+  - label: "D9"
+    max: null
+    std: 60400
+    short: 59300
+    std2: 30200
+    short2: 29650
+kinto:
+  label: "C1"
+  std: 8800
+  short: 8700
+  std2: 4400
+  short2: 4350
+hikazei: "B"
+seiho: "A"

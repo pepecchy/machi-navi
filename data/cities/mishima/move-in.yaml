@@ -1,0 +1,18 @@
+id: mishima-move-in
+window: "市役所本庁1階市民課窓口"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.mishima.shizuoka.jp/page/1244.html
+quotes:
+  - "引っ越してきた日を含めて14日以内"
+  - "市役所本庁1階市民課窓口"
+  - "マイナンバーカード(個人番号カード)※持っている人のみ"
+  - "転出証明書(前住所地の市町村役場で発行)"
+  - "本人確認書類"
+checked: 2026-11-15
