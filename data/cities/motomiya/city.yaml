@@ -1,0 +1,9 @@
+id: motomiya
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 7
+name:
+  ja: 福島県 本宮市
+  en: Motomiya, Fukushima
+  zh: 福岛县 本宫市
+  vi: Motomiya, Fukushima
+  ne: मोतोमिया, फुकुसिमा

@@ -1,0 +1,21 @@
+id: motomiya-move-in
+window: "本宮市役所 市民部 市民課 市民窓口係、白沢総合支所 窓口サービス係"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住民異動の届出
+source: https://www.city.motomiya.lg.jp/soshiki/9/jyuuminidou.html
+quotes:
+  - "転入した日から 14日以内"
+  - "本宮市役所 市民部 市民課 市民窓口係"
+  - "白沢総合支所 窓口サービス係"
+  - "住民異動の届出は、下記の窓口で、平日の8時30分から17時15分までの間に届け出ることができます。その際、届出される方の本人確認が必要となりますので、マイナンバーカードや運転免許証などの顔写真付きの証明書をご持参ください。"
+  - "・ 転出証明書"
+  - "・ マイナンバーカード"
+checked: 2026-11-15
