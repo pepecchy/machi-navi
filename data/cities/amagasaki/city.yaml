@@ -1,0 +1,9 @@
+id: amagasaki
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 28
+name:
+  ja: 兵庫県 尼崎市
+  en: Amagasaki, Hyogo
+  zh: 兵库县 尼崎市
+  vi: Amagasaki, Hyogo
+  ne: अमागासाकी, ह्योगो

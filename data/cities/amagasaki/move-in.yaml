@@ -1,0 +1,20 @@
+id: amagasaki-move-in
+window: "市役所本庁 市民課、サービスセンター"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.amagasaki.hyogo.jp/kurashi/todokede/jumin/066tennyu.html
+quotes:
+  - "引越をした日から14日以内"
+  - "市役所本庁 市民課、またはサービスセンターで転入手続された後"
+  - "前住所の市区町村で発行をうけた転出証明書"
+  - "届出人の本人確認ができるもの(マイナンバーカード、運転免許証、官公署発行の顔写真付の証明書など)"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "外国人住民の方は異動者全員の特別永住者証明書(外国人登録証明書)・在留カードが必要です"
+checked: 2026-11-15
