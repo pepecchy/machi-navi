@@ -1,0 +1,109 @@
+id: yachiyo-hoikuryo
+fiscal_year: 2026
+doc: 2・3号認定(保育認定)の保育料基準額表
+source: https://www.city.yachiyo.lg.jp/uploaded/attachment/50244.pdf
+checked: 2026-11-15
+quotes:
+  - "2・3号認定(保育認定)の保育料基準額表"
+# The table does not print a year; the city page that links it (updated 2026-08) gives the fiscal 2026 basis and the sibling rule.
+rule_source: https://www.city.yachiyo.lg.jp/site/kosodate/70093.html
+rule_doc: 保育料について
+rule_quotes:
+  - "同一世帯に保育園等,幼稚園,特別支援学校幼稚部,企業主導型保育事業所,児童発達支援施設(以下「保育園等,幼稚園など」という)に兄姉がいる場合,2人目は該当年齢の保育料の半額,3人目以降は無料に軽減します"
+  - "(1)令和8年9月~令和9年8月の保育料"
+wording: [rule_half]
+second_child: half
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the general rows; B2 is the tier for households paying only the per-capita levy.
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 11300
+    short: 11100
+  - label: "C2"
+    max: 63600
+    std: 14700
+    short: 14400
+  - label: "C3"
+    max: 78600
+    std: 19500
+    short: 19100
+  - label: "C4"
+    max: 97000
+    std: 26700
+    short: 26200
+  - label: "C5"
+    max: 108600
+    std: 31700
+    short: 31100
+  - label: "C6"
+    max: 131000
+    std: 38800
+    short: 38100
+  - label: "C7"
+    max: 153600
+    std: 42300
+    short: 41500
+  - label: "C8"
+    max: 169000
+    std: 44500
+    short: 43700
+  - label: "C9"
+    max: 202000
+    std: 51600
+    short: 50700
+  - label: "C10"
+    max: 235000
+    std: 52600
+    short: 51700
+  - label: "C11"
+    max: 268000
+    std: 53600
+    short: 52600
+  - label: "C12"
+    max: 301000
+    std: 54600
+    short: 53600
+  - label: "C13"
+    max: 334000
+    std: 56600
+    short: 55600
+  - label: "C14"
+    max: 367000
+    std: 58400
+    short: 57400
+  - label: "C15"
+    max: 397000
+    std: 62400
+    short: 61300
+  - label: "C16"
+    max: 457000
+    std: 63500
+    short: 62400
+  - label: "C17"
+    max: 517000
+    std: 64400
+    short: 63300
+  - label: "C18"
+    max: 577000
+    std: 65200
+    short: 64000
+  - label: "C19"
+    max: 637000
+    std: 66100
+    short: 64900
+  - label: "C20"
+    max: 697000
+    std: 67000
+    short: 65800
+  - label: "C21"
+    max: null
+    std: 67900
+    short: 66700
+kinto:
+  label: "B2"
+  std: 3500
+  short: 3400
+hikazei: "B1"
+seiho: "A"
