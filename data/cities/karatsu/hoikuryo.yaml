@@ -1,0 +1,59 @@
+id: karatsu-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育認定料金表
+source: https://www.city.karatsu.lg.jp/uploaded/attachment/24131.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育認定料金表"
+  - "・第4-2(B)~第8階層の場合は、小学6年生までの範囲内で、最年長の子どもから順に1子、2子、3子と判定。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the general rows; the rows marked ★ (single-parent and similar households) are left out.
+# 3-2 is the first taxed tier (income levy under 48,600 yen, per-capita levy included). 4-2(A) and 4-2(B) share the same amounts and are merged.
+tiers:
+  - label: "第3 3-2"
+    max: 48600
+    std: 13000
+    short: 12800
+    std2: 6500
+    short2: 6400
+  - label: "第4 4-2"
+    max: 97000
+    std: 20000
+    short: 19600
+    std2: 10000
+    short2: 9800
+  - label: "第5"
+    max: 169000
+    std: 28000
+    short: 27400
+    std2: 14000
+    short2: 13700
+  - label: "第6"
+    max: 301000
+    std: 38000
+    short: 37100
+    std2: 19000
+    short2: 18550
+  - label: "第7"
+    max: 397000
+    std: 48000
+    short: 46800
+    std2: 24000
+    short2: 23400
+  - label: "第8"
+    max: null
+    std: 52000
+    short: 50400
+    std2: 26000
+    short2: 25200
+kinto:
+  label: "第3 3-2"
+  std: 13000
+  short: 12800
+  std2: 6500
+  short2: 6400
+hikazei: "第2 2-2"
+seiho: "第1"
