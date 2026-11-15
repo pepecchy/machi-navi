@@ -1,0 +1,9 @@
+id: imizu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 16
+name:
+  ja: 富山県 射水市
+  en: Imizu, Toyama
+  zh: 富山县 射水市
+  vi: Imizu, Toyama
+  ne: इमिजु, तोयामा
