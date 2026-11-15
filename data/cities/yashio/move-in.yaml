@@ -1,0 +1,20 @@
+id: yashio-move-in
+window: "市民課(本庁)、駅前出張所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 八潮市に住み始めるとき(転入届)
+source: https://www.city.yashio.lg.jp/kurashi/todokede_shomei/jumintoroku/tennyu.html
+quotes:
+  - "住み始めてから14日以内"
+  - "市民課(本庁)、駅前出張所"
+  - "転出証明書(前市区町村が発行)"
+  - "届出人(来庁者)の本人確認資料"
+  - "個人番号(マイナンバー)カードを利用した転入"
+  - "転入する方の在留カードまたは特別永住者証明書(外国人の方のみ)"
+checked: 2026-11-16
