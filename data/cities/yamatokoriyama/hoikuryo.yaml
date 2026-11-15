@@ -1,0 +1,49 @@
+id: yamatokoriyama-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 大和郡山市保育所・認定こども園入所等案内
+source: https://www.city.yamatokoriyama.lg.jp/material/files/group/62/annaippp.pdf
+checked: 2026-11-16
+quotes:
+  - "大和郡山市保育所・認定こども園入所等案内"
+  - "大 和 郡 山 市 保 育 料 月 額 表(2号、3号認定用)"
+  - "料は上記保育料の半額とし、3人目以上の保育料は無料とする。(10円未満の端数が生じた場合は切り捨てる。)児童の数は、年齢が高い順に数える。但"
+wording: [rule_half10]
+second_child: half10
+# Which entry of quotes states the second-child rule (0 = first). The rule counts children in nursery, kindergarten and similar care, oldest first.
+second_child_quote: 2
+# Amounts are the general table; the separate table for single-parent and similar households is left out.
+tiers:
+  - label: "第4"
+    max: 48600
+    std: 16000
+    short: 15700
+  - label: "第5"
+    max: 65000
+    std: 22800
+    short: 22400
+  - label: "第6"
+    max: 97000
+    std: 25600
+    short: 25200
+  - label: "第7"
+    max: 140000
+    std: 33900
+    short: 33300
+  - label: "第8"
+    max: 169000
+    std: 41100
+    short: 40400
+  - label: "第9"
+    max: 301000
+    std: 49000
+    short: 48200
+  - label: "第10"
+    max: null
+    std: 59000
+    short: 58000
+kinto:
+  label: "第3"
+  std: 14800
+  short: 14500
+hikazei: "第2"
+seiho: "第1"

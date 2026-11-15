@@ -1,0 +1,9 @@
+id: yamatokoriyama
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 29
+name:
+  ja: 奈良県 大和郡山市
+  en: Yamatokoriyama, Nara
+  zh: 奈良县 大和郡山市
+  vi: Yamatokoriyama, Nara
+  ne: यामातोकोरियामा, नारा
