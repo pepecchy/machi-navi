@@ -1,0 +1,56 @@
+id: tochigi-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育園・認定こども園・小規模保育施設 入園案内
+source: https://www.city.tochigi.lg.jp/uploaded/attachment/68033.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 栃木市 特定教育・保育 利用者負担額(保育料)"
+  - "下記1~3に該当する児童が 2 人以上いる世帯において、年齢が高い順に上から 2 番目以降の児童については、保育料が免除されます。"
+  - "保護者等が現に育てている児童で、18歳に達する日以降の最初の3月31日までの間にある場合"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first). Siblings up to 18 (and students up to 22) are counted; an application is needed.
+second_child_quote: 1
+tiers:
+  - label: "第4"
+    max: 48600
+    std: 8700
+    short: 8500
+  - label: "第5"
+    max: 77200
+    std: 12000
+    short: 11700
+  - label: "第6"
+    max: 97000
+    std: 18600
+    short: 18200
+  - label: "第7"
+    max: 133000
+    std: 31200
+    short: 30600
+  - label: "第8"
+    max: 169000
+    std: 36000
+    short: 35300
+  - label: "第9"
+    max: 235000
+    std: 42600
+    short: 41800
+  - label: "第10"
+    max: 301000
+    std: 48000
+    short: 47100
+  - label: "第11"
+    max: 397000
+    std: 53000
+    short: 52100
+  - label: "第12"
+    max: null
+    std: 57000
+    short: 56000
+kinto:
+  label: "第3"
+  std: 4800
+  short: 4800
+hikazei: "第2"
+seiho: "第1"
