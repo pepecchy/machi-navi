@@ -1,0 +1,25 @@
+id: obihiro-move-in
+window: "戸籍住民課（市庁舎1階）、川西支所、大正支所"
+hours: 
+  open: "8:45"
+  close: "17:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.obihiro.hokkaido.jp/kurashi/koseki/jumin/1002434.html
+quotes:
+  - "帯広市に住みはじめた日から 14日以内"
+  - "戸籍住民課(市庁舎1階)"
+  - "川西支所(※)"
+  - "大正支所(※)"
+  - "8時45分 ~ 17時30分"
+  - "届出人の転出証明書"
+  - "本人確認書類"
+  - "マイナンバーカードまたは住民基本台帳カード"
+  - "在留カード、特別永住者証明書等(外国人全員分)"
+checked: 2026-11-16
