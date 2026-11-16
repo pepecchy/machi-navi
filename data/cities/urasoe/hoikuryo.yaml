@@ -1,0 +1,61 @@
+id: urasoe-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 浦添市 認定こども園・保育所等入所案内
+source: https://www.city.urasoe.lg.jp/doc/2025071500035/file_contents/file_20251110195836_1.pdf
+checked: 2026-11-16
+quotes:
+  - "令和 8 年度 浦添市"
+  - "同一世帯の就学前児童が認定こども園、保育所等に入所している場合"
+  - "多子軽減として第 2 子は半額、第 3 子以降は無償になります。"
+  - "保護者どちらか一方に均等割(市:3,500 円・県:1,500 円)が発生している世帯については、課税世帯として3階層になります。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are the 3号認定 rows for general households; the ※ rows for single-parent and similar households are left out.
+# The second-child amounts are printed in the table (half, rounded down to 10 yen).
+tiers:
+  - label: "3"
+    max: 48600
+    std: 15000
+    short: 14740
+    std2: 7500
+    short2: 7370
+  - label: "4"
+    max: 97000
+    std: 25000
+    short: 24570
+    std2: 12500
+    short2: 12280
+  - label: "5"
+    max: 169000
+    std: 36000
+    short: 35380
+    std2: 18000
+    short2: 17690
+  - label: "6"
+    max: 301000
+    std: 45000
+    short: 44230
+    std2: 22500
+    short2: 22110
+  - label: "7"
+    max: 397000
+    std: 55000
+    short: 54060
+    std2: 27500
+    short2: 27030
+  - label: "8"
+    max: null
+    std: 65000
+    short: 63890
+    std2: 32500
+    short2: 31940
+kinto:
+  label: "3"
+  std: 15000
+  short: 14740
+  std2: 7500
+  short2: 7370
+hikazei: "2"
+seiho: "1"
