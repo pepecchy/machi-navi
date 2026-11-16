@@ -1,0 +1,9 @@
+id: muroran
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 1
+name:
+  ja: 北海道 室蘭市
+  en: Muroran, Hokkaido
+  zh: 北海道 室兰市
+  vi: Muroran, Hokkaido
+  ne: मुरोरान, होक्काइदो
