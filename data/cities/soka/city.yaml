@@ -1,0 +1,9 @@
+id: soka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 11
+name:
+  ja: 埼玉県 草加市
+  en: Soka, Saitama
+  zh: 埼玉县 草加市
+  vi: Soka, Saitama
+  ne: सोका, साइतामा

@@ -1,0 +1,97 @@
+id: soka-hoikuryo
+fiscal_year: 2026
+doc: 保育所等の利用者負担額(2号・3号認定)
+source: https://www.city.soka.saitama.jp/cont/s1603/020/010/010/02.html
+checked: 2026-11-16
+quotes:
+  - "令和8年4月から令和8年8月までの保育料は令和7年度市区町村民税額で、令和8年9月から令和9年3月までの保育料は令和8年度市区町村民税額に基づいて算定します。"
+  - "小学校就学前の子どもが下記の対象施設に2人以上入所する場合、第2子の保育料が半額、第3子以降の保育料が無料。"
+  - "市区町村民税所得割額が5万7,700円未満の世帯の場合、第1子の年齢にかかわらず、第2子は半額、第3子以降は無料。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). Below 57,700 yen the second child is half whatever the first child's age.
+second_child_quote: 1
+# The table prints D6 as 28,600 to 57,700 and 57,000 to 60,700 yen with the same amounts; D6 is taken from 48,600 (D5's bound) to 60,700 yen. D8's two rows (to 77,101 and to 84,900 yen) print the same amounts and are joined.
+tiers:
+  - label: "D1"
+    max: 10000
+    std: 8500
+    short: 8300
+  - label: "D2"
+    max: 19600
+    std: 11100
+    short: 10900
+  - label: "D3"
+    max: 29300
+    std: 13700
+    short: 13400
+  - label: "D4"
+    max: 38900
+    std: 16300
+    short: 16000
+  - label: "D5"
+    max: 48600
+    std: 18500
+    short: 18100
+  - label: "D6"
+    max: 60700
+    std: 21200
+    short: 20800
+  - label: "D7"
+    max: 72800
+    std: 23500
+    short: 23100
+  - label: "D8"
+    max: 84900
+    std: 25700
+    short: 25200
+  - label: "D9"
+    max: 97000
+    std: 28000
+    short: 27500
+  - label: "D10"
+    max: 121000
+    std: 32600
+    short: 32000
+  - label: "D11"
+    max: 145000
+    std: 37200
+    short: 36500
+  - label: "D12"
+    max: 169000
+    std: 42000
+    short: 41200
+  - label: "D13"
+    max: 195400
+    std: 47600
+    short: 46700
+  - label: "D14"
+    max: 221800
+    std: 50700
+    short: 49800
+  - label: "D15"
+    max: 248200
+    std: 53800
+    short: 52800
+  - label: "D16"
+    max: 274600
+    std: 56900
+    short: 55900
+  - label: "D17"
+    max: 301000
+    std: 60000
+    short: 58900
+  - label: "D18"
+    max: 397000
+    std: 68700
+    short: 67500
+  - label: "D19"
+    max: null
+    std: 76000
+    short: 74700
+kinto:
+  label: "C"
+  std: 6000
+  short: 5800
+hikazei: "B"
+seiho: "A"
