@@ -1,0 +1,9 @@
+id: kitakata
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 7
+name:
+  ja: 福島県 喜多方市
+  en: Kitakata, Fukushima
+  zh: 福岛县 喜多方市
+  vi: Kitakata, Fukushima
+  ne: कितकाता, फुकुशिमा
