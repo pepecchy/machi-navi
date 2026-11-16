@@ -1,0 +1,53 @@
+id: nanjo-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度(2026年度) 認定こども園・保育所等入所案内
+source: https://www.city.nanjo.okinawa.jp/userfiles/files/R08boshuuannai.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度(2026年度) 認定こども園・保育所等入所案内"
+  - "最年長の子どもを第1子、その下の子を第2子と数えます。"
+  - "第2子目は、半額"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). Below 57,700 yen the second child is half whatever the first child's age.
+second_child_quote: 1
+# Amounts are the 一般世帯 rows (階層 300 to 800). Rows printing the same amounts (400 twice, 420 and 440) are joined. 第3階層 (below 48,600 yen) also covers 均等割 only.
+tiers:
+  - label: "300"
+    max: 48600
+    std: 15000
+    short: 14700
+  - label: "400"
+    max: 72800
+    std: 24000
+    short: 23500
+  - label: "420"
+    max: 97000
+    std: 25000
+    short: 24500
+  - label: "500"
+    max: 133000
+    std: 33500
+    short: 32900
+  - label: "510"
+    max: 169000
+    std: 34500
+    short: 33900
+  - label: "600"
+    max: 301000
+    std: 37000
+    short: 36300
+  - label: "700"
+    max: 397000
+    std: 41500
+    short: 40700
+  - label: "800"
+    max: null
+    std: 46000
+    short: 45200
+kinto:
+  label: "300"
+  std: 15000
+  short: 14700
+hikazei: "200"
+seiho: "第1階層"
