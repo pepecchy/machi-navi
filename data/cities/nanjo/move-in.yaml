@@ -1,0 +1,21 @@
+id: nanjo-move-in
+window: "南城市役所市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入・転出
+source: https://www.city.nanjo.okinawa.jp/kurashi/todokede/tennyusyutsu/
+quotes:
+  - "異動した日から数えて14日以内"
+  - "南城市役所市民課(南城市佐敷字新里1870番地)"
+  - "8時30分~12時、13時~17時15分"
+  - "転出証明書(特例転出をした方は、転出証明書の代わりにマイナンバーカードまたは住民基本台帳カードを持参してください。)"
+  - "本人確認書類(上記、マイナンバーカードや住民基本台帳カードをお持ちでない場合)"
+  - "マイナンバーカード(お持ちの方のみ)"
+checked: 2026-11-16
