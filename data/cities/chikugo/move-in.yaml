@@ -1,0 +1,17 @@
+id: chikugo-move-in
+window: "市民課（戸籍・住民担当）"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.chikugo.lg.jp/kurashi/_6067/_6069/_2130.html
+quotes:
+  - "筑後市に転入した人は、住み始めた日から14日以内に転出証明書(前住所地で発行されたもの)を添えて届出をしてください。"
+  - "市民課(戸籍・住民担当)"
+  - "来庁者が本人であることが確認できる証明書などをご持参ください。"
+  - "住所異動する全員のマイナンバーカードをご持参下さい。"
+checked: 2026-11-16
