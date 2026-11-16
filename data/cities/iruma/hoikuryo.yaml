@@ -1,0 +1,91 @@
+id: iruma-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 入間市 保育施設等申込みの手引き
+source: https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 入間市 保育施設等申込みの手引き"
+  - "未就学児で最も年齢の高いお子様を第1子、その下のお子様を第2子と数え、以下の1及び2の施設を利用するお子様が第2子であれば半額、第3子以降は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). Below 57,700 yen the second child is half whatever the first child's age.
+second_child_quote: 1
+tiers:
+  - label: "C2"
+    max: 10000
+    std: 8000
+    short: 7800
+  - label: "C3"
+    max: 48600
+    std: 8900
+    short: 8700
+  - label: "C4"
+    max: 60000
+    std: 9900
+    short: 9700
+  - label: "C5"
+    max: 71500
+    std: 11600
+    short: 11400
+  - label: "C6"
+    max: 83000
+    std: 14200
+    short: 13900
+  - label: "C7"
+    max: 97000
+    std: 19000
+    short: 18600
+  - label: "C8"
+    max: 115000
+    std: 24700
+    short: 24200
+  - label: "C9"
+    max: 133000
+    std: 30900
+    short: 30300
+  - label: "C10"
+    max: 151000
+    std: 37000
+    short: 36300
+  - label: "C11"
+    max: 169000
+    std: 42700
+    short: 41900
+  - label: "C12"
+    max: 189000
+    std: 44500
+    short: 43700
+  - label: "C13"
+    max: 209000
+    std: 48400
+    short: 47500
+  - label: "C14"
+    max: 239000
+    std: 49900
+    short: 49000
+  - label: "C15"
+    max: 269000
+    std: 50900
+    short: 50000
+  - label: "C16"
+    max: 301000
+    std: 52000
+    short: 51100
+  - label: "C17"
+    max: 349000
+    std: 53000
+    short: 52000
+  - label: "C18"
+    max: 397000
+    std: 54000
+    short: 53000
+  - label: "C19"
+    max: null
+    std: 54500
+    short: 53500
+kinto:
+  label: "C1"
+  std: 7400
+  short: 7200
+hikazei: "B"
+seiho: "A"
