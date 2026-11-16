@@ -1,0 +1,24 @@
+id: ube-move-in
+window: "市民課または各市民センター"
+hours: 
+  open: "9:00"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.ube.yamaguchi.jp/kurashi/todokede/juushoidou/1001598.html
+quotes:
+  - "引っ越しをした日から14日以内"
+  - "市民課"
+  - "各市民センター"
+  - "9時~16時30分まで"
+  - "届出人の本人確認書類※1"
+  - "転出証明書(前住所地の市区町村が発行したもの)"
+  - "転入者全員の個人番号カード※2"
+  - "在留カードまたは特別永住者証明書"
+checked: 2026-11-16

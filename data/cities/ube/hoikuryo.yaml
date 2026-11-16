@@ -1,0 +1,56 @@
+id: ube-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 宇部市教育・保育利用者負担額(保育料)表
+source: https://www.city.ube.yamaguchi.jp/_res/projects/default_project/_page_/001/003/698/r8.riyousyahutann.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 宇部市教育・保育利用者負担額(保育料)表"
+  - "※保育所や認定こども園等に同一生計内第2子以降の子どもが入所する場合、利用者負担額(保育料)は無料となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are for households other than single-parent and similar households ("上記以外"). The table prints inclusive ranges such as "48,600円~57,699円"; each max is the next tier's lower bound, and tiers with the same amount are merged.
+tiers:
+  - label: "C22"
+    max: 48600
+    std: 14000
+    short: 13800
+  - label: "D12"
+    max: 61000
+    std: 22000
+    short: 21700
+  - label: "D22・D23"
+    max: 97000
+    std: 30000
+    short: 29500
+  - label: "D3"
+    max: 127000
+    std: 38000
+    short: 37400
+  - label: "D4"
+    max: 169000
+    std: 44000
+    short: 43300
+  - label: "D5"
+    max: 198000
+    std: 52000
+    short: 51200
+  - label: "D6"
+    max: 301000
+    std: 61000
+    short: 60000
+  - label: "D7"
+    max: 397000
+    std: 70000
+    short: 68900
+  - label: "D8"
+    max: null
+    std: 70000
+    short: 68900
+kinto:
+  label: "C12"
+  std: 12000
+  short: 11800
+hikazei: "B2"
+seiho: "A"
