@@ -1,0 +1,79 @@
+id: akashi-hoikuryo
+fiscal_year: 2026
+doc: 2026・2027年度 明石市保育料金額表
+source: https://www.city.akashi.lg.jp/documents/1458/20262027hoikuryouryoukinn.pdf
+checked: 2026-11-16
+quotes:
+  - "2026・2027年度 明石市保育料金額表"
+  - "第1子の年齢や保護者の所得にかかわらず、第2子以降の保育料は無料とします。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first). The table covers fiscal 2026 and 2027.
+second_child_quote: 1
+tiers:
+  - label: "第4"
+    max: 16000
+    std: 11900
+    short: 11800
+  - label: "第5"
+    max: 32000
+    std: 13900
+    short: 13700
+  - label: "第6"
+    max: 48600
+    std: 16700
+    short: 16500
+  - label: "第7"
+    max: 77101
+    std: 22400
+    short: 22100
+  - label: "第8"
+    max: 97000
+    std: 29700
+    short: 29300
+  - label: "第9"
+    max: 169000
+    std: 37300
+    short: 36800
+  - label: "第10"
+    max: 187000
+    std: 46200
+    short: 45600
+  - label: "第11"
+    max: 206000
+    std: 51900
+    short: 51200
+  - label: "第12"
+    max: 225000
+    std: 56500
+    short: 55700
+  - label: "第13"
+    max: 244000
+    std: 59900
+    short: 59000
+  - label: "第14"
+    max: 263000
+    std: 60100
+    short: 59200
+  - label: "第15"
+    max: 282000
+    std: 60600
+    short: 59700
+  - label: "第16"
+    max: 301000
+    std: 61000
+    short: 60000
+  - label: "第17"
+    max: 397000
+    std: 61700
+    short: 60700
+  - label: "第18"
+    max: null
+    std: 62500
+    short: 61500
+kinto:
+  label: "第3"
+  std: 9000
+  short: 8900
+hikazei: "第2"
+seiho: "第1"

@@ -5,8 +5,7 @@ bring:
   - tensyutsu
   - id
   - mynumber
-bring_foreign:
-  - zairyu
+bring_foreign: []
 other: []
 doc: 住所や世帯の変更
 source: https://www.city.takasago.lg.jp/soshikikarasagasu/shimimmadoguchika/koseki_juminhyo_inkantoroku/5/1270.html
