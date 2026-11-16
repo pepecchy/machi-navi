@@ -1,0 +1,9 @@
+id: akashi
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 28
+name:
+  ja: 兵庫県 明石市
+  en: Akashi, Hyogo
+  zh: 兵库县 明石市
+  vi: Akashi, Hyogo
+  ne: आकाशी, ह्योगो

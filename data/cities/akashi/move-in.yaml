@@ -1,0 +1,21 @@
+id: akashi-move-in
+window: "市民課（明石市役所本庁舎2階）またはあかし総合窓口"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.akashi.lg.jp/shimin_kenkou/shimin_ka/kurashi/jumin/jumintoroku.html
+quotes:
+  - "他の市町村から明石市へ引越ししてから14日以内"
+  - "市民課 (明石市役所本庁舎2階3番窓口)"
+  - "あかし総合窓口"
+  - "旧住所地の市区町村長が発行した転出証明書"
+  - "運転免許証など住所及び氏名が記載された身分証明書により、本人確認をさせていただきます。"
+  - "転入地の市町村窓口でマイナンバーカードの提示が必要です。"
+  - "必ず異動者全員分の特別永住者証明書・在留カードを持参して届出ください。"
+checked: 2026-11-16
