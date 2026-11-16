@@ -1,0 +1,18 @@
+id: iruma-move-in
+window: "市民生活部 市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住民基本台帳(異動の届出に関すること)
+source: https://www.city.iruma.saitama.jp/soshiki/shiminka/todokede_shomei/4/85.html
+quotes:
+  - "転入届:市外から引っ越してきたとき 届出の期間 転入した日から14日以内"
+  - "市民生活部 市民課"
+  - "転出証明書(紙またはマイナンバーカード内に登録されたもの)"
+  - "運転免許証、旅券(パスポート)などの公的機関が発行した、写真付き本人確認書類を1点"
+  - "マイナンバーカードをお持ちの方 マイナンバーカード"
+checked: 2026-11-16
