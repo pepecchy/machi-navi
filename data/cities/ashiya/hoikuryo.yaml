@@ -1,0 +1,57 @@
+id: ashiya-hoikuryo
+fiscal_year: 2026
+doc: 保育時間・保育料
+source: https://www.city.ashiya.lg.jp/kodomo/hoikuryo28.html
+checked: 2026-11-16
+quotes:
+  - "令和8年9月~令和9年3月分"
+  - "令和8年度市町村民税所得割額に基づいて算定"
+  - "市町村民税所得割合算額が57,700円以上の世帯の保育料について、小学校就学前の範囲において、最年長の子どもが幼稚園・保育所・認定こども園・小規模保育所等(認可外保育施設を除く)を利用している場合は全額負担、2番目の子どもは半額負担、3番目以降の子どもは無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). Below 57,700 yen the age limit is lifted and the second child is still half.
+second_child_quote: 2
+# Amounts are the ひとり親世帯等以外の世帯 rows. C3 is split at 77,101 only for single-parent and similar households; both rows print 25,500 and 25,000.
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 9500
+    short: 9300
+  - label: "C2"
+    max: 67500
+    std: 15000
+    short: 14700
+  - label: "C3"
+    max: 97000
+    std: 25500
+    short: 25000
+  - label: "C4"
+    max: 125500
+    std: 35500
+    short: 34800
+  - label: "C5"
+    max: 169000
+    std: 43500
+    short: 42700
+  - label: "C6"
+    max: 251000
+    std: 54500
+    short: 53500
+  - label: "C7"
+    max: 301000
+    std: 60000
+    short: 58900
+  - label: "C8"
+    max: 397000
+    std: 71000
+    short: 69700
+  - label: "C9"
+    max: null
+    std: 89000
+    short: 87400
+kinto:
+  label: "B2"
+  std: 5500
+  short: 5400
+hikazei: "B1"
+seiho: "A"

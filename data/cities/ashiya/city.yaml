@@ -1,0 +1,9 @@
+id: ashiya
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 28
+name:
+  ja: 兵庫県 芦屋市
+  en: Ashiya, Hyogo
+  zh: 兵库县 芦屋市
+  vi: Ashiya, Hyogo
+  ne: आशिया, ह्योगो
