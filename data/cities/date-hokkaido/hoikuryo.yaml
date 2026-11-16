@@ -1,0 +1,72 @@
+id: date-hokkaido-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育料、副食費 基準額表
+source: https://www.city.date.hokkaido.jp/hotnews/files/00000900/00000915/20260428094612.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度の世帯の市町村民税所得割額によりそれぞれ算定し、決定します。"
+  - "※ 入所児童が2名以上の場合は、2人目の保育料は半額、3人目以降は無料です。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# The table excludes 大滝保育所. Tiers with the same amounts are merged.
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 18000
+    short: 17700
+  - label: "D1・D2"
+    max: 61000
+    std: 21000
+    short: 20700
+  - label: "D3"
+    max: 73000
+    std: 26000
+    short: 25600
+  - label: "D4・D5"
+    max: 85000
+    std: 28000
+    short: 27600
+  - label: "D6"
+    max: 97000
+    std: 30000
+    short: 29500
+  - label: "D7"
+    max: 121000
+    std: 36000
+    short: 35400
+  - label: "D8"
+    max: 145000
+    std: 37000
+    short: 36400
+  - label: "D9"
+    max: 169000
+    std: 43000
+    short: 42300
+  - label: "D10"
+    max: 195000
+    std: 49000
+    short: 48200
+  - label: "D11・D12"
+    max: 247000
+    std: 57000
+    short: 56100
+  - label: "D13・D14"
+    max: 301000
+    std: 58000
+    short: 57100
+  - label: "D15"
+    max: 397000
+    std: 71000
+    short: 69800
+  - label: "D16"
+    max: null
+    std: 81000
+    short: 79700
+kinto:
+  label: "C1"
+  std: 16000
+  short: 15800
+hikazei: "B"
+seiho: "A"

@@ -1,0 +1,20 @@
+id: date-hokkaido-move-in
+window: "市民係窓口（市役所1階1番窓口）または大滝総合支所"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.date.hokkaido.jp/hotnews/detail/00000642.html
+quotes:
+  - "転入した日の翌日から14日以内"
+  - "市民係窓口(市役所1階1番窓口)、大滝総合支所"
+  - "届出人の本人確認書類"
+  - "前住所地発行の転出証明書(マイナンバーカードで転出手続きをした場合は不要)"
+  - "マイナンバーカード(お持ちの方)"
+  - "在留カードか、特別永住者証明書"
+checked: 2026-11-16
