@@ -1,0 +1,23 @@
+id: ashiya-move-in
+window: "市役所北館1階市民課4番窓口"
+hours: 
+  open: "9:00"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入の届出(市外→芦屋市への引越し)
+source: https://www.city.ashiya.lg.jp/shimin/sigaitennyu.html
+quotes:
+  - "実際に新住所(芦屋市)にお住まいになられてから14日以内に手続きしてください。"
+  - "市役所北館1階市民課4番窓口"
+  - "平日午前9時~午後5時"
+  - "1.転出証明書(前住所地で発行)"
+  - "2.窓口にお越しになる方の本人確認書類"
+  - "3.マイナンバーカード(お持ちの場合は転入する方全員分)"
+  - "4.転入する方全員の在留カード又は特別永住者証明書(外国人の方のみ)"
+checked: 2026-11-16
