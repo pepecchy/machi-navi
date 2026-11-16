@@ -1,0 +1,16 @@
+id: kasaoka-move-in
+window: "市民課（戸籍係）"
+hours: null
+bring:
+  - tensyutsu
+  - id
+bring_foreign: []
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.kasaoka.okayama.jp/soshiki/16/1728.html
+quotes:
+  - "笠岡市に住み始めた日から14日以内"
+  - "市民生活部 市民課 戸籍係"
+  - "・本人確認書類(運転免許証または資格確認書など)"
+  - "・転出証明書(前住所地で転出届をした時に交付されます)"
+checked: 2026-11-16

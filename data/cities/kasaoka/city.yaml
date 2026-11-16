@@ -1,0 +1,9 @@
+id: kasaoka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 33
+name:
+  ja: 岡山県 笠岡市
+  en: Kasaoka, Okayama
+  zh: 冈山县 笠冈市
+  vi: Kasaoka, Okayama
+  ne: कासाओका, ओकायामा
