@@ -1,0 +1,137 @@
+id: muroran-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育料徴収基準額表
+source: https://www.city.muroran.lg.jp/assets/images/content/content_20260511_132710.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育料徴収基準額表"
+  - "・C1~D9に属する世帯 ・・・ 同一世帯の最年長の子から順に、第2子以降は無料となります。"
+  - "・D10~D18に属する世帯 ・・・ 同一世帯の最年長の子から順に、第2子は半額、第3子以降は無料となります。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). The table prints second-child amounts only from D10; C1-D9 are free by quote 1.
+second_child_quote: 1
+# Amounts are for households other than single-parent and similar households ("ひとり親・障がい・その他"). D3 and D4 share the same amounts and are merged.
+tiers:
+  - label: "C2"
+    max: 5000
+    std: 14400
+    short: 14200
+    std2: 0
+    short2: 0
+  - label: "C3"
+    max: 48600
+    std: 17500
+    short: 17300
+    std2: 0
+    short2: 0
+  - label: "D1"
+    max: 60700
+    std: 19800
+    short: 19400
+    std2: 0
+    short2: 0
+  - label: "D2"
+    max: 72800
+    std: 22200
+    short: 21800
+    std2: 0
+    short2: 0
+  - label: "D3・D4"
+    max: 84900
+    std: 24500
+    short: 24100
+    std2: 0
+    short2: 0
+  - label: "D5"
+    max: 97000
+    std: 27000
+    short: 26600
+    std2: 0
+    short2: 0
+  - label: "D6"
+    max: 115000
+    std: 30200
+    short: 29600
+    std2: 0
+    short2: 0
+  - label: "D7"
+    max: 133000
+    std: 33400
+    short: 32800
+    std2: 0
+    short2: 0
+  - label: "D8"
+    max: 151000
+    std: 36700
+    short: 36100
+    std2: 0
+    short2: 0
+  - label: "D9"
+    max: 169000
+    std: 40000
+    short: 39400
+    std2: 0
+    short2: 0
+  - label: "D10"
+    max: 213000
+    std: 45000
+    short: 44100
+    std2: 22500
+    short2: 22000
+  - label: "D11"
+    max: 257000
+    std: 49900
+    short: 49000
+    std2: 24900
+    short2: 24500
+  - label: "D12"
+    max: 301000
+    std: 54900
+    short: 54000
+    std2: 27400
+    short2: 27000
+  - label: "D13"
+    max: 333000
+    std: 60500
+    short: 59300
+    std2: 30200
+    short2: 29600
+  - label: "D14"
+    max: 365000
+    std: 66200
+    short: 65000
+    std2: 33100
+    short2: 32500
+  - label: "D15"
+    max: 397000
+    std: 72000
+    short: 70800
+    std2: 36000
+    short2: 35400
+  - label: "D16"
+    max: 430000
+    std: 79200
+    short: 77600
+    std2: 39600
+    short2: 38800
+  - label: "D17"
+    max: 463000
+    std: 86400
+    short: 84800
+    std2: 43200
+    short2: 42400
+  - label: "D18"
+    max: null
+    std: 93600
+    short: 92000
+    std2: 46800
+    short2: 46000
+kinto:
+  label: "C1"
+  std: 11200
+  short: 11000
+  std2: 0
+  short2: 0
+hikazei: "B"
+seiho: "A"
