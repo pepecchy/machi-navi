@@ -1,0 +1,56 @@
+id: takaishi-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所・認定こども園等利用ガイド(保育所部分用)
+source: https://www.city.takaishi.lg.jp/material/files/group/19/riyougaido_R8.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育所・認定こども園等利用ガイド"
+  - "同一世帯内で小学校就学前までの子どもが複数人同時に保育所、認定こども園、幼稚園等を利用している場合に、3号認定子どもの利用者負担額(保育料)は、最年長の子どもから順に2人目は「第2子」の金額、3人目以降は、無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The 第2子 column is half of the 第1子 column. Below 57,700 yen the second child is the 第2子 amount whatever the first child's age.
+second_child_quote: 1
+# Amounts are the rows other than 特定世帯. The row for 77,101 to 97,000 yen prints the same amounts as 7-2 and is joined to it.
+tiers:
+  - label: "4-2"
+    max: 48600
+    std: 9500
+    short: 9300
+  - label: "5-2"
+    max: 52100
+    std: 11300
+    short: 11100
+  - label: "6-2"
+    max: 68400
+    std: 14000
+    short: 13700
+  - label: "7-2"
+    max: 97000
+    std: 23000
+    short: 22600
+  - label: "9"
+    max: 137000
+    std: 35600
+    short: 34900
+  - label: "10"
+    max: 169000
+    std: 43000
+    short: 42200
+  - label: "11"
+    max: 301000
+    std: 48800
+    short: 47900
+  - label: "12"
+    max: 397000
+    std: 53000
+    short: 52000
+  - label: "13"
+    max: null
+    std: 58000
+    short: 57000
+kinto:
+  label: "3-2"
+  std: 8100
+  short: 7900
+hikazei: "2"
+seiho: "1"

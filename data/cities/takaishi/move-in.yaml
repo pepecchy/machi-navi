@@ -1,0 +1,23 @@
+id: takaishi-move-in
+window: "市民課"
+hours: 
+  open: "9:00"
+  close: "17:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(他の市区町村や海外から高石市へ引っ越しされた方)
+source: https://www.city.takaishi.lg.jp/kakuka/soumu/shimina_ka/kosekitou/tennnyuutodoke.html
+quotes:
+  - "新しい住所に住み始めた日から14日以内"
+  - "市民課"
+  - "月曜日~金曜日 9時から17時30分"
+  - "前住所地の市区町村で発行した転出証明書"
+  - "窓口に来た方の本人確認書類"
+  - "個人番号カード(交付を受けている方)"
+  - "在留カード、特別永住者証明書、外国人登録証明書(外国人住民の方)"
+checked: 2026-11-16

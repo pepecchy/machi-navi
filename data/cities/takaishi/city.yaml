@@ -1,0 +1,9 @@
+id: takaishi
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 27
+name:
+  ja: 大阪府 高石市
+  en: Takaishi, Osaka
+  zh: 大阪府 高石市
+  vi: Takaishi, Osaka
+  ne: ताकाइशी, ओसाका
