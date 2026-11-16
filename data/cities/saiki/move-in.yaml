@@ -1,0 +1,22 @@
+id: saiki-move-in
+window: "本庁市民課及び各振興局"
+hours: 
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(市外から佐伯市へ引っ越しするとき)
+source: https://www.city.saiki.oita.jp/kiji0033417/index.html
+quotes:
+  - "転入した日から14日以内"
+  - "本庁市民課及び各振興局 午前8時30分~午後5時"
+  - "届出人の本人確認書類"
+  - "前住所地の市町村で発行された転出証明書"
+  - "異動する人全員のマイナンバーカード(お持ちの場合のみ)"
+  - "異動する人全員の在留カード、特別永住者証明書等(外国人の方のみ)"
+checked: 2026-11-16

@@ -1,0 +1,9 @@
+id: saiki
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 44
+name:
+  ja: 大分県 佐伯市
+  en: Saiki, Oita
+  zh: 大分县 佐伯市
+  vi: Saiki, Oita
+  ne: साइकी, ओइता
