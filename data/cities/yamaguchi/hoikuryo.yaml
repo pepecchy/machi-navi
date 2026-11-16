@@ -1,0 +1,66 @@
+id: yamaguchi-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 山口市教育・保育利用者負担額表
+source: https://www.city.yamaguchi.lg.jp/uploaded/attachment/119243.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 山口市教育・保育利用者負担額表"
+  - "※2 4月分~8月分の利用者負担額は令和7年度の市民税額により決定されます。9月分~翌年3月分の利用者負担額は令和8年度の市民税額により決定されます。"
+# The table states the sibling rules in vertical text, which does not read as sentences; the city fee page that links the table states them.
+rule_source: https://www.city.yamaguchi.lg.jp/site/kodomo/50089.html
+rule_doc: 利用者負担額(保育料)について
+rule_quotes:
+  - "令和8年度 利用者負担額表"
+  - "令和6年9月以降から第2子以降の3歳未満児について、世帯の所得やきょうだいの年齢、保育所等の同時入所に関わらず、保護者が監護し生計が同一のお子さんのうち第何子であるかを決定した上で、利用者負担額(保育料)が無料となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the その他の世帯 rows; the rows for single-parent and similar households (B1, C1, D1, D3, D5) are left out.
+tiers:
+  - label: "D2"
+    max: 48600
+    std: 11000
+    short: 10800
+  - label: "D4"
+    max: 57700
+    std: 15000
+    short: 14800
+  - label: "D6"
+    max: 77200
+    std: 15000
+    short: 14800
+  - label: "D7"
+    max: 85200
+    std: 21000
+    short: 20700
+  - label: "D8"
+    max: 97000
+    std: 24000
+    short: 23600
+  - label: "D9"
+    max: 169000
+    std: 35000
+    short: 34400
+  - label: "D10"
+    max: 211300
+    std: 43000
+    short: 42400
+  - label: "D11"
+    max: 301000
+    std: 52000
+    short: 51200
+  - label: "D12"
+    max: 397000
+    std: 62000
+    short: 61000
+  - label: "D13"
+    max: null
+    std: 72000
+    short: 70800
+kinto:
+  label: "C2"
+  std: 9000
+  short: 8800
+hikazei: "B2"
+seiho: "A"

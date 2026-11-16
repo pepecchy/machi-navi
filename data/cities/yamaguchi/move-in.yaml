@@ -1,0 +1,19 @@
+id: yamaguchi-move-in
+window: "本庁舎 総合窓口課、各総合支所 総合サービス課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届(他の市区町村から山口市へ引越しをしたとき)
+source: https://www.city.yamaguchi.lg.jp/site/shinsei/97805.html
+quotes:
+  - "山口市内の新しい住所に住み始めた日の翌日から14日以内"
+  - "本庁舎 総合窓口課"
+  - "各総合支所 総合サービス課"
+  - "「転出証明書」または「転出証明書に準ずる証明書」"
+  - "本人確認書類"
+  - "※在留カードや特別永住者証等をお持ちの方は、本庁舎総合窓口課または各総合支所総合サービス課での受付となりますのでご注意ください。"
+checked: 2026-11-16
