@@ -1,0 +1,9 @@
+id: beppu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 44
+name:
+  ja: 大分県 別府市
+  en: Beppu, Oita
+  zh: 大分县 别府市
+  vi: Beppu, Oita
+  ne: बेप्पु, ओइता

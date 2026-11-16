@@ -1,0 +1,47 @@
+id: beppu-hoikuryo
+fiscal_year: 2026
+doc: 別府市 認可保育所等の保育料について
+source: https://www.city.beppu.oita.jp/doc/kosodate/hoiku/riyou/r08/hoikuryo.pdf
+checked: 2026-11-16
+quotes:
+  - "別府市 認可保育所等の保育料について"
+  - "2 当該年度の4月1日時点で、満3歳未満の子どもの内、戸籍上第2子以降の子ども"
+# The table does not print a year; the city page titled fiscal 2026 (added 2025-11-04) links this table and states the sibling rule.
+rule_source: https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho02.html
+rule_doc: 令和8年度 認可保育所・認定こども園・公私立幼稚園などの利用 保育料
+rule_quotes:
+  - "令和8年度 認可保育所・認定こども園・公私立幼稚園などの利用 保育料"
+  - "3号認定(認可保育所と認定こども園【保育所機能分】の3歳未満)のうち、戸籍上第2子以降の子ども"
+  - "大分にこにこ保育支援事業により、保育料は無料です。"
+wording: [rule_free]
+second_child: free
+# Which entry of rule_quotes states the second-child rule (0 = first). The sentence goes on in the next entry.
+second_child_quote: 1
+# Amounts are the 一般世帯 columns; the 要保護世帯 columns are left out. D1 is split at 77,101 only for 要保護世帯.
+tiers:
+  - label: "C"
+    max: 48600
+    std: 12200
+    short: 11200
+  - label: "D1"
+    max: 97000
+    std: 21400
+    short: 20400
+  - label: "D2"
+    max: 169000
+    std: 32800
+    short: 31800
+  - label: "D3"
+    max: 301000
+    std: 45000
+    short: 44000
+  - label: "D4"
+    max: null
+    std: 53800
+    short: 52800
+kinto:
+  label: "C"
+  std: 12200
+  short: 11200
+hikazei: "B"
+seiho: "A"

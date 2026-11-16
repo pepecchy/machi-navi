@@ -1,0 +1,20 @@
+id: beppu-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: "総合案内(転入)"
+source: https://www.city.beppu.oita.jp/doc/seikatu/todokede_syoumei/sougou_annai/annai/01tennyu.pdf
+quotes:
+  - "住み始めた日から14日以内に届出してください"
+  - "転入届 GF市民課5~10窓口です"
+  - "・前の住所地で発行された「転出証明書」"
+  - "●手続きの際は本人確認書類の提示が必要です"
+  - "・お持ちの方は「マイナンバーカード」"
+  - "・外国人の方は「在留カード」または「特別永住者証明書」"
+checked: 2026-11-16
