@@ -1,0 +1,23 @@
+id: omura-move-in
+window: "市民課(本庁舎1階)・各住民センター(出張所)"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.omura.nagasaki.jp/jyuumin/kurashi/koseki/juminido/tennyu.html
+quotes:
+  - "転入日から14日以内"
+  - "市民課(本庁舎1階)・各住民センター(出張所)"
+  - "月曜日~金曜日:8時30分~17時15分"
+  - "転出証明書(ほか、転出時に受け取った書類)"
+  - "届出人(窓口に来る人)の 本人確認書類"
+  - "異動者全員分のマイナンバーカード(個人番号カード)"
+  - "特別永住者証明書または在留カード(外国人の場合)"
+checked: 2026-11-16

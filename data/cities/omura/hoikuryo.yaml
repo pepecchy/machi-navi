@@ -1,0 +1,46 @@
+id: omura-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 大村市保育料基準額表
+source: https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/documents/r8hoikuryou.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 大村市保育料基準額表"
+  - "(※1) 第1子と第2子が同時に保育施設に在園している場合、第2子の保育料は無料です。"
+wording: [rule_free_same]
+# In C and D1ア the second child counted among all children is half, but free while both attend at the same time; from D1イ up the second child is 0 yen.
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the 第1子 columns for households other than single-parent households.
+# D1 is printed as three rows (D1ア, D1イ, D1ウ) with the same first-child amounts; they are joined here.
+tiers:
+  - label: "C"
+    max: 48600
+    std: 15600
+    short: 15400
+  - label: "D1"
+    max: 97000
+    std: 23500
+    short: 23100
+  - label: "D2"
+    max: 169000
+    std: 35200
+    short: 34500
+  - label: "D3"
+    max: 301000
+    std: 47000
+    short: 46200
+  - label: "D4"
+    max: 397000
+    std: 52000
+    short: 51200
+  - label: "D5"
+    max: null
+    std: 55000
+    short: 54200
+kinto:
+  label: "C"
+  std: 15600
+  short: 15400
+hikazei: "B"
+seiho: "A"
