@@ -1,0 +1,107 @@
+id: tomigusuku-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 認定こども園・保育園等利用申込みのご案内(2・3号認定用)
+source: https://www.city.tomigusuku.lg.jp/material/files/group/22/r8_application_guide.pdf
+checked: 2026-11-16
+quotes:
+  - "【3】令和8年度階層区分別保育料等"
+  - "同一生計世帯において、きょうだい児が対象施設(※)に通所している場合は多子軽減の対象となります。"
+  - "上記、兄弟姉妹カウントに基づき第3子以降とみなされた場合保育料は、各階層ともに無料(0円)となります。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). The 第2子 column is half of the 第1子 column.
+second_child_quote: 1
+# Amounts are the 一般世帯 rows; the ひとり親世帯等 rows are left out. Rows with the same amounts (4-1-1 and 4-1-2, 4-2-1 and 4-2-2) are joined.
+tiers:
+  - label: "3-2"
+    max: 16200
+    std: 15300
+    short: 15000
+    std2: 7650
+    short2: 7500
+  - label: "3-3"
+    max: 32400
+    std: 16300
+    short: 16000
+    std2: 8150
+    short2: 8000
+  - label: "3-4"
+    max: 48600
+    std: 17300
+    short: 17000
+    std2: 8650
+    short2: 8500
+  - label: "4-1-1"
+    max: 64700
+    std: 22900
+    short: 22500
+    std2: 11450
+    short2: 11250
+  - label: "4-2-1"
+    max: 80800
+    std: 27200
+    short: 26700
+    std2: 13600
+    short2: 13350
+  - label: "4-3"
+    max: 97000
+    std: 29200
+    short: 28700
+    std2: 14600
+    short2: 14350
+  - label: "5-1"
+    max: 121000
+    std: 36000
+    short: 35300
+    std2: 18000
+    short2: 17650
+  - label: "5-2"
+    max: 145000
+    std: 39000
+    short: 38300
+    std2: 19500
+    short2: 19150
+  - label: "5-3"
+    max: 169000
+    std: 40000
+    short: 39300
+    std2: 20000
+    short2: 19650
+  - label: "6-1"
+    max: 213000
+    std: 43000
+    short: 42200
+    std2: 21500
+    short2: 21100
+  - label: "6-2"
+    max: 257000
+    std: 43500
+    short: 42700
+    std2: 21750
+    short2: 21350
+  - label: "6-3"
+    max: 301000
+    std: 44000
+    short: 43200
+    std2: 22000
+    short2: 21600
+  - label: "7"
+    max: 397000
+    std: 46500
+    short: 45700
+    std2: 23250
+    short2: 22850
+  - label: "8"
+    max: null
+    std: 52500
+    short: 51600
+    std2: 26250
+    short2: 25800
+kinto:
+  label: "3-1"
+  std: 14000
+  short: 13700
+  std2: 7000
+  short2: 6850
+hikazei: "2"
+seiho: "1"

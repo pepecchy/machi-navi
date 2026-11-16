@@ -1,0 +1,9 @@
+id: tomigusuku
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 47
+name:
+  ja: 沖縄県 豊見城市
+  en: Tomigusuku, Okinawa
+  zh: 冲绳县 丰见城市
+  vi: Tomigusuku, Okinawa
+  ne: तोमिगुसुकु, ओकिनावा
