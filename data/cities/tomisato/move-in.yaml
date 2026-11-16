@@ -1,0 +1,22 @@
+id: tomisato-move-in
+window: "富里市役所総務部市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民票の届出
+source: https://www.city.tomisato.lg.jp/0000001016.html
+quotes:
+  - "他の市区町村から 富里市へ住所を移したとき 転入した日から 14日以内"
+  - "富里市役所総務部市民課"
+  - "開庁時間:8時30分から17時15分まで"
+  - "前に住んでいた市区町村が発行した転出証明書"
+  - "マイナンバーカード(個人番号カード)"
+  - "外国人住民の方は在留カードまたは特別永住者証明書 本人の確認ができる書類等"
+checked: 2026-11-16

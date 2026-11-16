@@ -1,0 +1,57 @@
+id: tomisato-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 こども園・保育園 入園のご案内
+source: https://www.city.tomisato.lg.jp/kosodate/cmsfiles/contents/0000014/14706/R8nyuuenannai.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 富里市利用者負担額(保育料)月額表"
+  - "C階層からD階層までにおける同一世帯から2人以上の就学前児童が保育所、幼稚園、認定こども園若しくは特別支援学校幼稚部に在籍している場合、情緒障害児短期治療施設通所部に通っている場合又は児童発達支援若しくは医療型児童発達支援を利用している場合において、第2子以降については無料とします。"
+  - "ひとり親世帯等以外の世帯のうち、市民税所得割額が57,700円未満の世帯については、年齢に関わらず、生計を一にしている子のうち、最も年長の子から順にカウントし、第2子以降については無料とします。"
+wording: [rule_free_same]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first). Below 57,700 yen the second child is free whatever the first child's age.
+second_child_quote: 1
+# Amounts are the ひとり親世帯等以外 rows.
+tiers:
+  - label: "D1"
+    max: 48600
+    std: 17500
+    short: 17200
+  - label: "D2"
+    max: 72800
+    std: 21900
+    short: 21520
+  - label: "D3"
+    max: 97000
+    std: 27900
+    short: 27420
+  - label: "D4"
+    max: 133000
+    std: 34300
+    short: 33710
+  - label: "D5"
+    max: 169000
+    std: 42300
+    short: 41580
+  - label: "D6"
+    max: 235000
+    std: 50800
+    short: 49930
+  - label: "D7"
+    max: 301000
+    std: 56800
+    short: 55830
+  - label: "D8"
+    max: 397000
+    std: 62400
+    short: 61330
+  - label: "D9"
+    max: null
+    std: 63100
+    short: 62020
+kinto:
+  label: "C1"
+  std: 14000
+  short: 13760
+hikazei: "B"
+seiho: "A"
