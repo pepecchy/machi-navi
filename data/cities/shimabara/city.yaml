@@ -1,0 +1,9 @@
+id: shimabara
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 42
+name:
+  ja: 長崎県 島原市
+  en: Shimabara, Nagasaki
+  zh: 长崎县 岛原市
+  vi: Shimabara, Nagasaki
+  ne: शिमाबारा, नागासाकी

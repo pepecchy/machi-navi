@@ -1,0 +1,53 @@
+id: shimabara-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育料(利用者負担額)表【9月~3月】
+source: "https://www.city.shimabara.lg.jp/common/UploadFileOutput.ashx?c_id=3&id=3366&sub_id=24&flid=79599"
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育料(利用者負担額)表"
+  - "注1)生計を一にしているきょうだいがいる場合、第2子以降の保育料は無料となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# This is the table for September to March, based on the fiscal 2026 municipal tax. The city also publishes an April to August table.
+# Amounts are the 3歳未満 columns; the bracketed amounts for single-parent households in C to D1 are left out.
+tiers:
+  - label: "C"
+    max: 48600
+    std: 18000
+    short: 17800
+  - label: "D0"
+    max: 57700
+    std: 22000
+    short: 21800
+  - label: "D1"
+    max: 77101
+    std: 22000
+    short: 21800
+  - label: "D2"
+    max: 97000
+    std: 25000
+    short: 24600
+  - label: "D3"
+    max: 169000
+    std: 35000
+    short: 34600
+  - label: "D4"
+    max: 301000
+    std: 40000
+    short: 39400
+  - label: "D5"
+    max: 397000
+    std: 40000
+    short: 39400
+  - label: "D6"
+    max: null
+    std: 50000
+    short: 49200
+kinto:
+  label: "C"
+  std: 18000
+  short: 17800
+hikazei: "B"
+seiho: "A"
