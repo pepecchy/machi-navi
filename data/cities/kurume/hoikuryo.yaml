@@ -1,0 +1,57 @@
+id: kurume-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 久留米市 保育料基準表(保育認定用)
+source: https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/files/hoikuryoukijyunr8.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育所・認定こども園(保育所として利用)の保育料表"
+# The sibling rule is stated on the city page that links the table.
+rule_source: https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikuryou.html
+rule_doc: 保育料について
+rule_quotes:
+  - "保育所、認定こども園などをきょうだいで利用される場合、保育料が軽減(第2子半額、第3子以降無料)されます。"
+  - "第2子は、 小学校就学前 の範囲内でカウントします。"
+wording: [rule_half]
+second_child: half
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 0
+# Amounts are the city's (not the national reference columns), for households other than 要保護者世帯.
+tiers:
+  - label: "第4階層"
+    max: 48600
+    std: 11000
+    short: 10800
+  - label: "第5階層"
+    max: 53000
+    std: 14000
+    short: 13700
+  - label: "第6階層"
+    max: 70000
+    std: 16000
+    short: 15700
+  - label: "第7階層"
+    max: 97000
+    std: 18000
+    short: 17600
+  - label: "第8階層"
+    max: 132000
+    std: 27500
+    short: 27000
+  - label: "第9階層"
+    max: 169000
+    std: 35500
+    short: 34800
+  - label: "第10階層"
+    max: 301000
+    std: 45600
+    short: 44800
+  - label: "第11階層"
+    max: null
+    std: 49800
+    short: 48900
+kinto:
+  label: "第3階層"
+  std: 8000
+  short: 8000
+hikazei: "第2階層"
+seiho: "第1階層"

@@ -1,0 +1,20 @@
+id: kurume-move-in
+window: "市役所1階 市民課、各市民センター、各総合支所 市民福祉課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.kurume.fukuoka.jp/1050kurashi/2010kosekishoumei/3010juuminidou/idoutodokede.html
+quotes:
+  - "届出期間:引越し後14日以内"
+  - "届出は、市役所1階市民課、各市民センター、各総合支所市民福祉課で受付します。"
+  - "転出証明書"
+  - "個人番号(マイナンバー)カードまたは住民基本台帳カード(お持ちの方)【異動される方全員分】"
+  - "在留カード又は特別永住者証明書(外国人住民の方)【異動される方全員分】"
+  - "届出に来た人の確認ができる書類(運転免許証、健康保険証など)"
+checked: 2026-11-16
