@@ -1,0 +1,70 @@
+id: kasaoka-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 笠岡市保育所徴収金基準額(月額)表
+source: https://www.city.kasaoka.okayama.jp/uploaded/attachment/55248.pdf
+checked: 2026-11-16
+quotes:
+  - "R8.4"
+  - "第 4 階層 市町村民税のうち所得割が 48,600円未満である世帯"
+# The sibling rule is stated on the city page about the second-child waiver.
+rule_source: https://www.city.kasaoka.okayama.jp/soshiki/25/65992.html
+rule_doc: 第2子以降の保育料完全無償化について
+rule_quotes:
+  - "令和7年4月から第2子以降の保育料を完全無償化しています。"
+  - "保育所などの同時利用やこどもの年齢にかかわらず,保護者が看護・養育しているこどものうち,最年長の子を第1子,その下の子を第2子とカウントし,第2子以降の保育料が無償となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of rule_quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are for households other than those listed in note 2 (single-parent and similar households).
+tiers:
+  - label: "第4階層"
+    max: 48600
+    std: 18100
+    short: 17800
+  - label: "第5階層"
+    max: 52200
+    std: 22200
+    short: 21800
+  - label: "第6階層"
+    max: 69000
+    std: 25900
+    short: 25500
+  - label: "第7階層"
+    max: 97000
+    std: 26600
+    short: 26100
+  - label: "第8階層"
+    max: 116200
+    std: 30000
+    short: 29500
+  - label: "第9階層"
+    max: 139000
+    std: 35000
+    short: 34400
+  - label: "第10階層"
+    max: 169000
+    std: 43000
+    short: 42300
+  - label: "第11階層"
+    max: 191200
+    std: 46900
+    short: 46100
+  - label: "第12階層"
+    max: 214000
+    std: 49000
+    short: 48200
+  - label: "第13階層"
+    max: 301000
+    std: 51200
+    short: 50300
+  - label: "第14階層"
+    max: null
+    std: 53400
+    short: 52500
+kinto:
+  label: "第3階層"
+  std: 14000
+  short: 13800
+hikazei: "第2階層"
+seiho: "第1階層"
