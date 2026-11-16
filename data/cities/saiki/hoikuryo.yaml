@@ -1,0 +1,14 @@
+id: saiki-hoikuryo
+fiscal_year: 2026
+doc: "令和8年度手引き(保育所等の入所)"
+source: https://www.city.saiki.oita.jp/kosodate/kiji00311831/3_11831_up_4a73m0tk.pdf
+checked: 2026-11-16
+quotes:
+  - "■令和 8 年度 4 月入所(一次受付)"
+  - "令和6年4月からは佐伯市独自の取り組みとして、佐伯市に住民票のあるすべてのお子さんの保育料が無償となっています。"
+wording: [rule_free_all]
+# The fiscal 2026 admission guide prints 0 yen for every tier: the city has made fees free for all children since April 2024.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
