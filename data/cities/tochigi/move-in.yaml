@@ -1,0 +1,24 @@
+id: tochigi-move-in
+window: "本庁 市民生活課 または各総合支所"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.tochigi.lg.jp/soshiki/19/60118.html
+quotes:
+  - "栃木市に住み始めた日から14日以内"
+  - "本庁 市民生活課"
+  - "大平総合支所"
+  - "平日(月曜日から金曜日)午前8時30分から午後5時15分まで"
+  - "1.転出証明書"
+  - "2.本人確認書類"
+  - "4. マイナンバーカード"
+  - "3.在留カード 外国籍の方は、必ずお持ちください。"
+checked: 2026-11-16
