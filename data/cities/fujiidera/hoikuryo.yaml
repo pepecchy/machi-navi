@@ -1,0 +1,61 @@
+id: fujiidera-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 藤井寺市保育所等利用者負担額(保育料)徴収額表
+source: https://www.city.fujiidera.lg.jp/material/files/group/14/r8hoikuryoutyousyuugakuhyou.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 藤井寺市保育所等利用者負担額(保育料)徴収額表"
+  - "保護者と生計を一にする子どものうち、最年長の子どもから数えて2人目の利用者負担額は半額、3人目以降は無償となります。"
+  - "令和6年度より、所得要件や年齢制限を撤廃し対象者を拡充しました。"
+wording: [rule_half_any]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the main table, not the ひとり親世帯等 table.
+tiers:
+  - label: "第4"
+    max: 25000
+    std: 9500
+    short: 9300
+  - label: "第5"
+    max: 55000
+    std: 15500
+    short: 15200
+  - label: "第6"
+    max: 65000
+    std: 16500
+    short: 16200
+  - label: "第7"
+    max: 85000
+    std: 20000
+    short: 19600
+  - label: "第8"
+    max: 97000
+    std: 25500
+    short: 25000
+  - label: "第9"
+    max: 145000
+    std: 37000
+    short: 36300
+  - label: "第10"
+    max: 169000
+    std: 40000
+    short: 39300
+  - label: "第11"
+    max: 301000
+    std: 51000
+    short: 50100
+  - label: "第12"
+    max: 397000
+    std: 53000
+    short: 52000
+  - label: "第13"
+    max: null
+    std: 55000
+    short: 54000
+kinto:
+  label: "第3"
+  std: 8500
+  short: 8300
+hikazei: "第2"
+seiho: "第1"
