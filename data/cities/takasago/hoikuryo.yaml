@@ -1,0 +1,51 @@
+id: takasago-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 高砂市における特定教育・保育施設等の利用者負担(月額)
+source: https://www.city.takasago.lg.jp/material/files/group/22/riyousyahutangaku8.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 高砂市における特定教育・保育施設等の利用者負担(月額)"
+  - "小学校就学前の範囲において、最年長の子どもから順に2人目は半額"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). For 所得割 under 57,700 yen the age limit is removed. D1 and D2 are split for single-parent households, with the same general amounts.
+second_child_quote: 1
+tiers:
+  - label: C2
+    max: 48600
+    std: 15100
+    short: 14100
+  - label: D1
+    max: 72800
+    std: 20300
+    short: 19300
+  - label: D2
+    max: 97000
+    std: 24700
+    short: 23700
+  - label: D3
+    max: 133000
+    std: 32400
+    short: 31400
+  - label: D4
+    max: 169000
+    std: 38700
+    short: 37700
+  - label: D5
+    max: 301000
+    std: 48000
+    short: 47000
+  - label: D6
+    max: 397000
+    std: 62000
+    short: 61000
+  - label: D7
+    max: null
+    std: 64000
+    short: 63000
+kinto:
+  label: C1
+  std: 12200
+  short: 11200
+hikazei: B
+seiho: A
