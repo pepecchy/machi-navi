@@ -1,0 +1,45 @@
+id: chikugo-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所・認定こども園・小規模保育等(2号・3号認定)にかかる利用者負担額
+source: https://www.city.chikugo.lg.jp/var/rev0/0059/1919/126331103210.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育所・認定こども園・小規模保育等"
+  - "※( )内は第2子の金額です。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The amounts in parentheses are half. In tiers 3 and 4A every child of the household is counted; from 4B up only children using a facility at the same time.
+second_child_quote: 1
+# Amounts are for households other than single-parent households ("(特)"). 4A and 4B differ only in how children are counted.
+tiers:
+  - label: "3"
+    max: 48600
+    std: 16000
+    short: 15700
+  - label: "4A・4B"
+    max: 97000
+    std: 23500
+    short: 23100
+  - label: "5"
+    max: 169000
+    std: 35000
+    short: 34400
+  - label: "6"
+    max: 301000
+    std: 46500
+    short: 45700
+  - label: "7"
+    max: 397000
+    std: 48000
+    short: 47200
+  - label: "8"
+    max: null
+    std: 50000
+    short: 49200
+# Tier 3 is income levy under 48,600 yen, so households paying only the per-capita levy fall in it.
+kinto:
+  label: "3"
+  std: 16000
+  short: 15700
+hikazei: "2"
+seiho: "1"
