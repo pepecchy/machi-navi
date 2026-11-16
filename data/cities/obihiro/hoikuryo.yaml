@@ -1,0 +1,83 @@
+id: obihiro-hoikuryo
+fiscal_year: 2026
+doc: 帯広市 子育てガイド 令和8年度(2026)版 0~2歳児クラス料金表
+source: https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/004/578/r8zenpe-zi.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度(2026)版"
+  - "注1 生計を一にしている子の年齢に係わらず、年齢が高い順に第1子と数え、第2子以降は無料となります。"
+  - "表のとおり1人目は全額、2人目は半額、3人目以降は無料となります。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). Note 1 covers C1-D5 (free), note 2 covers D6-D9 (half, children using a facility at the same time).
+second_child_quote: 1
+# Amounts are for households other than single-parent and disability households. The table prints one amount per tier for children under 3, with no split by hours, so std and short are the same. The two D3 rows share the same amounts and are merged.
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 15300
+    short: 15300
+    std2: 0
+    short2: 0
+  - label: "D1"
+    max: 54600
+    std: 19800
+    short: 19800
+    std2: 0
+    short2: 0
+  - label: "D2"
+    max: 71000
+    std: 24000
+    short: 24000
+    std2: 0
+    short2: 0
+  - label: "D3"
+    max: 97000
+    std: 28600
+    short: 28600
+    std2: 0
+    short2: 0
+  - label: "D4"
+    max: 123600
+    std: 33500
+    short: 33500
+    std2: 0
+    short2: 0
+  - label: "D5"
+    max: 169000
+    std: 41500
+    short: 41500
+    std2: 0
+    short2: 0
+  - label: "D6"
+    max: 248900
+    std: 54400
+    short: 54400
+    std2: 27200
+    short2: 27200
+  - label: "D7"
+    max: 301000
+    std: 61000
+    short: 61000
+    std2: 30500
+    short2: 30500
+  - label: "D8"
+    max: 397000
+    std: 80000
+    short: 80000
+    std2: 40000
+    short2: 40000
+  - label: "D9"
+    max: null
+    std: 91400
+    short: 91400
+    std2: 45700
+    short2: 45700
+kinto:
+  label: "C1"
+  std: 11700
+  short: 11700
+  std2: 0
+  short2: 0
+hikazei: "B"
+seiho: "A"
