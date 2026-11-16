@@ -1,0 +1,9 @@
+id: takasago
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 28
+name:
+  ja: 兵庫県 高砂市
+  en: Takasago, Hyogo
+  zh: 兵库县 高砂市
+  vi: Takasago, Hyogo
+  ne: ताकासागो, ह्योगो

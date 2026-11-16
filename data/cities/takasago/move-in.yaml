@@ -1,0 +1,19 @@
+id: takasago-move-in
+window: "市役所本庁舎 市民窓口課 または高砂市市民サービスコーナー"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.takasago.lg.jp/soshikikarasagasu/shimimmadoguchika/koseki_juminhyo_inkantoroku/5/1270.html
+quotes:
+  - "引っ越ししてきた日から 14日以内 に届け出が必要です"
+  - "市役所本庁舎市民窓口課"
+  - "高砂市市民サービスコーナー"
+  - "前住所の転出証明書"
+  - "届け出人の印鑑(自署の場合は不要)と 本人確認 ができる書類"
+checked: 2026-11-16
