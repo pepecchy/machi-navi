@@ -1,0 +1,68 @@
+id: kitakata-hoikuryo
+fiscal_year: 2026
+doc: 喜多方市 教育・保育施設等の入所案内 令和8年度入所版
+source: https://www.city.kitakata.fukushima.jp/uploaded/attachment/52629.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度入所版"
+  - "すべての 兄弟姉妹同時に保育施設 2 人 目:半額免除"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). Below 77,101 yen the second child is half whatever the first child's age.
+second_child_quote: 1
+# Amounts are the rows other than ひとり親等. The row for 77,101 to 97,000 yen prints the same amounts as 4-4 and is joined to it.
+tiers:
+  - label: "3-2"
+    max: 26200
+    std: 14200
+    short: 13900
+  - label: "3-4"
+    max: 48600
+    std: 15100
+    short: 14800
+  - label: "4-2"
+    max: 53400
+    std: 15100
+    short: 14800
+  - label: "4-3"
+    max: 71900
+    std: 19700
+    short: 19300
+  - label: "4-4"
+    max: 97000
+    std: 24300
+    short: 23800
+  - label: "5-1"
+    max: 128300
+    std: 28900
+    short: 28400
+  - label: "5-2"
+    max: 169000
+    std: 33500
+    short: 32900
+  - label: "6-1"
+    max: 176000
+    std: 38100
+    short: 37400
+  - label: "6-2"
+    max: 209000
+    std: 42700
+    short: 41900
+  - label: "6-3"
+    max: 261000
+    std: 47300
+    short: 46400
+  - label: "6-4"
+    max: 301000
+    std: 51900
+    short: 51000
+  - label: "7"
+    max: null
+    std: 56500
+    short: 55500
+kinto:
+  label: "3-2"
+  std: 14200
+  short: 13900
+hikazei: "2-2"
+seiho: "1"
