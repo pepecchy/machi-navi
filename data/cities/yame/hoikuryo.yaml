@@ -1,0 +1,52 @@
+id: yame-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 八女市 利用者負担額(保育料)
+source: https://www.city.yame.fukuoka.jp/material/files/group/11/R8_hoikuryou.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 八女市 利用者負担額 (保育料)"
+  - "年齢が高い者から2人目は半額、3人目以降は無料になります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). It applies when two or more children use a facility at the same time; under 57,700 yen of income levy the age limit is removed.
+second_child_quote: 1
+# Amounts are the city's columns (八女市の基準), not the national upper limits, for households other than single-parent households.
+tiers:
+  - label: "4"
+    max: 48600
+    std: 9700
+    short: 9600
+  - label: "5"
+    max: 75000
+    std: 15000
+    short: 14700
+  - label: "6"
+    max: 97000
+    std: 19000
+    short: 18600
+  - label: "7"
+    max: 130000
+    std: 27500
+    short: 27000
+  - label: "8"
+    max: 169000
+    std: 35500
+    short: 34800
+  - label: "9"
+    max: 235000
+    std: 43000
+    short: 42200
+  - label: "10"
+    max: 301000
+    std: 45000
+    short: 44200
+  - label: "11"
+    max: null
+    std: 49500
+    short: 48600
+kinto:
+  label: "3"
+  std: 9500
+  short: 9300
+hikazei: "2"
+seiho: "1"

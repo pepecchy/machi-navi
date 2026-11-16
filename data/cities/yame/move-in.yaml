@@ -1,0 +1,23 @@
+id: yame-move-in
+window: "本庁 市民課（1階）または各支所 市民生活福祉係"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所や世帯の変更
+source: https://www.city.yame.fukuoka.jp/kurashi/9/3/1457320357629.html
+quotes:
+  - "引っ越しをした日から14日以内"
+  - "本庁市民課(1階)"
+  - "各支所市民生活福祉係"
+  - "平日午前8時30分から午後5時15分まで(祝日を除く)"
+  - "本人確認書類"
+  - "前住所地の市区町村が発行した転出証明書またはマイナンバーカード"
+  - "〈外国人住民の方〉在留カードまたは特別永住者証明書"
+checked: 2026-11-16
