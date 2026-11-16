@@ -1,0 +1,44 @@
+id: uruma-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育料の算定等について
+source: https://www.city.uruma.lg.jp/documents/8960/p7p8p9.pdf
+checked: 2026-11-16
+quotes:
+  - "令和8年度 保育料の算定等について"
+  - "【多子区分❷】・・・対象の保育施設等に在籍している未就学のきょうだいの数をカウント"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). The 第2子 columns are half of the 第1子 columns. Below 57,700 yen the second child is counted whatever the first child's age.
+second_child_quote: 1
+# 第3階層 (below 48,600 yen) is the lowest taxed row and is also the 均等割 row. 第41 and 第42 print the same amounts and are joined.
+tiers:
+  - label: "第3"
+    max: 48600
+    std: 15000
+    short: 14800
+  - label: "第41"
+    max: 97000
+    std: 23000
+    short: 22700
+  - label: "第5"
+    max: 169000
+    std: 35000
+    short: 34500
+  - label: "第6"
+    max: 301000
+    std: 38000
+    short: 37400
+  - label: "第7"
+    max: 397000
+    std: 39000
+    short: 38400
+  - label: "第8"
+    max: null
+    std: 50700
+    short: 49900
+kinto:
+  label: "第3"
+  std: 15000
+  short: 14800
+hikazei: "第2"
+seiho: "第1"

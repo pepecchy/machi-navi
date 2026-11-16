@@ -1,0 +1,20 @@
+id: uruma-move-in
+window: "本庁市民課または各出張所窓口(石川・勝連)"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: うるま市に引越してくるとき(転入届) 本人または同じ世帯になる方が手続きする場合
+source: https://www.city.uruma.lg.jp/1006005000/contents/8431.html
+quotes:
+  - "うるま市の新しい住所に住み始めてから14日以内です"
+  - "本庁市民課または各出張所窓口(石川・勝連)"
+  - "転出証明書"
+  - "窓口で手続きを行う方の本人確認書類"
+  - "引越しをする方全員のマイナンバーカード(お持ちの方)"
+  - "在留カードまたは特別永住者証明書、パスポート(外国人住民の方)"
+checked: 2026-11-16
