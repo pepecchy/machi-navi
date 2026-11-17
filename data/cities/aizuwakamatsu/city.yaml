@@ -1,0 +1,9 @@
+id: aizuwakamatsu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 7
+name:
+  ja: 福島県 会津若松市
+  en: Aizuwakamatsu, Fukushima
+  zh: 福岛县 会津若松市
+  vi: Aizuwakamatsu, Fukushima
+  ne: आइजुवाकामात्सु, फुकुशिमा
