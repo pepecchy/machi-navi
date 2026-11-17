@@ -1,0 +1,21 @@
+id: shimotsuma-move-in
+window: "市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.shimotsuma.lg.jp/kurashi-tetsuzuki/koseki-juumin-tetsuzuki/jyusho-todoke/page000056.html
+quotes:
+  - "下妻市に住み始めてから14日以内。なお、住み始めていない場合は手続きできません。"
+  - "【場所】下妻市役所市民課"
+  - "午前8時30分~午後5時15分"
+  - "前住所地の市区町村が発行した 転出証明書"
+  - "マイナンバーカード(所持している方全員分)"
+  - "窓口に来られる方の運転免許証やパスポートなど本人確認のできるもの"
+checked: 2026-11-17
