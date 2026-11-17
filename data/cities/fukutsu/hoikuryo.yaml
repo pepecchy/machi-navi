@@ -1,0 +1,56 @@
+id: fukutsu-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度福津市利用者負担基準額(保育認定・保育料)表
+source: https://www.city.fukutsu.lg.jp/material/files/group/10/hoikuryo2026.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度福津市利用者負担基準額(保育認定・保育料)表"
+  - "注2 同一世帯から2人以上が下記に該当する場合、最年長者は基本額、次年長者は半額(10円未満切捨て)、それ以降は無料とする。"
+wording: [rule_half10]
+second_child: half10
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the main figures, not the bracketed amounts for single-parent and disability households. Tier 3 covers households paying only the per-capita levy and those with an income levy under 48,600 yen. For households with an income levy under 57,700 yen, note 4 halves the second child regardless of age.
+tiers:
+  - label: "3"
+    max: 48600
+    std: 18550
+    short: 15550
+  - label: "4"
+    max: 97000
+    std: 28550
+    short: 25550
+  - label: "5A"
+    max: 140000
+    std: 40500
+    short: 37500
+  - label: "5B"
+    max: 169000
+    std: 40950
+    short: 37950
+  - label: "6A"
+    max: 238000
+    std: 56750
+    short: 53750
+  - label: "6B"
+    max: 266000
+    std: 57350
+    short: 54350
+  - label: "6C"
+    max: 301000
+    std: 57950
+    short: 54950
+  - label: "7"
+    max: 397000
+    std: 76000
+    short: 73000
+  - label: "8"
+    max: null
+    std: 98380
+    short: 95380
+kinto:
+  label: "3"
+  std: 18550
+  short: 15550
+hikazei: "2"
+seiho: "1"
