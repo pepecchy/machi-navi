@@ -1,0 +1,9 @@
+id: itoigawa
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 15
+name:
+  ja: 新潟県 糸魚川市
+  en: Itoigawa, Niigata
+  zh: 新潟县 糸鱼川市
+  vi: Itoigawa, Niigata
+  ne: इतोइगावा, निइगाता

@@ -1,0 +1,42 @@
+id: itoigawa-hoikuryo
+fiscal_year: 2026
+doc: 保育料（令和8年度保育料表）
+source: https://www.city.itoigawa.lg.jp/site/kosodate/1782.html
+checked: 2026-11-17
+quotes:
+  - "令和8年度保育料表"
+  - "注4 兄弟姉妹が同時に入所する場合の保育料"
+  - "上表の月額の50%"
+  - "※市民税額(所得割額)が57,700円未満の場合は、カウント対象の年齢制限はなく、第2子は半額、第3子以降は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). Quote 1 heads the rule for siblings enrolled at the same time and quote 2 is its amount for the second-oldest child; quote 3 covers households with an income levy under 57,700 yen.
+second_child_quote: 1
+# Amounts are for households other than single-parent and similar households (母子世帯等以外). D2 (48,600-77,100) and D3 (77,101-96,999) have the same amounts and are merged. Households paying only the per-capita levy have no income levy and fall in C2.
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 15000
+    short: 14800
+  - label: "D2"
+    max: 97000
+    std: 22500
+    short: 22200
+  - label: "D4"
+    max: 169000
+    std: 30000
+    short: 29500
+  - label: "D5"
+    max: 301000
+    std: 37500
+    short: 36900
+  - label: "D6"
+    max: null
+    std: 45000
+    short: 44300
+kinto:
+  label: "C2"
+  std: 15000
+  short: 14800
+hikazei: "B2"
+seiho: "A"

@@ -1,0 +1,16 @@
+id: itoigawa-move-in
+window: "市民生活課 住民係"
+hours: null
+bring:
+  - tensyutsu
+bring_foreign:
+  - zairyu
+other: []
+doc: 糸魚川市に引っ越してきたとき(転入届)
+source: https://www.city.itoigawa.lg.jp/page/1005.html
+quotes:
+  - "糸魚川市へ引っ越ししてきた日から14日以内に届出してください。"
+  - "市民生活課 住民係 代表"
+  - "転出証明書 ・・・引っ越し前に転出地で交付してもらってください。"
+  - "在留カード 又は 特別永住者証明書 (お持ちの方)"
+checked: 2026-11-17
