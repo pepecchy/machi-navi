@@ -1,0 +1,74 @@
+id: suzuka-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 利用者負担額(保育料)算定表
+source: https://www.city.suzuka.lg.jp/_res/projects/default_project/_page_/001/012/741/santeihyou.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度 利用者負担額(保育料)算定表"
+  - "保護者と生計を一にする者の中で最年長の者から第1子と数え、保育料は次のとおりとします。"
+  - "生計を一にする者の中で第2子 この表に定める額の半額"
+  - "※多子計算の算定対象者に年齢制限はありませんが、保護者と生計を一にするこどもに限ります。"
+wording: [rule_half_any]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are for children under 3 in households other than single-parent and similar households ("上記世帯以外").
+tiers:
+  - label: "D1"
+    max: 48600
+    std: 15000
+    short: 14700
+  - label: "D2"
+    max: 57700
+    std: 18500
+    short: 18100
+  - label: "D3"
+    max: 77101
+    std: 20000
+    short: 19600
+  - label: "D4"
+    max: 97000
+    std: 23000
+    short: 22600
+  - label: "D5"
+    max: 121000
+    std: 29000
+    short: 28500
+  - label: "D6"
+    max: 145000
+    std: 33000
+    short: 32400
+  - label: "D7"
+    max: 169000
+    std: 36000
+    short: 35300
+  - label: "D8"
+    max: 211201
+    std: 39000
+    short: 38300
+  - label: "D9"
+    max: 256100
+    std: 42000
+    short: 41200
+  - label: "D10"
+    max: 301000
+    std: 44000
+    short: 43200
+  - label: "D11"
+    max: 338800
+    std: 46000
+    short: 45200
+  - label: "D12"
+    max: 397000
+    std: 48000
+    short: 47100
+  - label: "D13"
+    max: null
+    std: 50000
+    short: 49100
+kinto:
+  label: "C"
+  std: 12000
+  short: 11700
+hikazei: "B"
+seiho: "A"

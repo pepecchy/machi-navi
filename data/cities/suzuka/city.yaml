@@ -1,0 +1,9 @@
+id: suzuka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 24
+name:
+  ja: 三重県 鈴鹿市
+  en: Suzuka, Mie
+  zh: 三重县 铃鹿市
+  vi: Suzuka, Mie
+  ne: सुजुका, मिए
