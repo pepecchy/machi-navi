@@ -1,0 +1,41 @@
+id: yachimata-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度八街市保育料・副食費(給食費)《参考》
+source: https://www.city.yachimata.lg.jp/uploaded/attachment/26213.pdf
+checked: 2026-11-17
+quotes:
+  - "○ 令和8年度八街市保育料・副食費(給食費)《参考》"
+  - "最年長のお子さまから順に第2子は上記利用者負担額の半額、第3子以降については無償となります。"
+  - "※市町村民税均等割のみ課税の世帯は、C1階層となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). For C2-2 and above, siblings count only when two or more preschool children use listed facilities. For C1 and C2-1 general households, children are counted from the eldest the parents support, whatever their age.
+second_child_quote: 1
+# Amounts are the general rows, not the bracketed amounts for 要保護世帯等. C2-1, C2-2 and C2-3 print the same amounts and are joined. The top tier C5 starts at 301,000 yen. C1 also covers households paying only the per-capita levy, as the table notes.
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 13600
+    short: 13300
+  - label: "C2"
+    max: 97000
+    std: 24000
+    short: 23500
+  - label: "C3"
+    max: 169000
+    std: 37800
+    short: 37100
+  - label: "C4"
+    max: 301000
+    std: 51800
+    short: 50900
+  - label: "C5"
+    max: null
+    std: 68000
+    short: 66800
+kinto:
+  label: "C1"
+  std: 13600
+  short: 13300
+hikazei: "B"
+seiho: "A"

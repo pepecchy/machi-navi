@@ -1,0 +1,23 @@
+id: yachimata-move-in
+window: "市民課"
+hours: 
+  open: "8:45"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.yachimata.lg.jp/soshiki/9/29086.html
+quotes:
+  - "他市町村から八街市に住所を変更する手続きです。転入した日から14日以内に手続きしてください。"
+  - "市民課"
+  - "開庁時間(窓口時間)8時45分~16時30分(土、日、祝日、年末年始を除く)"
+  - "前住所地で発行した転出証明書"
+  - "マイナンバーカード"
+  - "窓口に来る方の本人確認書類(運転免許証、健康保険証など)"
+  - "在留カード・特別永住者証明書(外国人住民のみ)"
+checked: 2026-11-17
