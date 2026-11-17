@@ -1,0 +1,9 @@
+id: hofu
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 35
+name:
+  ja: 山口県 防府市
+  en: Hofu, Yamaguchi
+  zh: 山口县 防府市
+  vi: Hofu, Yamaguchi
+  ne: होफु, यामागुची

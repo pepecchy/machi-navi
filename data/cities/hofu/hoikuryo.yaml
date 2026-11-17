@@ -1,0 +1,65 @@
+id: hofu-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 利用者負担額(保育料)表
+source: https://www.city.hofu.yamaguchi.jp/uploaded/attachment/145524.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度 利用者負担額(保育料)表"
+  - "お子さんのうち2人目以降の3歳未満のお子さんの保育料は無料"
+  - "第2子以降の3歳未満児の保育料無償化(令和6年9月開始) 父 母 祖父 祖母"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first). Children the parents actually support count, with no income limit and whether or not the elder child uses a facility.
+second_child_quote: 1
+# Amounts are the その他の世帯 rows for 0 to 2 year olds, not the 母子等の世帯 rows. 3B covers households paying only the per-capita levy. Tiers 5B and 5D, 6B and 7, 10 and 11, and 12 and 13 print the same amounts but are kept as printed.
+tiers:
+  - label: "4B"
+    max: 48600
+    std: 16000
+    short: 15700
+  - label: "5B"
+    max: 57700
+    std: 23000
+    short: 22600
+  - label: "5D"
+    max: 72800
+    std: 23000
+    short: 22600
+  - label: "6B"
+    max: 77200
+    std: 28000
+    short: 27500
+  - label: "7"
+    max: 97000
+    std: 28000
+    short: 27500
+  - label: "8"
+    max: 133000
+    std: 37000
+    short: 36300
+  - label: "9"
+    max: 169000
+    std: 41000
+    short: 40300
+  - label: "10"
+    max: 211300
+    std: 54000
+    short: 53000
+  - label: "11"
+    max: 301000
+    std: 54000
+    short: 53000
+  - label: "12"
+    max: 397000
+    std: 65000
+    short: 63800
+  - label: "13"
+    max: null
+    std: 65000
+    short: 63800
+kinto:
+  label: "3B"
+  std: 16000
+  short: 15700
+hikazei: "2B"
+seiho: "1"
