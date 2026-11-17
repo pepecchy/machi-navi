@@ -1,0 +1,9 @@
+id: awa
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 36
+name:
+  ja: 徳島県 阿波市
+  en: Awa, Tokushima
+  zh: 德岛县 阿波市
+  vi: Awa, Tokushima
+  ne: आवा, तोकुशिमा
