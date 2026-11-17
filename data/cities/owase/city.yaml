@@ -1,0 +1,9 @@
+id: owase
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 24
+name:
+  ja: 三重県 尾鷲市
+  en: Owase, Mie
+  zh: 三重县 尾鹫市
+  vi: Owase, Mie
+  ne: ओवासे, मिए
