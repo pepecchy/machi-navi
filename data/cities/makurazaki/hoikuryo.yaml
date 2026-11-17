@@ -1,0 +1,46 @@
+id: makurazaki-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育所等利用者負担金基準額表
+source: https://www.city.makurazaki.lg.jp/uploaded/attachment/23206.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度"
+  - "保育所等利用者負担金基準額表"
+  - "※ 小学校就学前の範囲において、特定教育・保育施設等を同時に利用する最年長の子どもから順に2人目は"
+  - "半額、3人目以降は0円とする。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). Quotes 2 and 3 are one sentence split over two lines.
+second_child_quote: 2
+# Amounts are the standard (標準) figures, not the lower amounts for single-parent and disability households or the 多子 row for third children. Households paying only the per-capita levy have no income levy and fall in 3.
+tiers:
+  - label: "3"
+    max: 48600
+    std: 9700
+    short: 9600
+  - label: "4"
+    max: 97000
+    std: 15000
+    short: 14800
+  - label: "5"
+    max: 169000
+    std: 22200
+    short: 21900
+  - label: "6"
+    max: 301000
+    std: 30500
+    short: 30000
+  - label: "7"
+    max: 397000
+    std: 40000
+    short: 39400
+  - label: "8"
+    max: null
+    std: 52000
+    short: 51200
+kinto:
+  label: "3"
+  std: 9700
+  short: 9600
+hikazei: "2"
+seiho: "1"
