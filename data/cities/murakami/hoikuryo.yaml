@@ -1,0 +1,85 @@
+id: murakami-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 村上市利用者負担額(保育料)基準額表
+source: https://www.city.murakami.lg.jp/uploaded/attachment/76532.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度 村上市利用者負担額(保育料)基準額表"
+  - "・所得割額の合計額が57,700円未満の場合は、生計を一にする子の第2子が半額、第3子以降は無料となります。"
+  - "を2人目、以降を3人目以降と数え、2人目が半額、3人目以降は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). Quote 2 covers households with an income levy of 57,700 yen or more (children using a preschool facility); quote 1 covers lower incomes, counting all children in the household.
+second_child_quote: 2
+# Amounts are for households other than single-parent and disability households ("それ以外"). D3 (73,000-77,101) and the next printed range (77,101-85,000) have the same amounts and are merged. C1 is households with no income levy, which includes those paying only the per-capita levy.
+tiers:
+  - label: "C2"
+    max: 12600
+    std: 9000
+    short: 8800
+  - label: "C3"
+    max: 24600
+    std: 10000
+    short: 9800
+  - label: "C4"
+    max: 36600
+    std: 11000
+    short: 10800
+  - label: "C5"
+    max: 48600
+    std: 12000
+    short: 11700
+  - label: "D1"
+    max: 61000
+    std: 14000
+    short: 13700
+  - label: "D2"
+    max: 73000
+    std: 16000
+    short: 15700
+  - label: "D3"
+    max: 85000
+    std: 19000
+    short: 18600
+  - label: "D4"
+    max: 97000
+    std: 22000
+    short: 21600
+  - label: "D5"
+    max: 121000
+    std: 27000
+    short: 26500
+  - label: "D6"
+    max: 145000
+    std: 31000
+    short: 30400
+  - label: "D7"
+    max: 169000
+    std: 35000
+    short: 34400
+  - label: "D8"
+    max: 213000
+    std: 38000
+    short: 37300
+  - label: "D9"
+    max: 257000
+    std: 42000
+    short: 41200
+  - label: "D10"
+    max: 301000
+    std: 45000
+    short: 44200
+  - label: "D11"
+    max: 397000
+    std: 48000
+    short: 47100
+  - label: "D12"
+    max: null
+    std: 51000
+    short: 50100
+kinto:
+  label: "C1"
+  std: 8000
+  short: 7800
+hikazei: "B"
+seiho: "A"

@@ -1,0 +1,23 @@
+id: murakami-move-in
+window: "市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住所・世帯に関する届け出
+source: https://www.city.murakami.lg.jp/soshiki/24/todokede-juminido.html
+quotes:
+  - "住みはじめてから 14日以内"
+  - "市民課 市民年金室"
+  - "開庁時間:月曜日から金曜日/8時30分から17時15分(土曜日・日曜日・祝日は閉庁)"
+  - "転入届をされる人は、従前に住んでいた市区町村から発行された転出証明書"
+  - "マイナンバーカードや運転免許証、介護保険証などのご本人を確認できる書類"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "外国籍の方は、在留カード(交付前であれば旅券)、または、特別永住者証明書"
+checked: 2026-11-17
