@@ -1,0 +1,20 @@
+id: kyotango-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.kyotango.lg.jp/top/kurashi/todoke/5/4738.html
+quotes:
+  - "転入の日から14日以内(実際に住み始めてからの届出になります)"
+  - "住民異動届を市民課または市民局窓口(峰山庁舎を除く)で記入し、「転出証明書」を添えて提出してください。"
+  - "転出証明書(マイナンバーカードを使った特例転入を行うかたを除く)"
+  - "マイナンバーカード(個人番号カード)(転入者全員分)"
+  - "本人確認書類(運転免許証、パスポート、マイナンバーカード、資格確認書、在留カード、特別永住者証明書など)"
+  - "在留カード、特別永住者証明書(外国人住民のかた)"
+checked: 2026-11-17
