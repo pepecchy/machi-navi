@@ -1,0 +1,18 @@
+id: yufu-move-in
+window: "市民課（本庁舎本館1階）"
+hours: 
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.yufu.oita.jp/kurashi/juuminnhyoukoseki/juuminhyou/tennnyuutodoke
+quotes:
+  - "他の市区町村から、由布市に引越して来たときの届け出になります。"
+  - "引越し後、14日以内に転入の届出を行ってください。"
+  - "市民課(本庁舎本館1階)"
+  - "受付時間 午前8時30分~午後5時"
+  - "転出証明書(海外からの転入、マイナンバーカード・住民基本台帳カードを使って特例転入手続きをされる方は除く)"
+checked: 2026-11-17
