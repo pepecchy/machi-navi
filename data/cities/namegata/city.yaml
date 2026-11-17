@@ -1,0 +1,9 @@
+id: namegata
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 8
+name:
+  ja: 茨城県 行方市
+  en: Namegata, Ibaraki
+  zh: 茨城县 行方市
+  vi: Namegata, Ibaraki
+  ne: नामेगाता, इबाराकी

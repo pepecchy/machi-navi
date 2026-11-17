@@ -1,0 +1,14 @@
+id: namegata-hoikuryo
+fiscal_year: 2026
+doc: "利用者負担額(保育料)の無償化について"
+source: https://www.city.namegata.ibaraki.jp/seikatsu/kosodate-shien/kosodate-hoikusyo-kodomoen/page006412.html
+checked: 2026-11-17
+quotes:
+  - "【更新日】 2026年10月22日"
+  - "0歳児から2歳児の保育料を無償化しております。"
+wording: [rule_free_all]
+# The city waives the fee for every child aged 0 to 2 from FY2025 as its own programme, with no condition on income or siblings, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
