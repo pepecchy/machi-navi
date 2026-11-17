@@ -1,0 +1,23 @@
+id: namegata-move-in
+window: "総合窓口課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.namegata.ibaraki.jp/seikatsu/todokede-syoumei/page000020.html
+quotes:
+  - "転入した日から14日以内に届け出をしてください。"
+  - "総合窓口課"
+  - "【開庁日時】 平日(月曜から金曜) 午前8時30分から午後5時15分まで"
+  - "転出証明書"
+  - "本人確認書類"
+  - "マイナンバーカード(お持ちの方のみ)"
+  - "外国籍の方は 玉造庁舎 でのみ手続き可能です。パスポートと在留カードを必ずお持ちください。"
+checked: 2026-11-17
