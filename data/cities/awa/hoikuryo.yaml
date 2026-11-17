@@ -1,0 +1,15 @@
+id: awa-hoikuryo
+fiscal_year: 2026
+doc: "保育料の無償化について"
+source: https://www.city.awa.lg.jp/docs/2026041700028/
+checked: 2026-11-17
+quotes:
+  - "認可保育施設を利用する0歳児から2歳児の保育料について、"
+  - "令和7年9月より「第1子以降」の保 育料を無償化しています。"
+  - "※3歳児から5歳児は、すでに国の制度で無償化となっています。"
+wording: [rule_free_all]
+# The city waives the fee for every child aged 0 to 2 at licensed nurseries from September 2025, and ages 3 to 5 are free nationally, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
