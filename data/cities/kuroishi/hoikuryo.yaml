@@ -1,0 +1,14 @@
+id: kuroishi-hoikuryo
+fiscal_year: 2026
+doc: "利用料(保育料)・副食費について"
+source: https://www.city.kuroishi.aomori.jp/kosodate/hoiku/hoiku_ryoukin_2_3.html
+checked: 2026-11-17
+quotes:
+  - "令和8年4月から、0歳から2歳の子どもの利用料(保育料)が無料となりました。(市の無償化事業により)"
+  - "令和8年9月分から令和9年3月分"
+wording: [rule_free_all]
+# The city waives the fee for every child aged 0 to 2 from April 2026, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
