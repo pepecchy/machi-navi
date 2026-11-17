@@ -1,0 +1,15 @@
+id: mutsu-move-in
+window: "市民生活部 市民課"
+hours: null
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.mutsu.lg.jp/kurashi/koseki/idou/tennyu.html
+quotes:
+  - "他市区町村からむつ市に住所を移す届けです。"
+  - "転入した住所に住み始めてから14日以内"
+  - "市民生活部市民課"
+  - "転出証明書(前住所地の市区町村役場で発行。マイナンバーカードを利用して転出届を出した方は除く。)"
+checked: 2026-11-17
