@@ -1,0 +1,9 @@
+id: sabae
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 18
+name:
+  ja: 福井県 鯖江市
+  en: Sabae, Fukui
+  zh: 福井县 鲭江市
+  vi: Sabae, Fukui
+  ne: साबाए, फुकुई
