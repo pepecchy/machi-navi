@@ -1,0 +1,9 @@
+id: iwakuni
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 35
+name:
+  ja: 山口県 岩国市
+  en: Iwakuni, Yamaguchi
+  zh: 山口县 岩国市
+  vi: Iwakuni, Yamaguchi
+  ne: इवाकुनी, यामागुची

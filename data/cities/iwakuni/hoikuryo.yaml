@@ -1,0 +1,72 @@
+id: iwakuni-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 岩国市が定める幼稚園・認定こども園・保育園・小規模保育事業所の保育料
+source: https://www.city.iwakuni.lg.jp/uploaded/life/111059_684568_misc.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度 岩国市が定める幼稚園・認定こども園・保育園・小規模保育事業所の保育料"
+  - "・ 令和6年9月より、生計を一にしている子どものうち、最年長者を第1子、その下の子を第2子とカウントし、第2子以降の保育料を無料に"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first). Children who share the household's livelihood count from the eldest, whatever facility they use. An eldest child who is no longer a dependant does not count.
+second_child_quote: 1
+# Amounts are the general rows for the 年々少クラス以下 (under 3) columns, not the ひとり親、障害者世帯等 rows. The table prints upper bounds with 以下, so each max is the next tier's lower bound. 030 covers households paying only the per-capita levy. The top tier 160 starts at 397,000 yen.
+tiers:
+  - label: "040"
+    max: 48600
+    std: 13600
+    short: 13300
+  - label: "050"
+    max: 57700
+    std: 15500
+    short: 15200
+  - label: "060"
+    max: 65000
+    std: 17300
+    short: 17000
+  - label: "070"
+    max: 77101
+    std: 19200
+    short: 18800
+  - label: "080"
+    max: 82000
+    std: 21000
+    short: 20600
+  - label: "090"
+    max: 97000
+    std: 24400
+    short: 23900
+  - label: "100"
+    max: 123000
+    std: 27800
+    short: 27400
+  - label: "110"
+    max: 150000
+    std: 31200
+    short: 30600
+  - label: "120"
+    max: 169000
+    std: 37400
+    short: 36800
+  - label: "130"
+    max: 280000
+    std: 43600
+    short: 42800
+  - label: "140"
+    max: 301000
+    std: 49800
+    short: 49000
+  - label: "150"
+    max: 397000
+    std: 56000
+    short: 55000
+  - label: "160"
+    max: null
+    std: 72800
+    short: 71600
+kinto:
+  label: "030"
+  std: 9900
+  short: 9700
+hikazei: "020"
+seiho: "010"
