@@ -1,0 +1,9 @@
+id: yokote
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 5
+name:
+  ja: 秋田県 横手市
+  en: Yokote, Akita
+  zh: 秋田县 横手市
+  vi: Yokote, Akita
+  ne: योकोते, आकिता
