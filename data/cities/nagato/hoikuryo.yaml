@@ -1,0 +1,15 @@
+id: nagato-hoikuryo
+fiscal_year: 2026
+doc: "3歳未満児の保育料完全無償化について"
+source: https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/56742.html
+checked: 2026-11-17
+quotes:
+  - "3歳未満児の保育料を完全無償化します!【長門市独自】"
+  - "国・県で無償化されていない3歳未満児の保育料を長門市独自で第1子から所得要件等を設けずに無償化します。"
+  - "長門市にお住まいで、幼稚園・保育所・認定こども園を利用するすべての児童"
+wording: [rule_free_all]
+# The city waives the fee for every child under 3 from the first child, with no income condition, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
