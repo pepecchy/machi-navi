@@ -1,0 +1,15 @@
+id: yufu-hoikuryo
+fiscal_year: 2026
+doc: "保育料・副食費について（保育所・認定こども園（2・3号認定）の方）"
+source: https://www.city.yufu.oita.jp/uploads/files/2026/04/hoikuryou-hukusyokuhi-23.pdf
+checked: 2026-11-17
+quotes:
+  - "認可保育施設の保育料を完全無償化"
+  - "令和7年4月1日から無償としています。"
+  - "第2子以降の子どもは多子軽減制度(国)やにこにこ保育支援事業(県・市)により無償となります。"
+wording: [rule_free_all]
+# The city waives the first-child fee from April 2025, and later children under 3 are free under national and prefecture programmes, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 2

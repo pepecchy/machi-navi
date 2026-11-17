@@ -1,0 +1,14 @@
+id: soo-hoikuryo
+fiscal_year: 2026
+doc: "曽於市の保育料・副食費について"
+source: https://www.city.soo.kagoshima.jp/kurashi/kosodatekyouiku/hoikuenn/hoikuryou.html
+checked: 2026-11-17
+quotes:
+  - "令和7年4月分から、曽於市にお住まいの0~5歳児までのすべての年齢で、保育園、認定こども園の保育料を無償化します。"
+  - "0~2歳児までの保育料無償化は、曽於市独自の子育て支援策です。"
+wording: [rule_free_all]
+# From April 2025 the city waives the fee at every age from 0 to 5, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0

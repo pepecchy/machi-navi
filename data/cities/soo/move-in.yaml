@@ -1,0 +1,15 @@
+id: soo-move-in
+window: "市民環境課"
+hours: null
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 住民票(住民基本台帳)の届出
+source: https://www.city.soo.kagoshima.jp/kurashi/todokedesyomei/todokede/jyuminhyotodoke.html
+quotes:
+  - "転入届"
+  - "曽於市に住み始めた日から14日以内"
+  - "・前住所地の市区町村が発行した転出証明書"
+  - "曽於市役所 市民環境課"
+checked: 2026-11-17
