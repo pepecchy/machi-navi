@@ -1,0 +1,9 @@
+id: minamiuonuma
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 15
+name:
+  ja: 新潟県 南魚沼市
+  en: Minamiuonuma, Niigata
+  zh: 新潟县 南鱼沼市
+  vi: Minamiuonuma, Niigata
+  ne: मिनामिउओनुमा, निइगाता

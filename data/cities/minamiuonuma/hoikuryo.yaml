@@ -1,0 +1,14 @@
+id: minamiuonuma-hoikuryo
+fiscal_year: 2026
+doc: "保育料無償化及び副食費負担軽減"
+source: https://www.city.minamiuonuma.niigata.jp/docs/57109.html
+checked: 2026-11-17
+quotes:
+  - "掲載日:令和8年5月21日更新"
+  - "南魚沼市では市単独事業として、令和7年度より子育て世帯の経済的負担軽減を図るため、0歳児から2歳児に係る「保育料」については全額無償化とし、3歳以上児に係る「副食費」については5,100円まで補助を行います。"
+wording: [rule_free_all]
+# The city waives the fee for every child aged 0 to 2 from April 2025 as its own programme, with no condition on income or siblings, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
