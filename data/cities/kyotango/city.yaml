@@ -1,0 +1,9 @@
+id: kyotango
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 26
+name:
+  ja: 京都府 京丹後市
+  en: Kyotango, Kyoto
+  zh: 京都府 京丹后市
+  vi: Kyotango, Kyoto
+  ne: क्योतांगो, क्योतो

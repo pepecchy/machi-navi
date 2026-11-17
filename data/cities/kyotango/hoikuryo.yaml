@@ -1,0 +1,57 @@
+id: kyotango-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 京丹後市 保育所・認定こども園 募集要項
+source: https://www.city.kyotango.lg.jp/material/files/group/59/01R8youkou.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度"
+  - "第3階層 市町村民税課税世帯(所得割非課税世帯) 13,000 12,000"
+  - "第2子は徴収基準額(月額)の半額になります。また、所得割課税額が 57,700 円未満の場合には、"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). From 57,700 yen up, the second child is half only when two children of the household are enrolled at the same time. Below 57,700 yen, the second child is half whatever the elder child's age.
+second_child_quote: 2
+# Amounts are from table 1 for children under 3, not table 2 for single-parent households and households with a disabled member. The top tier 第12階層 starts at 397,000 yen. 第3階層 covers households paying only the per-capita levy.
+tiers:
+  - label: "第4階層"
+    max: 48600
+    std: 17000
+    short: 16000
+  - label: "第5階層"
+    max: 97000
+    std: 26000
+    short: 25000
+  - label: "第6階層"
+    max: 133000
+    std: 32000
+    short: 31000
+  - label: "第7階層"
+    max: 169000
+    std: 38000
+    short: 37000
+  - label: "第8階層"
+    max: 235000
+    std: 45000
+    short: 44000
+  - label: "第9階層"
+    max: 301000
+    std: 52000
+    short: 51000
+  - label: "第10階層"
+    max: 349000
+    std: 60000
+    short: 58000
+  - label: "第11階層"
+    max: 397000
+    std: 68000
+    short: 66000
+  - label: "第12階層"
+    max: null
+    std: 77000
+    short: 75000
+kinto:
+  label: "第3階層"
+  std: 13000
+  short: 12000
+hikazei: "第2階層"
+seiho: "第1階層"
