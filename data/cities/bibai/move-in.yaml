@@ -1,0 +1,23 @@
+id: bibai-move-in
+window: "市民課 市民係"
+hours: 
+  open: "8:45"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.bibai.hokkaido.jp/soshiki/5/553.html
+quotes:
+  - "住み始めた日から14日以内"
+  - "市民課 市民係"
+  - "開庁時間:月曜日から金曜日 8時45分から17時15分まで(土曜日・日曜日、祝日および年末年始は休み)"
+  - "前住所地で発行された転出証明書"
+  - "届出人の 本人確認書類"
+  - "引っ越した人の 個人番号(マイナンバー)カード (お持ちの方)"
+  - "在留カード"
+checked: 2026-11-17

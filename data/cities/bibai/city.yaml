@@ -1,0 +1,9 @@
+id: bibai
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 1
+name:
+  ja: 北海道 美唄市
+  en: Bibai, Hokkaido
+  zh: 北海道 美呗市
+  vi: Bibai, Hokkaido
+  ne: बिबाई, होक्काइदो
