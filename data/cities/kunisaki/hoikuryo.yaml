@@ -1,0 +1,15 @@
+id: kunisaki-hoikuryo
+fiscal_year: 2026
+doc: "幼児教育・保育の無償化について"
+source: https://www.city.kunisaki.oita.jp/site/kosodate/musyouka.html
+checked: 2026-11-17
+quotes:
+  - "国東市では市の独自政策として3歳未満第1子の保育料を無償化しています。"
+  - "上記および大分にこにこ保育支援事業(3歳未満第2子以降)と合わせて全年齢で保育料は発生しません。"
+  - "※国東市に住所を有する方が対象です。"
+wording: [rule_free_all]
+# The city waives the under-3 fee for the first child and, with the prefecture's programme for later children, no fee arises at any age, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1

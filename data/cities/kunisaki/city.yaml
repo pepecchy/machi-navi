@@ -1,0 +1,9 @@
+id: kunisaki
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 44
+name:
+  ja: 大分県 国東市
+  en: Kunisaki, Oita
+  zh: 大分县 国东市
+  vi: Kunisaki, Oita
+  ne: कुनिसाकी, ओइता

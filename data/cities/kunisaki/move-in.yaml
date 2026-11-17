@@ -1,0 +1,20 @@
+id: kunisaki-move-in
+window: "市民健康課 戸籍住民係"
+hours: 
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.kunisaki.oita.jp/soshiki/shimin-kenko/tennyu.html
+quotes:
+  - "新しい住所に住み始めた日から14日以内。"
+  - "国東市役所本庁 市民健康課"
+  - "戸籍住民係"
+  - "受付時間:平日8時30分~17時00分"
+  - "転出証明書"
+  - "転入する人の在留カードまたは特別永住者証明書"
+checked: 2026-11-17
