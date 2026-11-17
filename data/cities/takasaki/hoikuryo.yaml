@@ -1,0 +1,101 @@
+id: takasaki-hoikuryo
+fiscal_year: 2026
+doc: 高崎市2・3号認定子ども保育料基準額（令和8年10月時点）
+source: https://www.city.takasaki.gunma.jp/uploaded/attachment/43416.pdf
+checked: 2026-11-17
+quotes:
+  - "高崎市2・3号認定子ども保育料基準額"
+  - "令和8年10月時点"
+  - "2人目の保育料はおよそ半額とします(上表の( ) 内の金額)。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). The table prints second-child amounts in brackets under each first-child amount. Below 57,700 yen (77,101 yen for single-parent households) the first child's age does not matter.
+second_child_quote: 2
+# Amounts are the 軽減後 (from October 2026) columns of the general rows, not the ひとり親世帯等 rows. The two D3 rows (below 77,101 yen and 77,101 to 78,000 yen) print the same amounts and are joined.
+tiers:
+  - label: "C3"
+    max: 24300
+    std: 4970
+    short: 4880
+    std2: 2480
+    short2: 2440
+  - label: "C5"
+    max: 48600
+    std: 5180
+    short: 5090
+    std2: 2590
+    short2: 2540
+  - label: "D1"
+    max: 51700
+    std: 6340
+    short: 6230
+    std2: 3160
+    short2: 3110
+  - label: "D2"
+    max: 58700
+    std: 7340
+    short: 7210
+    std2: 3620
+    short2: 3550
+  - label: "D3"
+    max: 78000
+    std: 8500
+    short: 8360
+    std2: 4150
+    short2: 4080
+  - label: "D4"
+    max: 97000
+    std: 11470
+    short: 11270
+    std2: 5120
+    short2: 5030
+  - label: "D5"
+    max: 114500
+    std: 13970
+    short: 13730
+    std2: 6230
+    short2: 6120
+  - label: "D6"
+    max: 134100
+    std: 16630
+    short: 16350
+    std2: 7560
+    short2: 7430
+  - label: "D7"
+    max: 169000
+    std: 19710
+    short: 19370
+    std2: 9100
+    short2: 8950
+  - label: "D8"
+    max: 242400
+    std: 22970
+    short: 22580
+    std2: 10730
+    short2: 10550
+  - label: "D9"
+    max: 301000
+    std: 24100
+    short: 23690
+    std2: 11300
+    short2: 11100
+  - label: "D10"
+    max: 397000
+    std: 24980
+    short: 24550
+    std2: 11740
+    short2: 11540
+  - label: "D11"
+    max: null
+    std: 25640
+    short: 25200
+    std2: 12070
+    short2: 11860
+kinto:
+  label: "C1"
+  std: 3800
+  short: 3730
+  std2: 1900
+  short2: 1860
+hikazei: "B1"
+seiho: "A"
