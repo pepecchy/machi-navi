@@ -1,0 +1,23 @@
+id: kawachinagano-move-in
+window: "市民窓口課"
+hours: 
+  open: "9:00"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民異動の届出
+source: https://www.city.kawachinagano.lg.jp/soshiki/6/2803.html
+quotes:
+  - "引っ越してきた日から14日以内"
+  - "市民窓口課"
+  - "月曜日から金曜日午前9時から午後4時30分(土曜日・日曜日・祝休日・年末年始を除く)"
+  - "転出証明書(前の住所地で発行されたもの)"
+  - "マイナンバーカード(※)"
+  - "運転免許証やパスポート、資格確認書などを窓口の受付でご提示願います。"
+  - "在留カードまたは特別永住者証明書(外国人の方)"
+checked: 2026-11-17
