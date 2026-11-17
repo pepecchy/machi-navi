@@ -1,0 +1,9 @@
+id: ginowan
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 47
+name:
+  ja: 沖縄県 宜野湾市
+  en: Ginowan, Okinawa
+  zh: 冲绳县 宜野湾市
+  vi: Ginowan, Okinawa
+  ne: गिनोवान, ओकिनावा

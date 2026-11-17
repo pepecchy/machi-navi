@@ -1,0 +1,23 @@
+id: ginowan-move-in
+window: "市民経済部 市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 国内転入届
+source: https://www.city.ginowan.lg.jp/soshiki/keizai/4/1/2/2/1420.html
+quotes:
+  - "宜野湾市の新しい住所に住み始めて日から14日以内です。"
+  - "市民経済部 市民課"
+  - "開庁時間:8時30分から17時15分"
+  - "・転出証明書"
+  - "・届出人の身分証明書 (運転免許証、マイナンバーカード、保険証、パスポートなど)"
+  - "・転入する方全員のマイナンバーカードまたは住民基本台帳カード (お持ちの場合)"
+  - "・在留カードまたは特別永住者証明書 (転入する方に外国籍の方がいる場合)"
+checked: 2026-11-17
