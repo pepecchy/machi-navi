@@ -1,0 +1,59 @@
+id: sakata-hoikuryo
+fiscal_year: 2026
+doc: 酒田市 保育利用者(2号・3号認定)負担額表（令和8年度）
+source: https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/kosodate02202209.files/R08hoikuhutangaku3.pdf
+checked: 2026-11-17
+quotes:
+  - "酒田市 保育利用者(2号・3号認定)負担額表"
+  - "令和8年度の場合、令和5年4月2日以降に生まれた児童が3歳児未満となります。"
+  - "表中の( )内は第2子の場合の利用者負担額です。"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# C1 to D2 (income levy under 97,000 yen) are free under the prefecture and city programme, so they are merged. Households paying only the per-capita levy fall in C1. The bracketed amounts are for the second child, counted among all siblings in the household with no age limit.
+tiers:
+  - label: "C1"
+    max: 97000
+    std: 0
+    short: 0
+    std2: 0
+    short2: 0
+  - label: "D3"
+    max: 169000
+    std: 22250
+    short: 21950
+    std2: 7410
+    short2: 7310
+  - label: "D4"
+    max: 235000
+    std: 44500
+    short: 43700
+    std2: 14830
+    short2: 14560
+  - label: "D5"
+    max: 301000
+    std: 49000
+    short: 48100
+    std2: 16330
+    short2: 16030
+  - label: "D6"
+    max: 397000
+    std: 51000
+    short: 50100
+    std2: 17000
+    short2: 16700
+  - label: "D7"
+    max: null
+    std: 71000
+    short: 69700
+    std2: 23660
+    short2: 23230
+kinto:
+  label: "C1"
+  std: 0
+  short: 0
+  std2: 0
+  short2: 0
+hikazei: "B"
+seiho: "A"

@@ -1,0 +1,19 @@
+id: sakata-move-in
+window: "市民部 市民課 住民係"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民異動の手続きについて
+source: https://www.city.sakata.lg.jp/kurashi/todokede/jyusyohenko/idou-tetsuduki.html
+quotes:
+  - "住み始めた日から14日以内"
+  - "市民部 市民課 住民係"
+  - "開庁時間:平日午前8時30分から午後5時15分"
+  - "前住所地の市区町村が発行した転出証明書(マイナンバー(個人番号)カードによる転出手続きをした場合は不要)"
+  - "転入する方が外国人の場合は全員の「在留カード」「特別永住者証明書」"
+checked: 2026-11-17

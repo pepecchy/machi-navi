@@ -1,0 +1,9 @@
+id: sakata
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 6
+name:
+  ja: 山形県 酒田市
+  en: Sakata, Yamagata
+  zh: 山形县 酒田市
+  vi: Sakata, Yamagata
+  ne: साकाता, यामागाता
