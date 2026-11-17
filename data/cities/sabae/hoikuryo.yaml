@@ -1,0 +1,56 @@
+id: sabae-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 鯖江市保育料徴収基準額表
+source: https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/yochien_hoikuen/HoYoji_Hoikuryou.files/hoikuryoR8.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度 鯖 江 市 保 育 料 徴 収 基 準 額 表"
+  - "(1)保護者が監護し、生計が同じ「子ども」であれば、第 1 子の年齢にかかわらず、第 2 子以降が"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the main figures, not the bracketed amounts for single-parent and similar households. The table gives upper bounds such as "~48,600" under a "円未満" heading; the two 第6 rows (to 77,101 and to 97,000) have the same amounts and are merged. Households paying only the per-capita levy have no income levy and fall in 第3.
+tiers:
+  - label: "第3"
+    max: 24300
+    std: 8000
+    short: 7800
+  - label: "第4"
+    max: 48600
+    std: 11000
+    short: 10800
+  - label: "第5"
+    max: 72800
+    std: 17000
+    short: 16700
+  - label: "第6"
+    max: 97000
+    std: 21000
+    short: 20600
+  - label: "第7"
+    max: 133000
+    std: 29000
+    short: 28500
+  - label: "第8"
+    max: 169000
+    std: 36000
+    short: 35300
+  - label: "第9"
+    max: 301000
+    std: 46000
+    short: 45200
+  - label: "第10"
+    max: 397000
+    std: 49000
+    short: 48100
+  - label: "第11"
+    max: null
+    std: 54000
+    short: 53000
+kinto:
+  label: "第3"
+  std: 8000
+  short: 7800
+hikazei: "第2"
+seiho: "第1"

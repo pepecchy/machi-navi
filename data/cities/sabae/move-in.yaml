@@ -1,0 +1,21 @@
+id: sabae-move-in
+window: "市民窓口課"
+hours: 
+  open: "8:30"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.sabae.fukui.jp/kurashi_tetsuduki/todokede/seikatsu_tetsuzuki/tennyu.html
+quotes:
+  - "引越しされた日から 2週間以内 に市役所にお越しください。"
+  - "このページは、市民窓口課が担当しています。"
+  - "受付時間 平日8時30分~16時30分(16時頃までにはお越しください。)"
+  - "・転出証明書"
+  - "本人確認 書類(運転免許証、パスポート、在留カード等)"
+  - "・マイナンバーカード(4桁の暗証番号必須)"
+checked: 2026-11-17
