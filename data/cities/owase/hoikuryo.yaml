@@ -1,0 +1,101 @@
+id: owase-hoikuryo
+fiscal_year: 2026
+doc: 尾鷲市利用者負担額表(3号認定)【0~2歳児】（令和8年4月1日）
+source: https://www.city.owase.lg.jp/owasewanpaku/cmsfiles/contents/0000017/17836/R8.4.pdf
+checked: 2026-11-17
+quotes:
+  - "尾鷲市利用者負担額表(3号認定)【0~2歳児】"
+  - "(令和8年 4 月 1 日)"
+  - "階層 第1子 第2子 第3子"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). The table prints first-child, second-child and third-child amounts side by side. It does not say how siblings are counted.
+second_child_quote: 2
+# Amounts are the ひとり親世帯等以外の世帯 rows, not the ひとり親世帯等 rows.
+tiers:
+  - label: "3-22"
+    max: 20000
+    std: 15000
+    short: 14700
+    std2: 7500
+    short2: 7350
+  - label: "4-2"
+    max: 25000
+    std: 17500
+    short: 17200
+    std2: 8750
+    short2: 8600
+  - label: "5-2"
+    max: 30000
+    std: 18500
+    short: 18300
+    std2: 9250
+    short2: 9150
+  - label: "6-2"
+    max: 48600
+    std: 19500
+    short: 19300
+    std2: 9750
+    short2: 9650
+  - label: "7-2"
+    max: 57700
+    std: 25000
+    short: 24500
+    std2: 12500
+    short2: 12250
+  - label: "8-2"
+    max: 77101
+    std: 27500
+    short: 27500
+    std2: 13750
+    short2: 13750
+  - label: "9"
+    max: 100000
+    std: 30000
+    short: 30000
+    std2: 15000
+    short2: 15000
+  - label: "10"
+    max: 140000
+    std: 32500
+    short: 32500
+    std2: 16250
+    short2: 16250
+  - label: "11"
+    max: 200000
+    std: 35000
+    short: 35000
+    std2: 17500
+    short2: 17500
+  - label: "12"
+    max: 250000
+    std: 37500
+    short: 37500
+    std2: 18750
+    short2: 18750
+  - label: "13"
+    max: 330000
+    std: 40000
+    short: 40000
+    std2: 20000
+    short2: 20000
+  - label: "14"
+    max: 410000
+    std: 42500
+    short: 42500
+    std2: 21250
+    short2: 21250
+  - label: "15"
+    max: null
+    std: 45000
+    short: 45000
+    std2: 22500
+    short2: 22500
+kinto:
+  label: "3-12"
+  std: 12500
+  short: 12200
+  std2: 6250
+  short2: 6100
+hikazei: "2-2"
+seiho: "1"
