@@ -1,0 +1,23 @@
+id: iwakuni-move-in
+window: "市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.iwakuni.lg.jp/soshiki/20/65419.html
+quotes:
+  - "岩国市に住み始めてから14日以内"
+  - "市外から岩国市へ住所を移した日から14日以内に本庁、総合支所、支所、または出張所で転入の届出をしてください。"
+  - "月曜日~金曜日(祝日を除く) 8時30分~17時15分"
+  - "転出証明書"
+  - "届出人の本人確認書類"
+  - "マイナンバーカード(交付を受けている方)"
+  - "在留カードまたは特別永住者証明書(外国人住民)"
+checked: 2026-11-17
