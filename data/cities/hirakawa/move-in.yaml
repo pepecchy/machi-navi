@@ -1,0 +1,18 @@
+id: hirakawa-move-in
+window: "市民課 市民係"
+hours: 
+  open: "8:15"
+  close: "17:00"
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 住民異動届
+source: https://www.city.hirakawa.lg.jp/kurashi/koseki/junminidou.html
+quotes:
+  - "他の市区町村から平川市に住所を変更した場合には転入届が必要です。"
+  - "新しい住所に住み始めてから14日以内"
+  - "平川市役所 市民課 市民係"
+  - "開庁時間:平日8時15分から17時まで"
+  - "前住所地で発行された転出証明書"
+checked: 2026-11-17
