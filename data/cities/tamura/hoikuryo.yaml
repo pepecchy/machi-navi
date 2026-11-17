@@ -1,0 +1,15 @@
+id: tamura-hoikuryo
+fiscal_year: 2026
+doc: "令和8年4月から0歳~2歳児の通常保育料が無料になります"
+source: https://www.city.tamura.lg.jp/nicotamu/entry/lunch-grant_2.html
+checked: 2026-11-17
+quotes:
+  - "令和8年4月から0歳~2歳児の通常保育料が無料になります"
+  - "保護者の経済的負担の軽減を図るため、令和8年4月から、田村市独自の制度として0~2歳児の利用者負担額(通常保育料)を助成します。"
+  - "令和8年4月から、田村市に住所を有し、田村市内の保育所、認定こども園、小規模保育事業所、事業所内保育事業所に通っている0歳児(生後6か月)~2歳児までの児童。"
+wording: [rule_free_all]
+# The city pays the whole regular fee for every child aged 0 to 2 at a nursery in the city from April 2026, so no tier amounts are needed. Facilities in other municipalities are not covered.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
