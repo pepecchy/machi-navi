@@ -1,0 +1,9 @@
+id: goshogawara
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 2
+name:
+  ja: 青森県 五所川原市
+  en: Goshogawara, Aomori
+  zh: 青森县 五所川原市
+  vi: Goshogawara, Aomori
+  ne: गोशोगावारा, आओमोरी
