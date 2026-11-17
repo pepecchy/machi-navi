@@ -1,0 +1,14 @@
+id: choshi-hoikuryo
+fiscal_year: 2026
+doc: "幼児教育・保育の無償化を拡大"
+source: https://www.city.choshi.chiba.jp/kurashi/page080020.html
+checked: 2026-11-17
+quotes:
+  - "2026年9月1日"
+  - "市独自の施策として、銚子市に住民登録がある子どもを対象に、令和7年度より0歳から2歳の「保育料」と3歳から5歳の「給食費」の無償化"
+wording: [rule_free_all]
+# The city waives the fee for every child aged 0 to 2 registered in the city from FY2025 as its own programme, with no condition on income or siblings, so no tier amounts are needed. The page was updated on 1 September 2026.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
