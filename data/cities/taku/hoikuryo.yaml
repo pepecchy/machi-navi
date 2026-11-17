@@ -1,0 +1,14 @@
+id: taku-hoikuryo
+fiscal_year: 2026
+doc: "保育料無償化を実施します"
+source: https://www.city.taku.lg.jp/soshiki/7/33351.html
+checked: 2026-11-17
+quotes:
+  - "令和8年4月から「保育料の無償化」を実施します。"
+  - "認可保育施設の0歳児~2歳児クラスに在籍するこども"
+wording: [rule_free_all]
+# The city waives the fee for every child in the 0-2 classes from April 2026, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
