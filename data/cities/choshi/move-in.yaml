@@ -1,0 +1,21 @@
+id: choshi-move-in
+window: "市民課 市民室"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.choshi.chiba.jp/kurashi/page050019.html
+quotes:
+  - "新しい住所に住みはじめてから14日以内"
+  - "銚子市役所市民室、豊里出張所、豊岡出張所"
+  - "市民課 市民室 市民班"
+  - "転出証明書(前住所の市区町村が発行したもの)"
+  - "届出人の本人確認ができる書類(「本人確認書類について」をご覧ください)"
+  - "マイナンバーカード(個人番号カード)"
+  - "在留カードまたは特別永住者証明書(外国人住民の方のみ)"
+checked: 2026-11-17
