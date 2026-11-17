@@ -1,0 +1,18 @@
+id: makurazaki-move-in
+window: "市民生活課 市民係"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 転入届(市外から転入したとき)
+source: https://www.city.makurazaki.lg.jp/site/shinsei-navi/5358.html
+quotes:
+  - "新しい住所にお住まいになった日から14日以内に届出てください。"
+  - "市民生活課"
+  - "市民係"
+  - "開庁時間:平日の午前8時30分から午後5時15分まで"
+  - "転出証明書(特例転入は不要)"
+checked: 2026-11-17
