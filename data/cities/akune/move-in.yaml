@@ -1,0 +1,17 @@
+id: akune-move-in
+window: "市民課 住民年金係（1番窓口）"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.akune.lg.jp/soshikikarasagasu/shiminka/juuminnenkinkakari/6/3/1/845.html
+quotes:
+  - "引っ越した日から14日以内"
+  - "市民課住民年金係(1番窓口)"
+  - "平日の午前8時30分から午後5時15分まで"
+  - "転出証明書"
+checked: 2026-11-17
