@@ -1,0 +1,23 @@
+id: takasaki-move-in
+window: "市民部 市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.takasaki.gunma.jp/page/5561.html
+quotes:
+  - "転入をした日から14日以内(※転入前に届出をすることはできません)"
+  - "市民部 市民課 住民記録担当"
+  - "月曜日から金曜日(祝日を除く)午前8時30分から午後5時15分まで"
+  - "窓口に来る方の本人確認書類 ( 届出時の本人確認について )"
+  - "前住所地で発行された転出証明書"
+  - "「継続利用(カードの住所変更)」の処理を行うため、異動される方全員分のカードをお持ちください。"
+  - "在留カードまたは特別永住者証明書"
+checked: 2026-11-17
