@@ -1,0 +1,14 @@
+id: yuzawa-hoikuryo
+fiscal_year: 2026
+doc: "保育料及び副食費を完全無償化(すこやか子育て支援事業)"
+source: https://www.city-yuzawa.jp/site/kosodate-navi/3574.html
+checked: 2026-11-17
+quotes:
+  - "保育料を完全無償化します"
+  - "令和7年9月から、保護者の所得や子どもの年齢などにかかわらずすべての子どもの保育料を完全無償化しています。(湯沢市上乗せ助成)"
+wording: [rule_free_all]
+# The city waives the fee for every child from September 2025 whatever the parents' income or the child's age, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1

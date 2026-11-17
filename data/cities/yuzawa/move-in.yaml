@@ -1,0 +1,21 @@
+id: yuzawa-move-in
+window: "本庁舎市民課住民班及び各総合支所"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city-yuzawa.jp/soshiki/18/155.html
+quotes:
+  - "湯沢市に住み始めた日から14日以内に転入の届出が必要です。"
+  - "本庁舎市民課住民班及び各総合支所"
+  - "月曜日から金曜日の午前8時30分から午後5時15分まで(祝日、年末年始をのぞく。)"
+  - "転出証明書(前住所地から発行してもらいます)"
+  - "個人番号カード(マイナンバーカード)"
+  - "窓口で届出される方の身分証明書"
+checked: 2026-11-17

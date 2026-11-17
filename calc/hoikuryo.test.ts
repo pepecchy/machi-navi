@@ -532,6 +532,7 @@ test("known results", () => {
   expect(calc(load("ichikawa"), "tax", 120000, 1, "std").fee).toBe(0);
   // Moriguchi: the city waives the fee for every child aged 0 to 5.
   expect(calc(load("moriguchi"), "tax", 120000, 1, "std").fee).toBe(0);
+  expect(calc(load("yuzawa"), "tax", 120000, 1, "std").fee).toBe(0);
   expect(calc(load("daisen"), "tax", 120000, 1, "std").fee).toBe(0);
   expect(calc(load("yokote"), "tax", 120000, 1, "std").fee).toBe(0);
   expect(calc(load("awa"), "tax", 120000, 1, "std").fee).toBe(0);
