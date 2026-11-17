@@ -1,0 +1,84 @@
+id: sodegaura-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 保育料階層表
+source: https://www.city.sodegaura.lg.jp/uploaded/attachment/43129.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度 保育料階層表"
+  - "上段が標準時間、下段が短時間"
+  - "5 同一の世帯で次の施設に入所しているか、サービスを受けているお子様がいる場合、第2子は半"
+  - "6 市民税所得割額が77,101円未満の世帯は、就学後のお子様も含めて第1子、第2子、第3子以降"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). Quote 3 says households with an income levy under 77,101 yen count children of school age too.
+second_child_quote: 2
+# Amounts are the general-household (一般世帯) 1子 and 2子 columns for children under 3, upper row standard hours and lower row short hours. Tier 2 is households with no municipal tax at all, including the per-capita levy, so households paying only the per-capita levy fall in tier 3. Tier 5 has two rows (under 77,101 and under 97,000) with different second-child amounts.
+tiers:
+  - label: "3"
+    max: 48600
+    std: 12000
+    short: 11800
+    std2: 0
+    short2: 0
+  - label: "4"
+    max: 73000
+    std: 16000
+    short: 15700
+    std2: 0
+    short2: 0
+  - label: "5"
+    max: 77101
+    std: 20000
+    short: 19600
+    std2: 0
+    short2: 0
+  - label: "5"
+    max: 97000
+    std: 20000
+    short: 19600
+    std2: 10000
+    short2: 9800
+  - label: "6"
+    max: 133000
+    std: 25000
+    short: 24500
+    std2: 12500
+    short2: 12250
+  - label: "7"
+    max: 169000
+    std: 30000
+    short: 29500
+    std2: 15000
+    short2: 14750
+  - label: "8"
+    max: 235000
+    std: 35000
+    short: 34400
+    std2: 17500
+    short2: 17200
+  - label: "9"
+    max: 301000
+    std: 39000
+    short: 38300
+    std2: 19500
+    short2: 19150
+  - label: "10"
+    max: 349000
+    std: 46000
+    short: 45200
+    std2: 23000
+    short2: 22600
+  - label: "11"
+    max: null
+    std: 53000
+    short: 52100
+    std2: 26500
+    short2: 26050
+kinto:
+  label: "3"
+  std: 12000
+  short: 11800
+  std2: 0
+  short2: 0
+hikazei: "2"
+seiho: "1"

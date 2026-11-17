@@ -1,0 +1,21 @@
+id: sodegaura-move-in
+window: "本庁市民課、長浦交流センター、平川交流センター"
+hours: 
+  open: "9:00"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign: []
+other: []
+doc: 転入・転出・転居時の各種手続
+source: https://www.city.sodegaura.lg.jp/soshiki/shimin/tetuduki.html
+quotes:
+  - "住み始めた日から14日以内に転入手続きをしてください。"
+  - "本庁市民課、長浦交流センター、平川交流センター"
+  - "午前9時から午後4時30分まで"
+  - "以前住んでいた市区町村の転出証明書(転入手続の特例対象者は不要です)"
+  - "運転免許証、パスポート、マイナンバーカード等の本人確認書類の提示をお願いします。"
+  - "お持ちの方は、マイナンバーカード・住民基本台帳カード"
+checked: 2026-11-17
