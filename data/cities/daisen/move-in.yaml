@@ -1,0 +1,23 @@
+id: daisen-move-in
+window: "市民課窓口(本庁 大曲庁舎)、各支所の市民サービス課窓口"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - nenkin
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届について
+source: https://www.city.daisen.lg.jp/archive/contents-9227
+quotes:
+  - "引越してきた日から14日以内に届け出が必要です。"
+  - "平日8時30分~17時15分 市民課窓口"
+  - "平日8時30分~17時15分 市民サービス課窓口"
+  - "転出証明書 今までの住民登録地に転出届を提出すると交付されます。"
+  - "本人確認書類 届け出にお越しの方のご本人確認できるもの"
+  - "国民年金手帳 加入者のみ"
+  - "在留カードまたは特別永住者証明書(外国人のみ )"
+checked: 2026-11-17
