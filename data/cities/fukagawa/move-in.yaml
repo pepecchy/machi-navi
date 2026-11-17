@@ -1,0 +1,17 @@
+id: fukagawa-move-in
+window: "市民福祉部 市民生活課 戸籍住民係"
+hours: 
+  open: "9:00"
+  close: "17:00"
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 市内へ転入したとき
+source: https://www.city.fukagawa.lg.jp/cms/section/shimin/ik75k40000004z24.html
+quotes:
+  - "深川市に住みはじめてから14日以内に転入の届け出をしてください。"
+  - "市民福祉部 市民生活課 戸籍住民係"
+  - "開庁時間:平日 午前9時から午後5時まで"
+  - "転出証明書(前住所地で発行されたもの)"
+checked: 2026-11-17

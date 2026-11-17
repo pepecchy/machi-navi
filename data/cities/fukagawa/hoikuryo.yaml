@@ -1,0 +1,44 @@
+id: fukagawa-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 深川市保育所保育料徴収基準額表
+source: https://www.city.fukagawa.lg.jp/cms/section/kenkofuk/ik75k40000006o54-att/ik75k40000006urr.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度 深川市保育所保育料徴収基準額表"
+  - "※2人目の保育料無料化は、児童が2人入所しているあいだ適用されます。"
+wording: [rule_free_same]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the city's under-3 figures, not the national standard columns and not the lower amounts for single-parent and similar households. Households paying only the per-capita levy have no income levy and fall in 第3階層.
+tiers:
+  - label: "第3階層"
+    max: 48600
+    std: 9750
+    short: 9650
+  - label: "第4階層"
+    max: 97000
+    std: 15000
+    short: 14800
+  - label: "第5階層"
+    max: 169000
+    std: 22250
+    short: 21950
+  - label: "第6階層"
+    max: 301000
+    std: 30500
+    short: 30050
+  - label: "第7階層"
+    max: 397000
+    std: 40000
+    short: 39400
+  - label: "第8階層"
+    max: null
+    std: 52000
+    short: 49070
+kinto:
+  label: "第3階層"
+  std: 9750
+  short: 9650
+hikazei: "第2階層"
+seiho: "第1階層"
