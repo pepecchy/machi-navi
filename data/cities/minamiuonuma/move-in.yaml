@@ -1,0 +1,23 @@
+id: minamiuonuma-move-in
+window: "総合窓口(本庁舎1階)"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.minamiuonuma.niigata.jp/docs/1334.html
+quotes:
+  - "住み始めた日から14日以内(引っ越し前は届出できません)"
+  - "総合窓口(本庁舎1階)、大和・塩沢市民センター"
+  - "月曜日~金曜日、8時30分~17時15分(祝日・年末年始を除く)"
+  - "本人確認ができるもの(運転免許証、保険証と診察券、マイナンバーカード・顔写真付き住民基本台帳カードなど)"
+  - "前住所地の市区町村で発行された転出証明書"
+  - "マイナンバーカード・顔写真付き住民基本台帳カード(作成した人のみ)"
+  - "外国人は、在留カードか特別永住者証明書"
+checked: 2026-11-17
