@@ -1,0 +1,20 @@
+id: gyoda-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.gyoda.lg.jp/mokuteki/hikkoshi/7415.html
+quotes:
+  - "転入をした日から14日以内"
+  - "市民課 〒361-8601"
+  - "転出証明書(前住所地の市区町村役場で発行)"
+  - "本人確認書類"
+  - "8.個人番号カード(交付を受けている方)"
+  - "在留カード、特定在留カード、特別永住者証明書、特定特別永住者証明書(外国人住民の方はこのいずれか)"
+checked: 2026-11-17

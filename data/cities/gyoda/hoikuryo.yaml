@@ -1,0 +1,14 @@
+id: gyoda-hoikuryo
+fiscal_year: 2026
+doc: "保育施設・利用者負担額(保育料)について"
+source: https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/1691.html
+checked: 2026-11-17
+quotes:
+  - "更新日:2026年06月11日"
+  - "さらに行田市では、 令和6年4月より、国に先駆けて所得制限のない3歳未満児の保育料無償化(減免)を実施しております。"
+wording: [rule_free_all]
+# The city waives the whole fee for every child under 3 from April 2024 with no income limit, so no tier amounts are needed. The page was updated on 11 June 2026.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
