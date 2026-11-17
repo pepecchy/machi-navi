@@ -1,0 +1,19 @@
+id: kuroishi-move-in
+window: "市民環境課 戸籍住民係"
+hours: 
+  open: "8:15"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - mynumber
+bring_foreign: []
+other: []
+doc: 住所等の異動
+source: https://www.city.kuroishi.aomori.jp/kurashi/kurashi/jyumin/jyusyo_ido.html
+quotes:
+  - "住所が他の市区町村から黒石市に移ったとき、転入後14日以内に届け出ください。"
+  - "市民環境課 戸籍住民係"
+  - "開庁時間:午前8時15分~午後5時"
+  - "転出証明書(前住所地の市区町村で発行したもの)"
+  - "異動したかた全員のマイナンバーカード(お持ちのかたのみ)"
+checked: 2026-11-17
