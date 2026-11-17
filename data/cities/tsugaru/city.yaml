@@ -1,0 +1,9 @@
+id: tsugaru
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 2
+name:
+  ja: 青森県 つがる市
+  en: Tsugaru, Aomori
+  zh: 青森县 津轻市
+  vi: Tsugaru, Aomori
+  ne: त्सुगारु, आओमोरी
