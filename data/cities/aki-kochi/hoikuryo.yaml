@@ -1,0 +1,45 @@
+id: aki-kochi-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度利用者負担額(保育料)月額表
+source: https://www.city.aki.kochi.jp/download/?t=LD&id=7069&fid=82458
+checked: 2026-11-17
+quotes:
+  - "令和8年度利用者負担額(保育料)月額表"
+  - "◎この表は、令和8年4月から令和9年3月までの月額表です。"
+  - "◎上記に関わらず、第2子以降は軽減申請をすれば無料となります。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first). The city page says the age limit and the same-time enrolment condition are both removed.
+second_child_quote: 2
+# Amounts are the city amounts, not the national base amounts in brackets, and not the lower B rows for single-parent and disability households. D1 and D2 print the same amounts and are joined. C1 (income levy below 48,600 yen) also covers households paying only the per-capita levy.
+tiers:
+  - label: "C1"
+    max: 48600
+    std: 9750
+    short: 9650
+  - label: "D1"
+    max: 97000
+    std: 15000
+    short: 14800
+  - label: "D3"
+    max: 169000
+    std: 22250
+    short: 21950
+  - label: "D4"
+    max: 301000
+    std: 30500
+    short: 30050
+  - label: "D5"
+    max: 397000
+    std: 40000
+    short: 39400
+  - label: "D6"
+    max: null
+    std: 52000
+    short: 51200
+kinto:
+  label: "C1"
+  std: 9750
+  short: 9650
+hikazei: "B1"
+seiho: "A"
