@@ -1,0 +1,14 @@
+id: hirakawa-hoikuryo
+fiscal_year: 2026
+doc: "保育所等保育料無償化事業"
+source: https://www.city.hirakawa.lg.jp/kyouiku/hoiku/kyouikuhoiku.html
+checked: 2026-11-17
+quotes:
+  - "当市では、第2子以降の保育所等利用料無償化を実施していましたが、子育て世帯のさらなる負担軽減のため、令和6年9月からすべての児童が対象となりました。"
+  - "審査後、認定された方は施設利用料(保育料)が無償となります。"
+wording: [rule_free_all]
+# The city waives the fee for every child from September 2024 on application, so no tier amounts are needed. The city's application form for April 2027 is for 0-2 classes, so the programme continues.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
