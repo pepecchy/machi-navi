@@ -383,6 +383,10 @@ test("known results", () => {
   expect(calc(load("kawachinagano"), "tax", 77100, 2, "short").fee).toBe(10350);
   expect(calc(load("kawachinagano"), "tax", 301000, 1, "std").fee).toBe(55000);
   expect(calc(load("kawachinagano"), "kinto", 0, 2, "std").fee).toBe(4650);
+  expect(calc(load("suzuka"), "tax", 48599, 1, "std").fee).toBe(15000);
+  expect(calc(load("suzuka"), "tax", 77101, 1, "short").fee).toBe(22600);
+  expect(calc(load("suzuka"), "tax", 397000, 2, "std").fee).toBe(25000);
+  expect(calc(load("suzuka"), "kinto", 0, 1, "short").fee).toBe(11700);
   // Kitakyushu: 120,000 on the notice is 90,000 at the 6% rate, tier D3.
   expect(calc(load("kitakyushu"), "tax", 120000, 1, "std")).toMatchObject({ tier: "D3", fee: 28400 });
   expect(calc(load("kitakyushu"), "tax", 120000, 2, "std").fee).toBe(0);
