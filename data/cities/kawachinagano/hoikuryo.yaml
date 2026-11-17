@@ -1,0 +1,109 @@
+id: kawachinagano-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度 こどもの保育利用ガイド 河内長野市保育料(2号・3号)基準額表
+source: https://www.city.kawachinagano.lg.jp/uploaded/attachment/47935.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度 こどもの"
+  - "河内長野市保育料(2号・3号)基準額表 下段:保育短時間(8時間程度)"
+  - "★1~3のいずれかに該当する場合、多子軽減として2人目以降(年齢が上の子どもから1人目と数える)の保育料"
+  - "全額 半額 無料"
+  - "第1階層 生活保護世帯及び市町村民税非課税世帯"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). Tiers 1-4 count from the eldest child in the household; higher tiers count children using a nursery, kindergarten or similar facility at the same time.
+second_child_quote: 2
+# Amounts are for children under 3 in households other than single-parent and similar households. The table prints the upper row for standard hours and the lower row for short hours, each with the first-child and second-child amounts. Tier 1 is welfare and tax-exempt households; tier 2 is households paying only the per-capita levy.
+tiers:
+  - label: "第3階層"
+    max: 48600
+    std: 10000
+    short: 9900
+    std2: 5000
+    short2: 4950
+  - label: "第4階層"
+    max: 57700
+    std: 14000
+    short: 13800
+    std2: 7000
+    short2: 6900
+  - label: "第5階層"
+    max: 62000
+    std: 16000
+    short: 15800
+    std2: 8000
+    short2: 7900
+  - label: "第6階層"
+    max: 77101
+    std: 21000
+    short: 20700
+    std2: 10500
+    short2: 10350
+  - label: "第7階層"
+    max: 87000
+    std: 24000
+    short: 23600
+    std2: 12000
+    short2: 11800
+  - label: "第8階層"
+    max: 98000
+    std: 26000
+    short: 25600
+    std2: 13000
+    short2: 12800
+  - label: "第9階層"
+    max: 107000
+    std: 33000
+    short: 32500
+    std2: 16500
+    short2: 16250
+  - label: "第10階層"
+    max: 120000
+    std: 36000
+    short: 35400
+    std2: 18000
+    short2: 17700
+  - label: "第11階層"
+    max: 141000
+    std: 39000
+    short: 38400
+    std2: 19500
+    short2: 19200
+  - label: "第12階層"
+    max: 169000
+    std: 43000
+    short: 42300
+    std2: 21500
+    short2: 21150
+  - label: "第13階層"
+    max: 178000
+    std: 46000
+    short: 45300
+    std2: 23000
+    short2: 22650
+  - label: "第14階層"
+    max: 200000
+    std: 52000
+    short: 51200
+    std2: 26000
+    short2: 25600
+  - label: "第15階層"
+    max: 301000
+    std: 54000
+    short: 53100
+    std2: 27000
+    short2: 26550
+  - label: "第16階層"
+    max: null
+    std: 55000
+    short: 54100
+    std2: 27500
+    short2: 27050
+kinto:
+  label: "第2階層"
+  std: 9300
+  short: 9200
+  std2: 4650
+  short2: 4600
+hikazei: "第1階層"
+seiho: "第1階層"
