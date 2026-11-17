@@ -1,0 +1,19 @@
+id: nagato-move-in
+window: "市民窓口課 窓口サービス班"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.nagato.yamaguchi.jp/soshiki/7/1553.html
+quotes:
+  - "転入した日から14日以内"
+  - "市民窓口課 窓口サービス班"
+  - "平日午前8時30分から午後5時15分まで"
+  - "転出証明書(前住所地の市町村が発行したもの)"
+  - "在留カード、特別永住者証明書(外国人住民の方)"
+checked: 2026-11-17
