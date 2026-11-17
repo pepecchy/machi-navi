@@ -1,0 +1,45 @@
+id: imari-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度の保育料についてお知らせします(9月~3月まで)
+source: https://www.city.imari.lg.jp/26335.htm
+checked: 2026-11-17
+quotes:
+  - "令和8年度の保育料についてお知らせします(9月~3月まで)"
+  - "令和8年9月~令和9年8月分は、 令和8年度の市町村民税額(令和7年中の所得) をもとに保育料を決定します。"
+  - "認定こども園や保育園、幼稚園などを兄弟姉妹で利用する場合、最年長の子どもから順に 2 人目は半額、 3 人目以降は無料となります。"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 2
+# Amounts are for households other than single-parent and disability households. The two 第4 rows (48,600-57,700 and 57,700-97,000) have the same amounts and are merged. For households with an income levy under 57,700 yen, the city counts children regardless of age.
+tiers:
+  - label: "第3"
+    max: 48600
+    std: 13600
+    short: 13500
+  - label: "第4"
+    max: 97000
+    std: 21000
+    short: 20700
+  - label: "第5"
+    max: 169000
+    std: 31100
+    short: 30700
+  - label: "第6"
+    max: 301000
+    std: 42700
+    short: 42000
+  - label: "第7"
+    max: 397000
+    std: 56000
+    short: 55100
+  - label: "第8"
+    max: null
+    std: 72800
+    short: 71600
+kinto:
+  label: "第3"
+  std: 13600
+  short: 13500
+hikazei: "第2"
+seiho: "第1"
