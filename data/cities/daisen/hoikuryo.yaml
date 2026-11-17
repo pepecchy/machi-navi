@@ -1,0 +1,14 @@
+id: daisen-hoikuryo
+fiscal_year: 2026
+doc: "保育料・副食費等について"
+source: https://www.city.daisen.lg.jp/archive/contents-10468
+checked: 2026-11-17
+quotes:
+  - "大仙市では、令和6年4月より全ての世帯の保育料等について完全無償化を実施しております。"
+  - "全ての子どもの 保育料が完全無償化 になります。"
+wording: [rule_free_all]
+# The city waives the fee for every household from April 2024, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0

@@ -1,0 +1,9 @@
+id: daisen
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 5
+name:
+  ja: 秋田県 大仙市
+  en: Daisen, Akita
+  zh: 秋田县 大仙市
+  vi: Daisen, Akita
+  ne: दाइसेन, आकिता
