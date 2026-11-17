@@ -1,0 +1,23 @@
+id: noboribetsu-move-in
+window: "市民生活部 市民サービスグループ"
+hours: 
+  open: "9:00"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.noboribetsu.lg.jp/docs/2012122703385/
+quotes:
+  - "転入してきた日から14日以内"
+  - "市民生活部 市民サービスグループ TEL: 0143-85-1855"
+  - "開庁時間:9時~17時(土・日曜日、祝日、12月29日から翌年1月3日までを除く)"
+  - "転出証明書(前に住んでいた市区町村が発行したもの)"
+  - "届出人の本人確認書類"
+  - "引っ越しする方全員のマイナンバーカード"
+  - "引っ越しする方全員の在留カードまたは特別永住者証明書(外国人住民の方)"
+checked: 2026-11-17
