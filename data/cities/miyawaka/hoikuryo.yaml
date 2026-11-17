@@ -1,0 +1,14 @@
+id: miyawaka-hoikuryo
+fiscal_year: 2026
+doc: "第1子から保育料を無償化します!(宮若市保育所等利用者負担額減免事業)"
+source: https://www.city.miyawaka.lg.jp/kiji003446147/index.html
+checked: 2026-11-17
+quotes:
+  - "第1子から保育料を無償化します!(宮若市保育所等利用者負担額減免事業)"
+  - "令和8年9月より保育所に通うすべての児童の利用者負担額(保育料)を無償化します。"
+wording: [rule_free_all]
+# From September 2026 the city waives the fee for every child at nurseries, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1

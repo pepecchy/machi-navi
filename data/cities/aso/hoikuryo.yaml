@@ -1,0 +1,14 @@
+id: aso-hoikuryo
+fiscal_year: 2026
+doc: "保育料・副食費の無償化"
+source: https://www.city.aso.kumamoto.jp/citizens/health_medical_welfare/insurance_of_children/childcare/nursery_material/
+checked: 2026-11-17
+quotes:
+  - "令和8年4月から 「保育料・副食費の完全無償化」 を実施します。"
+  - "阿蘇市独自の取り組みとして国制度で無償化されていない0歳~2歳児の保育料及び、3歳~5歳児の副食費を新たに無償化します。"
+wording: [rule_free_all]
+# From April 2026 the city waives the fee for children aged 0 to 2 that the national scheme does not cover, and ages 3 to 5 are free nationally, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
