@@ -1,0 +1,97 @@
+id: noboribetsu-hoikuryo
+fiscal_year: 2026
+doc: 登別市保育所等利用者負担額基準額表【令和8年度】
+source: https://www.city.noboribetsu.lg.jp/article/2023111400062/file_contents/file_20263301193553_1.pdf
+checked: 2026-11-17
+quotes:
+  - "登別市保育所等利用者負担額基準額表【令和8年度】"
+  - "・保育料について、第2子以降は階層に関わらず0円。"
+  - "・C1~D3の( )内金額はひとり親世帯の金額。"
+wording: [rule_free]
+second_child: free
+# Which entry of quotes states the second-child rule (0 = first).
+second_child_quote: 1
+# Amounts are the main figures, not the bracketed single-parent amounts. The table prints inclusive ranges such as "5,000円 ~ 48,599円"; each max is the next tier's lower bound. D1 spans two printed ranges (48,600-57,699 and 57,700-60,699) with one amount, and D3 and D4 have the same amounts and are merged. A and B share one 0 yen cell. C1 is households paying only the per-capita levy.
+tiers:
+  - label: "C2"
+    max: 5000
+    std: 14300
+    short: 14100
+  - label: "C3"
+    max: 48600
+    std: 17300
+    short: 17100
+  - label: "D1"
+    max: 60700
+    std: 19600
+    short: 19200
+  - label: "D2"
+    max: 72800
+    std: 22000
+    short: 21600
+  - label: "D3・D4"
+    max: 84900
+    std: 24300
+    short: 23900
+  - label: "D5"
+    max: 97000
+    std: 26800
+    short: 26400
+  - label: "D6"
+    max: 115000
+    std: 30000
+    short: 29400
+  - label: "D7"
+    max: 133000
+    std: 33200
+    short: 32600
+  - label: "D8"
+    max: 151000
+    std: 36500
+    short: 35900
+  - label: "D9"
+    max: 169000
+    std: 39800
+    short: 39200
+  - label: "D10"
+    max: 213000
+    std: 44900
+    short: 44000
+  - label: "D11"
+    max: 257000
+    std: 49800
+    short: 48900
+  - label: "D12"
+    max: 301000
+    std: 54700
+    short: 53800
+  - label: "D13"
+    max: 333000
+    std: 60400
+    short: 59200
+  - label: "D14"
+    max: 365000
+    std: 66100
+    short: 64900
+  - label: "D15"
+    max: 397000
+    std: 71800
+    short: 70600
+  - label: "D16"
+    max: 430000
+    std: 79100
+    short: 77500
+  - label: "D17"
+    max: 463000
+    std: 86300
+    short: 84700
+  - label: "D18"
+    max: null
+    std: 93400
+    short: 91800
+kinto:
+  label: "C1"
+  std: 11100
+  short: 10900
+hikazei: "B"
+seiho: "A"
