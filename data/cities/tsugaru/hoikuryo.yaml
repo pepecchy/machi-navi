@@ -1,0 +1,15 @@
+id: tsugaru-hoikuryo
+fiscal_year: 2026
+doc: "「令和8年度学校給食費無償化等子育て支援市町村交付金の交付決定状況」と「市町村の無償化事業等の実施状況」について（青森県）"
+source: https://www.pref.aomori.lg.jp/release/files/2026/81615.pdf
+checked: 2026-11-17
+quotes:
+  - "0~2歳児保育料"
+  - "令和7年度までに無償化した市町村(22)"
+  - "つがる市、平川市、平内町、今別町、蓬田村、外ヶ浜町、西目屋村、"
+wording: [rule_free_all]
+# The prefecture's October 2026 report lists the city among those that had made the 0-2 fee free by fiscal 2025; the city's own page (2023) says the city covers the full fee for every child from fiscal 2023, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1

@@ -1,0 +1,18 @@
+id: tsugaru-move-in
+window: "市民課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 住所・世帯の変更手続き
+source: https://www.city.tsugaru.aomori.jp/soshiki/minsei/shimin/jumin/4997.html
+quotes:
+  - "転入届(つがる市に転入してきた方)"
+  - "住み始めた日から14日以内に"
+  - "市役所市民課、稲垣出張所、車力出張所"
+  - "転出証明書(前住所地の市区町村で発行したもの)"
+  - "開庁時間:月曜日から金曜日 午前8時30分から 午後5時15分"
+checked: 2026-11-17
