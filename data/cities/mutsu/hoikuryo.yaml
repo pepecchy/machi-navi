@@ -1,0 +1,14 @@
+id: mutsu-hoikuryo
+fiscal_year: 2026
+doc: "保育料の無償化"
+source: https://www.city.mutsu.lg.jp/kurashi/kosodate/kosodateshisetsu/2026-0525-1533-61.html
+checked: 2026-11-17
+quotes:
+  - "子育て世代の経済的な負担軽減を図るため、令和8年4月より、保育園・幼稚園・認定こども園の利用料を無償化しております。"
+  - "0歳児クラスから2歳児クラスまでのすべての児童"
+wording: [rule_free_all]
+# The city waives the fee for every child in the 0-2 classes from April 2026 on application, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
