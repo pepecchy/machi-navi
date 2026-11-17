@@ -1,0 +1,23 @@
+id: toyooka-move-in
+window: "本庁・振興局"
+hours: 
+  open: "9:00"
+  close: "16:30"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民登録に関する主な届出
+source: https://www.city.toyooka.lg.jp/kurashi/todokede/jumintoroku/1000737.html
+quotes:
+  - "届出期間 転入した日から14日以内"
+  - "届出は、本庁・振興局のいずれでもできます。"
+  - "開庁時間:月曜日から金曜日の午前9時から午後4時30分まで"
+  - "転出証明書(転出特例を受けた方、国外からの転入の方は不要)(注2)"
+  - "本人確認書類(運転免許証など)"
+  - "マイナンバーカード"
+  - "パスポート、在留カードまたは特別永住者証明書(外国人の場合)(注3)"
+checked: 2026-11-17
