@@ -1,0 +1,9 @@
+id: murakami
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 15
+name:
+  ja: 新潟県 村上市
+  en: Murakami, Niigata
+  zh: 新潟县 村上市
+  vi: Murakami, Niigata
+  ne: मुराकामी, निइगाता
