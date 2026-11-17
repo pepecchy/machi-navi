@@ -1,0 +1,9 @@
+id: annaka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 10
+name:
+  ja: 群馬県 安中市
+  en: Annaka, Gunma
+  zh: 群马县 安中市
+  vi: Annaka, Gunma
+  ne: आन्नाका, गुन्मा
