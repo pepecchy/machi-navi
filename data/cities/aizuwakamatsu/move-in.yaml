@@ -1,0 +1,23 @@
+id: aizuwakamatsu-move-in
+window: "市民課"
+hours: 
+  open: "8:30"
+  close: "17:00"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.aizuwakamatsu.fukushima.jp/docs/2016111300043/
+quotes:
+  - "実際に会津若松市に住み始めてから、14日以内に届出が必要です。"
+  - "会津若松市役所 市民課"
+  - "平日の午前8時30分から午後5時まで"
+  - "(1)マイナンバーカード、運転免許証、パスポート、在留カード、特別永住者証明書など"
+  - "前住所地での転出手続きが済むと交付されます。"
+  - "転入届の特例を受けた マイナンバーカード"
+  - "異動者全員の在留カードまたは特別永住者証明書(外国人の方のみ)"
+checked: 2026-11-17
