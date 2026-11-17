@@ -1,0 +1,19 @@
+id: ono-hyogo-move-in
+window: "市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.ono.hyogo.jp/soshikikarasagasu/shiminfukushibu_shiminka/gyomuannai/2/3/2869.html
+quotes:
+  - "転入後14日以内"
+  - "市民福祉部 市民課"
+  - "転出証明書(前住所地の市区町村で発行)"
+  - "本人確認書類(マイナンバーカード、運転免許証等)"
+  - "(お持ちの方は)全員分のマイナンバーカードまたは住基カード(暗証番号が必要)"
+checked: 2026-11-17
