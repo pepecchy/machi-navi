@@ -1,0 +1,19 @@
+id: goshogawara-move-in
+window: "本庁市民課住所異動窓口"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+bring_foreign:
+  - zairyu
+other: []
+doc: 戸籍・住民異動の届出について
+source: https://www.city.goshogawara.lg.jp/kurashi/kurashi/todokede.html
+quotes:
+  - "五所川原市に住みはじめた日から14日以内(期間を過ぎても届出はできます)"
+  - "本庁市民課住所異動窓口、金木総合支所または市浦総合支所総合窓口係"
+  - "月曜日から金曜日の午前8時30分から午後5時15分まで"
+  - "1. 転出証明書(前住所の市区町村で転出届をするともらえますが、マイナンバーカードをお持ちの方はない場合もあります)"
+  - "4. 外国籍のかたは在留カードまたは特別永住者証明書(まだ交付されていないときはパスポート)"
+checked: 2026-11-17

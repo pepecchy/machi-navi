@@ -1,0 +1,9 @@
+id: misawa
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 2
+name:
+  ja: 青森県 三沢市
+  en: Misawa, Aomori
+  zh: 青森县 三泽市
+  vi: Misawa, Aomori
+  ne: मिसावा, आओमोरी

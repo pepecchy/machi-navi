@@ -1,0 +1,17 @@
+id: misawa-move-in
+window: "市民課 1番窓口"
+hours: 
+  open: "8:15"
+  close: "17:00"
+bring:
+  - tensyutsu
+bring_foreign: []
+other: []
+doc: 転入届
+source: https://www.city.misawa.lg.jp/index.cfm/19,1670,12,93,html
+quotes:
+  - "他市区町村から三沢市に引越しするときに、ご提出ください。"
+  - "三沢市に住み始めた日から14日以内"
+  - "三沢市役所1階市民課1番窓口 8:15~17:00"
+  - "前住所地の市町村が発行した 転出証明書"
+checked: 2026-11-17

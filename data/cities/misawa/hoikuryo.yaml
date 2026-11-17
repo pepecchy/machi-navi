@@ -1,0 +1,14 @@
+id: misawa-hoikuryo
+fiscal_year: 2026
+doc: "幼児教育・保育の無償化について"
+source: https://www.city.misawa.lg.jp/index.cfm/21,34537,112,517,html
+checked: 2026-11-17
+quotes:
+  - "三沢市では子育て世帯の経済的負担軽減を図るため、令和8年4月から無償化の範囲を以下のとおり拡充し、 全年齢の保育料を無償化いたします。"
+  - "※無償化のための手続きは不要です。"
+wording: [rule_free_all]
+# The city waives the fee for every age from April 2026 with no application, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0

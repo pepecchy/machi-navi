@@ -1,0 +1,15 @@
+id: goshogawara-hoikuryo
+fiscal_year: 2026
+doc: "保育料・副食費の無償化について"
+source: https://www.city.goshogawara.lg.jp/kenkou/fukushi/hoikuryou_hukushokuhi_mushouka.html
+checked: 2026-11-17
+quotes:
+  - "令和8年4月より、 保育料(0~5歳児)・副食費(3~5歳児)無償化 を実施します。"
+  - "※0~2歳児は保育料(保育料に主食費・副食費含む)が無償化"
+  - "※保育料無償化のための手続きは不要です。"
+wording: [rule_free_all]
+# The city waives the fee for every child aged 0 to 5 from April 2026 with no application, so no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0
