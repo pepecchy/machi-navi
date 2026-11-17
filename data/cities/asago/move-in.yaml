@@ -1,0 +1,23 @@
+id: asago-move-in
+window: "市民課"
+hours: 
+  open: "8:45"
+  close: "16:45"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.asago.hyogo.jp/soshiki/15/1292.html
+quotes:
+  - "市内に住み始めた日から14日以内"
+  - "市民課および各支所"
+  - "転出証明書(マイナンバーカードを利用した転出手続きを前住所地でしている場合は不要)"
+  - "本人確認書類(運転免許証、マイナンバーカード、保険証など)"
+  - "マイナンバーカード(お持ちの方のみ) ※4ケタの暗証番号が必要"
+  - "在留カード、または特別永住者証明書(外国人住民の方のみ)"
+  - "月曜日から金曜日の午前8時45分から午後4時45分まで"
+checked: 2026-11-17
