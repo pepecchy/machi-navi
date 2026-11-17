@@ -1,0 +1,15 @@
+id: bibai-hoikuryo
+fiscal_year: 2026
+doc: "3歳未満児の保育料及び全園児の給食費が無償化されました"
+source: https://www.city.bibai.hokkaido.jp/soshiki/9/30754.html
+checked: 2026-11-17
+quotes:
+  - "3歳未満児の保育料及び全園児の給食費が無償化されました"
+  - "美唄市では、子育て世帯への経済的負担を軽減し、子どもを生み育てやすい環境づくりを推進するため、市独自の施策として、令和8年4月から3歳未満児の保育料及び全園児の給食費を無償化いたしました。"
+  - "美唄市に住所を有し、保育園や認定こども園等に入園している全園児が対象となります。"
+wording: [rule_free_all]
+# The city waives the fee for every child under 3 from April 2026, so no tier amounts are needed. Extended-care fees are still charged.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 1
