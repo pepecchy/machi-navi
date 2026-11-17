@@ -1,0 +1,69 @@
+id: ono-hyogo-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度小野市利用者負担額(保育料)基準額表
+source: https://www.city.ono.hyogo.jp/material/files/group/18/R8riyousyafutanngakukijyunnhyou.pdf
+checked: 2026-11-17
+quotes:
+  - "令和8年度小野市利用者負担額(保育料)基準額表"
+  - "第2子 基準額表に定める額×0.5 ※B階層は0円(無料)"
+  - "C1 市民税均等割のみ課税世帯 14,000 13,800"
+wording: [rule_half]
+second_child: half
+# Which entry of quotes states the second-child rule (0 = first). For D1 households paying 57,700 yen or more and for D2 and above, siblings count only when two or more preschool children use listed facilities. Below that, children are counted in the whole household whatever their age.
+second_child_quote: 1
+# Amounts are the general rows of the main table, not the separate table for single-parent households and households with a disabled member. The top tier D11 starts at 397,000 yen.
+tiers:
+  - label: "C2"
+    max: 48600
+    std: 16000
+    short: 15800
+  - label: "D1"
+    max: 64700
+    std: 19000
+    short: 18700
+  - label: "D2"
+    max: 80800
+    std: 22000
+    short: 21700
+  - label: "D3"
+    max: 97000
+    std: 25000
+    short: 24600
+  - label: "D4"
+    max: 121000
+    std: 28000
+    short: 27600
+  - label: "D5"
+    max: 145000
+    std: 33000
+    short: 32500
+  - label: "D6"
+    max: 169000
+    std: 37000
+    short: 36500
+  - label: "D7"
+    max: 213000
+    std: 42000
+    short: 41300
+  - label: "D8"
+    max: 257000
+    std: 46000
+    short: 45300
+  - label: "D9"
+    max: 301000
+    std: 50000
+    short: 49200
+  - label: "D10"
+    max: 397000
+    std: 52000
+    short: 51200
+  - label: "D11"
+    max: null
+    std: 55000
+    short: 54100
+kinto:
+  label: "C1"
+  std: 14000
+  short: 13800
+hikazei: "B"
+seiho: "A"
