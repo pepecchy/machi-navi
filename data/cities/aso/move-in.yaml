@@ -1,0 +1,16 @@
+id: aso-move-in
+window: "市民部 市民課"
+hours: null
+bring:
+  - tensyutsu
+  - id
+bring_foreign: []
+other: []
+doc: 市外から市内へのお引っ越し(転入届)
+source: https://www.city.aso.kumamoto.jp/citizens/certificate/address_change/reshuffle/city_from_the_suburbs/
+quotes:
+  - "お引越しをした日から14日以内に転入届を出してください。"
+  - "市民部 市民課"
+  - "転出証明書(今まで住んでいた市区町村で発行されるもの)"
+  - "窓口に来られる方の本人確認ができる書類(マイナンバーカード、運転免許証・資格確認書等顔写真なしの場合は2点必要)"
+checked: 2026-11-17

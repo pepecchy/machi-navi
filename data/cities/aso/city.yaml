@@ -1,0 +1,9 @@
+id: aso
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 43
+name:
+  ja: 熊本県 阿蘇市
+  en: Aso, Kumamoto
+  zh: 熊本县 阿苏市
+  vi: Aso, Kumamoto
+  ne: आसो, कुमामोतो
