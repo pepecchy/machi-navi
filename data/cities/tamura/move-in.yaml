@@ -1,0 +1,23 @@
+id: tamura-move-in
+window: "市民課（本庁）、各行政局、各出張所"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 住民異動の届出
+source: https://www.city.tamura.lg.jp/soshiki/6/shimin-madoguti-idou.html
+quotes:
+  - "期限内に本庁、各行政局または、各出張所に届出をしてください。"
+  - "受付時間は平日の午前8時30分から午後5時15分までです。"
+  - "転入した日から14日以内"
+  - "転出証明書(前住所地で交付)"
+  - "届出人の本人確認ができるもの"
+  - "マイナンバーカード(お持ちの方)"
+  - "※外国籍の方は、在留カード・特別永住者カードを必ずお持ちください。"
+checked: 2026-11-17
