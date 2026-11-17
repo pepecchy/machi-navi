@@ -1,0 +1,14 @@
+id: akune-hoikuryo
+fiscal_year: 2026
+doc: "保育料の完全無償化"
+source: https://www.city.akune.lg.jp/kosodate_kyoiku/hoikujo_ninteikodomoen/1940.html
+checked: 2026-11-17
+quotes:
+  - "これまでは、保育所および認定こども園に入所している「3歳から5歳までの児童」および「0歳から2歳までの住民税非課税世帯の児童」を保育料の無償化対象としておりましたが、令和5年4月1日から「ふるさと納税」を活用した阿久根市独自の子育て支援策として「0歳から2歳の住民税課税世帯の児童」についても、保育料の無償化対象となります。"
+  - "0歳から2歳クラス"
+wording: [rule_free_all]
+# From April 2023 the city waives the fee for children aged 0 to 2 in tax-paying households too, so with the national programme every child is free and no tier amounts are needed.
+free_all: true
+second_child: free
+# Which entry of quotes states the rule (0 = first).
+second_child_quote: 0

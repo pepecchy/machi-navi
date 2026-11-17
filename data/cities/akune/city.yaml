@@ -1,0 +1,9 @@
+id: akune
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 46
+name:
+  ja: 鹿児島県 阿久根市
+  en: Akune, Kagoshima
+  zh: 鹿儿岛县 阿久根市
+  vi: Akune, Kagoshima
+  ne: आकुने, कागोशिमा
