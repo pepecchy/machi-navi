@@ -1,0 +1,9 @@
+id: toyooka
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 28
+name:
+  ja: 兵庫県 豊岡市
+  en: Toyooka, Hyogo
+  zh: 兵库县 丰冈市
+  vi: Toyooka, Hyogo
+  ne: तोयोओका, ह्योगो

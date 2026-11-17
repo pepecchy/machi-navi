@@ -1,0 +1,45 @@
+id: toyooka-hoikuryo
+fiscal_year: 2026
+doc: 2026年度 保育所・認定こども園【2・3号認定】保育料額表
+source: https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/037/605/gakuhyouu.pdf
+checked: 2026-11-17
+quotes:
+  - "2026 年度 保育所・認定こども園【2・3号認定】保育料額表"
+  - "※兄姉を有する場合は、保育所・認定こども園・幼稚園等を利用している就学前の子どもで最も年齢の高い児童を第1子と"
+  - "して数え、第2子は半額、第3子以降は無料です。(10円未満の端数切捨て)"
+wording: [rule_half10]
+second_child: half10
+# Which entry of quotes states the second-child rule (0 = first). Quotes 1 and 2 are one sentence split over two lines. Below 57,700 yen the age limit does not apply.
+second_child_quote: 1
+# Amounts are the general table, not 別表1 for single-parent and disability households. Short-time amounts are the figures in brackets. C1 (income levy below 48,600 yen) also covers households paying only the per-capita levy.
+tiers:
+  - label: "C1階層"
+    max: 48600
+    std: 9000
+    short: 8800
+  - label: "C2階層"
+    max: 97000
+    std: 14000
+    short: 13700
+  - label: "C3階層"
+    max: 169000
+    std: 20000
+    short: 19600
+  - label: "C4階層"
+    max: 301000
+    std: 26000
+    short: 25500
+  - label: "C5階層"
+    max: 397000
+    std: 36000
+    short: 35200
+  - label: "C6階層"
+    max: null
+    std: 47000
+    short: 45800
+kinto:
+  label: "C1階層"
+  std: 9000
+  short: 8800
+hikazei: "B階層"
+seiho: "A階層"
