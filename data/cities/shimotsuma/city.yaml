@@ -1,0 +1,9 @@
+id: shimotsuma
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 8
+name:
+  ja: 茨城県 下妻市
+  en: Shimotsuma, Ibaraki
+  zh: 茨城县 下妻市
+  vi: Shimotsuma, Ibaraki
+  ne: शिमोत्सुमा, इबाराकी

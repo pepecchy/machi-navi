@@ -1,0 +1,58 @@
+id: shimotsuma-hoikuryo
+fiscal_year: 2026
+doc: 令和8年度下妻市子どものための教育・保育給付に係る利用者負担基準額表
+source: https://www.city.shimotsuma.lg.jp/kosodate-kyoiku/shisetsu/hoikuen/page000485.html
+checked: 2026-11-17
+quotes:
+  - "令和8年度下妻市子どものための教育・保育給付に係る利用者負担基準額表"
+  - "小学校就学前に兄姉が保育所や幼稚園へ入所している場合"
+wording: [rule_table]
+second_child: table
+# Which entry of quotes states the second-child rule (0 = first). The table prints first-child and second-child amounts side by side. For tiers 4-B and 5 the city also refunds half for a second child counted from older siblings at school (Ibaraki's 多子世帯保育料軽減事業); that refund is not modelled.
+second_child_quote: 1
+# Amounts are the 一般世帯 rows, not the ひとり親・在宅障害児(者)等世帯 rows. 第4-A and 第4-B print the same amounts and are joined. 第3 (income levy below 48,600 yen) also covers households paying only the per-capita levy.
+tiers:
+  - label: "第3"
+    max: 48600
+    std: 14000
+    short: 13000
+    std2: 7000
+    short2: 6500
+  - label: "第4"
+    max: 97000
+    std: 22000
+    short: 21000
+    std2: 11000
+    short2: 10500
+  - label: "第5"
+    max: 169000
+    std: 30000
+    short: 29000
+    std2: 15000
+    short2: 14500
+  - label: "第6"
+    max: 301000
+    std: 35000
+    short: 34000
+    std2: 17500
+    short2: 17000
+  - label: "第7"
+    max: 397000
+    std: 37000
+    short: 36000
+    std2: 18500
+    short2: 18000
+  - label: "第8"
+    max: null
+    std: 39000
+    short: 38000
+    std2: 19500
+    short2: 19000
+kinto:
+  label: "第3"
+  std: 14000
+  short: 13000
+  std2: 7000
+  short2: 6500
+hikazei: "第2"
+seiho: "第1"
