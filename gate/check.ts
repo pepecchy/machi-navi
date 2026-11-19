@@ -79,7 +79,7 @@ for (const rec of sourcedRecords()) {
 // ---- wording
 // Numbers of two or more digits (deadlines, amounts). Counts like "2nd" are often words, so one digit is ignored.
 // Thousands separators are dropped, so "500,000" reads as 500000.
-const digits = (s: string) => (s.normalize("NFKC").replace(/[०-९]/g, (c) => String(c.charCodeAt(0) - 0x966)).replace(/(\d),(?=\d{3}(?!\d))/g, "$1").match(/\d{2,}/g) ?? []).sort().join(",");
+const digits = (s: string, min = 2) => (s.normalize("NFKC").replace(/[०-९]/g, (c) => String(c.charCodeAt(0) - 0x966)).replace(/(\d),(?=\d{3}(?!\d))/g, "$1").match(min === 1 ? /\d+/g : /\d{2,}/g) ?? []).sort().join(",");
 const dict = Object.fromEntries(LANGS.map((l) => [l, readYaml(`i18n/${l}.yaml`) as Record<string, string>]));
 for (const l of LANGS) {
   for (const k of Object.keys(dict.ja)) {
@@ -93,7 +93,8 @@ for (const { f, d } of scenes)
   for (const s of d.steps ?? []) {
     for (const k of [`s_${s.id}`, ...(s.fact ? [`s_${s.id}_due`] : [])]) if (!isStr(dict.ja[k])) fail("wording", f, `step ${s.id} needs wording key ${k}`, `add ${k} to every i18n file`);
     const due = dict.ja[`s_${s.id}_due`];
-    if (s.fact && due) for (const v of facts.get(s.fact)?.values ?? []) if (!digits(due).split(",").includes(String(v))) fail("wording", "i18n/ja.yaml", `s_${s.id}_due does not contain the value ${v} of fact ${s.fact}`, "write the deadline with the fact's value");
+    // Every digit counts here, so a one-digit deadline such as 7 days is found too.
+    if (s.fact && due) for (const v of facts.get(s.fact)?.values ?? []) if (!(digits(due, 1).split(",").includes(String(v)))) fail("wording", "i18n/ja.yaml", `s_${s.id}_due does not contain the value ${v} of fact ${s.fact}`, "write the deadline with the fact's value");
   }
 
 // A record may name the wording it backs; those keys must exist.
