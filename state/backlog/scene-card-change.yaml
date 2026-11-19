@@ -1,0 +1,4 @@
+kind: build
+score: 22
+title: 場面「在留カードの氏名や国籍が変わった」を足す
+reason: 中長期在留者は、氏名、生年月日、性別、国籍・地域が変わったら、変わった日から 14 日以内に届け出る（手数料なし）。婚姻で氏名が変わったときの書類も出入国在留管理庁のページ（https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00009.html）に文字で載っていて、全国共通の事実として足せる
