@@ -90,6 +90,11 @@ s20_p: This is the same everywhere in Japan. People living in Japan aged 20 to u
 s_tp: Pay the National Pension premiums with the papers you receive, or apply for an exemption or the student deferral
 s_tp_due: The papers arrive about 2 weeks after you turn 20
 s_tp_b: The Japan Pension Service sends your Basic Pension Number notice, payment slips, and application forms for exemption, deferral and the student deferral.
+scr_h: What to do when you renew the validity of your residence card (permanent residents and others)
+scr_p: This is the same everywhere in Japan. It renews the card itself, apart from renewing your period of stay.
+s_cr: Apply to renew the validity of your residence card
+s_cr_due: From 3 months before the card expires until it expires
+s_cr_b: For permanent residents aged 16 or over and Highly Skilled Professional (ii). A card issued by 13 June 2026 that expires on the 16th birthday can be renewed from 6 months before the birthday. There is no fee.
 jc_h: Calculate the monthly child allowance
 jc_p: The monthly amount from the national table. There is no income limit.
 jc_u3: Children under 3

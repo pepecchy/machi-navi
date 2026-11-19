@@ -11,7 +11,7 @@ const t = dict(lang);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const steps = scene("move-in").steps as any[];
 // Scenes that rest only on national facts, shown on every city page: [scene id, wording prefix].
-const national = ([["birth", "sb"], ["death", "sd"], ["visa-renew", "sv"], ["job-leave", "sj"], ["reentry", "sr"], ["card-change", "sc2"], ["turn-20", "s20"]] as const).map(([id, h]) => ({ h, steps: scene(id).steps as any[] }));
+const national = ([["birth", "sb"], ["death", "sd"], ["visa-renew", "sv"], ["job-leave", "sj"], ["reentry", "sr"], ["card-change", "sc2"], ["turn-20", "s20"], ["card-renew", "scr"]] as const).map(([id, h]) => ({ h, steps: scene(id).steps as any[] }));
 const CALC_ID: Record<string, string> = { hoikuryo: "calc", jidoteate: "jcalc" };
 const ja = facts["child-allowance-amount"];
 const mv = city.moveIn;
