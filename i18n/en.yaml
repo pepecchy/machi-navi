@@ -30,6 +30,9 @@ s_kh: Join National Health Insurance (if you have no health insurance through wo
 s_kh_due: Within 14 days of starting to live there
 s_kh_b: People in a workplace health insurance and their dependents, people on public assistance, and people in the late-stage elderly medical care system are not covered.
 s_jb_go: Calculate the monthly child allowance
+s_ik: Receive the childbirth lump-sum grant
+s_ik_due: In principle 500,000 yen per child
+s_ik_b: Your health insurance pays it. With the direct payment system it goes straight to the hospital, and you pay only the rest at the counter. Apply within 2 years from the day after the birth.
 jc_h: Calculate the monthly child allowance
 jc_p: The monthly amount from the national table. There is no income limit.
 jc_u3: Children under 3
