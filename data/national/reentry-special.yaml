@@ -1,0 +1,9 @@
+id: reentry-special
+values: [1]
+unit: years
+doc: 再入国許可申請（出入国在留管理庁）
+source: https://www.moj.go.jp/isa/immigration/procedures/16-5.html
+quotes:
+  - ※ みなし再入国許可により出国される外国人の方は、再入国許可を取得する必要はありません。
+  - 「3月」以下の在留期間を決定された方及び「短期滞在」の在留資格をもって在留する方以外の方が、出国の日から1年以内に再入国する場合には、原則として通常の再入国許可の取得を不要
+checked: 2026-11-20

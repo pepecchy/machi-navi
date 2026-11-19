@@ -1,0 +1,9 @@
+id: reentry-permit-fee
+values: [4000, 7000]
+unit: yen
+doc: 再入国許可申請（出入国在留管理庁）
+source: https://www.moj.go.jp/isa/immigration/procedures/16-5.html
+quotes:
+  - 申請期間 出国する前
+  - 許可されるときは4,000円(一回限り)、又は7,000円(数次)が必要です。(収入印紙で納付)
+checked: 2026-11-20

@@ -1,0 +1,4 @@
+id: reentry
+steps:
+  - { id: rm, fact: reentry-special }
+  - { id: rp, fact: reentry-permit-fee }
