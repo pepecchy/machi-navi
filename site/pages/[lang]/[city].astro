@@ -11,7 +11,7 @@ const t = dict(lang);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const steps = scene("move-in").steps as any[];
 // Scenes that rest only on national facts, shown on every city page: [scene id, wording prefix].
-const national = ([["birth", "sb"], ["death", "sd"]] as const).map(([id, h]) => ({ h, steps: scene(id).steps as any[] }));
+const national = ([["birth", "sb"], ["death", "sd"], ["visa-renew", "sv"]] as const).map(([id, h]) => ({ h, steps: scene(id).steps as any[] }));
 const CALC_ID: Record<string, string> = { hoikuryo: "calc", jidoteate: "jcalc" };
 const ja = facts["child-allowance-amount"];
 const mv = city.moveIn;
@@ -113,16 +113,23 @@ const client = {
         <p class="hint">{t[`${n.h}_p`]}</p>
         <ol class="steps">
           {n.steps.map((s) => {
-            const fact = facts[s.fact];
+            // A step names either a fact with a deadline, or a fee table (fees) shown as a table.
+            const fact = facts[s.fact ?? s.fees];
             return (
               <li>
                 <input type="checkbox" id={`st_${s.id}`} />
                 <label class="ttl" for={`st_${s.id}`}>
                   {t[`s_${s.id}`]}
-                  {fact.pending ? <span class="due">{t.pending}</span> : <span class="due">{t[`s_${s.id}_due`]}</span>}
+                  {fact.pending ? <span class="due">{t.pending}</span> : s.fact && <span class="due">{t[`s_${s.id}_due`]}</span>}
                 </label>
                 <div class="body">
                   {t[`s_${s.id}_b`] && <div>{t[`s_${s.id}_b`]}</div>}
+                  {s.fees && !fact.pending && (
+                    <div class="scroll"><table>
+                      <thead><tr><th>{t.vf_c1}</th><th>{t.vf_c2}</th></tr></thead>
+                      <tbody>{fact.values.map((v: number, i: number) => <tr><td>{t[`vf_p${i + 1}`]}</td><td>{"¥" + v.toLocaleString("en-US")}</td></tr>)}</tbody>
+                    </table></div>
+                  )}
                   {s.calc && <a class="go" href={`#${CALC_ID[s.calc]}`}>{t[`s_${s.id}_go`]}</a>}
                   <div class="srcl">{t.l_src}: <a href={fact.source} target="_blank" rel="noopener">{fact.doc}</a></div>
                 </div>
