@@ -1,0 +1,9 @@
+id: birth-notice
+values: [14]
+unit: days
+doc: 出生届（法務省）
+source: https://www.moj.go.jp/ONLINE/FAMILYREGISTER/5-1.html
+quotes:
+  - 出生の日から14日以内(国外で出生したときは3か月以内。
+  - 子の出生地・本籍地又は届出人の所在地の市役所、区役所又は町村役場に届け出てください。
+checked: 2026-11-20

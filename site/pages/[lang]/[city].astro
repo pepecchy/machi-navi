@@ -10,6 +10,7 @@ const city = cities.find((c) => c.id === Astro.params.city)!;
 const t = dict(lang);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const steps = scene("move-in").steps as any[];
+const birth = scene("birth").steps as any[];
 const mv = city.moveIn;
 const feePending = !!city.fee.pending;
 const office = !mv.hours && city.office && !city.office.pending ? city.office : null;
@@ -96,6 +97,28 @@ const client = {
                   )}
                   {s.calc && <a class="go" href="#calc">{t.s_ho_go}</a>}
                   {sources.map((x) => <div class="srcl">{t.l_src}: <a href={x.url} target="_blank" rel="noopener">{x.doc}</a></div>)}
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+      <section class="panel">
+        <h2>{t.sb_h}</h2>
+        <p class="hint">{t.sb_p}</p>
+        <ol class="steps">
+          {birth.map((s) => {
+            const fact = facts[s.fact];
+            return (
+              <li>
+                <input type="checkbox" id={`st_${s.id}`} />
+                <label class="ttl" for={`st_${s.id}`}>
+                  {t[`s_${s.id}`]}
+                  {fact.pending ? <span class="due">{t.pending}</span> : <span class="due">{t[`s_${s.id}_due`]}</span>}
+                </label>
+                <div class="body">
+                  {t[`s_${s.id}_b`] && <div>{t[`s_${s.id}_b`]}</div>}
+                  <div class="srcl">{t.l_src}: <a href={fact.source} target="_blank" rel="noopener">{fact.doc}</a></div>
                 </div>
               </li>
             );

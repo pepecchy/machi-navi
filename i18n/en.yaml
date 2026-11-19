@@ -17,6 +17,14 @@ s_za_b: Show your residence card at the city office. You can do this at the same
 s_ji: Apply for child allowance in the new city
 s_ji_due: Within 15 days from the day after your planned move-out date
 s_ji_b: If you miss the deadline, you generally lose the allowance for the months you were late.
+sb_h: What to do when your child is born
+sb_p: These are the same everywhere in Japan. Count from the day of birth.
+s_bn: Submit the birth notification
+s_bn_due: Within 14 days from the day of birth (within 3 months if born abroad)
+s_bn_b: You can submit it at the city office of the place of birth, the registered domicile, or where the person submitting lives.
+s_jb: Apply for child allowance
+s_jb_due: Within 15 days from the day after the birth
+s_jb_b: Apply to the city where you live. If you are late, you generally lose the allowance for the months you were late.
 s_ho: Check the daycare fee
 s_ho_b: Daycare fees differ by city. You can calculate with this city's fee table.
 s_ho_go: Calculate this city's fee

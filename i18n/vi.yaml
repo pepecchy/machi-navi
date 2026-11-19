@@ -17,6 +17,14 @@ s_za_b: Xuất trình thẻ lưu trú tại quầy của thành phố. Có thể
 s_ji: Đăng ký trợ cấp trẻ em ở thành phố mới
 s_ji_due: Trong 15 ngày kể từ ngày sau ngày dự định chuyển đi
 s_ji_b: Nếu quá hạn, về nguyên tắc bạn không nhận được trợ cấp của những tháng bị trễ.
+sb_h: Việc cần làm khi con chào đời
+sb_p: Đây là thủ tục chung trên toàn Nhật Bản. Tính từ ngày sinh.
+s_bn: Nộp giấy khai sinh
+s_bn_due: Trong 14 ngày kể từ ngày sinh (trong 3 tháng nếu sinh ở nước ngoài)
+s_bn_b: Có thể nộp tại cơ quan hành chính nơi sinh, nơi đăng ký hộ tịch hoặc nơi người khai cư trú.
+s_jb: Đăng ký trợ cấp trẻ em
+s_jb_due: Trong 15 ngày kể từ ngày sau ngày sinh
+s_jb_b: Đăng ký tại thành phố nơi bạn sống. Nếu trễ, về nguyên tắc bạn không nhận được trợ cấp của những tháng bị trễ.
 s_ho: Kiểm tra phí nhà trẻ
 s_ho_b: Phí nhà trẻ khác nhau theo thành phố. Bạn có thể tính theo bảng phí của thành phố này.
 s_ho_go: Tính phí của thành phố này
