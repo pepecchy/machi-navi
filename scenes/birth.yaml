@@ -1,4 +1,4 @@
 id: birth
 steps:
   - { id: bn, fact: birth-notice }
-  - { id: jb, fact: child-allowance-birth }
+  - { id: jb, fact: child-allowance-birth, calc: jidoteate }

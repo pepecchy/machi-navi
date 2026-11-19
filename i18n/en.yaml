@@ -25,6 +25,15 @@ s_bn_b: You can submit it at the city office of the place of birth, the register
 s_jb: Apply for child allowance
 s_jb_due: Within 15 days from the day after the birth
 s_jb_b: Apply to the city where you live. If you are late, you generally lose the allowance for the months you were late.
+s_ji_go: Calculate the monthly child allowance
+s_jb_go: Calculate the monthly child allowance
+jc_h: Calculate the monthly child allowance
+jc_p: The monthly amount from the national table. There is no income limit.
+jc_u3: Children under 3
+jc_hs: Children from 3 to high-school age
+jc_old: Children past high-school age, up to the first March 31 after turning 22, whose living costs you pay
+jc_monthly: Monthly child allowance
+jc_note: The third child or later means the third or later counting from the oldest. Children past high-school age get no allowance but are counted.
 s_ho: Check the daycare fee
 s_ho_b: Daycare fees differ by city. You can calculate with this city's fee table.
 s_ho_go: Calculate this city's fee

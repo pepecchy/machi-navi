@@ -25,6 +25,15 @@ s_bn_b: Có thể nộp tại cơ quan hành chính nơi sinh, nơi đăng ký h
 s_jb: Đăng ký trợ cấp trẻ em
 s_jb_due: Trong 15 ngày kể từ ngày sau ngày sinh
 s_jb_b: Đăng ký tại thành phố nơi bạn sống. Nếu trễ, về nguyên tắc bạn không nhận được trợ cấp của những tháng bị trễ.
+s_ji_go: Tính trợ cấp trẻ em hằng tháng
+s_jb_go: Tính trợ cấp trẻ em hằng tháng
+jc_h: Tính trợ cấp trẻ em hằng tháng
+jc_p: Số tiền hằng tháng theo bảng chung toàn quốc. Không có giới hạn thu nhập.
+jc_u3: Con dưới 3 tuổi
+jc_hs: Con từ 3 tuổi đến tuổi học cấp 3
+jc_old: Con đã qua tuổi học cấp 3, đến ngày 31 tháng 3 đầu tiên sau khi tròn 22 tuổi, do cha mẹ chi trả sinh hoạt phí
+jc_monthly: Trợ cấp trẻ em hằng tháng
+jc_note: Con thứ 3 trở đi là con thứ 3 trở đi tính từ con lớn nhất. Con đã qua tuổi học cấp 3 không được trợ cấp nhưng vẫn được tính.
 s_ho: Kiểm tra phí nhà trẻ
 s_ho_b: Phí nhà trẻ khác nhau theo thành phố. Bạn có thể tính theo bảng phí của thành phố này.
 s_ho_go: Tính phí của thành phố này
