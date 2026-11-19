@@ -124,7 +124,7 @@ const client = {
             // A step names either a fact with a deadline, or a fee table (fees) shown as a table.
             const fact = facts[s.fact ?? s.fees];
             return (
-              <li>
+              <li data-when={s.when}>
                 <input type="checkbox" id={`st_${s.id}`} />
                 <label class="ttl" for={`st_${s.id}`}>
                   {t[`s_${s.id}`]}
