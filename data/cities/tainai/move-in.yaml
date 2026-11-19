@@ -1,0 +1,22 @@
+id: tainai-move-in
+window: "市民生活課"
+hours: 
+  open: "8:30"
+  close: "17:15"
+bring:
+  - tensyutsu
+  - id
+  - mynumber
+bring_foreign:
+  - zairyu
+other: []
+doc: 転入届
+source: https://www.city.tainai.niigata.jp/kurashi/koseki/tennyu.html
+quotes:
+  - "転入してから14日以内に転入の届出をしてください。"
+  - "市民生活課市民係"
+  - "午前8時30分から午後5時15分まで"
+  - "転出証明書(前住所地の市区町村で発行されたもの。マイナンバーカードを使用して転出をされた方は転出証明書に代わり、マイナンバーカードを必ずご持参ください)"
+  - "届出人の本人確認書類"
+  - "マイナンバーカード(お持ちの方のみ)"
+checked: 2026-11-17

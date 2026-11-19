@@ -1,0 +1,9 @@
+id: tainai
+# Prefecture code (JIS X 0401). The prefecture name is the part of name before the space (ja, zh) or after the last comma (en, vi, ne).
+pref: 15
+name:
+  ja: 新潟県 胎内市
+  en: Tainai, Niigata
+  zh: 新潟县 胎内市
+  vi: Tainai, Niigata
+  ne: ताइनाइ, निगाता
