@@ -1,0 +1,5 @@
+id: death
+steps:
+  - { id: dn, fact: death-notice }
+  - { id: dk, fact: kokuho-enroll }
+  - { id: dp, fact: pension-death-report }

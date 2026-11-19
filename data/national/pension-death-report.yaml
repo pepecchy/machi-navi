@@ -1,0 +1,11 @@
+id: pension-death-report
+values: []
+unit: none
+doc: 年金受給権者死亡届（報告書）兼 未支給年金・未支払給付金請求書のご提出について（日本年金機構）
+source: https://www.nenkin.go.jp/tokusetsu/seikeidouitsu.html
+quotes:
+  - 年金を受けている方が亡くなると死亡の手続きが必要です
+  - 年金は亡くなった月分まで支払われます
+  - 未支給年金を受け取れる遺族がいる場合は
+  - 日本年金機構にマイナンバー(個人番号)が収録されている方が亡くなったときは、原則として、提出不要となります。
+checked: 2026-11-20
