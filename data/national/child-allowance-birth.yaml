@@ -1,0 +1,9 @@
+id: child-allowance-birth
+values: [15]
+unit: days
+doc: 児童手当制度のご案内（こども家庭庁）
+source: https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai
+quotes:
+  - 出生の日の翌日から15日以内に、現住所の市区町村に申請が必要です
+  - 申請が遅れると、原則、遅れた月分の手当を受けられなくなります
+checked: 2026-11-20
