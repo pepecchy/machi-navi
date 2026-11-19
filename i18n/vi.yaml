@@ -81,6 +81,11 @@ sc2_p: Đây là thủ tục chung trên toàn Nhật Bản. Ví dụ nộp khi 
 s_cc: Khai báo thay đổi nội dung trên thẻ lưu trú
 s_cc_due: Trong 14 ngày kể từ ngày thay đổi
 s_cc_b: Khi tên, ngày sinh, giới tính hoặc quốc tịch/khu vực thay đổi, khai báo tại Cục Quản lý Xuất nhập cảnh và Lưu trú khu vực. Không mất phí.
+s20_h: Việc cần làm khi tròn 20 tuổi
+s20_p: Áp dụng chung trên toàn Nhật Bản. Người sống ở Nhật từ 20 đến dưới 60 tuổi tham gia Lương hưu Quốc dân (trừ người tham gia hưu trí phúc lợi).
+s_tp: Đóng phí Lương hưu Quốc dân bằng giấy tờ nhận được, hoặc xin miễn hay hoãn đóng cho sinh viên
+s_tp_due: Giấy tờ đến trong khoảng 2 tuần sau khi tròn 20 tuổi
+s_tp_b: Cơ quan Hưu trí Nhật Bản gửi thông báo số lương hưu cơ bản, phiếu nộp phí và đơn xin miễn, hoãn và hoãn đóng cho sinh viên.
 jc_h: Tính trợ cấp trẻ em hằng tháng
 jc_p: Số tiền hằng tháng theo bảng chung toàn quốc. Không có giới hạn thu nhập.
 jc_u3: Con dưới 3 tuổi
