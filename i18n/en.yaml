@@ -44,6 +44,22 @@ s_dk_b: Notify the National Health Insurance counter of the city where the perso
 s_dp: Report the death for the pension (if the person who died received a pension)
 s_dp_due: The pension is paid up to the month of death
 s_dp_b: Family who can receive the unpaid pension can claim it together with the death report. If the person's My Number is on record with the Japan Pension Service, the death report alone is generally not needed.
+sv_h: What to do when you renew your period of stay (mid- to long-term residents)
+sv_p: This is the same everywhere in Japan. Apply when you keep doing the activity of your current status of residence.
+s_vr: Apply to extend your period of stay
+s_vr_due: By the day your period of stay ends (from 3 months before it ends if your period is 6 months or longer)
+s_vr_b: Apply at the regional immigration services office that covers where you live.
+s_vf: Pay the fee when it is granted
+s_vf_b: The fee depends on the period of stay granted. People who meet certain conditions get a reduced fee or none; the reduced fee is 10,000 yen for any period.
+vf_c1: Period of stay granted
+vf_c2: Fee
+vf_p1: 3 months or less
+vf_p2: Over 3 months, up to 6 months
+vf_p3: Over 6 months, under 1 year
+vf_p4: 1 year
+vf_p5: Over 1 year, under 3 years
+vf_p6: 3 years or more, under 5 years
+vf_p7: 5 years or more
 jc_h: Calculate the monthly child allowance
 jc_p: The monthly amount from the national table. There is no income limit.
 jc_u3: Children under 3

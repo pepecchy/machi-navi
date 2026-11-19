@@ -1,0 +1,9 @@
+id: visa-renew
+values: [3]
+unit: months
+doc: 在留期間更新許可申請（出入国在留管理庁）
+source: https://www.moj.go.jp/isa/applications/procedures/16-3.html
+quotes:
+  - 在留期間の満了する日以前(6か月以上の在留期間を有する者にあっては在留期間の満了する3か月前から。)
+  - 住居地を管轄する地方出入国在留管理官署
+checked: 2026-11-20
