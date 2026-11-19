@@ -1,0 +1,11 @@
+id: residence-card-change
+values: [14]
+unit: days
+doc: 住居地以外の在留カード記載事項の変更届出（出入国在留管理庁）
+source: https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00009.html
+quotes:
+  - 氏名、生年月日、性別又は国籍・地域に変更が生じた中長期在留者
+  - 上記の記載事項に変更が生じた日から14日以内
+  - 手数料はかかりません
+  - (1)婚姻により氏名を変更した場合 氏名変更後の記載のなされた旅券及び結婚証明書(日本人と結婚した場合は戸籍謄本)
+checked: 2026-11-20

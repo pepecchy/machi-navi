@@ -76,6 +76,11 @@ s_rm_b: People with a valid passport do not need a regular re-entry permit. Peop
 s_rp: If you will be away longer, apply for a re-entry permit
 s_rp_due: Before you leave. The fee is 4,000 yen (single) or 7,000 yen (multiple)
 s_rp_b: Pay the fee with a revenue stamp when the permit is granted.
+sc2_h: What to do when the name or nationality on your residence card changes (mid- to long-term residents)
+sc2_p: This is the same everywhere in Japan. For example, submit it when your name changes through marriage.
+s_cc: Notify a change to the details on your residence card
+s_cc_due: Within 14 days of the change
+s_cc_b: When your name, date of birth, sex, or nationality/region changes, notify the regional immigration services office. There is no fee.
 jc_h: Calculate the monthly child allowance
 jc_p: The monthly amount from the national table. There is no income limit.
 jc_u3: Children under 3
