@@ -78,7 +78,8 @@ for (const rec of sourcedRecords()) {
 
 // ---- wording
 // Numbers of two or more digits (deadlines, amounts). Counts like "2nd" are often words, so one digit is ignored.
-const digits = (s: string) => (s.normalize("NFKC").replace(/[०-९]/g, (c) => String(c.charCodeAt(0) - 0x966)).match(/\d{2,}/g) ?? []).sort().join(",");
+// Thousands separators are dropped, so "500,000" reads as 500000.
+const digits = (s: string) => (s.normalize("NFKC").replace(/[०-९]/g, (c) => String(c.charCodeAt(0) - 0x966)).replace(/(\d),(?=\d{3}(?!\d))/g, "$1").match(/\d{2,}/g) ?? []).sort().join(",");
 const dict = Object.fromEntries(LANGS.map((l) => [l, readYaml(`i18n/${l}.yaml`) as Record<string, string>]));
 for (const l of LANGS) {
   for (const k of Object.keys(dict.ja)) {
