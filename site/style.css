@@ -84,3 +84,7 @@ footer{font-size:12.5px;color:var(--muted)}
 .steps label.ttl{margin:0;color:inherit;font-size:15px}
 #calc h2{margin-bottom:4px}
 [data-when="child"]:not(li){display:flex;flex-direction:column;gap:28px}
+
+/* Table of contents of the scenes on a city page */
+.toc ul { margin: 0; padding-left: 1.2em; display: grid; gap: 0.35em; }
+.toc a { overflow-wrap: anywhere; }
