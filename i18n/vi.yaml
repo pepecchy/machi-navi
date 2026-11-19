@@ -76,6 +76,11 @@ s_rm_b: Người có hộ chiếu còn hiệu lực không cần giấy phép t�
 s_rp: Nếu đi lâu hơn, nộp đơn xin giấy phép tái nhập cảnh
 s_rp_due: Trước khi xuất cảnh. Lệ phí 4,000 yên (một lần) hoặc 7,000 yên (nhiều lần)
 s_rp_b: Nộp lệ phí bằng tem thu nhập khi được cấp phép.
+sc2_h: Việc cần làm khi tên hoặc quốc tịch trên thẻ lưu trú thay đổi (người cư trú trung và dài hạn)
+sc2_p: Đây là thủ tục chung trên toàn Nhật Bản. Ví dụ nộp khi đổi tên do kết hôn.
+s_cc: Khai báo thay đổi nội dung trên thẻ lưu trú
+s_cc_due: Trong 14 ngày kể từ ngày thay đổi
+s_cc_b: Khi tên, ngày sinh, giới tính hoặc quốc tịch/khu vực thay đổi, khai báo tại Cục Quản lý Xuất nhập cảnh và Lưu trú khu vực. Không mất phí.
 jc_h: Tính trợ cấp trẻ em hằng tháng
 jc_p: Số tiền hằng tháng theo bảng chung toàn quốc. Không có giới hạn thu nhập.
 jc_u3: Con dưới 3 tuổi
