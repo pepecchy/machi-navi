@@ -68,6 +68,14 @@ s_jk_b: Báo cho quầy Bảo hiểm Y tế Quốc dân của thành phố nơi 
 s_jp: Chuyển đổi Lương hưu Quốc dân
 s_jp_due: Chuyển đổi từ ngày sau ngày nghỉ việc
 s_jp_b: Trong thời gian chưa vào công ty mới, làm thủ tục người được bảo hiểm loại 1 và đóng phí Lương hưu Quốc dân. Nếu thành người phụ thuộc trong bảo hiểm y tế của vợ hoặc chồng thì làm thủ tục loại 3.
+sr_h: Việc cần làm khi tạm rời Nhật Bản (người có tư cách lưu trú)
+sr_p: Đây là thủ tục chung trên toàn Nhật Bản. Thủ tục cần thiết tùy theo khi nào bạn quay lại.
+s_rm: Nếu quay lại trong 1 năm, xuất cảnh bằng giấy phép tái nhập cảnh đặc biệt
+s_rm_due: Khi quay lại trong 1 năm kể từ ngày xuất cảnh
+s_rm_b: Người có hộ chiếu còn hiệu lực không cần giấy phép tái nhập cảnh thông thường. Người có thời gian lưu trú từ 3 tháng trở xuống và người có tư cách Lưu trú ngắn hạn không dùng được.
+s_rp: Nếu đi lâu hơn, nộp đơn xin giấy phép tái nhập cảnh
+s_rp_due: Trước khi xuất cảnh. Lệ phí 4,000 yên (một lần) hoặc 7,000 yên (nhiều lần)
+s_rp_b: Nộp lệ phí bằng tem thu nhập khi được cấp phép.
 jc_h: Tính trợ cấp trẻ em hằng tháng
 jc_p: Số tiền hằng tháng theo bảng chung toàn quốc. Không có giới hạn thu nhập.
 jc_u3: Con dưới 3 tuổi
