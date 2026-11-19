@@ -1,0 +1,9 @@
+id: death-notice
+values: [7]
+unit: days
+doc: 死亡届（法務省）
+source: https://www.moj.go.jp/ONLINE/FAMILYREGISTER/5-4.html
+quotes:
+  - 死亡の事実を知った日から7日以内(国外で死亡したときは、その事実を知った日から3か月以内)
+  - 死亡者の死亡地・本籍地又は届出人の所在地の市役所、区役所又は町村役場に届け出てください。
+checked: 2026-11-20

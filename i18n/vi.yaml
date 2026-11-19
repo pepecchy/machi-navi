@@ -33,6 +33,17 @@ s_jb_go: Tính trợ cấp trẻ em hằng tháng
 s_ik: Nhận trợ cấp sinh con một lần
 s_ik_due: Về nguyên tắc 500,000 yên cho mỗi con
 s_ik_b: Bảo hiểm y tế bạn tham gia sẽ chi trả. Nếu dùng chế độ thanh toán trực tiếp, tiền được trả thẳng cho bệnh viện và bạn chỉ trả phần còn lại tại quầy. Hạn nộp đơn là 2 năm kể từ ngày sau ngày sinh.
+sd_h: Việc cần làm khi người thân qua đời
+sd_p: Đây là thủ tục chung trên toàn Nhật Bản. Thời hạn tính từ ngày biết tin qua đời.
+s_dn: Nộp giấy báo tử
+s_dn_due: Trong 7 ngày kể từ ngày biết tin (trong 3 tháng nếu qua đời ở nước ngoài)
+s_dn_b: Có thể nộp tại cơ quan hành chính nơi mất, nơi đăng ký hộ tịch hoặc nơi người khai cư trú.
+s_dk: Rút khỏi Bảo hiểm Y tế Quốc dân (nếu người mất đã tham gia)
+s_dk_due: Trong 14 ngày
+s_dk_b: Báo cho quầy Bảo hiểm Y tế Quốc dân của thành phố nơi người mất đã sống.
+s_dp: Làm thủ tục báo tử cho lương hưu (nếu người mất đang nhận lương hưu)
+s_dp_due: Lương hưu được trả đến hết tháng qua đời
+s_dp_b: Gia đình được nhận phần lương hưu chưa trả có thể yêu cầu cùng lúc với báo tử. Nếu Mã số cá nhân của người mất đã được lưu ở Cơ quan Hưu trí Nhật Bản, về nguyên tắc không cần nộp riêng báo tử.
 jc_h: Tính trợ cấp trẻ em hằng tháng
 jc_p: Số tiền hằng tháng theo bảng chung toàn quốc. Không có giới hạn thu nhập.
 jc_u3: Con dưới 3 tuổi

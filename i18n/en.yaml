@@ -33,6 +33,17 @@ s_jb_go: Calculate the monthly child allowance
 s_ik: Receive the childbirth lump-sum grant
 s_ik_due: In principle 500,000 yen per child
 s_ik_b: Your health insurance pays it. With the direct payment system it goes straight to the hospital, and you pay only the rest at the counter. Apply within 2 years from the day after the birth.
+sd_h: What to do when a family member dies
+sd_p: These are the same everywhere in Japan. Deadlines count from the day you learn of the death.
+s_dn: Submit the death notification
+s_dn_due: Within 7 days of learning of the death (within 3 months if the death was abroad)
+s_dn_b: You can submit it at the city office of the place of death, the registered domicile, or where the person submitting lives.
+s_dk: Leave National Health Insurance (if the person who died was in it)
+s_dk_due: Within 14 days
+s_dk_b: Notify the National Health Insurance counter of the city where the person lived.
+s_dp: Report the death for the pension (if the person who died received a pension)
+s_dp_due: The pension is paid up to the month of death
+s_dp_b: Family who can receive the unpaid pension can claim it together with the death report. If the person's My Number is on record with the Japan Pension Service, the death report alone is generally not needed.
 jc_h: Calculate the monthly child allowance
 jc_p: The monthly amount from the national table. There is no income limit.
 jc_u3: Children under 3
