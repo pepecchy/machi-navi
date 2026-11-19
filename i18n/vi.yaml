@@ -26,6 +26,9 @@ s_jb: Đăng ký trợ cấp trẻ em
 s_jb_due: Trong 15 ngày kể từ ngày sau ngày sinh
 s_jb_b: Đăng ký tại thành phố nơi bạn sống. Nếu trễ, về nguyên tắc bạn không nhận được trợ cấp của những tháng bị trễ.
 s_ji_go: Tính trợ cấp trẻ em hằng tháng
+s_kh: Tham gia Bảo hiểm Y tế Quốc dân (nếu không có bảo hiểm y tế qua công ty)
+s_kh_due: Trong 14 ngày kể từ khi bắt đầu sống ở đó
+s_kh_b: Người có bảo hiểm y tế của công ty và người phụ thuộc, người nhận trợ cấp sinh hoạt, người thuộc chế độ y tế cho người cao tuổi giai đoạn sau không thuộc diện này.
 s_jb_go: Tính trợ cấp trẻ em hằng tháng
 jc_h: Tính trợ cấp trẻ em hằng tháng
 jc_p: Số tiền hằng tháng theo bảng chung toàn quốc. Không có giới hạn thu nhập.
