@@ -81,6 +81,11 @@ sc2_p: This is the same everywhere in Japan. For example, submit it when your na
 s_cc: Notify a change to the details on your residence card
 s_cc_due: Within 14 days of the change
 s_cc_b: When your name, date of birth, sex, or nationality/region changes, notify the regional immigration services office. There is no fee.
+s20_h: What to do when you turn 20
+s20_p: This is the same everywhere in Japan. People living in Japan aged 20 to under 60 join the National Pension (except people in the employees' pension).
+s_tp: Pay the National Pension premiums with the papers you receive, or apply for an exemption or the student deferral
+s_tp_due: The papers arrive about 2 weeks after you turn 20
+s_tp_b: The Japan Pension Service sends your Basic Pension Number notice, payment slips, and application forms for exemption, deferral and the student deferral.
 jc_h: Calculate the monthly child allowance
 jc_p: The monthly amount from the national table. There is no income limit.
 jc_u3: Children under 3
