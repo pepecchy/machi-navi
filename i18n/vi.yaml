@@ -60,6 +60,14 @@ vf_p4: 1 năm
 vf_p5: Trên 1 năm, dưới 3 năm
 vf_p6: Từ 3 năm đến dưới 5 năm
 vf_p7: Từ 5 năm trở lên
+sj_h: Việc cần làm khi nghỉ việc (nếu không vào công ty mới ngay)
+sj_p: Đây là thủ tục chung trên toàn Nhật Bản. Đây là việc chuyển đổi sau khi rời bảo hiểm y tế và hưu trí phúc lợi của công ty.
+s_jk: Tham gia Bảo hiểm Y tế Quốc dân (nếu không thành người phụ thuộc trong bảo hiểm của gia đình)
+s_jk_due: Trong 14 ngày
+s_jk_b: Báo cho quầy Bảo hiểm Y tế Quốc dân của thành phố nơi bạn sống.
+s_jp: Chuyển đổi Lương hưu Quốc dân
+s_jp_due: Chuyển đổi từ ngày sau ngày nghỉ việc
+s_jp_b: Trong thời gian chưa vào công ty mới, làm thủ tục người được bảo hiểm loại 1 và đóng phí Lương hưu Quốc dân. Nếu thành người phụ thuộc trong bảo hiểm y tế của vợ hoặc chồng thì làm thủ tục loại 3.
 jc_h: Tính trợ cấp trẻ em hằng tháng
 jc_p: Số tiền hằng tháng theo bảng chung toàn quốc. Không có giới hạn thu nhập.
 jc_u3: Con dưới 3 tuổi

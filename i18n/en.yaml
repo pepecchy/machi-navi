@@ -60,6 +60,14 @@ vf_p4: 1 year
 vf_p5: Over 1 year, under 3 years
 vf_p6: 3 years or more, under 5 years
 vf_p7: 5 years or more
+sj_h: What to do when you leave your job (if you do not start a new job right away)
+sj_p: These are the same everywhere in Japan. They switch you over after you leave the company's health insurance and employees' pension.
+s_jk: Join National Health Insurance (if you do not become a dependent on a family member's insurance)
+s_jk_due: Within 14 days
+s_jk_b: Notify the National Health Insurance counter of the city where you live.
+s_jp: Switch your National Pension
+s_jp_due: It switches from the day after you leave
+s_jp_b: Until you join a new company, do the procedure for a Category 1 insured person and pay the National Pension premiums. If you become a dependent on your spouse's health insurance, it is the Category 3 procedure.
 jc_h: Calculate the monthly child allowance
 jc_p: The monthly amount from the national table. There is no income limit.
 jc_u3: Children under 3

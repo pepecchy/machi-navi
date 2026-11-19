@@ -1,0 +1,4 @@
+id: job-leave
+steps:
+  - { id: jk, fact: kokuho-enroll }
+  - { id: jp, fact: pension-job-leave }
