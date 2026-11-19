@@ -3,6 +3,7 @@ steps:
   - { id: out, fact: move-out-notice }
   - { id: in, fact: move-in-notice, city: move-in }
   - { id: za, fact: residence-card-address, when: foreign }
+  - { id: kh, fact: kokuho-enroll }
   - { id: ji, fact: child-allowance-transfer, calc: jidoteate, when: child }
   - { id: ho, calc: hoikuryo, when: child }
   - { id: ot, city_other: move-in }

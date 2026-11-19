@@ -26,6 +26,9 @@ s_jb: Apply for child allowance
 s_jb_due: Within 15 days from the day after the birth
 s_jb_b: Apply to the city where you live. If you are late, you generally lose the allowance for the months you were late.
 s_ji_go: Calculate the monthly child allowance
+s_kh: Join National Health Insurance (if you have no health insurance through work)
+s_kh_due: Within 14 days of starting to live there
+s_kh_b: People in a workplace health insurance and their dependents, people on public assistance, and people in the late-stage elderly medical care system are not covered.
 s_jb_go: Calculate the monthly child allowance
 jc_h: Calculate the monthly child allowance
 jc_p: The monthly amount from the national table. There is no income limit.
