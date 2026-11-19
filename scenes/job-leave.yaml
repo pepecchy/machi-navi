@@ -2,3 +2,4 @@ id: job-leave
 steps:
   - { id: jk, fact: kokuho-enroll }
   - { id: jp, fact: pension-job-leave }
+  - { id: jo, fact: org-notice, when: foreign }

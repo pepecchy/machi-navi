@@ -69,6 +69,9 @@ s_jk_b: Notify the National Health Insurance counter of the city where you live.
 s_jp: Switch your National Pension
 s_jp_due: It switches from the day after you leave
 s_jp_b: Until you join a new company, do the procedure for a Category 1 insured person and pay the National Pension premiums. If you become a dependent on your spouse's health insurance, it is the Category 3 procedure.
+s_jo: Notify the immigration agency about your employer (work statuses of residence)
+s_jo_due: Within 14 days of the contract ending
+s_jo_b: People with statuses such as Engineer/Specialist in Humanities/International Services notify the Immigration Services Agency when a contract with a company ends through a job change or leaving, and when they sign with a new company.
 sr_h: What to do when you leave Japan for a while (people with a status of residence)
 sr_p: These are the same everywhere in Japan. What you need depends on when you come back.
 s_rm: If you come back within 1 year, leave with the special re-entry permit
