@@ -66,7 +66,15 @@ const client = {
         </div>
       </section>
 
-      <section class="panel">
+      <nav class="panel toc" aria-label={t.toc}>
+        <h2>{t.toc}</h2>
+        <ul>
+          <li><a href="#sc_move">{t.sc_h}</a></li>
+          {national.map((n) => <li><a href={`#sc_${n.h}`}>{t[`${n.h}_h`]}</a></li>)}
+        </ul>
+      </nav>
+
+      <section class="panel" id="sc_move">
         <h2>{t.sc_h}</h2>
         <p class="hint">{t.sc_p}</p>
         <ol class="steps">
@@ -108,7 +116,7 @@ const client = {
         </ol>
       </section>
       {national.map((n) => (
-      <section class="panel">
+      <section class="panel" id={`sc_${n.h}`}>
         <h2>{t[`${n.h}_h`]}</h2>
         <p class="hint">{t[`${n.h}_p`]}</p>
         <ol class="steps">
